@@ -4,49 +4,34 @@
 
 ## しくみ
 
-1. `npm run fetch` が RSS と株価を集め、Claude でカテゴリごとのトップ5と3行要約を作る
-2. 結果を `data/digests/YYYY-MM-DD.json` に保存する
-3. Next.js の画面がその JSON を読んで表示する
+API キーは使わず、Proプランの範囲内で動きます。
+
+1. 毎朝 6:15（日本時間）に GitHub Actions が RSS と株価を集め、`data/raw/YYYY-MM-DD.json` に保存する（`npm run collect`）
+2. 6:50 ごろに Claude の定期実行が [SUMMARIZE.md](SUMMARIZE.md) の手順で、カテゴリごとのトップ5と3行要約を `data/digests/YYYY-MM-DD.json` に書く
+3. `npm run validate` で形と URL をチェックしてから push する
+4. Next.js の画面がその JSON を読んで表示する
 
 ニュースソースは `src/lib/sources.ts` で自由に追加・削除できます。
 
-## ローカルで動かす
+## ローカルで見る
 
 Node.js 22 以上が必要です。
 
 ```bash
+git pull
 npm install
-cp .env.example .env.local   # ANTHROPIC_API_KEY を入れる
-npm run fetch                # 今日のニュースを取得して要約（1〜3分）
-npm run dev                  # http://localhost:3000 を開く
+npm run dev     # http://localhost:3000 を開く
 ```
 
-API キーは https://console.anthropic.com で発行できます。
+## Vercel で公開する（スマホから読みたいとき）
 
-### ローカルで毎朝7時に自動実行する（Mac / Linux）
+1. https://vercel.com に GitHub でサインインし、このリポジトリをインポートする
+2. Environment Variables に `SITE_PASSWORD` を設定すると、サイト全体にパスワードがかかる（ユーザー名は何でもよい）
 
-`crontab -e` に次の1行を追加します（パスは自分の環境に合わせてください）。PC が起動している必要があります。
+毎朝のコミットのたびに Vercel が自動で再デプロイします。
 
-```
-0 7 * * * cd /path/to/news && /usr/local/bin/npm run fetch >> fetch.log 2>&1
-```
+## 費用
 
-## GitHub Actions と Vercel で自動化する
+追加の費用はかかりません。GitHub Actions と Vercel は無料枠、要約は Claude Pro の利用枠で動きます。
 
-1. GitHub のリポジトリで Settings → Secrets and variables → Actions を開き、`ANTHROPIC_API_KEY` を登録する
-2. 毎日 7:00（日本時間）に `.github/workflows/daily-digest.yml` が動き、要約をコミットする。Actions タブの「Run workflow」で手動実行もできる
-3. https://vercel.com に GitHub でサインインし、このリポジトリをインポートする
-4. Vercel の Environment Variables に `SITE_PASSWORD` を設定すると、サイト全体にパスワードがかかる（ユーザー名は何でもよい）
-
-コミットのたびに Vercel が自動で再デプロイするので、毎朝のまとめがスマホからも読めます。
-
-## 費用の目安
-
-API 利用料だけです。モデルは環境変数 `CLAUDE_MODEL` で変えられます（GitHub Actions では Variables に設定）。
-
-| モデル | 1日あたりの目安 | 1か月の目安 |
-| --- | --- | --- |
-| `claude-opus-5-5`（既定） | 約0.4ドル | 約1,600円 |
-| `claude-haiku-5-5` | 約0.01ドル | 約50円 |
-
-※ 1日あたり入力 約4万トークン・出力 約1万トークンでの概算です。
+API で要約したい場合は `ANTHROPIC_API_KEY` を `.env.local` に入れて `npm run summarize:api` を実行します（API 利用料が別にかかります）。

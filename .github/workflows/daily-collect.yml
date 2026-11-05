@@ -1,22 +1,23 @@
-name: 毎朝のニュースまとめ
+name: 毎朝のニュース収集
 
 on:
   schedule:
-    # 毎日 22:00 UTC = 日本時間 7:00（GitHub の混雑で数分〜十数分遅れることがあります）
-    - cron: "0 22 * * *"
+    # 毎日 21:15 UTC = 日本時間 6:15（GitHub の混雑で数分〜十数分遅れることがあります）
+    # 収集したデータは 6:50 ごろに Claude の定期実行が要約します
+    - cron: "15 21 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-digest
+  group: daily-collect
   cancel-in-progress: false
 
 jobs:
-  digest:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,19 +25,17 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: ニュースを収集して要約
-        run: npm run fetch
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+      - name: ニュースと株価を収集
+        run: npm run collect
       - name: 結果をコミット
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/digests
+          git add -A data/raw
           if git diff --cached --quiet; then
             echo "変更なし"
           else
-            git commit -m "digest: $(TZ=Asia/Tokyo date +%F)"
+            git commit -m "collect: $(TZ=Asia/Tokyo date +%F)"
+            git pull --rebase origin main
             git push
           fi

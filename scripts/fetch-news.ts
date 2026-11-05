@@ -1,111 +1,20 @@
 /**
- * ニュースを集めて Claude で要約し、data/digests/YYYY-MM-DD.json に保存する。
+ * 【任意】Claude API で要約する方法。通常は毎朝の定期実行（Claude）が要約するので不要です。
+ * API キーを持っていて、手元ですぐに要約を作りたいときに使えます（API 利用料がかかります）。
  *
- *   ANTHROPIC_API_KEY=... npm run fetch
+ *   ANTHROPIC_API_KEY=... npm run summarize:api
  *
- * 環境変数
- *   ANTHROPIC_API_KEY  必須
- *   CLAUDE_MODEL       使うモデル（省略時 claude-opus-5-5）
+ * data/raw/今日.json があればそれを使い、なければその場で収集します。
  */
 import fs from "node:fs";
 import path from "node:path";
-import Parser from "rss-parser";
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
-import { CATEGORIES, MARKET_SYMBOLS, type CategoryConfig } from "../src/lib/sources";
+import { collectAll, DIGEST_DIR, jstDate, RAW_DIR, readRaw, type RawCategory } from "./lib/collect";
 import type { CategoryDigest, Digest, MarketQuote, NewsItem } from "../src/lib/types";
 
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
-const MAX_CANDIDATES = 30; // 1カテゴリあたり Claude に渡す候補記事の上限
-const MAX_AGE_HOURS = 36;
-const UA = "Mozilla/5.0 (compatible; news-digest/1.0)";
-
-interface Candidate {
-  title: string;
-  snippet: string;
-  source: string;
-  url: string;
-  region: "国内" | "海外";
-  publishedAt?: string;
-}
-
-const parser = new Parser({ timeout: 15000, headers: { "User-Agent": UA } });
-
-function jstDate(d = new Date()): string {
-  return new Date(d.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
-}
-
-function clean(text = ""): string {
-  return text.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-}
-
-/** Google ニュースのタイトル末尾「 - 媒体名」を分離する */
-function splitPublisher(title: string, fallback: string): { title: string; source: string } {
-  const m = title.match(/^(.*) - ([^-]{1,40})$/);
-  if (m && fallback.toLowerCase().includes("google")) return { title: m[1].trim(), source: m[2].trim() };
-  return { title, source: fallback };
-}
-
-async function collect(cat: CategoryConfig): Promise<Candidate[]> {
-  const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
-  const results = await Promise.allSettled(cat.feeds.map((f) => parser.parseURL(f.url).then((feed) => ({ f, feed }))));
-  const seen = new Set<string>();
-  const out: Candidate[] = [];
-  for (const r of results) {
-    if (r.status === "rejected") {
-      console.warn(`  [skip] ${cat.name}: ${String(r.reason).slice(0, 120)}`);
-      continue;
-    }
-    const { f, feed } = r.value;
-    for (const item of feed.items.slice(0, 20)) {
-      if (!item.title || !item.link) continue;
-      const ts = item.isoDate ? Date.parse(item.isoDate) : NaN;
-      if (!Number.isNaN(ts) && ts < cutoff) continue;
-      const { title, source } = splitPublisher(clean(item.title), f.name);
-      const key = title.slice(0, 40);
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push({
-        title,
-        snippet: clean(item.contentSnippet || item.content || "").slice(0, 300),
-        source,
-        url: item.link,
-        region: f.region,
-        publishedAt: item.isoDate,
-      });
-    }
-  }
-  // 新しい順に並べ、国内と海外が偏らないよう交互に詰める
-  out.sort((a, b) => Date.parse(b.publishedAt || "0") - Date.parse(a.publishedAt || "0"));
-  const dom = out.filter((c) => c.region === "国内");
-  const intl = out.filter((c) => c.region === "海外");
-  const mixed: Candidate[] = [];
-  while (mixed.length < MAX_CANDIDATES && (dom.length || intl.length)) {
-    if (dom.length) mixed.push(dom.shift()!);
-    if (intl.length && mixed.length < MAX_CANDIDATES) mixed.push(intl.shift()!);
-  }
-  return mixed;
-}
-
-async function fetchQuote(symbol: string, name: string): Promise<MarketQuote | null> {
-  try {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=5d&interval=1d`;
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const json = await res.json();
-    const result = json.chart?.result?.[0];
-    const closes: number[] = (result?.indicators?.quote?.[0]?.close ?? []).filter((v: number | null) => v != null);
-    const price: number = result?.meta?.regularMarketPrice ?? closes.at(-1);
-    const prev: number = closes.length >= 2 ? closes.at(-2)! : result?.meta?.chartPreviousClose;
-    if (price == null || prev == null) throw new Error("no data");
-    const change = price - prev;
-    return { symbol, name, price, change, changePercent: (change / prev) * 100 };
-  } catch (e) {
-    console.warn(`  [skip] ${name}: ${String(e).slice(0, 120)}`);
-    return null;
-  }
-}
 
 const CategorySchema = z.object({
   picks: z.array(
@@ -128,7 +37,8 @@ const SYSTEM = `あなたは日本語ニュースキュレーターです。読�
 - 重要度（社会や市場への影響、話題性）の高い順に選んでください。
 - 英語の記事も自然な日本語で要約してください。`;
 
-async function summarizeCategory(client: Anthropic, cat: CategoryConfig, cands: Candidate[], quotes: MarketQuote[]): Promise<CategoryDigest> {
+async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: MarketQuote[]): Promise<CategoryDigest> {
+  const cands = cat.candidates;
   if (cands.length === 0) return { id: cat.id, name: cat.name, items: [] };
   const list = cands
     .map((c, i) => `[${i}] (${c.region} / ${c.source}) ${c.title}${c.snippet ? `\n    ${c.snippet}` : ""}`)
@@ -183,30 +93,18 @@ async function main() {
   }
   const client = new Anthropic();
   const date = jstDate();
-  console.log(`📰 ${date} のニュースを収集します（モデル: ${MODEL}）`);
-
-  const quotes = (await Promise.all(MARKET_SYMBOLS.map((s) => fetchQuote(s.symbol, s.name)))).filter((q): q is MarketQuote => q !== null);
-  console.log(`  株価: ${quotes.length}/${MARKET_SYMBOLS.length} 件`);
+  const raw = fs.existsSync(path.join(RAW_DIR, `${date}.json`)) ? readRaw(date) : await collectAll();
+  console.log(`📰 ${date} のニュースを要約します（モデル: ${MODEL}）`);
 
   const categories: CategoryDigest[] = [];
-  for (const cat of CATEGORIES) {
-    const cands = await collect(cat);
-    console.log(`  ${cat.name}: 候補 ${cands.length} 件`);
-    categories.push(await summarizeCategory(client, cat, cands, quotes));
-  }
-  if (categories.every((c) => c.items.length === 0)) {
-    console.error("記事を1件も取得できませんでした。ネットワークを確認してください。");
-    process.exit(1);
-  }
+  for (const cat of raw.categories) categories.push(await summarizeCategory(client, cat, raw.markets));
   const headline = await makeHeadline(client, categories);
 
-  const digest: Digest = { date, generatedAt: new Date().toISOString(), headline, markets: quotes, categories };
-  const dir = path.join(process.cwd(), "data", "digests");
-  fs.mkdirSync(dir, { recursive: true });
-  const file = path.join(dir, `${date}.json`);
+  const digest: Digest = { date, generatedAt: new Date().toISOString(), headline, markets: raw.markets, categories };
+  fs.mkdirSync(DIGEST_DIR, { recursive: true });
+  const file = path.join(DIGEST_DIR, `${date}.json`);
   fs.writeFileSync(file, JSON.stringify(digest, null, 2) + "\n");
-  // 実データができたらサンプルは削除する
-  const sample = path.join(dir, "sample.json");
+  const sample = path.join(DIGEST_DIR, "sample.json");
   if (fs.existsSync(sample)) fs.unlinkSync(sample);
   console.log(`✅ 保存しました: ${path.relative(process.cwd(), file)}`);
 }

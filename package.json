@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch": "tsx --env-file-if-exists=.env.local scripts/fetch-news.ts"
+    "collect": "tsx scripts/collect.ts",
+    "validate": "tsx scripts/validate.ts",
+    "summarize:api": "tsx --env-file-if-exists=.env.local scripts/fetch-news.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.5.0",

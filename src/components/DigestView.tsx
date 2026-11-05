@@ -201,7 +201,7 @@ export default function DigestView({ digest, all }: { digest: Digest; all: Diges
     <main className="mx-auto max-w-4xl px-4 pb-24 sm:px-8">
       {digest.sample && (
         <p className="mt-4 rounded-lg border border-dashed border-line px-4 py-2 text-center text-xs text-muted">
-          表示中のデータはサンプルです。<code>npm run fetch</code> で今日のニュースを取得できます。
+          表示中のデータはサンプルです。毎朝7時ごろに今日のまとめに置き換わります。
         </p>
       )}
       <Header digest={digest} />
