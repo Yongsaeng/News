@@ -63,7 +63,21 @@
           "insight": {
             "angle": "日本への影響",
             "text": "欧州でインフレ対応の利上げが再開したことで、日米欧の金利差や為替の動きに注目が集まりそうです。中東情勢による資源高が背景にあるなら、エネルギーを輸入に頼る日本でも物価の上振れ圧力が続く可能性があり、日銀の判断にも影響しうる点が焦点になりそうです。"
-          }
+          },
+          "terms": [
+            {
+              "word": "イングランド銀行",
+              "meaning": "英国の中央銀行。日本の日銀にあたり、政策金利を決めて物価や景気を調整する。"
+            },
+            {
+              "word": "政策金利",
+              "meaning": "中央銀行が決める基準の金利。上げると借り入れが減って物価が落ち着き、下げると景気を支える。"
+            },
+            {
+              "word": "利上げ",
+              "meaning": "政策金利を引き上げること。物価上昇を抑えるねらいがあるが、ローンの負担は重くなる。"
+            }
+          ]
         },
         {
           "title": "ソニー、最終利益7917億円で過去最高を更新",
@@ -79,7 +93,17 @@
           "insight": {
             "angle": "影響を受ける人",
             "text": "ソニー株を持つ個人投資家や、エンタメ・ゲーム関連の取引先企業にとっては追い風の材料です。ゲームと映画の両輪で稼ぐ構図が鮮明になり、次世代機への投資が進めば、部品メーカーなど関連する国内企業の受注にも波及する可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "最終利益",
+              "meaning": "売上からすべての費用や税金を差し引いて最後に残る利益。「純利益」とも呼ばれる。"
+            },
+            {
+              "word": "開発原資",
+              "meaning": "新しい製品を開発するための元手となるお金。ここでは次の家庭用ゲーム機の開発費を指す。"
+            }
+          ]
         },
         {
           "title": "ロシアのJT関連工場、大統領令で一時ロシア企業の管理下に",
@@ -95,7 +119,17 @@
           "insight": {
             "angle": "影響を受ける人",
             "text": "JTの株主や従業員にとっては、収益の柱だった海外事業の先行きが見通しにくくなる懸念があります。ロシアにまだ拠点を持つほかの日本企業にとっても、資産が事実上接収されうるリスクが改めて意識され、撤退や事業縮小の判断を迫られる可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "大統領令",
+              "meaning": "大統領が議会を通さずに出す命令。ロシアでは大統領の権限が強く、企業の資産管理にも使われる。"
+            },
+            {
+              "word": "暫定管理",
+              "meaning": "正式な決定が出るまでの間、一時的に別の組織が運営や財産を管理すること。"
+            }
+          ]
         },
         {
           "title": "個人向け国債に「複利型」「20年物」を検討、購入単位も引き下げへ",
@@ -111,7 +145,21 @@
           "insight": {
             "angle": "影響を受ける人",
             "text": "少額から長期でコツコツ資産を増やしたい若い世代や、元本の安全性を重視する人にとって、新NISAと並ぶ選択肢が増える可能性があります。一方で、預金や投資信託から資金が移れば、銀行や運用会社の商品設計にも影響が出そうです。"
-          }
+          },
+          "terms": [
+            {
+              "word": "個人向け国債",
+              "meaning": "国が個人向けに発行する借用証書。元本割れがなく、少額から買える安全性の高い投資先。"
+            },
+            {
+              "word": "複利型",
+              "meaning": "受け取った利息を元本に組み込み、その合計にまた利息がつく仕組み。長く持つほど増え方が大きくなる。"
+            },
+            {
+              "word": "資産形成",
+              "meaning": "預金や投資を通じて、時間をかけてお金を増やしていくこと。"
+            }
+          ]
         },
         {
           "title": "中国、ソフトバンクGによる54億ドルのロボット事業買収を阻止",
@@ -127,7 +175,17 @@
           "insight": {
             "angle": "日本への影響",
             "text": "日本企業による海外のM&Aでも、中国当局の審査が大きな壁になりうることを示す事例です。ロボットや自動化は日本の製造業の成長分野だけに、中国市場が絡む案件では計画の遅れや見直しが増え、関連銘柄の評価にも影響する可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "M&A",
+              "meaning": "企業の合併と買収のこと。ほかの会社や事業を買い取って規模を広げたり、新しい分野に進出したりする。"
+            },
+            {
+              "word": "FT",
+              "meaning": "英国の経済紙フィナンシャル・タイムズの略。世界の金融・経済ニュースで影響力が大きい。"
+            }
+          ]
         }
       ]
     },
@@ -150,7 +208,17 @@
           "insight": {
             "angle": "日本への影響",
             "text": "議会の勢力図が変われば、関税や対中政策、防衛費負担をめぐる米国の方針が見直される可能性があり、日本の輸出企業や日米同盟の議論に直結します。政権内の路線対立が深まれば、中東政策や原油価格を通じて日本の物価にも影響が及ぶかもしれません。"
-          }
+          },
+          "terms": [
+            {
+              "word": "中間選挙",
+              "meaning": "米国で大統領の任期の中間に行われる議会選挙。政権への評価として注目される。"
+            },
+            {
+              "word": "副大統領",
+              "meaning": "大統領を補佐する米国のナンバー2。大統領に何かあれば職務を引き継ぐ。"
+            }
+          ]
         },
         {
           "title": "会計検査院、税の無駄など1445億円を指摘",
@@ -167,7 +235,17 @@
           "insight": {
             "angle": "影響を受ける人",
             "text": "税金を納めるすべての人に関わる話です。特に備蓄米の放出の遅れは、コメ価格の高止まりに悩む家計や、米を仕入れる外食・小売の事業者にとって切実で、制度の運用改善が国会で議論になる可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "会計検査院",
+              "meaning": "国のお金の使い方をチェックする独立した機関。無駄や不適切な支出を毎年報告する。"
+            },
+            {
+              "word": "政府備蓄米",
+              "meaning": "不作や災害に備えて国が保管しているお米。価格が高いときに市場へ放出されることがある。"
+            }
+          ]
         },
         {
           "title": "香港民主派の象徴・黄之鋒氏に禁錮10年",
@@ -184,7 +262,17 @@
           "insight": {
             "angle": "日本への影響",
             "text": "香港に拠点を置く日本企業や駐在員にとって、法の運用の厳しさを改めて意識させる判決です。人権問題への対応をめぐって日本政府が欧米と足並みをそろえるかが問われ、日中関係や対中ビジネスのリスク評価に影響する可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "国家安全維持法",
+              "meaning": "2020年に香港で施行された法律。政府への反対活動を「国家の安全を脅かす」として取り締まる。"
+            },
+            {
+              "word": "禁錮",
+              "meaning": "刑務所に入れられるが、作業は義務づけられない刑罰。"
+            }
+          ]
         },
         {
           "title": "フランスで新たなストとデモ、労組が即時の回答を要求",
@@ -201,7 +289,17 @@
           "insight": {
             "angle": "日本への影響",
             "text": "フランスの政情不安が長引けば、ユーロ相場や欧州経済の先行きに影響し、欧州向けに輸出する日本企業の業績にも波及する可能性があります。現地での交通や物流の混乱は、旅行者や現地に拠点を持つ企業にとっても注意点になりそうです。"
-          }
+          },
+          "terms": [
+            {
+              "word": "ストライキ",
+              "meaning": "労働者が要求を通すために、そろって仕事を休むこと。"
+            },
+            {
+              "word": "労働組合",
+              "meaning": "働く人たちが賃金や働き方の改善を求めるためにつくる団体。"
+            }
+          ]
         },
         {
           "title": "プーチン氏、2027年のG20マンチェスター会合に招待されず",
@@ -218,7 +316,17 @@
           "insight": {
             "angle": "日本への影響",
             "text": "主要国がロシアへの圧力を続ける姿勢を示すもので、日本もG7の一員として制裁を維持する立場が続きそうです。サハリンの資源開発などロシアと関わりのある日本のエネルギー政策や、北方領土をめぐる交渉の停滞が長引く可能性があります。"
-          }
+          },
+          "terms": [
+            {
+              "word": "G20",
+              "meaning": "主要20か国・地域の首脳や閣僚が集まる会議。日本や米国、中国、ロシアなどが参加している。"
+            },
+            {
+              "word": "対ロ制裁",
+              "meaning": "ウクライナ侵攻などを理由に、各国がロシアに科している経済的な罰則。"
+            }
+          ]
         }
       ]
     },
@@ -237,7 +345,17 @@
           "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002912/",
           "region": "国内",
           "publishedAt": "2026-11-05T06:20:33.000Z",
-          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002912/10011400/2048"
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002912/10011400/2048",
+          "terms": [
+            {
+              "word": "5G SA",
+              "meaning": "5Gの専用設備だけで通信する方式。4G設備を使わないぶん、混雑時でも速く安定しやすいとされる。"
+            },
+            {
+              "word": "SMS",
+              "meaning": "電話番号あてに短い文章を送れるサービス。認証コードの受け取りなどにも使われる。"
+            }
+          ]
         },
         {
           "title": "ドコモに不正アクセス、顧客情報が最大約30万件流出の可能性",
@@ -249,7 +367,13 @@
           "source": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zRjUzUHIyRHNYYWFaU3U2S2FGMnlXWFhjUWFfbW1VSDkxNXZxUWtXM2ZPUnRUTDFHNWZhalZTNjBoSG45M2x6YUt2VGxRVVdYQXd1SUxjcjc0bEs3c0JKRU82ZVRJemhlazFxN01aY2RMc0xhSS0wY2JaTGhCeFE?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T13:58:07.000Z"
+          "publishedAt": "2026-11-05T13:58:07.000Z",
+          "terms": [
+            {
+              "word": "不正アクセス",
+              "meaning": "権限のない人が他人のシステムやサーバーに入り込むこと。情報流出の原因になる。"
+            }
+          ]
         },
         {
           "title": "メール配信「アララ」への不正アクセス、モスやワークマンなどで流出発表相次ぐ",
@@ -262,7 +386,13 @@
           "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002907/",
           "region": "国内",
           "publishedAt": "2026-11-05T05:11:54.000Z",
-          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002907/10011388/2048"
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002907/10011388/2048",
+          "terms": [
+            {
+              "word": "メール配信サービス",
+              "meaning": "企業が会員やお客さんに、まとめてメールを送るための仕組みを提供するサービス。"
+            }
+          ]
         },
         {
           "title": "米議会でテック企業への圧力強まる見通し",
@@ -275,7 +405,17 @@
           "url": "https://www.theverge.com/policy/1027430/democratic-control-congress-tech-policy",
           "region": "海外",
           "publishedAt": "2026-11-05T14:11:27.000Z",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "terms": [
+            {
+              "word": "公聴会",
+              "meaning": "議会が専門家や企業の代表を呼び、公開の場で意見や説明を聞く会。"
+            },
+            {
+              "word": "DOGE",
+              "meaning": "マスク氏が主導した米政府の効率化組織。政府の支出や人員を大きく削減した。"
+            }
+          ]
         },
         {
           "title": "人型ロボット専業のAgility、初めて米ナスダックに上場",
@@ -288,7 +428,17 @@
           "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
           "region": "海外",
           "publishedAt": "2026-11-05T12:00:00.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200"
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
+          "terms": [
+            {
+              "word": "人型ロボット",
+              "meaning": "人の体に似た形で、二足歩行や手作業ができるロボット。工場や物流での活用が期待されている。"
+            },
+            {
+              "word": "ナスダック",
+              "meaning": "米国の株式市場の一つ。IT企業やハイテク企業が多く上場している。"
+            }
+          ]
         }
       ]
     },
@@ -306,7 +456,17 @@
           "source": "Impress Watch",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T07:18:01.000Z"
+          "publishedAt": "2026-11-05T07:18:01.000Z",
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを新しく作り出せるAI。ChatGPTや画像生成AIが代表例。"
+            },
+            {
+              "word": "空撮",
+              "meaning": "ドローンやヘリコプターなどから空中で撮影した映像や写真。"
+            }
+          ]
         },
         {
           "title": "中間選挙後、データセンターをめぐる対立が激化か",
@@ -319,7 +479,13 @@
           "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
           "region": "海外",
           "publishedAt": "2026-11-05T01:02:14.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677"
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677",
+          "terms": [
+            {
+              "word": "データセンター",
+              "meaning": "大量のサーバーを置いて、インターネットやAIの計算を動かす施設。電力や水を多く使う。"
+            }
+          ]
         },
         {
           "title": "アップル、社内のAI利用予算を削減と報道",
@@ -332,7 +498,13 @@
           "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
           "region": "海外",
           "publishedAt": "2026-11-05T01:26:22.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800"
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+          "terms": [
+            {
+              "word": "エンジニア",
+              "meaning": "システムや製品を設計・開発する技術者。ここではアップル社内でソフトを作る人を指す。"
+            }
+          ]
         },
         {
           "title": "Uber、AIエージェント経由の配車予約はほぼゼロ",
@@ -345,7 +517,17 @@
           "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
           "region": "海外",
           "publishedAt": "2026-11-04T21:56:01.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800"
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに予約や調べものなどの作業を自分で判断してこなすAI。"
+            },
+            {
+              "word": "四半期",
+              "meaning": "1年を3カ月ずつ4つに分けた期間。企業の業績はこの単位で発表される。"
+            }
+          ]
         },
         {
           "title": "メタ、AIコーディングのスタートアップConductorを買収",
@@ -358,7 +540,17 @@
           "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
           "region": "海外",
           "publishedAt": "2026-11-04T21:10:56.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653"
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653",
+          "terms": [
+            {
+              "word": "スタートアップ",
+              "meaning": "新しい技術やアイデアで急成長をめざす、創業まもない企業。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに予約や調べものなどの作業を自分で判断してこなすAI。"
+            }
+          ]
         }
       ]
     },
@@ -377,7 +569,17 @@
           "source": "Yahoo!ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVzhuQzV2bXNnd252V180SDUzbWRKLUF3ZHNDQnBuWGtRNnk2WnhQMU4ya3FkWF9FOG1nMHdWaWx2NDFDclMyZTYyTGRKS18zSko2VEYyUF94V2U4ZmRsSU5aSDRYYk9fbW9kWFVtX0kzZ0J0Y2dKaGc0VEZjLVRlM3R4R2xoaTg?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T06:45:47.000Z"
+          "publishedAt": "2026-11-05T06:45:47.000Z",
+          "terms": [
+            {
+              "word": "日経平均株価",
+              "meaning": "日本を代表する225社の株価から計算する指数。日本の株式市場全体の動きを表す目安。"
+            },
+            {
+              "word": "続落",
+              "meaning": "株価などが前の日に続いて下がること。4日続落は4日連続の値下がり。"
+            }
+          ]
         },
         {
           "title": "米国でAI株が下落、原油は反発",
@@ -389,7 +591,17 @@
           "source": "Reuters",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
           "region": "海外",
-          "publishedAt": "2026-11-05T02:35:00.000Z"
+          "publishedAt": "2026-11-05T02:35:00.000Z",
+          "terms": [
+            {
+              "word": "ブルーウェーブ",
+              "meaning": "米国の選挙で民主党（イメージカラーが青）が大きく勝つこと。"
+            },
+            {
+              "word": "寄り付き",
+              "meaning": "その日の取引で最初に値段がつくこと。"
+            }
+          ]
         },
         {
           "title": "米民主党勝利で株価明暗、医療や再エネに買い・防衛株に逆風",
@@ -401,7 +613,17 @@
           "source": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BQWVRNi1vWXRQM1RTa016YkZGbGVENGRwLXNscHdaT0I1Yzl2cHMzZHN1MzduRmFBcWNYc1hWbEhJbTk1MVV0YXE5eVc0RnRaU0FKMUNYT1dYTndJT21oc2w1RmdJeVY5RFEtMg?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T11:43:08.000Z"
+          "publishedAt": "2026-11-05T11:43:08.000Z",
+          "terms": [
+            {
+              "word": "見直し買い",
+              "meaning": "それまで売られていた銘柄が、評価が変わって再び買われること。"
+            },
+            {
+              "word": "防衛関連株",
+              "meaning": "防衛装備をつくる企業の株。各国の防衛費や政策の変化で値動きしやすい。"
+            }
+          ]
         },
         {
           "title": "トヨタ株が午後一段高、今期見通しを上方修正",
@@ -413,7 +635,17 @@
           "source": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0U1dVcmtUTWpScmJnM1ktMjZ5TG9OTi1pSkdCckZvZ0Q1NTVGUVJ3YmFkNkVjV1dqQ0dDemprSGh2ZkhvcFVhNkxSdVhiSUk1dW5venppT2hTM3dMbDdxQWtzSmUwOE1zNFBySQ?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T05:31:41.000Z"
+          "publishedAt": "2026-11-05T05:31:41.000Z",
+          "terms": [
+            {
+              "word": "上方修正",
+              "meaning": "会社が以前に出した業績の見通しを、よい方向に引き上げること。"
+            },
+            {
+              "word": "営業利益",
+              "meaning": "本業でどれだけ稼いだかを表す利益。売上から原材料費や人件費などを引いたもの。"
+            }
+          ]
         },
         {
           "title": "ソフトバンクG株が7カ月ぶり安値、アームの見通しに物足りなさ",
@@ -425,7 +657,13 @@
           "source": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91MHZxejduWUVoajJ4X1ZhQThWSk92X3JNQmNxQllBdjRuTWRhakNSRWtFalZrVVprYVlrWXNZZEd5d004SlZhc05hUXF4RXBOV1MzZTZzRXptV2tkZUw2ZFhrMHVGYjg2R25nQQ?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T03:58:39.000Z"
+          "publishedAt": "2026-11-05T03:58:39.000Z",
+          "terms": [
+            {
+              "word": "アーム",
+              "meaning": "ソフトバンクグループ傘下の英国の半導体設計会社。スマホ向けの半導体設計で世界的なシェアを持つ。"
+            }
+          ]
         }
       ]
     },
@@ -443,7 +681,17 @@
           "source": "NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHVncyTUNvdnRvRl9BeVkyT3FSenh4bkpWRlE5S0RRQUppQzJMbU9ZWXRnb3I4cWEtblFmSVpQUFdVQUVoZWMtWUlqODRpWjNoZEVpdHNRcEVLZTMyUHkw?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T09:17:38.000Z"
+          "publishedAt": "2026-11-05T09:17:38.000Z",
+          "terms": [
+            {
+              "word": "かけ子",
+              "meaning": "特殊詐欺で、被害者に電話をかけてだます役割の人。"
+            },
+            {
+              "word": "特殊詐欺",
+              "meaning": "電話などで相手を信じ込ませ、現金をだまし取る詐欺の総称。オレオレ詐欺などが含まれる。"
+            }
+          ]
         },
         {
           "title": "山形でニセ警察詐欺の被害相次ぐ、70代女性が約1000万円",
@@ -455,7 +703,13 @@
           "source": "YTS山形テレビ",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLMUNhWG5kMjVqdzhxcUxwR2R0c28xRDZRZjZnUTZ2X0xZOEN4U3lNSzRna2plVFBtZ3RYM0pUX3VDS1k2UUdaOHhxR1RoLUtO?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T12:16:49.000Z"
+          "publishedAt": "2026-11-05T12:16:49.000Z",
+          "terms": [
+            {
+              "word": "警察官を名乗る詐欺",
+              "meaning": "「ニセ警察詐欺」とも呼ばれる。警察を装って捜査への協力などを口実にお金を振り込ませる手口。"
+            }
+          ]
         },
         {
           "title": "山口の海上で見つかった男児の遺体、殺人・死体遺棄事件も視野に捜査",
@@ -467,7 +721,13 @@
           "source": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeTRKWkFlUUZXQThRNjM4WU9CaVphRXlGT3VMcURSUEdZUzlnQTdYdnEtZC0teUpDcllDNGVZYzI5eGI2eGdHVk1qMmxtRE5Xd0prYjNuSFVybXhZelptdXNTVTFveUU?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T10:00:00.000Z"
+          "publishedAt": "2026-11-05T10:00:00.000Z",
+          "terms": [
+            {
+              "word": "死体遺棄",
+              "meaning": "亡くなった人の遺体を捨てたり隠したりする犯罪。"
+            }
+          ]
         },
         {
           "title": "マイナカード偽造の疑いで中国籍の男逮捕、組織的グループか",
@@ -479,7 +739,13 @@
           "source": "時事ドットコム",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sZGtXQXFXTjBxQ0dMUjNFbC1zcGRqazNyc0dBR3B5Zk1FOW01VUdXZkRwWFFzdlRVMW4zYlZmeURyc1RpWHhwdGRhTU5qeEpLaDRGQUZKUzdSalpmYk9aUzhmVQ?oc=5",
           "region": "国内",
-          "publishedAt": "2026-11-05T10:10:00.000Z"
+          "publishedAt": "2026-11-05T10:10:00.000Z",
+          "terms": [
+            {
+              "word": "マイナンバーカード",
+              "meaning": "マイナンバーと顔写真が入ったカード。本人確認や行政手続き、健康保険証として使える。"
+            }
+          ]
         },
         {
           "title": "ポーランド、ロシアのためのスパイ容疑で4人を逮捕",
@@ -491,7 +757,13 @@
           "source": "DW.com",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQmtNR0FEOFZzVThiWWxRYjMyc1o2bGRQbU5iUWs4LUdYU1pWYzBILW1jZHlfaG16MzlVUm95RHpXbTQzWlBEUXhvTWpyNVdPZHNFNDItWDREZGszUnN1U2k1UlpJSTlNX0hhZU84NjZNb2NLUk1VRk5XR3IwWTlyZHIwREhXc1NWWl9Z0gGLAUFVX3lxTE5tZjlobFRvNHFhc3F4SUVJZmJla0QtcnQ4eVIxbXpTNmx6WHZDS0VKN3FaVGVtY3RzNzJlY01Zek55aFFLMzBpQmpnMXdVLUFRMFVRbzJVQ1R2WnBGb2dBWEE4eHFBamIzMEJHSEZ0MC1FMDZETFpWX3p2M0Z2dHhJUnpHcDV0WEd5N1U?oc=5",
           "region": "海外",
-          "publishedAt": "2026-11-05T14:18:35.000Z"
+          "publishedAt": "2026-11-05T14:18:35.000Z",
+          "terms": [
+            {
+              "word": "スパイ活動",
+              "meaning": "他国のために、機密情報をひそかに集めたり伝えたりする活動。"
+            }
+          ]
         }
       ]
     }

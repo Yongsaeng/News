@@ -23,6 +23,10 @@ const Item = z.object({
   insight: z
     .object({ angle: z.enum(["日本への影響", "影響を受ける人"]), text: z.string().min(40).max(300) })
     .optional(),
+  terms: z
+    .array(z.object({ word: z.string().min(1).max(20), meaning: z.string().min(10).max(120) }))
+    .max(5)
+    .optional(),
 });
 
 const DigestSchema = z.object({
@@ -78,6 +82,16 @@ function main() {
         const want = it.region === "海外" ? "日本への影響" : "影響を受ける人";
         if (!it.insight) errors.push(`${c.name}[${i}]: insight（考察）がありません`);
         else if (it.insight.angle !== want) errors.push(`${c.name}[${i}]: ${it.region}の記事なので angle は「${want}」にしてください`);
+      });
+    }
+
+    // 用語は記事の本文（要約・考察）に出てくる言葉だけ（見出しはリンクなのでタップできない）
+    for (const c of d.categories) {
+      c.items.forEach((it, i) => {
+        const body = [...it.summary, it.insight?.text ?? ""].join("\n");
+        for (const t of it.terms ?? []) {
+          if (!body.includes(t.word)) errors.push(`${c.name}[${i}]: 用語「${t.word}」が要約・考察の文中にありません`);
+        }
       });
     }
 

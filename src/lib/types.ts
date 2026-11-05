@@ -8,6 +8,12 @@ export interface Insight {
   text: string;
 }
 
+/** 記事中の難しい言葉とその意味（タップで表示） */
+export interface Term {
+  word: string;
+  meaning: string;
+}
+
 export interface NewsItem {
   title: string;
   summary: string[];
@@ -19,6 +25,8 @@ export interface NewsItem {
   image?: string;
   /** 政治・経済のみ：このニュースの考察 */
   insight?: Insight;
+  /** 記事中の難しい言葉（2〜4語） */
+  terms?: Term[];
 }
 
 export interface CategoryDigest {

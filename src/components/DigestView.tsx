@@ -2,6 +2,9 @@ import Link from "next/link";
 import type { CategoryDigest, Digest, Insight, MarketQuote, NewsItem } from "@/lib/types";
 import { formatDateJa } from "@/lib/digests";
 import NewsImage from "./NewsImage";
+import TermText from "./TermText";
+import TermSheet from "./TermSheet";
+import AskAI from "./AskAI";
 
 const ACCENT: Record<string, string> = {
   economy: "var(--c-economy)",
@@ -41,7 +44,7 @@ function Source({ item, onImage = false }: { item: NewsItem; onImage?: boolean }
   );
 }
 
-function InsightBox({ insight, open = false }: { insight: Insight; open?: boolean }) {
+function InsightBox({ insight, item, open = false }: { insight: Insight; item: NewsItem; open?: boolean }) {
   return (
     <details open={open} className="group mt-4 rounded-xl bg-insight-bg text-insight-ink">
       <summary className="flex cursor-pointer items-center gap-2 px-4 py-2.5 text-[13px] font-bold">
@@ -50,7 +53,9 @@ function InsightBox({ insight, open = false }: { insight: Insight; open?: boolea
         <span className="ml-auto text-xs font-medium opacity-70 group-open:hidden">開く</span>
         <span className="ml-auto hidden text-xs font-medium opacity-70 group-open:inline">閉じる</span>
       </summary>
-      <p className="px-4 pb-4 text-[14px] leading-7">{insight.text}</p>
+      <p className="px-4 pb-4 text-[14px] leading-7">
+        <TermText text={insight.text} terms={item.terms} articleTitle={item.title} url={item.url} />
+      </p>
     </details>
   );
 }
@@ -68,10 +73,18 @@ function Masthead({ digest, categories }: { digest: Digest; categories: Category
           <Link href="/" className="text-xl font-black tracking-tight sm:text-2xl">
             Morning Brief
           </Link>
-          <p className="text-right text-xs text-band-ink/70 sm:text-sm">
-            {formatDateJa(digest.date)}
-            <span className="ml-2 text-band-ink/50">{updated} 更新</span>
-          </p>
+          <div className="flex items-end gap-4">
+            <p className="text-right text-xs text-band-ink/70 sm:text-sm">
+              {formatDateJa(digest.date)}
+              <span className="ml-2 hidden text-band-ink/50 sm:inline">{updated} 更新</span>
+            </p>
+            <Link
+              href="/words"
+              className="rounded-lg bg-band-ink/10 px-3 py-1.5 text-xs font-bold whitespace-nowrap hover:bg-band-ink/20"
+            >
+              単語帳
+            </Link>
+          </div>
         </div>
       </header>
       <nav className="sticky top-0 z-20 bg-band/95 text-band-ink backdrop-blur" aria-label="カテゴリ">
@@ -96,9 +109,7 @@ function Masthead({ digest, categories }: { digest: Digest; categories: Category
 function Hero({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
     <a
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
+      href={`#${articleId(cat, item)}`}
       className="group relative mt-6 block overflow-hidden rounded-2xl bg-band"
     >
       <NewsImage
@@ -169,9 +180,13 @@ function Brief({ lines, quotes }: { lines: string[]; quotes: MarketQuote[] }) {
   );
 }
 
+function articleId(cat: CategoryDigest, item: NewsItem) {
+  return `${cat.id}-${cat.items.indexOf(item) + 1}`;
+}
+
 function LeadStory({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
-    <article className="overflow-hidden rounded-2xl bg-surface">
+    <article id={articleId(cat, item)} className="scroll-mt-16 overflow-hidden rounded-2xl bg-surface">
       <a href={item.url} target="_blank" rel="noopener noreferrer" className="group block">
         <NewsImage
           src={item.image}
@@ -191,10 +206,13 @@ function LeadStory({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
       <div className="px-5 pb-5 sm:px-6 sm:pb-6">
         <ul className="mt-3 space-y-1.5 text-[15px] leading-7 text-ink/85">
           {item.summary.map((s, i) => (
-            <li key={i}>{s}</li>
+            <li key={i}>
+              <TermText text={s} terms={item.terms} articleTitle={item.title} url={item.url} />
+            </li>
           ))}
         </ul>
-        {item.insight && <InsightBox insight={item.insight} open />}
+        {item.insight && <InsightBox insight={item.insight} item={item} open />}
+        <AskAI item={item} />
       </div>
     </article>
   );
@@ -202,7 +220,7 @@ function LeadStory({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
 
 function StoryRow({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
-    <article className="border-b border-line py-4 first:pt-0 last:border-0 last:pb-0">
+    <article id={articleId(cat, item)} className="scroll-mt-16 border-b border-line py-4 first:pt-0 last:border-0 last:pb-0">
       <a href={item.url} target="_blank" rel="noopener noreferrer" className="group flex gap-4">
         <div className="min-w-0 flex-1">
           <h3 className="text-[15px] leading-snug font-bold group-hover:underline group-hover:underline-offset-4 sm:text-base">
@@ -221,18 +239,20 @@ function StoryRow({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
       </a>
       <ul className="mt-2 space-y-1 text-[13px] leading-6 text-muted">
         {item.summary.map((s, i) => (
-          <li key={i}>{s}</li>
+          <li key={i}>
+            <TermText text={s} terms={item.terms} articleTitle={item.title} url={item.url} />
+          </li>
         ))}
       </ul>
-      {item.insight && <InsightBox insight={item.insight} />}
+      {item.insight && <InsightBox insight={item.insight} item={item} />}
+      <AskAI item={item} compact />
     </article>
   );
 }
 
-function Category({ cat, skipUrl }: { cat: CategoryDigest; skipUrl?: string }) {
+function Category({ cat }: { cat: CategoryDigest }) {
   const accent = ACCENT[cat.id];
-  const items = cat.items.filter((i) => i.url !== skipUrl);
-  const [lead, ...rest] = items;
+  const [lead, ...rest] = cat.items;
   return (
     <section id={cat.id} className="pt-12">
       <div className="flex items-center gap-3">
@@ -306,10 +326,11 @@ export default function DigestView({ digest, all }: { digest: Digest; all: Diges
         {hero && <Hero item={hero.item} cat={hero.cat} />}
         <Brief lines={digest.headline} quotes={digest.markets} />
         {digest.categories.map((c) => (
-          <Category key={c.id} cat={c} skipUrl={hero && hero.cat.id === c.id ? hero.item.url : undefined} />
+          <Category key={c.id} cat={c} />
         ))}
         <Archive all={all} current={digest.date} />
       </main>
+      <TermSheet />
     </>
   );
 }
