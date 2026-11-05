@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --ink: #1a1a1a;
+  --muted: #6b6760;
+  --line: #e4e0d8;
+  --up: #15803d;
+  --down: #b91c1c;
+  --c-economy: #b45309;
+  --c-politics: #be123c;
+  --c-tech: #1d4ed8;
+  --c-markets: #047857;
+  --c-crime: #6d28d9;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg: #111110;
+    --surface: #1b1b1a;
+    --ink: #ecebe8;
+    --muted: #9a968f;
+    --line: #2e2d2b;
+    --up: #4ade80;
+    --down: #f87171;
+    --c-economy: #f59e0b;
+    --c-politics: #fb7185;
+    --c-tech: #60a5fa;
+    --c-markets: #34d399;
+    --c-crime: #a78bfa;
   }
 }
 
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, system-ui, sans-serif;
+  --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "Noto Serif CJK JP", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
 }
