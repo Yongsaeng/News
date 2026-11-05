@@ -3,18 +3,32 @@ export type CategoryId = "economy" | "politics" | "tech" | "ai" | "markets" | "c
 /** 考察の切り口。海外ニュースは日本への影響、国内ニュースは影響を受ける人 */
 export type InsightAngle = "日本への影響" | "影響を受ける人";
 
-/** 考察の要点。国内は「誰が」、海外は「どの経路で」日本に影響するか */
+export type ImpactLevel = "大" | "中" | "小";
+export type ImpactWhen = "すぐ" | "数カ月後" | "数年後";
+
+/** 考察の要点。国内は「誰に」、海外は「どの経路で」日本に影響するか */
 export interface InsightPoint {
   label: string;
   text: string;
+  /** 影響の大きさ */
+  level: ImpactLevel;
+  /** 影響が出る時期 */
+  when: ImpactWhen;
 }
 
+/** 考察：何が起きた → なぜ → 自分（日本）への影響 → 今後の注目点 */
 export interface Insight {
   angle: InsightAngle;
-  /** 背景からかみ砕いた解説 */
-  text: string;
-  /** 影響の要点（国内：影響を受ける人ごと／海外：円相場・物価など影響の経路ごと） */
-  points?: InsightPoint[];
+  what: string;
+  why: string;
+  points: InsightPoint[];
+  watch: string;
+}
+
+/** 考察の文章をまとめて返す（用語の照合やAIへの質問に使う） */
+export function insightTexts(i?: Insight): string[] {
+  if (!i) return [];
+  return [i.what, i.why, ...i.points.map((p) => p.text), i.watch];
 }
 
 /** 1カテゴリあたり、国内・海外それぞれの最大件数 */

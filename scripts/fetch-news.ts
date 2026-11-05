@@ -24,11 +24,23 @@ const CategorySchema = z.object({
       title: z.string().describe("日本語の見出し（30字程度）"),
       summary: z.array(z.string()).describe("日本語の要約をちょうど3行。各行40字程度"),
       insight: z
-        .string()
-        .describe("経済・政治のみ：考察の解説（100〜350字）。背景からかみ砕いて説明する。他カテゴリは空文字"),
-      points: z
-        .array(z.object({ label: z.string(), text: z.string() }))
-        .describe("経済・政治のみ：影響の要点を2〜4個。国内記事は label＝影響を受ける人、海外記事は label＝日本への影響の経路（円相場、物価など）。text は20〜100字。他カテゴリは空配列"),
+        .object({
+          what: z.string().describe("何が起きたか（30〜150字）"),
+          why: z.string().describe("なぜ起きたか。背景をかみ砕いて（60〜220字）"),
+          points: z
+            .array(
+              z.object({
+                label: z.string().describe("国内記事は影響を受ける人、海外記事は日本への影響の経路（16字以内）"),
+                text: z.string().describe("どう影響しそうか（20〜100字）"),
+                level: z.enum(["大", "中", "小"]),
+                when: z.enum(["すぐ", "数カ月後", "数年後"]),
+              }),
+            )
+            .describe("2〜4個"),
+          watch: z.string().describe("今後の注目点を1文（10〜60字）"),
+        })
+        .nullable()
+        .describe("経済・政治のみ。他カテゴリは null"),
     }),
   ),
   comment: z.string().describe("株価カテゴリのときだけ、今日の市況のひとこと（80字以内）。他カテゴリは空文字"),
@@ -77,7 +89,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     .map((p) => {
       const c = cands[p.index];
       const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: p.region, publishedAt: c.publishedAt, image: c.image };
-      if (withInsight && p.insight) item.insight = { angle: p.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight, points: p.points.slice(0, 4) };
+      if (withInsight && p.insight) item.insight = { angle: p.region === "海外" ? "日本への影響" : "影響を受ける人", ...p.insight, points: p.insight.points.slice(0, 4) };
       return item;
     });
   return { id: cat.id, name: cat.name, items, comment: parsed.comment || undefined };

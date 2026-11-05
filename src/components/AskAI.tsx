@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { NewsItem } from "@/lib/types";
+import { insightTexts, type NewsItem } from "@/lib/types";
 
 const PRESETS = ["もっと分かりやすく説明して", "背景を教えて", "今後どうなりそう？"];
 
@@ -12,7 +12,7 @@ function promptBase(item: NewsItem) {
     "",
     `見出し：${item.title}`,
     `要約：${item.summary.join(" ")}`,
-    item.insight ? `考察（${item.insight.angle}）：${item.insight.text}` : "",
+    item.insight ? `考察（${item.insight.angle}）：${insightTexts(item.insight).join(" ")}` : "",
     `出典：${item.source} ${item.url}`,
   ]
     .filter((l, i, a) => l !== "" || a[i - 1] !== "")

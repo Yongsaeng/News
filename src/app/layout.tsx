@@ -5,9 +5,13 @@ export const metadata: Metadata = {
   title: "Morning Brief",
   description: "経済・政治・テクノロジー・AI・株価・犯罪のトレンドニュースを毎朝まとめてお届けします。",
   robots: { index: false, follow: false },
+  applicationName: "Morning Brief",
+  appleWebApp: { capable: true, title: "Morning Brief", statusBarStyle: "black" },
+  formatDetection: { telephone: false },
 };
 
 export const viewport: Viewport = {
+  viewportFit: "cover",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#0f1e3a" },
     { media: "(prefers-color-scheme: dark)", color: "#070d19" },

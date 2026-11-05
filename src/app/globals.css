@@ -77,15 +77,31 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 3.5rem;
+  scroll-padding-top: 3.75rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
+  overflow-x: clip;
+  overscroll-behavior-y: none;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "palt";
+}
+
+/* 国内／海外の切り替え（スマホ）。選ばれていない側を隠す。PCでは両方を並べる */
+.region-switch:has(input[value="海外"]:checked) .region-domestic,
+.region-switch:not(:has(input[value="海外"]:checked)) .region-overseas {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .region-switch .region-domestic,
+  .region-switch .region-overseas {
+    display: block !important;
+  }
 }
 
 .no-scrollbar::-webkit-scrollbar {

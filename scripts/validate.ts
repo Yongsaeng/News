@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { CATEGORIES } from "../src/lib/sources";
-import { INSIGHT_CATEGORIES, PER_REGION, REGIONS } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, insightTexts } from "../src/lib/types";
 import { DIGEST_DIR, jstDate, readRaw } from "./lib/collect";
 
 const Item = z.object({
@@ -23,11 +23,20 @@ const Item = z.object({
   insight: z
     .object({
       angle: z.enum(["日本への影響", "影響を受ける人"]),
-      text: z.string().min(100).max(350),
+      what: z.string().min(30).max(150),
+      why: z.string().min(60).max(220),
       points: z
-        .array(z.object({ label: z.string().min(1).max(16), text: z.string().min(20).max(100) }))
+        .array(
+          z.object({
+            label: z.string().min(1).max(16),
+            text: z.string().min(20).max(100),
+            level: z.enum(["大", "中", "小"]),
+            when: z.enum(["すぐ", "数カ月後", "数年後"]),
+          }),
+        )
         .min(2)
         .max(4),
+      watch: z.string().min(10).max(60),
     })
     .optional(),
   terms: z
@@ -107,9 +116,9 @@ function main() {
     // 用語は記事の本文（要約・考察）に出てくる言葉だけ（見出しはリンクなのでタップできない）
     for (const c of d.categories) {
       c.items.forEach((it, i) => {
-        const body = [...it.summary, it.insight?.text ?? "", ...(it.insight?.points ?? []).map((p) => p.text)].join("\n");
+        const body = [...it.summary, ...insightTexts(it.insight)].join("\n");
         for (const t of it.terms ?? []) {
-          if (!body.includes(t.word)) errors.push(`${c.name}[${i}]: 用語「${t.word}」が要約・考察（解説・要点）の文中にありません`);
+          if (!body.includes(t.word)) errors.push(`${c.name}[${i}]: 用語「${t.word}」が要約・考察の文中にありません`);
         }
       });
     }

@@ -5,6 +5,8 @@ import NewsImage from "./NewsImage";
 import TermText from "./TermText";
 import TermSheet from "./TermSheet";
 import AskAI from "./AskAI";
+import BottomNav from "./BottomNav";
+import Logo from "./Logo";
 
 const ACCENT: Record<string, string> = {
   economy: "var(--c-economy)",
@@ -43,36 +45,72 @@ function Source({ item, onImage = false }: { item: NewsItem; onImage?: boolean }
   );
 }
 
-function InsightBox({ insight, item, open = false }: { insight: Insight; item: NewsItem; open?: boolean }) {
+const LEVEL_BARS: Record<string, number> = { 大: 3, 中: 2, 小: 1 };
+
+function ImpactMeter({ level }: { level: string }) {
+  const n = LEVEL_BARS[level] ?? 1;
   return (
-    <details open={open} className="group mt-4 rounded-xl bg-insight-bg text-insight-ink">
-      <summary className="flex cursor-pointer items-center gap-2 px-4 py-2.5 text-[13px] font-bold">
+    <span className="inline-flex items-center gap-1.5 text-[11px] font-bold" aria-label={`影響 ${level}`}>
+      <span aria-hidden className="flex items-end gap-[2px]">
+        {[1, 2, 3].map((i) => (
+          <span
+            key={i}
+            className={`w-[4px] rounded-[1px] ${i <= n ? "bg-signal" : "bg-insight-ink/20"}`}
+            style={{ height: `${4 + i * 3}px` }}
+          />
+        ))}
+      </span>
+      <span aria-hidden>影響 {level}</span>
+    </span>
+  );
+}
+
+function InsightBox({ insight, item, open = false }: { insight: Insight; item: NewsItem; open?: boolean }) {
+  const t = (text: string) => <TermText text={text} terms={item.terms} articleTitle={item.title} url={item.url} />;
+  return (
+    <details open={open} className="group mt-4 rounded-2xl bg-insight-bg text-insight-ink">
+      <summary className="flex min-h-11 cursor-pointer items-center gap-2 px-4 py-2.5 text-[13px] font-bold select-none">
         <span className="inline-flex size-5 items-center justify-center rounded-md bg-signal text-[11px] font-black text-band">考</span>
-        考察：{insight.angle}
+        考察
+        <span className="font-medium opacity-70">{insight.angle}</span>
         <span className="ml-auto text-xs font-medium opacity-70 group-open:hidden">開く</span>
         <span className="ml-auto hidden text-xs font-medium opacity-70 group-open:inline">閉じる</span>
       </summary>
-      <div className="px-4 pb-4">
-        <p className="text-[14px] leading-7">
-          <TermText text={insight.text} terms={item.terms} articleTitle={item.title} url={item.url} />
-        </p>
-        {insight.points && insight.points.length > 0 && (
-          <>
-            <p className="mt-4 text-[11px] font-bold tracking-widest opacity-70">
-              {insight.angle === "日本への影響" ? "日本への波及" : "誰にどう影響する？"}
-            </p>
-            <ul className="mt-2 space-y-2">
-              {insight.points.map((p, i) => (
-                <li key={i} className="rounded-lg bg-paper/60 px-3 py-2.5">
-                  <p className="text-[13px] font-black">{p.label}</p>
-                  <p className="mt-0.5 text-[13px] leading-6">
-                    <TermText text={p.text} terms={item.terms} articleTitle={item.title} url={item.url} />
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+      <div className="space-y-4 px-4 pb-4">
+        <div>
+          <h4 className="text-[12px] font-black opacity-75">何が起きた</h4>
+          <p className="mt-1 text-[14px] leading-7">{t(insight.what)}</p>
+        </div>
+        <div>
+          <h4 className="text-[12px] font-black opacity-75">なぜ起きた</h4>
+          <p className="mt-1 text-[14px] leading-7">{t(insight.why)}</p>
+        </div>
+        <div>
+          <h4 className="text-[12px] font-black opacity-75">
+            {insight.angle === "日本への影響" ? "日本への影響" : "誰にどう影響する？"}
+          </h4>
+          <ul className="mt-2 space-y-2">
+            {insight.points.map((p, i) => (
+              <li key={i} className="rounded-xl bg-surface/70 px-3.5 py-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                  <p className="text-[14px] font-black">{p.label}</p>
+                  <div className="ml-auto flex items-center gap-2.5">
+                    <ImpactMeter level={p.level} />
+                    <span className="rounded-full border border-insight-ink/25 px-2 py-px text-[11px] font-bold">{p.when}</span>
+                  </div>
+                </div>
+                <p className="mt-1 text-[13px] leading-6">{t(p.text)}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="flex gap-3 border-t border-insight-ink/15 pt-3">
+          <span aria-hidden className="mt-1 h-4 w-1 shrink-0 rounded-full bg-signal" />
+          <p className="text-[13px] leading-6">
+            <span className="font-black">今後の注目点　</span>
+            {t(insight.watch)}
+          </p>
+        </div>
       </div>
     </details>
   );
@@ -87,34 +125,37 @@ function Masthead({ digest, categories }: { digest: Digest; categories: Category
   return (
     <>
       <header className="bg-band text-band-ink">
-        <div className="mx-auto flex max-w-6xl items-end justify-between gap-4 px-4 pt-5 pb-3 sm:px-6">
-          <Link href="/" className="text-xl font-black tracking-tight sm:text-2xl">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 pt-3 pb-1 sm:px-6 sm:pt-5 sm:pb-3">
+          <Link href="/" className="flex items-center gap-2 text-lg font-black tracking-tight sm:text-2xl">
+            <Logo />
             Morning Brief
           </Link>
-          <div className="flex items-end gap-4">
+          <div className="flex items-center gap-4">
             <p className="text-right text-xs text-band-ink/70 sm:text-sm">
               {formatDateJa(digest.date)}
               <span className="ml-2 hidden text-band-ink/50 sm:inline">{updated} 更新</span>
             </p>
-            <Link
-              href="/words"
-              className="rounded-lg bg-band-ink/10 px-3 py-1.5 text-xs font-bold whitespace-nowrap hover:bg-band-ink/20"
-            >
-              単語帳
-            </Link>
+            <nav className="hidden items-center gap-1 lg:flex" aria-label="ページ">
+              <Link href="/archive" className="rounded-lg px-3 py-1.5 text-xs font-bold text-band-ink/80 hover:bg-band-ink/10">
+                過去のまとめ
+              </Link>
+              <Link href="/words" className="rounded-lg bg-band-ink/10 px-3 py-1.5 text-xs font-bold hover:bg-band-ink/20">
+                単語帳
+              </Link>
+            </nav>
           </div>
         </div>
       </header>
       <nav className="sticky top-0 z-20 bg-band/95 text-band-ink backdrop-blur" aria-label="カテゴリ">
-        <ul className="no-scrollbar mx-auto flex max-w-6xl gap-1 overflow-x-auto px-3 sm:px-5">
+        <ul className="no-scrollbar mx-auto flex max-w-6xl gap-2 overflow-x-auto px-4 py-2.5 sm:px-6">
           {categories.map((c) => (
-            <li key={c.id}>
+            <li key={c.id} className="shrink-0">
               <a
                 href={`#${c.id}`}
-                className="relative block px-3 py-3 text-sm font-bold whitespace-nowrap text-band-ink/75 transition-colors hover:text-band-ink focus-visible:text-band-ink"
+                className="flex items-center gap-1.5 rounded-full bg-band-ink/10 px-3.5 py-1.5 text-[13px] font-bold whitespace-nowrap text-band-ink/85 transition-colors hover:bg-band-ink/20 active:bg-band-ink/25"
               >
-                {c.name}
-                <span className="absolute inset-x-3 bottom-0 h-0.5 rounded-full" style={{ background: ACCENT[c.id] }} />
+                <span className="size-1.5 rounded-full" style={{ background: ACCENT[c.id] }} />
+                {SHORT[c.id]}
               </a>
             </li>
           ))}
@@ -128,13 +169,13 @@ function Hero({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
     <a
       href={`#${articleId(cat, item)}`}
-      className="group relative mt-6 block overflow-hidden rounded-2xl bg-band"
+      className="group relative mt-4 block overflow-hidden rounded-3xl bg-band active:scale-[0.99] sm:mt-6 sm:rounded-2xl"
     >
       <NewsImage
         src={item.image}
         accent={ACCENT[cat.id]}
         label={SHORT[cat.id]}
-        className="aspect-[4/5] w-full transition-transform duration-500 group-hover:scale-[1.02] sm:aspect-[21/9]"
+        className="aspect-square w-full transition-transform duration-500 group-hover:scale-[1.02] sm:aspect-[21/9]"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
       <div className="absolute inset-x-0 bottom-0 p-5 sm:p-8">
@@ -158,7 +199,7 @@ function Hero({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
 
 function Brief({ lines, quotes }: { lines: string[]; quotes: MarketQuote[] }) {
   return (
-    <section className="mt-6 grid items-start gap-4 md:grid-cols-[1.5fr_1fr]">
+    <section className="mt-6 grid grid-cols-[minmax(0,1fr)] items-start gap-6 md:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)] md:gap-4">
       {lines.length > 0 && (
         <div className="rounded-2xl bg-surface p-5 sm:p-6">
           <h2 className="text-base font-black">今日の3行</h2>
@@ -173,25 +214,26 @@ function Brief({ lines, quotes }: { lines: string[]; quotes: MarketQuote[] }) {
         </div>
       )}
       {quotes.length > 0 && (
-        <div className="rounded-2xl bg-surface p-5 sm:p-6">
+        <div className="md:rounded-2xl md:bg-surface md:p-6">
           <h2 className="text-base font-black">マーケット</h2>
-          <table className="mt-2 w-full text-sm tabular-nums">
-            <tbody>
-              {quotes.map((q) => {
-                const up = q.change >= 0;
-                return (
-                  <tr key={q.symbol} className="border-b border-line last:border-0">
-                    <th className="py-2 text-left font-medium text-muted">{q.name}</th>
-                    <td className="py-2 text-right font-bold">{nf.format(q.price)}</td>
-                    <td className={`w-24 py-2 text-right text-xs font-bold ${up ? "text-up" : "text-down"}`}>
-                      {up ? "+" : "−"}
-                      {nf.format(Math.abs(q.changePercent))}%
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+          <ul className="no-scrollbar -mx-4 mt-3 flex snap-x gap-2 overflow-x-auto px-4 md:mx-0 md:mt-2 md:block md:px-0">
+            {quotes.map((q) => {
+              const up = q.change >= 0;
+              return (
+                <li
+                  key={q.symbol}
+                  className="w-36 shrink-0 snap-start rounded-2xl bg-surface p-3.5 tabular-nums md:flex md:w-auto md:items-baseline md:gap-3 md:rounded-none md:border-b md:border-line md:bg-transparent md:px-0 md:py-2 md:last:border-0"
+                >
+                  <p className="text-xs font-medium text-muted md:flex-1 md:text-sm">{q.name}</p>
+                  <p className="mt-1 text-lg font-black md:mt-0 md:text-sm md:font-bold">{nf.format(q.price)}</p>
+                  <p className={`text-xs font-bold md:w-20 md:text-right ${up ? "text-up" : "text-down"}`}>
+                    {up ? "+" : "−"}
+                    {nf.format(Math.abs(q.changePercent))}%
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       )}
     </section>
@@ -204,8 +246,8 @@ function articleId(cat: CategoryDigest, item: NewsItem) {
 
 function LeadStory({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
-    <article id={articleId(cat, item)} className="scroll-mt-16 overflow-hidden rounded-2xl bg-surface">
-      <a href={item.url} target="_blank" rel="noopener noreferrer" className="group block">
+    <article id={articleId(cat, item)} className="scroll-mt-16 overflow-hidden rounded-3xl bg-surface sm:rounded-2xl">
+      <a href={item.url} target="_blank" rel="noopener noreferrer" className="group block active:opacity-80">
         <NewsImage
           src={item.image}
           accent={ACCENT[cat.id]}
@@ -239,7 +281,7 @@ function LeadStory({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
 function StoryRow({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   return (
     <article id={articleId(cat, item)} className="scroll-mt-16 border-b border-line py-4 first:pt-0 last:border-0 last:pb-0">
-      <a href={item.url} target="_blank" rel="noopener noreferrer" className="group flex gap-4">
+      <a href={item.url} target="_blank" rel="noopener noreferrer" className="group flex gap-4 active:opacity-70">
         <div className="min-w-0 flex-1">
           <h3 className="text-[15px] leading-snug font-bold group-hover:underline group-hover:underline-offset-4 sm:text-base">
             {item.title}
@@ -271,19 +313,19 @@ function StoryRow({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
 function RegionBlock({ cat, region, items }: { cat: CategoryDigest; region: "国内" | "海外"; items: NewsItem[] }) {
   const [lead, ...rest] = items;
   return (
-    <div className="min-w-0">
-      <div className="mb-3 flex items-center gap-2">
-        <h3 className="rounded-md bg-band px-2.5 py-1 text-xs font-black tracking-widest text-band-ink">{region}</h3>
+    <div className={`min-w-0 ${region === "国内" ? "region-domestic" : "region-overseas"}`}>
+      <div className="mb-3 hidden items-center gap-2 lg:flex">
+        <h3 className="rounded-md bg-band px-2.5 py-1 text-xs font-black text-band-ink">{region}</h3>
         <span className="h-px flex-1 bg-line" />
         <span className="text-xs text-faint">{items.length}本</span>
       </div>
       {!lead ? (
         <p className="rounded-2xl bg-surface p-5 text-sm text-muted">今日は{region}の該当ニュースがありませんでした。</p>
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-3 sm:space-y-4">
           <LeadStory item={lead} cat={cat} />
           {rest.length > 0 && (
-            <div className="rounded-2xl bg-surface p-5 sm:p-6">
+            <div className="rounded-3xl bg-surface p-5 sm:rounded-2xl sm:p-6">
               {rest.map((item, i) => (
                 <StoryRow key={i} item={item} cat={cat} />
               ))}
@@ -295,12 +337,30 @@ function RegionBlock({ cat, region, items }: { cat: CategoryDigest; region: "国
   );
 }
 
+/** スマホでは国内／海外をタブで切り替え（JSなしで動くようラジオボタン＋CSS）。PCでは左右に並べる */
+function RegionTabs({ cat, counts }: { cat: CategoryDigest; counts: [number, number] }) {
+  return (
+    <div className="region-tabs mt-4 grid grid-cols-2 rounded-xl bg-line/70 p-1 lg:hidden" role="radiogroup" aria-label={`${cat.name}の地域`}>
+      {(["国内", "海外"] as const).map((r, i) => (
+        <label
+          key={r}
+          className="flex min-h-10 cursor-pointer items-center justify-center gap-1.5 rounded-lg text-sm font-bold text-muted transition-colors has-[:checked]:bg-surface has-[:checked]:text-ink has-[:checked]:shadow-sm has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-signal"
+        >
+          <input type="radio" name={`region-${cat.id}`} value={r} defaultChecked={i === 0} className="sr-only" />
+          {r}
+          <span className="text-xs font-medium text-faint">{counts[i]}</span>
+        </label>
+      ))}
+    </div>
+  );
+}
+
 function Category({ cat }: { cat: CategoryDigest }) {
   const accent = ACCENT[cat.id];
   const domestic = cat.items.filter((i) => i.region === "国内");
   const overseas = cat.items.filter((i) => i.region === "海外");
   return (
-    <section id={cat.id} className="pt-12">
+    <section id={cat.id} className="region-switch pt-10 sm:pt-12">
       <div className="flex items-center gap-3">
         <span className="h-6 w-1.5 rounded-full" style={{ background: accent }} />
         <h2 className="text-2xl font-black sm:text-3xl">{cat.name}</h2>
@@ -310,10 +370,13 @@ function Category({ cat }: { cat: CategoryDigest }) {
       {cat.items.length === 0 ? (
         <p className="mt-6 text-sm text-muted">今日は該当するニュースがありませんでした。</p>
       ) : (
-        <div className="mt-5 grid items-start gap-8 lg:grid-cols-2 lg:gap-6">
-          <RegionBlock cat={cat} region="国内" items={domestic} />
-          <RegionBlock cat={cat} region="海外" items={overseas} />
-        </div>
+        <>
+          <RegionTabs cat={cat} counts={[domestic.length, overseas.length]} />
+          <div className="mt-4 grid items-start gap-8 lg:mt-5 lg:grid-cols-2 lg:gap-6">
+            <RegionBlock cat={cat} region="国内" items={domestic} />
+            <RegionBlock cat={cat} region="海外" items={overseas} />
+          </div>
+        </>
       )}
     </section>
   );
@@ -322,7 +385,7 @@ function Category({ cat }: { cat: CategoryDigest }) {
 function Archive({ all, current }: { all: Digest[]; current: string }) {
   if (all.length <= 1) return null;
   return (
-    <section className="mt-16 border-t border-line pt-8">
+    <section className="mt-16 hidden border-t border-line pt-8 lg:block">
       <h2 className="text-base font-black">過去のまとめ</h2>
       <ul className="mt-4 flex flex-wrap gap-2">
         {all.slice(0, 30).map((d) => (
@@ -354,10 +417,11 @@ function pickHero(digest: Digest): { item: NewsItem; cat: CategoryDigest } | und
 
 export default function DigestView({ digest, all }: { digest: Digest; all: Digest[] }) {
   const hero = pickHero(digest);
+  const isToday = digest.date === all[0]?.date;
   return (
     <>
       <Masthead digest={digest} categories={digest.categories} />
-      <main className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
+      <main className="mx-auto max-w-6xl px-4 pb-28 sm:px-6 lg:pb-24">
         {digest.sample && (
           <p className="mt-4 rounded-lg border border-dashed border-line px-4 py-2 text-center text-xs text-muted">
             表示中のデータはサンプルです。毎朝7時ごろに今日のまとめに置き換わります。
@@ -370,6 +434,7 @@ export default function DigestView({ digest, all }: { digest: Digest; all: Diges
         ))}
         <Archive all={all} current={digest.date} />
       </main>
+      <BottomNav active={isToday ? "today" : "archive"} />
       <TermSheet />
     </>
   );
