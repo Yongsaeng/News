@@ -52,6 +52,11 @@ const parser: Parser<object, FeedItem> = new Parser({
   },
 });
 
+/** 小さいサムネイルを大きいサイズのURLに置き換える（BBC など） */
+function upscale(url: string): string {
+  return url.replace(/(ichef\.bbci\.co\.uk\/ace\/standard\/)\d+\//, "$1976/");
+}
+
 /** RSS の項目から画像URLを探す（enclosure → media:content → media:thumbnail → 本文中の img） */
 function imageFromItem(item: FeedItem): string | undefined {
   const isImg = (u?: string, type?: string) =>
@@ -150,7 +155,10 @@ async function collectCategory(cat: CategoryConfig): Promise<Candidate[]> {
         url: item.link,
         region: f.region,
         publishedAt: item.isoDate,
-        image: imageFromItem(item),
+        image: (() => {
+          const img = imageFromItem(item);
+          return img ? upscale(img) : undefined;
+        })(),
       });
     }
   }

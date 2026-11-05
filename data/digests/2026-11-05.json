@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T14:59:29.000Z",
+  "headline": [
+    "米中間選挙で共和党が大敗し、AI・半導体株からの資金流出が日米の株式市場に広がった。",
+    "英中銀が3年超ぶりに利上げ。ロシアではJTの工場が当局の管理下に置かれた。",
+    "ドコモで通信障害と不正アクセスが重なり、企業の情報流出の公表も相次いだ。"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 61077.9,
+      "change": -1110.7289062499985,
+      "changePercent": -1.7860643107672207
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7576.85,
+      "change": -111.77011718749964,
+      "changePercent": -1.45370840910248
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 25028.977,
+      "change": -707.532765625001,
+      "changePercent": -2.749140314938967
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 53108.05,
+      "change": -248.0710937499971,
+      "changePercent": -0.46493464791812894
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 158.135,
+      "change": -0.3339941406250091,
+      "changePercent": -0.21076308487742623
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "英中銀が3年超ぶりの利上げ、政策金利4%に",
+          "summary": [
+            "イングランド銀行が政策金利を3.75%から4%へ引き上げ、3年あまりで初めての利上げとなった。",
+            "米紙は、イランでの戦争が物価を押し上げたことが背景にあると報じている。",
+            "BBCの経済担当編集長は、追加利上げはあと1回程度にとどまるとの見方を示した。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-05T14:36:26.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "欧州でインフレ対応の利上げが再開したことで、日米欧の金利差や為替の動きに注目が集まりそうです。中東情勢による資源高が背景にあるなら、エネルギーを輸入に頼る日本でも物価の上振れ圧力が続く可能性があり、日銀の判断にも影響しうる点が焦点になりそうです。"
+          }
+        },
+        {
+          "title": "ソニー、最終利益7917億円で過去最高を更新",
+          "summary": [
+            "ソニーグループの最終利益が7917億円となり、過去最高を更新した。",
+            "スパイダーマンの新作映画やゲームソフトの販売が好調だった。",
+            "日経新聞は、ゲーム「GTA6」の大ヒットが次期PS6の開発原資になると伝えている。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yZ25remtxdnFBR2JXdWQzZFhyS29ZYjYtLUdhX1NVR0RmVEhlNmtPSHRCM04zdjRUcDA0TUJUMTM4c3E2ZFdhTERZWm5QTXFmTGNzMHB5OU0weTAyMlVxa3FoVFk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T12:58:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "text": "ソニー株を持つ個人投資家や、エンタメ・ゲーム関連の取引先企業にとっては追い風の材料です。ゲームと映画の両輪で稼ぐ構図が鮮明になり、次世代機への投資が進めば、部品メーカーなど関連する国内企業の受注にも波及する可能性があります。"
+          }
+        },
+        {
+          "title": "ロシアのJT関連工場、大統領令で一時ロシア企業の管理下に",
+          "summary": [
+            "プーチン大統領が、ロシア国内にあるJT関連工場を一時的にロシア企業の管理下に置く大統領令に署名した。",
+            "JTのロシア事業は「暫定管理」の対象となった。",
+            "JT側は「状況および今後取り得る選択肢について精査」するとしている。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcnpmLURWdWxwUE5wMXpFYzVtb2NTYlhMUWtha1VTYzNkSmJrd0p3eUtjT0JLdTVUNHNkZmlwWWxtTmJHLW9vUTRxNEw2WVVBOURkdUI1T0FDazBUMHU0?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T12:38:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "text": "JTの株主や従業員にとっては、収益の柱だった海外事業の先行きが見通しにくくなる懸念があります。ロシアにまだ拠点を持つほかの日本企業にとっても、資産が事実上接収されうるリスクが改めて意識され、撤退や事業縮小の判断を迫られる可能性があります。"
+          }
+        },
+        {
+          "title": "個人向け国債に「複利型」「20年物」を検討、購入単位も引き下げへ",
+          "summary": [
+            "政府が個人向け国債に「複利型」や満期20年の商品を加える検討に入った。",
+            "あわせて購入単位の引き下げも検討している。",
+            "ロイターは、長期保有による資産形成を後押しする狙いがあると報じている。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EWU10MWswNmx5Ukx6RG9JQ2E5Q0cyVHNKTDVfN19hMF81YXlzbWEzQ291UnVvLTMtd0w4aDdISEhZOVMxSjlMRkdqZFRFN29VTlRabWl5dkhTMU01UTl5MjcyWk9hSERuY01PbQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T09:21:37.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "text": "少額から長期でコツコツ資産を増やしたい若い世代や、元本の安全性を重視する人にとって、新NISAと並ぶ選択肢が増える可能性があります。一方で、預金や投資信託から資金が移れば、銀行や運用会社の商品設計にも影響が出そうです。"
+          }
+        },
+        {
+          "title": "中国、ソフトバンクGによる54億ドルのロボット事業買収を阻止",
+          "summary": [
+            "中国当局が、ソフトバンクグループによる54億ドル規模のロボット事業買収を阻止した。",
+            "時事通信は、対象がABBのロボット事業だとするFT報道を伝えている。",
+            "米紙は、中国が外国企業の買収案件を妨げる動きとして報じている。"
+          ],
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmlCanlYdUl5YWZwSTdBM1V2NXJnUFlVTnlPNzRPT0ZqZlVHMHNtZmY0dmdKMEJLMlh4SUU5bER3UFp0ampfcUdIS28tMk1mMkZXZDBHLTl0Y1hCNWhlcm1XSi1yUV9MSVlXdjF2Y0RCOERoTDZJZ2dUUTRNMnVpeXNMZlM?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-05T11:23:03.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "日本企業による海外のM&Aでも、中国当局の審査が大きな壁になりうることを示す事例です。ロボットや自動化は日本の製造業の成長分野だけに、中国市場が絡む案件では計画の遅れや見直しが増え、関連銘柄の評価にも影響する可能性があります。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "米中間選挙で共和党が大敗、バンス副大統領は「イランでの戦争」に原因",
+          "summary": [
+            "米中間選挙で共和党が大敗し、党内で責任の押し付け合いが起きている。",
+            "バンス副大統領は敗因としてイランでの戦争を挙げ、厳しい総括を示した。",
+            "BBCは、政権内での最も鋭い路線の違いの表れの一つだと伝えている。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-05T03:47:56.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3c74/live/1d4cf850-d8e5-11f1-a701-fddedf244c16.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "議会の勢力図が変われば、関税や対中政策、防衛費負担をめぐる米国の方針が見直される可能性があり、日本の輸出企業や日米同盟の議論に直結します。政権内の路線対立が深まれば、中東政策や原油価格を通じて日本の物価にも影響が及ぶかもしれません。"
+          }
+        },
+        {
+          "title": "会計検査院、税の無駄など1445億円を指摘",
+          "summary": [
+            "会計検査院が、税金の無駄遣いなど1445億円分を不適切などと指摘した。",
+            "政府備蓄米の売り渡しが大幅に遅れ、申し込みから最長10カ月かかった例も挙げられた。",
+            "報告は国の事業や予算の使われ方を毎年点検するものだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601446?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-05T08:46:46.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/5/7974e43886776522eaf942e7e204771f87c47d2951a7228989f5f8e63199a7d8.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "text": "税金を納めるすべての人に関わる話です。特に備蓄米の放出の遅れは、コメ価格の高止まりに悩む家計や、米を仕入れる外食・小売の事業者にとって切実で、制度の運用改善が国会で議論になる可能性があります。"
+          }
+        },
+        {
+          "title": "香港民主派の象徴・黄之鋒氏に禁錮10年",
+          "summary": [
+            "香港の民主化デモの顔として知られる黄之鋒（ジョシュア・ウォン）氏に禁錮10年の判決が言い渡された。",
+            "30歳の同氏は、国家安全維持法で拘束された数百人の香港市民の一人だ。",
+            "同法は国際的に議論を呼んできた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-05T13:51:03.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "香港に拠点を置く日本企業や駐在員にとって、法の運用の厳しさを改めて意識させる判決です。人権問題への対応をめぐって日本政府が欧米と足並みをそろえるかが問われ、日中関係や対中ビジネスのリスク評価に影響する可能性があります。"
+          }
+        },
+        {
+          "title": "フランスで新たなストとデモ、労組が即時の回答を要求",
+          "summary": [
+            "フランスで新たなストライキと抗議デモが行われた。",
+            "5つの労働組合が全国行動日に合流した。",
+            "労組側は政府に対し、要求への即時の回答を求めている。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-05T14:42:29.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f641/live/977c1840-d91c-11f1-b441-2b33b063138f.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "フランスの政情不安が長引けば、ユーロ相場や欧州経済の先行きに影響し、欧州向けに輸出する日本企業の業績にも波及する可能性があります。現地での交通や物流の混乱は、旅行者や現地に拠点を持つ企業にとっても注意点になりそうです。"
+          }
+        },
+        {
+          "title": "プーチン氏、2027年のG20マンチェスター会合に招待されず",
+          "summary": [
+            "英国で2027年11月に開かれるG20サミットに、プーチン大統領は招待されないことになった。",
+            "マンチェスターのバーナム市長が明らかにした。",
+            "首相は、対ロ制裁があるためプーチン氏は出席しないとしている。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmqjnkn8951qo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-05T13:35:03.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0781/live/48774870-d91a-11f1-ad94-e17fee4cd332.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "主要国がロシアへの圧力を続ける姿勢を示すもので、日本もG7の一員として制裁を維持する立場が続きそうです。サハリンの資源開発などロシアと関わりのある日本のエネルギー政策や、北方領土をめぐる交渉の停滞が長引く可能性があります。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "ドコモの通信障害は「5G SA」契約者のみ、4G選択と再起動で回復の可能性",
+          "summary": [
+            "ドコモで全国的な通信障害が発生し、通話・データ通信・SMSが利用しづらい状態になった。",
+            "障害は5G専用設備で通信する「5G SA」の契約者のみで起きている。",
+            "4G通信を選んで再起動すると利用できる可能性があるという。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002912/",
+          "region": "国内",
+          "publishedAt": "2026-11-05T06:20:33.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002912/10011400/2048"
+        },
+        {
+          "title": "ドコモに不正アクセス、顧客情報が最大約30万件流出の可能性",
+          "summary": [
+            "NTTドコモの自社サーバーが不正アクセスを受けた。",
+            "利用者の情報が最大で約30万件流出した可能性がある。",
+            "同社では同じ時期に通信障害も起きている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zRjUzUHIyRHNYYWFaU3U2S2FGMnlXWFhjUWFfbW1VSDkxNXZxUWtXM2ZPUnRUTDFHNWZhalZTNjBoSG45M2x6YUt2VGxRVVdYQXd1SUxjcjc0bEs3c0JKRU82ZVRJemhlazFxN01aY2RMc0xhSS0wY2JaTGhCeFE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T13:58:07.000Z"
+        },
+        {
+          "title": "メール配信「アララ」への不正アクセス、モスやワークマンなどで流出発表相次ぐ",
+          "summary": [
+            "メール配信サービスを手がけるアララへの不正アクセスをめぐり、利用企業の発表が相次いでいる。",
+            "モスフードサービスやワークマン、IIJなどが顧客情報の流出を公表した。",
+            "当初は影響がないと案内していた企業が、後から流出を公表したケースもある。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/05/2000002907/",
+          "region": "国内",
+          "publishedAt": "2026-11-05T05:11:54.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/05/2000002907/10011388/2048"
+        },
+        {
+          "title": "米議会でテック企業への圧力強まる見通し",
+          "summary": [
+            "米議会で、テック企業のCEOを呼ぶ公聴会が増える見通しだ。",
+            "AIやデータセンターへの規制強化も議題に上がっている。",
+            "イーロン・マスク氏が主導したDOGEの予算削減への調査も予想されている。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/policy/1027430/democratic-control-congress-tech-policy",
+          "region": "海外",
+          "publishedAt": "2026-11-05T14:11:27.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "人型ロボット専業のAgility、初めて米ナスダックに上場",
+          "summary": [
+            "人型ロボットを手がけるAgilityがナスダックに上場した。",
+            "人型ロボット専業の企業としては初めての上場となる。",
+            "TechCrunchは投資家にとっての買い時かを問いかけている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+          "region": "海外",
+          "publishedAt": "2026-11-05T12:00:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "フジテレビ、ドラマ制作に生成AIを本格導入 27年には全ドラマで",
+          "summary": [
+            "フジテレビがドラマ制作で生成AIの活用を本格化すると発表した。",
+            "「救命病棟24時」ではAIで生成した架空の空撮風景に煙を合成した。",
+            "2027年10月をめどに、全ドラマで対応できる体制を整える。"
+          ],
+          "source": "Impress Watch",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T07:18:01.000Z"
+        },
+        {
+          "title": "中間選挙後、データセンターをめぐる対立が激化か",
+          "summary": [
+            "米中間選挙では、データセンターへの反対が党派を超えて広がった。",
+            "AI業界の政治団体は数百万ドルを投じたが、結果はまちまちだった。",
+            "今後、データセンターをめぐるより大きな対立が起きる可能性がある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "region": "海外",
+          "publishedAt": "2026-11-05T01:02:14.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677"
+        },
+        {
+          "title": "アップル、社内のAI利用予算を削減と報道",
+          "summary": [
+            "アップルが社内で使うAIの予算を削減していると報じられた。",
+            "エンジニアチームがAIに使う費用を大きく減らすという。",
+            "AIへの投資を見直す動きとして注目される。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "region": "海外",
+          "publishedAt": "2026-11-05T01:26:22.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800"
+        },
+        {
+          "title": "Uber、AIエージェント経由の配車予約はほぼゼロ",
+          "summary": [
+            "Uberは、AIエージェントを使った配車予約がほとんどないと明らかにした。",
+            "前四半期の最も忙しい週でも、AIエージェント経由の予約は4人だけだった。",
+            "AIエージェントの実用化にはまだ距離があることを示している。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "region": "海外",
+          "publishedAt": "2026-11-04T21:56:01.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800"
+        },
+        {
+          "title": "メタ、AIコーディングのスタートアップConductorを買収",
+          "summary": [
+            "メタがAIコーディングのスタートアップConductorを買収した。",
+            "Conductorは、エンジニアが複数のAIエージェントをチームとして動かせるサービスを提供する。",
+            "各エージェントがプロジェクトの別々の部分を同時に進められる。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "region": "海外",
+          "publishedAt": "2026-11-04T21:10:56.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "comment": "米中間選挙での民主党大勝を受け、AI・半導体株から資金が流出しています。日経平均は4日続落で1.8%安、ナスダックも2%を超える下げとなりました。",
+      "items": [
+        {
+          "title": "日経平均1110円安、4日続落で5カ月半ぶり安値",
+          "summary": [
+            "日経平均株価が1110円安と大幅に下落し、4日続落となった。",
+            "AIや半導体関連の銘柄が引き続き売られた。",
+            "取引終了にかけて下げ幅は縮小した。"
+          ],
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVzhuQzV2bXNnd252V180SDUzbWRKLUF3ZHNDQnBuWGtRNnk2WnhQMU4ya3FkWF9FOG1nMHdWaWx2NDFDclMyZTYyTGRKS18zSko2VEYyUF94V2U4ZmRsSU5aSDRYYk9fbW9kWFVtX0kzZ0J0Y2dKaGc0VEZjLVRlM3R4R2xoaTg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T06:45:47.000Z"
+        },
+        {
+          "title": "米国でAI株が下落、原油は反発",
+          "summary": [
+            "米国では、民主党の勝利「ブルーウェーブ」を受けてAI関連株が下落した。",
+            "ナスダックは寄り付きから下げ、半導体やデータセンター関連が売られた。",
+            "いったん下げた原油価格は反発した。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-05T02:35:00.000Z"
+        },
+        {
+          "title": "米民主党勝利で株価明暗、医療や再エネに買い・防衛株に逆風",
+          "summary": [
+            "米国での民主党の勝利を受けて、銘柄ごとに株価の明暗が分かれた。",
+            "医療や再生可能エネルギーの関連株は見直し買いが入った。",
+            "一方で防衛関連株には逆風となった。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BQWVRNi1vWXRQM1RTa016YkZGbGVENGRwLXNscHdaT0I1Yzl2cHMzZHN1MzduRmFBcWNYc1hWbEhJbTk1MVV0YXE5eVc0RnRaU0FKMUNYT1dYTndJT21oc2w1RmdJeVY5RFEtMg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T11:43:08.000Z"
+        },
+        {
+          "title": "トヨタ株が午後一段高、今期見通しを上方修正",
+          "summary": [
+            "トヨタ自動車の株価が午後に一段高となった。",
+            "2027年3月期の業績見通しを上方修正した。",
+            "営業利益は一転して増益の見通しとなった。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0U1dVcmtUTWpScmJnM1ktMjZ5TG9OTi1pSkdCckZvZ0Q1NTVGUVJ3YmFkNkVjV1dqQ0dDemprSGh2ZkhvcFVhNkxSdVhiSUk1dW5venppT2hTM3dMbDdxQWtzSmUwOE1zNFBySQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T05:31:41.000Z"
+        },
+        {
+          "title": "ソフトバンクG株が7カ月ぶり安値、アームの見通しに物足りなさ",
+          "summary": [
+            "ソフトバンクグループの株価が7カ月ぶりの安値をつけた。",
+            "傘下のアームの業績見通しが市場の期待に届かなかった。",
+            "AI関連株全体の売りも重荷となった。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91MHZxejduWUVoajJ4X1ZhQThWSk92X3JNQmNxQllBdjRuTWRhakNSRWtFalZrVVprYVlrWXNZZEd5d004SlZhc05hUXF4RXBOV1MzZTZzRXptV2tkZUw2ZFhrMHVGYjg2R25nQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T03:58:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "海外の詐欺拠点から電話、約8000万円詐取か「かけ子」逮捕",
+          "summary": [
+            "海外の詐欺拠点から電話をかけていたとみられる「かけ子」が逮捕された。",
+            "だまし取った金額は約8000万円にのぼる疑いがある。",
+            "海外拠点を使った特殊詐欺の実態解明が進められる。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHVncyTUNvdnRvRl9BeVkyT3FSenh4bkpWRlE5S0RRQUppQzJMbU9ZWXRnb3I4cWEtblFmSVpQUFdVQUVoZWMtWUlqODRpWjNoZEVpdHNRcEVLZTMyUHkw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T09:17:38.000Z"
+        },
+        {
+          "title": "山形でニセ警察詐欺の被害相次ぐ、70代女性が約1000万円",
+          "summary": [
+            "山形県内で、警察官を名乗る詐欺の被害が相次いでいる。",
+            "天童市の70代の女性は、現金約1000万円をだまし取られた。",
+            "警察を名乗る電話には注意が必要だ。"
+          ],
+          "source": "YTS山形テレビ",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLMUNhWG5kMjVqdzhxcUxwR2R0c28xRDZRZjZnUTZ2X0xZOEN4U3lNSzRna2plVFBtZ3RYM0pUX3VDS1k2UUdaOHhxR1RoLUtO?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T12:16:49.000Z"
+        },
+        {
+          "title": "山口の海上で見つかった男児の遺体、殺人・死体遺棄事件も視野に捜査",
+          "summary": [
+            "山口県の海上で見つかった男の子の遺体について、死因が判明した。",
+            "警察は殺人や死体遺棄事件の可能性も視野に捜査している。",
+            "詳しい経緯はまだ明らかになっていない。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeTRKWkFlUUZXQThRNjM4WU9CaVphRXlGT3VMcURSUEdZUzlnQTdYdnEtZC0teUpDcllDNGVZYzI5eGI2eGdHVk1qMmxtRE5Xd0prYjNuSFVybXhZelptdXNTVTFveUU?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T10:00:00.000Z"
+        },
+        {
+          "title": "マイナカード偽造の疑いで中国籍の男逮捕、組織的グループか",
+          "summary": [
+            "神奈川県警が、マイナンバーカードを偽造した疑いで中国籍の男を逮捕した。",
+            "警察は組織的なグループによる犯行の可能性があるとみている。",
+            "偽造カードの悪用に注意が呼びかけられている。"
+          ],
+          "source": "時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5sZGtXQXFXTjBxQ0dMUjNFbC1zcGRqazNyc0dBR3B5Zk1FOW01VUdXZkRwWFFzdlRVMW4zYlZmeURyc1RpWHhwdGRhTU5qeEpLaDRGQUZKUzdSalpmYk9aUzhmVQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T10:10:00.000Z"
+        },
+        {
+          "title": "ポーランド、ロシアのためのスパイ容疑で4人を逮捕",
+          "summary": [
+            "ポーランドで、ロシアのためにスパイ活動をした疑いで4人が逮捕された。",
+            "別の2人は、軍事用の部品を供給した罪で起訴された。",
+            "ロシアによる欧州での工作活動への警戒が続いている。"
+          ],
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQmtNR0FEOFZzVThiWWxRYjMyc1o2bGRQbU5iUWs4LUdYU1pWYzBILW1jZHlfaG16MzlVUm95RHpXbTQzWlBEUXhvTWpyNVdPZHNFNDItWDREZGszUnN1U2k1UlpJSTlNX0hhZU84NjZNb2NLUk1VRk5XR3IwWTlyZHIwREhXc1NWWl9Z0gGLAUFVX3lxTE5tZjlobFRvNHFhc3F4SUVJZmJla0QtcnQ4eVIxbXpTNmx6WHZDS0VKN3FaVGVtY3RzNzJlY01Zek55aFFLMzBpQmpnMXdVLUFRMFVRbzJVQ1R2WnBGb2dBWEE4eHFBamIzMEJHSEZ0MC1FMDZETFpWX3p2M0Z2dHhJUnpHcDV0WEd5N1U?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-05T14:18:35.000Z"
+        }
+      ]
+    }
+  ]
+}
