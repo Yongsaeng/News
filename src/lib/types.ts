@@ -1,4 +1,12 @@
-export type CategoryId = "economy" | "politics" | "tech" | "markets" | "crime";
+export type CategoryId = "economy" | "politics" | "tech" | "ai" | "markets" | "crime";
+
+/** 考察の切り口。海外ニュースは日本への影響、国内ニュースは影響を受ける人 */
+export type InsightAngle = "日本への影響" | "影響を受ける人";
+
+export interface Insight {
+  angle: InsightAngle;
+  text: string;
+}
 
 export interface NewsItem {
   title: string;
@@ -7,6 +15,10 @@ export interface NewsItem {
   url: string;
   region: "国内" | "海外";
   publishedAt?: string;
+  /** 記事のサムネイル画像URL（取得できたときだけ） */
+  image?: string;
+  /** 政治・経済のみ：このニュースの考察 */
+  insight?: Insight;
 }
 
 export interface CategoryDigest {
@@ -36,3 +48,6 @@ export interface Digest {
   /** サンプルデータのときだけ true */
   sample?: boolean;
 }
+
+/** 考察が必須のカテゴリ */
+export const INSIGHT_CATEGORIES: CategoryId[] = ["economy", "politics"];

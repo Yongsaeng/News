@@ -15,6 +15,7 @@ export interface Candidate {
   url: string;
   region: "国内" | "海外";
   publishedAt?: string;
+  image?: string;
 }
 
 export interface RawCategory {
@@ -34,7 +35,79 @@ export interface RawData {
 export const RAW_DIR = path.join(process.cwd(), "data", "raw");
 export const DIGEST_DIR = path.join(process.cwd(), "data", "digests");
 
-const parser = new Parser({ timeout: 15000, headers: { "User-Agent": UA } });
+type FeedItem = Parser.Item & {
+  mediaContent?: { $?: { url?: string; medium?: string; type?: string } }[];
+  mediaThumbnail?: { $?: { url?: string } }[];
+  "content:encoded"?: string;
+};
+
+const parser: Parser<object, FeedItem> = new Parser({
+  timeout: 15000,
+  headers: { "User-Agent": UA },
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail", { keepArray: true }],
+    ],
+  },
+});
+
+/** RSS の項目から画像URLを探す（enclosure → media:content → media:thumbnail → 本文中の img） */
+function imageFromItem(item: FeedItem): string | undefined {
+  const isImg = (u?: string, type?: string) =>
+    !!u && /^https?:\/\//.test(u) && (type?.startsWith("image") || /\.(jpe?g|png|webp|gif)(\?|$)/i.test(u));
+  if (item.enclosure && isImg(item.enclosure.url, item.enclosure.type)) return item.enclosure.url;
+  for (const m of item.mediaContent ?? []) {
+    if (m.$?.url && (m.$.medium === "image" || isImg(m.$.url, m.$.type))) return m.$.url;
+  }
+  const thumb = item.mediaThumbnail?.[0]?.$?.url;
+  if (thumb) return thumb;
+  const html = item["content:encoded"] || item.content || "";
+  const m = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return m && /^https?:\/\//.test(m[1]) ? m[1] : undefined;
+}
+
+/** 元記事のページから og:image を読む（先頭 300KB だけ） */
+async function ogImage(url: string): Promise<string | undefined> {
+  if (/news\.google\.com/.test(url)) return undefined; // Google ニュースの転送ページには記事画像がない
+  try {
+    const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow", signal: AbortSignal.timeout(8000) });
+    if (!res.ok || !res.body) return undefined;
+    const reader = res.body.getReader();
+    let html = "";
+    const dec = new TextDecoder();
+    while (html.length < 300_000) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      html += dec.decode(value, { stream: true });
+      if (/<\/head>/i.test(html)) break;
+    }
+    reader.cancel().catch(() => {});
+    const m =
+      html.match(/<meta[^>]+property=["']og:image(?::url)?["'][^>]+content=["']([^"']+)["']/i) ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::url)?["']/i) ||
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
+    if (!m) return undefined;
+    const img = new URL(m[1].replace(/&amp;/g, "&"), res.url).toString();
+    return /^https:\/\//.test(img) ? img : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/** 画像のない候補に og:image を補う（同時 8 件まで） */
+async function fillImages(cands: Candidate[]): Promise<void> {
+  const todo = cands.filter((c) => !c.image);
+  let i = 0;
+  await Promise.all(
+    Array.from({ length: 8 }, async () => {
+      while (i < todo.length) {
+        const c = todo[i++];
+        c.image = await ogImage(c.url);
+      }
+    }),
+  );
+}
 
 export function jstDate(d = new Date()): string {
   return new Date(d.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
@@ -77,6 +150,7 @@ async function collectCategory(cat: CategoryConfig): Promise<Candidate[]> {
         url: item.link,
         region: f.region,
         publishedAt: item.isoDate,
+        image: imageFromItem(item),
       });
     }
   }
@@ -120,7 +194,9 @@ export async function collectAll(): Promise<RawData> {
   const categories: RawCategory[] = [];
   for (const cat of CATEGORIES) {
     const candidates = await collectCategory(cat);
-    console.log(`  ${cat.name}: 候補 ${candidates.length} 件`);
+    await fillImages(candidates);
+    const withImg = candidates.filter((c) => c.image).length;
+    console.log(`  ${cat.name}: 候補 ${candidates.length} 件（画像あり ${withImg} 件）`);
     categories.push({ id: cat.id, name: cat.name, candidates });
   }
   return { date, collectedAt: new Date().toISOString(), markets, categories };

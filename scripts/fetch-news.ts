@@ -12,7 +12,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { collectAll, DIGEST_DIR, jstDate, RAW_DIR, readRaw, type RawCategory } from "./lib/collect";
-import type { CategoryDigest, Digest, MarketQuote, NewsItem } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, type CategoryDigest, type Digest, type MarketQuote, type NewsItem } from "../src/lib/types";
 
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
 
@@ -22,6 +22,9 @@ const CategorySchema = z.object({
       index: z.number().int().describe("候補リストの番号"),
       title: z.string().describe("日本語の見出し（30字程度）"),
       summary: z.array(z.string()).describe("日本語の要約をちょうど3行。各行40字程度"),
+      insight: z
+        .string()
+        .describe("経済・政治のみ：考察（80〜200字）。海外記事は日本への影響、国内記事はどんな人にどう影響するか。他カテゴリは空文字"),
     }),
   ),
   comment: z.string().describe("株価カテゴリのときだけ、今日の市況のひとこと（80字以内）。他カテゴリは空文字"),
@@ -39,6 +42,7 @@ const SYSTEM = `あなたは日本語ニュースキュレーターです。読�
 
 async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: MarketQuote[]): Promise<CategoryDigest> {
   const cands = cat.candidates;
+  const withInsight = INSIGHT_CATEGORIES.includes(cat.id);
   if (cands.length === 0) return { id: cat.id, name: cat.name, items: [] };
   const list = cands
     .map((c, i) => `[${i}] (${c.region} / ${c.source}) ${c.title}${c.snippet ? `\n    ${c.snippet}` : ""}`)
@@ -56,7 +60,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     messages: [
       {
         role: "user",
-        content: `カテゴリ「${cat.name}」の候補記事です。今日のトップ5を選び、日本語の見出しと3行要約を作ってください。${marketInfo}\n\n${list}`,
+        content: `カテゴリ「${cat.name}」の候補記事です。今日のトップ5を選び、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。海外記事は日本への影響、国内記事はどんな人にどう影響するかを、断定を避けて具体的に書いてください。" : ""}${marketInfo}\n\n${list}`,
       },
     ],
   });
@@ -69,7 +73,9 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     .slice(0, 5)
     .map((p) => {
       const c = cands[p.index];
-      return { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: c.region, publishedAt: c.publishedAt };
+      const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: c.region, publishedAt: c.publishedAt, image: c.image };
+      if (withInsight && p.insight) item.insight = { angle: c.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight };
+      return item;
     });
   return { id: cat.id, name: cat.name, items, comment: parsed.comment || undefined };
 }

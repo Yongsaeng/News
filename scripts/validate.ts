@@ -9,6 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { CATEGORIES } from "../src/lib/sources";
+import { INSIGHT_CATEGORIES } from "../src/lib/types";
 import { DIGEST_DIR, jstDate, readRaw } from "./lib/collect";
 
 const Item = z.object({
@@ -18,6 +19,10 @@ const Item = z.object({
   url: z.string().url(),
   region: z.enum(["国内", "海外"]),
   publishedAt: z.string().optional(),
+  image: z.string().url().optional(),
+  insight: z
+    .object({ angle: z.enum(["日本への影響", "影響を受ける人"]), text: z.string().min(40).max(300) })
+    .optional(),
 });
 
 const DigestSchema = z.object({
@@ -29,7 +34,7 @@ const DigestSchema = z.object({
   ),
   categories: z.array(
     z.object({
-      id: z.enum(["economy", "politics", "tech", "markets", "crime"]),
+      id: z.enum(["economy", "politics", "tech", "ai", "markets", "crime"]),
       name: z.string(),
       items: z.array(Item).max(5),
       comment: z.string().max(200).optional(),
@@ -66,16 +71,28 @@ function main() {
     const expected = CATEGORIES.map((c) => c.id).join(",");
     if (ids !== expected) errors.push(`categories の並びは ${expected} にしてください（今は ${ids}）`);
 
+    // 政治・経済は考察が必須。海外は「日本への影響」、国内は「影響を受ける人」
+    for (const c of d.categories) {
+      if (!INSIGHT_CATEGORIES.includes(c.id)) continue;
+      c.items.forEach((it, i) => {
+        const want = it.region === "海外" ? "日本への影響" : "影響を受ける人";
+        if (!it.insight) errors.push(`${c.name}[${i}]: insight（考察）がありません`);
+        else if (it.insight.angle !== want) errors.push(`${c.name}[${i}]: ${it.region}の記事なので angle は「${want}」にしてください`);
+      });
+    }
+
     // 記事 URL は収集した候補の中にあるものだけ（作り話の記事を防ぐ）
     const rawPath = path.join(process.cwd(), "data", "raw", `${date}.json`);
     if (fs.existsSync(rawPath)) {
       const raw = readRaw(date);
       for (const c of d.categories) {
         const cands = raw.categories.find((r) => r.id === c.id)?.candidates ?? [];
-        const urls = new Set(cands.map((x) => x.url));
         if (cands.length > 0 && c.items.length === 0) errors.push(`${c.name}: 候補があるのに記事が0件です`);
         c.items.forEach((it, i) => {
-          if (!urls.has(it.url)) errors.push(`${c.name}[${i}]: url が収集データにありません（${it.url}）`);
+          const cand = cands.find((x) => x.url === it.url);
+          if (!cand) errors.push(`${c.name}[${i}]: url が収集データにありません（${it.url}）`);
+          else if (it.image && it.image !== cand.image) errors.push(`${c.name}[${i}]: image は候補の値をそのまま使ってください`);
+          else if (!it.image && cand.image) errors.push(`${c.name}[${i}]: 候補に image があるのでコピーしてください`);
         });
       }
     } else {

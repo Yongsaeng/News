@@ -1,59 +1,91 @@
 @import "tailwindcss";
 
+/* レイアウト：紺の帯の下に、写真を大きく見せる1面（ヒーロー）→ 3行まとめと市況 → カテゴリごとの「大きな記事＋サムネイル付きリスト」 */
 :root {
-  --bg: #f7f5f0;
+  --paper: #f3f4f7;
   --surface: #ffffff;
-  --ink: #1a1a1a;
-  --muted: #6b6760;
-  --line: #e4e0d8;
-  --up: #15803d;
-  --down: #b91c1c;
-  --c-economy: #b45309;
-  --c-politics: #be123c;
-  --c-tech: #1d4ed8;
-  --c-markets: #047857;
-  --c-crime: #6d28d9;
+  --ink: #12161f;
+  --muted: #6c7381;
+  --faint: #9aa1ad;
+  --line: #e1e4ea;
+  --band: #0f1e3a;
+  --band-ink: #f4f6fb;
+  --signal: #f2c230;
+  --insight-bg: #fff8e1;
+  --insight-ink: #7a5a00;
+  --up: #0f8a4a;
+  --down: #d23a3a;
+  --c-economy: #e07a1f;
+  --c-politics: #d6336c;
+  --c-tech: #2f6bff;
+  --c-ai: #7c4dff;
+  --c-markets: #0fa37f;
+  --c-crime: #8a5a44;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111110;
-    --surface: #1b1b1a;
-    --ink: #ecebe8;
-    --muted: #9a968f;
-    --line: #2e2d2b;
-    --up: #4ade80;
+  :root:not([data-theme="light"]) {
+    --paper: #0b1222;
+    --surface: #121b2e;
+    --ink: #e8ecf3;
+    --muted: #97a0b2;
+    --faint: #6b7487;
+    --line: #1f2a40;
+    --band: #070d19;
+    --band-ink: #e8ecf3;
+    --signal: #f2c230;
+    --insight-bg: #2a2410;
+    --insight-ink: #f2d37a;
+    --up: #34d399;
     --down: #f87171;
-    --c-economy: #f59e0b;
-    --c-politics: #fb7185;
-    --c-tech: #60a5fa;
-    --c-markets: #34d399;
-    --c-crime: #a78bfa;
+    color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+  --paper: #0b1222;
+  --surface: #121b2e;
+  --ink: #e8ecf3;
+  --muted: #97a0b2;
+  --faint: #6b7487;
+  --line: #1f2a40;
+  --band: #070d19;
+  --band-ink: #e8ecf3;
+  --signal: #f2c230;
+  --insight-bg: #2a2410;
+  --insight-ink: #f2d37a;
+  --up: #34d399;
+  --down: #f87171;
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-bg: var(--bg);
+  --color-paper: var(--paper);
   --color-surface: var(--surface);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
+  --color-faint: var(--faint);
   --color-line: var(--line);
+  --color-band: var(--band);
+  --color-band-ink: var(--band-ink);
+  --color-signal: var(--signal);
+  --color-insight-bg: var(--insight-bg);
+  --color-insight-ink: var(--insight-ink);
   --color-up: var(--up);
   --color-down: var(--down);
-  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, system-ui, sans-serif;
-  --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "Noto Serif CJK JP", serif;
+  --font-sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", Meiryo, system-ui, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 4.5rem;
+  scroll-padding-top: 3.5rem;
 }
 
 body {
-  background: var(--bg);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "palt";
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -61,4 +93,20 @@ body {
 }
 .no-scrollbar {
   scrollbar-width: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+  }
 }
