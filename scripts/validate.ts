@@ -82,11 +82,12 @@ function main() {
     const expected = CATEGORIES.map((c) => c.id).join(",");
     if (ids !== expected) errors.push(`categories の並びは ${expected} にしてください（今は ${ids}）`);
 
-    // 国内・海外それぞれ最大 PER_REGION 件。国内→海外の順に並べる
+    // 国内・海外それぞれ PER_REGION 件（region は記事の内容で決める）。国内→海外の順に並べる
     for (const c of d.categories) {
       for (const r of REGIONS) {
         const n = c.items.filter((it) => it.region === r).length;
         if (n > PER_REGION) errors.push(`${c.name}: ${r}の記事は${PER_REGION}件までです（今は${n}件）`);
+        else if (n < PER_REGION) console.warn(`⚠ ${c.name}: ${r}の記事が${n}件です（${PER_REGION}件が目標。候補が本当に足りないときだけにしてください）`);
       }
       const order = c.items.map((it) => it.region).join(",");
       const sorted = [...c.items].sort((a, b) => REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region)).map((it) => it.region).join(",");

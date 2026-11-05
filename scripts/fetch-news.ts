@@ -20,6 +20,7 @@ const CategorySchema = z.object({
   picks: z.array(
     z.object({
       index: z.number().int().describe("候補リストの番号"),
+      region: z.enum(["国内", "海外"]).describe("記事の内容で判断：日本で起きた出来事・日本が主役なら国内、海外で起きた出来事・外国が主役なら海外（配信元の国ではない）"),
       title: z.string().describe("日本語の見出し（30字程度）"),
       summary: z.array(z.string()).describe("日本語の要約をちょうど3行。各行40字程度"),
       insight: z
@@ -48,7 +49,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
   const withInsight = INSIGHT_CATEGORIES.includes(cat.id);
   if (cands.length === 0) return { id: cat.id, name: cat.name, items: [] };
   const list = cands
-    .map((c, i) => `[${i}] (${c.region} / ${c.source}) ${c.title}${c.snippet ? `\n    ${c.snippet}` : ""}`)
+    .map((c, i) => `[${i}] (配信元：${c.region} / ${c.source}) ${c.title}${c.snippet ? `\n    ${c.snippet}` : ""}`)
     .join("\n");
   const marketInfo =
     cat.id === "markets" && quotes.length
@@ -63,7 +64,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     messages: [
       {
         role: "user",
-        content: `カテゴリ「${cat.name}」の候補記事です。国内の記事から最大${PER_REGION}件、海外の記事から最大${PER_REGION}件を選び、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。国内記事は、背景から分かりやすく解説し、どんな人にどう影響するかを具体的に。海外記事は、背景を分かりやすく解説し、為替・物価・企業・安全保障など日本にどの経路でどう影響しそうかを具体的に。断定は避けてください。" : ""}${marketInfo}\n\n${list}`,
+        content: `カテゴリ「${cat.name}」の候補記事です。内容が国内の記事を${PER_REGION}件、内容が海外の記事を${PER_REGION}件選び（候補の国内/海外は配信元の目安）、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。国内記事は、背景から分かりやすく解説し、どんな人にどう影響するかを具体的に。海外記事は、背景を分かりやすく解説し、為替・物価・企業・安全保障など日本にどの経路でどう影響しそうかを具体的に。断定は避けてください。" : ""}${marketInfo}\n\n${list}`,
       },
     ],
   });
@@ -72,11 +73,11 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
   if (!parsed) throw new Error(`${cat.name}: 要約の解析に失敗しました`);
 
   const picks = parsed.picks.filter((p) => cands[p.index]);
-  const items: NewsItem[] = REGIONS.flatMap((r) => picks.filter((p) => cands[p.index].region === r).slice(0, PER_REGION))
+  const items: NewsItem[] = REGIONS.flatMap((r) => picks.filter((p) => p.region === r).slice(0, PER_REGION))
     .map((p) => {
       const c = cands[p.index];
-      const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: c.region, publishedAt: c.publishedAt, image: c.image };
-      if (withInsight && p.insight) item.insight = { angle: c.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight, points: p.points.slice(0, 4) };
+      const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: p.region, publishedAt: c.publishedAt, image: c.image };
+      if (withInsight && p.insight) item.insight = { angle: p.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight, points: p.points.slice(0, 4) };
       return item;
     });
   return { id: cat.id, name: cat.name, items, comment: parsed.comment || undefined };

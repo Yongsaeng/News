@@ -89,46 +89,6 @@
           ]
         },
         {
-          "title": "ロシアのJT関連工場、大統領令で一時ロシア企業の管理下に",
-          "summary": [
-            "プーチン大統領が、ロシア国内にあるJT関連工場を一時的にロシア企業の管理下に置く大統領令に署名した。",
-            "JTのロシア事業は「暫定管理」の対象となった。",
-            "JT側は「状況および今後取り得る選択肢について精査」するとしている。"
-          ],
-          "source": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcnpmLURWdWxwUE5wMXpFYzVtb2NTYlhMUWtha1VTYzNkSmJrd0p3eUtjT0JLdTVUNHNkZmlwWWxtTmJHLW9vUTRxNEw2WVVBOURkdUI1T0FDazBUMHU0?oc=5",
-          "region": "国内",
-          "publishedAt": "2026-11-05T12:38:00.000Z",
-          "insight": {
-            "angle": "影響を受ける人",
-            "text": "JT（日本たばこ産業）はロシアでたばこを作って売る大きな事業を持っており、会社全体の稼ぎの中でも重要な柱でした。今回、プーチン大統領の大統領令で、その工場が一時的にロシア企業の管理下に置かれ「暫定管理」の対象になりました。これはウクライナ侵攻後に欧米企業の資産に対して行われてきたのと同じやり方で、会社が自分の工場を自由に動かせなくなる状態です。返ってくるのか、このまま失うのかは見通せません。",
-            "points": [
-              {
-                "label": "JTの株主",
-                "text": "海外事業の利益が減ったり、資産の価値を損失として計上したりする可能性があり、配当や株価に響くおそれがあります。"
-              },
-              {
-                "label": "JTの従業員・取引先",
-                "text": "ロシア事業に関わる人の雇用や、取引の行方が不透明になります。"
-              },
-              {
-                "label": "ロシアに拠点がある企業",
-                "text": "同じように資産を押さえられるリスクが改めて意識され、撤退や縮小を急ぐ判断を迫られる可能性があります。"
-              }
-            ]
-          },
-          "terms": [
-            {
-              "word": "大統領令",
-              "meaning": "大統領が議会を通さずに出す命令。ロシアでは大統領の権限が強く、企業の資産管理にも使われる。"
-            },
-            {
-              "word": "暫定管理",
-              "meaning": "正式な決定が出るまでの間、一時的に別の組織が運営や財産を管理すること。"
-            }
-          ]
-        },
-        {
           "title": "個人向け国債に「複利型」「20年物」を検討、購入単位も引き下げへ",
           "summary": [
             "政府が個人向け国債に「複利型」や満期20年の商品を加える検討に入った。",
@@ -169,6 +129,46 @@
             {
               "word": "資産形成",
               "meaning": "預金や投資を通じて、時間をかけてお金を増やしていくこと。"
+            }
+          ]
+        },
+        {
+          "title": "日本製紙、熊本・八代工場の紙生産の再開を断念",
+          "summary": [
+            "日本製紙が、熊本県の八代工場で紙やパルプの生産再開を断念した。",
+            "工場は熊本地震で被災し、生産が止まっていた。",
+            "日経新聞によると、新事業で拠点そのものは維持する方針だ。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lTTM2Ny1qS1JCMXRocWVlQU5MeEItUGgyX0x5S3BpYUVqSWRBNnZvdi1RY3NLRVA5MzlTU1c4MEJSN3dCdjY4XzVOSHhaQ0hRY1ZPT2JOamhzY0N5ZDRN?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T13:36:42.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "text": "日本製紙は国内大手の製紙会社です。熊本県八代市の工場は地震で被災して生産が止まっていましたが、紙やパルプの生産は再開しないと決めました。背景には、スマホやネットの普及で新聞や印刷用の紙の需要が年々減っていることがあるとみられます。多額の費用をかけて設備を直しても、売れる量が戻らなければ採算が合わないためです。一方で拠点は残して新しい事業に使う方針で、地元の雇用がどこまで守られるかが焦点になりそうです。",
+            "points": [
+              {
+                "label": "工場で働く人・地元",
+                "text": "生産をやめることで、配置転換や雇用の見直しが起きる可能性があります。新事業でどれだけ仕事が残るかが鍵です。"
+              },
+              {
+                "label": "地元の取引先",
+                "text": "原料や製品を運ぶ運送業者や、工場に資材を納める地元企業の売り上げが減るおそれがあります。"
+              },
+              {
+                "label": "紙を使う企業",
+                "text": "国内の紙の生産能力が減ると、印刷用紙や包装材の値上がりにつながる可能性があります。"
+              }
+            ]
+          },
+          "terms": [
+            {
+              "word": "パルプ",
+              "meaning": "木材などから取り出した繊維。紙の原料になる。"
+            },
+            {
+              "word": "被災",
+              "meaning": "地震や台風などの災害で被害を受けること。"
             }
           ]
         },
@@ -218,6 +218,46 @@
           ]
         },
         {
+          "title": "ロシアのJT関連工場、大統領令で一時ロシア企業の管理下に",
+          "summary": [
+            "プーチン大統領が、ロシア国内にあるJT関連工場を一時的にロシア企業の管理下に置く大統領令に署名した。",
+            "JTのロシア事業は「暫定管理」の対象となった。",
+            "JT側は「状況および今後取り得る選択肢について精査」するとしている。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcnpmLURWdWxwUE5wMXpFYzVtb2NTYlhMUWtha1VTYzNkSmJrd0p3eUtjT0JLdTVUNHNkZmlwWWxtTmJHLW9vUTRxNEw2WVVBOURkdUI1T0FDazBUMHU0?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-05T12:38:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "text": "JT（日本たばこ産業）はロシアでたばこを作って売る大きな事業を持っており、会社全体の稼ぎの中でも重要な柱でした。今回、プーチン大統領の大統領令で、その工場が一時的にロシア企業の管理下に置かれ「暫定管理」の対象になりました。これはウクライナ侵攻後に欧米企業の資産に対して行われてきたのと同じやり方で、会社が自分の工場を自由に動かせなくなる状態です。返ってくるのか、このまま失うのかは見通せません。",
+            "points": [
+              {
+                "label": "JTの業績・株価",
+                "text": "収益の柱だったロシア事業の利益が減ったり、資産を損失として計上したりする可能性があり、配当や株価に響くおそれがあります。"
+              },
+              {
+                "label": "ロシアに残る日本企業",
+                "text": "同じように資産を押さえられるリスクが改めて意識され、撤退や縮小を急ぐ判断を迫られる可能性があります。"
+              },
+              {
+                "label": "日ロの経済関係",
+                "text": "日本企業の資産が事実上取り上げられたことで、ロシアへの投資はさらに冷え込み、両国の経済の結びつきが一段と弱まりそうです。"
+              }
+            ]
+          },
+          "terms": [
+            {
+              "word": "大統領令",
+              "meaning": "大統領が議会を通さずに出す命令。ロシアでは大統領の権限が強く、企業の資産管理にも使われる。"
+            },
+            {
+              "word": "暫定管理",
+              "meaning": "正式な決定が出るまでの間、一時的に別の組織が運営や財産を管理すること。"
+            }
+          ]
+        },
+        {
           "title": "中国、ソフトバンクGによる54億ドルのロボット事業買収を阻止",
           "summary": [
             "中国当局が、ソフトバンクグループによる54億ドル規模のロボット事業買収を阻止した。",
@@ -254,50 +294,6 @@
             {
               "word": "FT",
               "meaning": "英国の経済紙フィナンシャル・タイムズの略。世界の金融・経済ニュースで影響力が大きい。"
-            }
-          ]
-        },
-        {
-          "title": "暗号資産交換所バイナンスにハッキング、米当局が銀行の備えを確認",
-          "summary": [
-            "暗号資産の大手交換所バイナンスがハッキングの被害を受けた。",
-            "米国の金融当局が、銀行のシステムの備えを確認したと関係者が明らかにした。",
-            "米紙は、犯人が63億ドル規模の窃盗を数カ月かけて計画していたと報じた。"
-          ],
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUTBnQWFyUm5Ob1BXb24yOUNReWNWOW1IV3FYaGVrcjh2Z0pBTy1QdE4zTVpfSHg0cm9KY3dCeVd2aFR4aGpueTJ2UmZJUUE4T3haMWMwY3VqemRBNXIzdUtfZ19HS1QtNVlscFhmVnBCT2FFUUdpUUtEb2ZLUHRKVnZUZndrcXEyWl9ZMEpnTFVLS2JVc01lT295X0RMWjN5UlhYNTZweHU0VlpJY0xLTlZPWjlPamJuRmxv?oc=5",
-          "region": "海外",
-          "publishedAt": "2026-11-05T10:20:20.000Z",
-          "insight": {
-            "angle": "日本への影響",
-            "text": "バイナンスは世界最大級の暗号資産（仮想通貨）の交換所で、ビットコインなどを売り買いする場を提供しています。今回、63億ドル（約9000億円）規模とされる巨額のハッキング被害が明らかになり、米国の金融当局は、同じような攻撃が銀行にも及ばないか、システムの備えを確認しました。暗号資産と銀行など従来の金融とのつながりが深まるほど、一つの事件が金融全体の不安に広がるおそれがあるためです。",
-            "points": [
-              {
-                "label": "暗号資産を持つ個人",
-                "text": "交換所が攻撃されると資産を失うおそれがあります。国内の登録業者を使い、預けっぱなしにしない意識が大切です。"
-              },
-              {
-                "label": "日本の銀行・交換所",
-                "text": "日本の金融庁も同じような点検を強める可能性があり、セキュリティ対策の費用や規制が増えそうです。"
-              },
-              {
-                "label": "暗号資産の価格",
-                "text": "大きな事件は価格の急落を招きやすく、ビットコインなどに投資している人の資産に響く可能性があります。"
-              }
-            ]
-          },
-          "terms": [
-            {
-              "word": "暗号資産",
-              "meaning": "インターネット上でやりとりされるデジタルのお金。ビットコインが代表例で「仮想通貨」とも呼ばれる。"
-            },
-            {
-              "word": "交換所",
-              "meaning": "暗号資産を円やドル、ほかの暗号資産と売り買いできるサービス。利用者の資産を預かっている。"
-            },
-            {
-              "word": "ハッキング",
-              "meaning": "他人のコンピューターやシステムに不正に侵入し、情報やお金を盗んだり壊したりすること。"
             }
           ]
         }
@@ -717,28 +713,6 @@
           ]
         },
         {
-          "title": "ChatGPTでGIFアニメが作成可能に、OpenAIが「Images 2.6」発表",
-          "summary": [
-            "OpenAIが画像生成AIの新版「Images 2.6」を発表した。",
-            "ChatGPTで、短い動くイラストのGIFアニメが作れるようになった。",
-            "アスキーなどが報じている。"
-          ],
-          "source": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTTJhRExORnRva3Z4blNwZEdoakhBZ3RNWkYxMGlGNGlLTWNkTjdYTEI5WkFTSGljTzJWbjlOSTBJTGFVR2pRamtLaDBoTW5VZTk1aVZOeTdhaDh1MF9GYWw3SHh0RF82ZW5uZzBGZUNHZ2pZbWM1SVM0TDQwMW8?oc=5",
-          "region": "国内",
-          "publishedAt": "2026-11-05T05:10:00.000Z",
-          "terms": [
-            {
-              "word": "画像生成AI",
-              "meaning": "文章で指示すると、その内容に合った絵や写真のような画像を作ってくれるAI。"
-            },
-            {
-              "word": "GIFアニメ",
-              "meaning": "数枚の画像を順番に表示して動いて見せる画像形式。SNSのスタンプなどでよく使われる。"
-            }
-          ]
-        },
-        {
           "title": "マーケターの6割超が「生成AI使いこなし格差」を実感",
           "summary": [
             "マーケティング担当者の6割超が、生成AIの「使いこなし格差」を感じているとの調査結果が出た。",
@@ -753,6 +727,28 @@
             {
               "word": "マーケティング",
               "meaning": "商品が売れる仕組みをつくる仕事。市場の調査や広告、販売の工夫などを含む。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを新しく作り出すAI。ChatGPTが代表例。"
+            }
+          ]
+        },
+        {
+          "title": "災害報道での生成AIの課題を議論、マスコミ倫理懇の大会が広島で開幕",
+          "summary": [
+            "新聞社や放送局などでつくるマスコミ倫理懇談会の全国大会が広島で開幕した。",
+            "災害報道で生成AIをどう扱うかが議題の一つになっている。",
+            "時事通信が伝えている。"
+          ],
+          "source": "時事通信ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aeGRvSU1ldlpQMzlLeHlVQk5CME03UDdVUFZYQlg4Rk5KYTMySDZybGM3OW5wdE1LeHRpOFZLazg1eFo2VG1uZEVpZk5KbjhlNS1pVw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T08:15:00.000Z",
+          "terms": [
+            {
+              "word": "マスコミ倫理懇談会",
+              "meaning": "新聞社や放送局などがつくる団体。報道のあり方や倫理について話し合う。"
             },
             {
               "word": "生成AI",
@@ -780,21 +776,24 @@
           ]
         },
         {
-          "title": "アップル、社内のAI利用予算を削減と報道",
+          "title": "ChatGPTでGIFアニメが作成可能に、OpenAIが「Images 2.6」発表",
           "summary": [
-            "アップルが社内で使うAIの予算を削減していると報じられた。",
-            "エンジニアチームがAIに使う費用を大きく減らすという。",
-            "AIへの投資を見直す動きとして注目される。"
+            "OpenAIが画像生成AIの新版「Images 2.6」を発表した。",
+            "ChatGPTで、短い動くイラストのGIFアニメが作れるようになった。",
+            "アスキーなどが報じている。"
           ],
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTTJhRExORnRva3Z4blNwZEdoakhBZ3RNWkYxMGlGNGlLTWNkTjdYTEI5WkFTSGljTzJWbjlOSTBJTGFVR2pRamtLaDBoTW5VZTk1aVZOeTdhaDh1MF9GYWw3SHh0RF82ZW5uZzBGZUNHZ2pZbWM1SVM0TDQwMW8?oc=5",
           "region": "海外",
-          "publishedAt": "2026-11-05T01:26:22.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+          "publishedAt": "2026-11-05T05:10:00.000Z",
           "terms": [
             {
-              "word": "エンジニア",
-              "meaning": "システムや製品を設計・開発する技術者。ここではアップル社内でソフトを作る人を指す。"
+              "word": "画像生成AI",
+              "meaning": "文章で指示すると、その内容に合った絵や写真のような画像を作ってくれるAI。"
+            },
+            {
+              "word": "GIFアニメ",
+              "meaning": "数枚の画像を順番に表示して動いて見せる画像形式。SNSのスタンプなどでよく使われる。"
             }
           ]
         },
