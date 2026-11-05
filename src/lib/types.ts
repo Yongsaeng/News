@@ -3,10 +3,23 @@ export type CategoryId = "economy" | "politics" | "tech" | "ai" | "markets" | "c
 /** 考察の切り口。海外ニュースは日本への影響、国内ニュースは影響を受ける人 */
 export type InsightAngle = "日本への影響" | "影響を受ける人";
 
-export interface Insight {
-  angle: InsightAngle;
+/** 考察の要点。国内は「誰が」、海外は「どの経路で」日本に影響するか */
+export interface InsightPoint {
+  label: string;
   text: string;
 }
+
+export interface Insight {
+  angle: InsightAngle;
+  /** 背景からかみ砕いた解説 */
+  text: string;
+  /** 影響の要点（国内：影響を受ける人ごと／海外：円相場・物価など影響の経路ごと） */
+  points?: InsightPoint[];
+}
+
+/** 1カテゴリあたり、国内・海外それぞれの最大件数 */
+export const PER_REGION = 3;
+export const REGIONS = ["国内", "海外"] as const;
 
 /** 記事中の難しい言葉とその意味（タップで表示） */
 export interface Term {

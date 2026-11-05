@@ -12,7 +12,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { collectAll, DIGEST_DIR, jstDate, RAW_DIR, readRaw, type RawCategory } from "./lib/collect";
-import { INSIGHT_CATEGORIES, type CategoryDigest, type Digest, type MarketQuote, type NewsItem } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, type CategoryDigest, type Digest, type MarketQuote, type NewsItem } from "../src/lib/types";
 
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
 
@@ -24,7 +24,10 @@ const CategorySchema = z.object({
       summary: z.array(z.string()).describe("日本語の要約をちょうど3行。各行40字程度"),
       insight: z
         .string()
-        .describe("経済・政治のみ：考察（80〜200字）。海外記事は日本への影響、国内記事はどんな人にどう影響するか。他カテゴリは空文字"),
+        .describe("経済・政治のみ：考察の解説（100〜350字）。背景からかみ砕いて説明する。他カテゴリは空文字"),
+      points: z
+        .array(z.object({ label: z.string(), text: z.string() }))
+        .describe("経済・政治のみ：影響の要点を2〜4個。国内記事は label＝影響を受ける人、海外記事は label＝日本への影響の経路（円相場、物価など）。text は20〜100字。他カテゴリは空配列"),
     }),
   ),
   comment: z.string().describe("株価カテゴリのときだけ、今日の市況のひとこと（80字以内）。他カテゴリは空文字"),
@@ -60,7 +63,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     messages: [
       {
         role: "user",
-        content: `カテゴリ「${cat.name}」の候補記事です。今日のトップ5を選び、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。海外記事は日本への影響、国内記事はどんな人にどう影響するかを、断定を避けて具体的に書いてください。" : ""}${marketInfo}\n\n${list}`,
+        content: `カテゴリ「${cat.name}」の候補記事です。国内の記事から最大${PER_REGION}件、海外の記事から最大${PER_REGION}件を選び、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。国内記事は、背景から分かりやすく解説し、どんな人にどう影響するかを具体的に。海外記事は、背景を分かりやすく解説し、為替・物価・企業・安全保障など日本にどの経路でどう影響しそうかを具体的に。断定は避けてください。" : ""}${marketInfo}\n\n${list}`,
       },
     ],
   });
@@ -68,13 +71,12 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
   const parsed = response.parsed_output;
   if (!parsed) throw new Error(`${cat.name}: 要約の解析に失敗しました`);
 
-  const items: NewsItem[] = parsed.picks
-    .filter((p) => cands[p.index])
-    .slice(0, 5)
+  const picks = parsed.picks.filter((p) => cands[p.index]);
+  const items: NewsItem[] = REGIONS.flatMap((r) => picks.filter((p) => cands[p.index].region === r).slice(0, PER_REGION))
     .map((p) => {
       const c = cands[p.index];
       const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: c.region, publishedAt: c.publishedAt, image: c.image };
-      if (withInsight && p.insight) item.insight = { angle: c.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight };
+      if (withInsight && p.insight) item.insight = { angle: c.region === "海外" ? "日本への影響" : "影響を受ける人", text: p.insight, points: p.points.slice(0, 4) };
       return item;
     });
   return { id: cat.id, name: cat.name, items, comment: parsed.comment || undefined };

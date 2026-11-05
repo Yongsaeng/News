@@ -38,7 +38,6 @@ function Source({ item, onImage = false }: { item: NewsItem; onImage?: boolean }
   return (
     <p className={`text-[11px] tracking-wide ${onImage ? "text-white/55" : "text-faint"}`}>
       {item.source}
-      {item.region === "海外" && "（海外）"}
       {t && <span className="ml-2">{t}</span>}
     </p>
   );
@@ -53,9 +52,28 @@ function InsightBox({ insight, item, open = false }: { insight: Insight; item: N
         <span className="ml-auto text-xs font-medium opacity-70 group-open:hidden">開く</span>
         <span className="ml-auto hidden text-xs font-medium opacity-70 group-open:inline">閉じる</span>
       </summary>
-      <p className="px-4 pb-4 text-[14px] leading-7">
-        <TermText text={insight.text} terms={item.terms} articleTitle={item.title} url={item.url} />
-      </p>
+      <div className="px-4 pb-4">
+        <p className="text-[14px] leading-7">
+          <TermText text={insight.text} terms={item.terms} articleTitle={item.title} url={item.url} />
+        </p>
+        {insight.points && insight.points.length > 0 && (
+          <>
+            <p className="mt-4 text-[11px] font-bold tracking-widest opacity-70">
+              {insight.angle === "日本への影響" ? "日本への波及" : "誰にどう影響する？"}
+            </p>
+            <ul className="mt-2 space-y-2">
+              {insight.points.map((p, i) => (
+                <li key={i} className="rounded-lg bg-paper/60 px-3 py-2.5">
+                  <p className="text-[13px] font-black">{p.label}</p>
+                  <p className="mt-0.5 text-[13px] leading-6">
+                    <TermText text={p.text} terms={item.terms} articleTitle={item.title} url={item.url} />
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
     </details>
   );
 }
@@ -250,21 +268,19 @@ function StoryRow({ item, cat }: { item: NewsItem; cat: CategoryDigest }) {
   );
 }
 
-function Category({ cat }: { cat: CategoryDigest }) {
-  const accent = ACCENT[cat.id];
-  const [lead, ...rest] = cat.items;
+function RegionBlock({ cat, region, items }: { cat: CategoryDigest; region: "国内" | "海外"; items: NewsItem[] }) {
+  const [lead, ...rest] = items;
   return (
-    <section id={cat.id} className="pt-12">
-      <div className="flex items-center gap-3">
-        <span className="h-6 w-1.5 rounded-full" style={{ background: accent }} />
-        <h2 className="text-2xl font-black sm:text-3xl">{cat.name}</h2>
-        {cat.items.length > 0 && <span className="text-sm text-faint">{cat.items.length}本</span>}
+    <div className="min-w-0">
+      <div className="mb-3 flex items-center gap-2">
+        <h3 className="rounded-md bg-band px-2.5 py-1 text-xs font-black tracking-widest text-band-ink">{region}</h3>
+        <span className="h-px flex-1 bg-line" />
+        <span className="text-xs text-faint">{items.length}本</span>
       </div>
-      {cat.comment && <p className="mt-3 max-w-3xl text-[15px] leading-7 text-muted">{cat.comment}</p>}
       {!lead ? (
-        <p className="mt-6 text-sm text-muted">今日は該当するニュースがありませんでした。</p>
+        <p className="rounded-2xl bg-surface p-5 text-sm text-muted">今日は{region}の該当ニュースがありませんでした。</p>
       ) : (
-        <div className="mt-5 grid items-start gap-4 lg:grid-cols-[1.2fr_1fr]">
+        <div className="space-y-4">
           <LeadStory item={lead} cat={cat} />
           {rest.length > 0 && (
             <div className="rounded-2xl bg-surface p-5 sm:p-6">
@@ -273,6 +289,30 @@ function Category({ cat }: { cat: CategoryDigest }) {
               ))}
             </div>
           )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Category({ cat }: { cat: CategoryDigest }) {
+  const accent = ACCENT[cat.id];
+  const domestic = cat.items.filter((i) => i.region === "国内");
+  const overseas = cat.items.filter((i) => i.region === "海外");
+  return (
+    <section id={cat.id} className="pt-12">
+      <div className="flex items-center gap-3">
+        <span className="h-6 w-1.5 rounded-full" style={{ background: accent }} />
+        <h2 className="text-2xl font-black sm:text-3xl">{cat.name}</h2>
+        {cat.items.length > 0 && <span className="text-sm text-faint">{cat.items.length}本</span>}
+      </div>
+      {cat.comment && <p className="mt-3 max-w-3xl text-[15px] leading-7 text-muted">{cat.comment}</p>}
+      {cat.items.length === 0 ? (
+        <p className="mt-6 text-sm text-muted">今日は該当するニュースがありませんでした。</p>
+      ) : (
+        <div className="mt-5 grid items-start gap-8 lg:grid-cols-2 lg:gap-6">
+          <RegionBlock cat={cat} region="国内" items={domestic} />
+          <RegionBlock cat={cat} region="海外" items={overseas} />
         </div>
       )}
     </section>

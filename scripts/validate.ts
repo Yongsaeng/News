@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { CATEGORIES } from "../src/lib/sources";
-import { INSIGHT_CATEGORIES } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, PER_REGION, REGIONS } from "../src/lib/types";
 import { DIGEST_DIR, jstDate, readRaw } from "./lib/collect";
 
 const Item = z.object({
@@ -21,7 +21,14 @@ const Item = z.object({
   publishedAt: z.string().optional(),
   image: z.string().url().optional(),
   insight: z
-    .object({ angle: z.enum(["日本への影響", "影響を受ける人"]), text: z.string().min(40).max(300) })
+    .object({
+      angle: z.enum(["日本への影響", "影響を受ける人"]),
+      text: z.string().min(100).max(350),
+      points: z
+        .array(z.object({ label: z.string().min(1).max(16), text: z.string().min(20).max(100) }))
+        .min(2)
+        .max(4),
+    })
     .optional(),
   terms: z
     .array(z.object({ word: z.string().min(1).max(20), meaning: z.string().min(10).max(120) }))
@@ -40,7 +47,7 @@ const DigestSchema = z.object({
     z.object({
       id: z.enum(["economy", "politics", "tech", "ai", "markets", "crime"]),
       name: z.string(),
-      items: z.array(Item).max(5),
+      items: z.array(Item).max(PER_REGION * 2),
       comment: z.string().max(200).optional(),
     }),
   ),
@@ -75,6 +82,17 @@ function main() {
     const expected = CATEGORIES.map((c) => c.id).join(",");
     if (ids !== expected) errors.push(`categories の並びは ${expected} にしてください（今は ${ids}）`);
 
+    // 国内・海外それぞれ最大 PER_REGION 件。国内→海外の順に並べる
+    for (const c of d.categories) {
+      for (const r of REGIONS) {
+        const n = c.items.filter((it) => it.region === r).length;
+        if (n > PER_REGION) errors.push(`${c.name}: ${r}の記事は${PER_REGION}件までです（今は${n}件）`);
+      }
+      const order = c.items.map((it) => it.region).join(",");
+      const sorted = [...c.items].sort((a, b) => REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region)).map((it) => it.region).join(",");
+      if (order !== sorted) errors.push(`${c.name}: 国内の記事を先、海外の記事を後に並べてください`);
+    }
+
     // 政治・経済は考察が必須。海外は「日本への影響」、国内は「影響を受ける人」
     for (const c of d.categories) {
       if (!INSIGHT_CATEGORIES.includes(c.id)) continue;
@@ -88,9 +106,9 @@ function main() {
     // 用語は記事の本文（要約・考察）に出てくる言葉だけ（見出しはリンクなのでタップできない）
     for (const c of d.categories) {
       c.items.forEach((it, i) => {
-        const body = [...it.summary, it.insight?.text ?? ""].join("\n");
+        const body = [...it.summary, it.insight?.text ?? "", ...(it.insight?.points ?? []).map((p) => p.text)].join("\n");
         for (const t of it.terms ?? []) {
-          if (!body.includes(t.word)) errors.push(`${c.name}[${i}]: 用語「${t.word}」が要約・考察の文中にありません`);
+          if (!body.includes(t.word)) errors.push(`${c.name}[${i}]: 用語「${t.word}」が要約・考察（解説・要点）の文中にありません`);
         }
       });
     }
