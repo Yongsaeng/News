@@ -2,9 +2,12 @@ name: 毎朝のニュース収集
 
 on:
   schedule:
-    # 毎日 21:15 UTC = 日本時間 6:15（GitHub の混雑で数分〜十数分遅れることがあります）
-    # 収集したデータは 6:50 ごろに Claude の定期実行が要約します
-    - cron: "15 21 * * *"
+    # GitHub の定時実行は混雑で大きく遅れたり、飛ばされたりすることがあるため、3回に分けて予約する
+    # 日本時間 5:07 / 5:37 / 6:07。今日のデータがすでにあれば2回目以降は何もしない
+    # 収集したデータは 6:52 ごろに Claude の定期実行が要約します
+    - cron: "7 20 * * *"
+    - cron: "37 20 * * *"
+    - cron: "7 21 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -20,14 +23,25 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: 今日のデータがあるか確認
+        id: check
+        run: |
+          f="data/raw/$(TZ=Asia/Tokyo date +%F).json"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$f" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"; echo "$f はすでにあります"
+          fi
+      - if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      - if: steps.check.outputs.skip != 'true'
+        run: npm ci
       - name: ニュースと株価を収集
+        if: steps.check.outputs.skip != 'true'
         run: npm run collect
       - name: 結果をコミット
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

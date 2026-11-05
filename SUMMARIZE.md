@@ -7,7 +7,7 @@
 
 - 今日の日付（日本時間）を `TZ=Asia/Tokyo date +%F` で確認する
 - `git pull origin main` で最新にし、`data/raw/<今日>.json` があるか確認する
-- まだなければ GitHub Actions の収集が遅れているので、3分おきに `git pull` して最大30分待つ。それでもなければ「収集データが届いていない」と報告して終了する（推測で記事を作らない）
+- まだなければ GitHub Actions の収集が遅れているので、`gh workflow run daily-collect.yml -R Yongsaeng/News --ref main` で収集を手動で始め（使えなければ飛ばす）、3分おきに `git pull` して最大30分待つ。それでもなければ「収集データが届いていない」と報告して終了する（推測で記事を作らない）
 - `data/digests/<今日>.json` がすでにあれば、作り直さずに終了する
 
 ## 2. 要約を書く
