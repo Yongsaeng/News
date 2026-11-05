@@ -49,54 +49,6 @@
       "name": "経済",
       "items": [
         {
-          "title": "ソニー、最終利益7917億円で過去最高を更新",
-          "summary": [
-            "ソニーグループの最終利益が7917億円となり、過去最高を更新した。",
-            "スパイダーマンの新作映画やゲームソフトの販売が好調だった。",
-            "日経新聞は、ゲーム「GTA6」の大ヒットが次期PS6の開発原資になると伝えている。"
-          ],
-          "source": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yZ25remtxdnFBR2JXdWQzZFhyS29ZYjYtLUdhX1NVR0RmVEhlNmtPSHRCM04zdjRUcDA0TUJUMTM4c3E2ZFdhTERZWm5QTXFmTGNzMHB5OU0weTAyMlVxa3FoVFk?oc=5",
-          "region": "国内",
-          "publishedAt": "2026-11-05T12:58:00.000Z",
-          "insight": {
-            "angle": "影響を受ける人",
-            "what": "ソニーグループの最終利益が7917億円となり、過去最高を更新しました。映画「スパイダーマン」の新作とゲームソフトの販売が好調でした。",
-            "why": "ソニーはゲーム機「プレイステーション」と、映画・音楽などのエンタメで稼ぐ会社です。ヒット作が映画とゲームで重なり、両方の売り上げが伸びました。モノづくりだけでなくエンタメで稼ぐ形への転換が実を結んだ代表例といえます。",
-            "points": [
-              {
-                "label": "ソニー株を持つ投資家",
-                "text": "好決算は株価の支えになりやすい一方、AI関連株の売りなど相場全体の流れに左右される点には注意が必要です。",
-                "level": "中",
-                "when": "すぐ"
-              },
-              {
-                "label": "ゲーム好きの消費者",
-                "text": "次世代機の開発が進めば新しいゲーム機の発表が近づく可能性があります。ただし部品高で本体価格が上がる懸念もあります。",
-                "level": "小",
-                "when": "数年後"
-              },
-              {
-                "label": "部品・ソフトの取引先",
-                "text": "半導体や電子部品をソニーに納める国内企業や、ゲーム開発会社の受注が増える可能性があります。",
-                "level": "中",
-                "when": "数カ月後"
-              }
-            ],
-            "watch": "大ヒットで得たお金を、次の家庭用ゲーム機の開発原資としてどう使うか。"
-          },
-          "terms": [
-            {
-              "word": "最終利益",
-              "meaning": "売上からすべての費用や税金を差し引いて最後に残る利益。「純利益」とも呼ばれる。"
-            },
-            {
-              "word": "開発原資",
-              "meaning": "新しい製品を開発するための元手となるお金。ここでは次の家庭用ゲーム機の開発費を指す。"
-            }
-          ]
-        },
-        {
           "title": "個人向け国債に「複利型」「20年物」を検討、購入単位も引き下げへ",
           "summary": [
             "政府が個人向け国債に「複利型」や満期20年の商品を加える検討に入った。",
@@ -146,7 +98,77 @@
               "word": "資産形成",
               "meaning": "預金や投資を通じて、時間をかけてお金を増やしていくこと。"
             }
-          ]
+          ],
+          "score": {
+            "total": 85,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "ソニー、最終利益7917億円で過去最高を更新",
+          "summary": [
+            "ソニーグループの最終利益が7917億円となり、過去最高を更新した。",
+            "スパイダーマンの新作映画やゲームソフトの販売が好調だった。",
+            "日経新聞は、ゲーム「GTA6」の大ヒットが次期PS6の開発原資になると伝えている。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yZ25remtxdnFBR2JXdWQzZFhyS29ZYjYtLUdhX1NVR0RmVEhlNmtPSHRCM04zdjRUcDA0TUJUMTM4c3E2ZFdhTERZWm5QTXFmTGNzMHB5OU0weTAyMlVxa3FoVFk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T12:58:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "ソニーグループの最終利益が7917億円となり、過去最高を更新しました。映画「スパイダーマン」の新作とゲームソフトの販売が好調でした。",
+            "why": "ソニーはゲーム機「プレイステーション」と、映画・音楽などのエンタメで稼ぐ会社です。ヒット作が映画とゲームで重なり、両方の売り上げが伸びました。モノづくりだけでなくエンタメで稼ぐ形への転換が実を結んだ代表例といえます。",
+            "points": [
+              {
+                "label": "ソニー株を持つ投資家",
+                "text": "好決算は株価の支えになりやすい一方、AI関連株の売りなど相場全体の流れに左右される点には注意が必要です。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "ゲーム好きの消費者",
+                "text": "次世代機の開発が進めば新しいゲーム機の発表が近づく可能性があります。ただし部品高で本体価格が上がる懸念もあります。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "部品・ソフトの取引先",
+                "text": "半導体や電子部品をソニーに納める国内企業や、ゲーム開発会社の受注が増える可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "大ヒットで得たお金を、次の家庭用ゲーム機の開発原資としてどう使うか。"
+          },
+          "terms": [
+            {
+              "word": "最終利益",
+              "meaning": "売上からすべての費用や税金を差し引いて最後に残る利益。「純利益」とも呼ばれる。"
+            },
+            {
+              "word": "開発原資",
+              "meaning": "新しい製品を開発するための元手となるお金。ここでは次の家庭用ゲーム機の開発費を指す。"
+            }
+          ],
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "日本製紙、熊本・八代工場の紙生産の再開を断念",
@@ -194,7 +216,18 @@
               "word": "被災",
               "meaning": "地震や台風などの災害で被害を受けること。"
             }
-          ]
+          ],
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "英中銀が3年超ぶりの利上げ、政策金利4%に",
@@ -247,7 +280,18 @@
               "word": "利上げ",
               "meaning": "政策金利を引き上げること。物価上昇を抑えるねらいがあるが、ローンの負担は重くなる。"
             }
-          ]
+          ],
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "ロシアのJT関連工場、大統領令で一時ロシア企業の管理下に",
@@ -295,7 +339,18 @@
               "word": "暫定管理",
               "meaning": "正式な決定が出るまでの間、一時的に別の組織が運営や財産を管理すること。"
             }
-          ]
+          ],
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 50,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "中国、ソフトバンクGによる54億ドルのロボット事業買収を阻止",
@@ -343,7 +398,18 @@
               "word": "FT",
               "meaning": "英国の経済紙フィナンシャル・タイムズの略。世界の金融・経済ニュースで影響力が大きい。"
             }
-          ]
+          ],
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 50,
+              "global": 10,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         }
       ]
     },
@@ -398,56 +464,18 @@
               "word": "政府備蓄米",
               "meaning": "不作や災害に備えて国が保管しているお米。価格が高いときに市場へ放出されることがある。"
             }
-          ]
-        },
-        {
-          "title": "政府、「サイバー救援隊」創設へ",
-          "summary": [
-            "政府が「サイバー救援隊」を創設する案をまとめた。",
-            "名前のとおり、サイバー攻撃を受けた組織の救援にあたる部隊とみられる。",
-            "現時点では政府案の段階で、詳しい内容の発表が待たれる。"
           ],
-          "source": "Yahoo!ニュース",
-          "url": "https://news.yahoo.co.jp/pickup/6601372?source=rss",
-          "region": "国内",
-          "publishedAt": "2026-11-04T22:41:50.000Z",
-          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/5/a0b19048b9948163388da996877fbe42670b7635d55b7590272e518e810f37da.jpg",
-          "insight": {
-            "angle": "影響を受ける人",
-            "what": "政府が、サイバー攻撃を受けた組織を支援するとみられる「サイバー救援隊」を創設する案をまとめました。",
-            "why": "企業や病院、自治体がサイバー攻撃で業務を止められる被害が相次ぎ、今月もドコモへの不正アクセスなどが続きました。中小企業や地方の病院は専門の人材が少なく自力で立て直すのが難しいため、国が専門家を送り込む仕組みが求められています。",
-            "points": [
-              {
-                "label": "中小企業・町工場",
-                "text": "専門の担当者がいない会社でも、被害を受けたときに外部の専門家の助けを受けられる可能性があります。",
-                "level": "大",
-                "when": "数年後"
-              },
-              {
-                "label": "病院・役所の利用者",
-                "text": "攻撃で診療や窓口が止まっても、復旧が早まれば暮らしへの影響が小さくなりそうです。",
-                "level": "中",
-                "when": "数年後"
-              },
-              {
-                "label": "セキュリティ人材",
-                "text": "救援隊の担い手として需要が高まり、国の採用や民間との協力が広がる可能性があります。",
-                "level": "中",
-                "when": "数カ月後"
-              }
-            ],
-            "watch": "誰がどこまで支援し、費用を誰が負担するのか。"
-          },
-          "terms": [
-            {
-              "word": "サイバー攻撃",
-              "meaning": "インターネットを通じてコンピューターに侵入し、データを盗んだり、システムを止めたりする攻撃。"
+          "score": {
+            "total": 85,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
             },
-            {
-              "word": "不正アクセス",
-              "meaning": "許可なく他人のシステムに入り込むこと。法律で禁止されている。"
-            }
-          ]
+            "penalty": 0
+          }
         },
         {
           "title": "首相「米大統領と協力していきたい」、米中間選挙を受け",
@@ -496,7 +524,78 @@
               "word": "共和党",
               "meaning": "米国の二大政党の一つ。現在の大統領が所属する保守系の政党。"
             }
-          ]
+          ],
+          "score": {
+            "total": 73,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "政府、「サイバー救援隊」創設へ",
+          "summary": [
+            "政府が「サイバー救援隊」を創設する案をまとめた。",
+            "名前のとおり、サイバー攻撃を受けた組織の救援にあたる部隊とみられる。",
+            "現時点では政府案の段階で、詳しい内容の発表が待たれる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601372?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-04T22:41:50.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/5/a0b19048b9948163388da996877fbe42670b7635d55b7590272e518e810f37da.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "政府が、サイバー攻撃を受けた組織を支援するとみられる「サイバー救援隊」を創設する案をまとめました。",
+            "why": "企業や病院、自治体がサイバー攻撃で業務を止められる被害が相次ぎ、今月もドコモへの不正アクセスなどが続きました。中小企業や地方の病院は専門の人材が少なく自力で立て直すのが難しいため、国が専門家を送り込む仕組みが求められています。",
+            "points": [
+              {
+                "label": "中小企業・町工場",
+                "text": "専門の担当者がいない会社でも、被害を受けたときに外部の専門家の助けを受けられる可能性があります。",
+                "level": "大",
+                "when": "数年後"
+              },
+              {
+                "label": "病院・役所の利用者",
+                "text": "攻撃で診療や窓口が止まっても、復旧が早まれば暮らしへの影響が小さくなりそうです。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "セキュリティ人材",
+                "text": "救援隊の担い手として需要が高まり、国の採用や民間との協力が広がる可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "誰がどこまで支援し、費用を誰が負担するのか。"
+          },
+          "terms": [
+            {
+              "word": "サイバー攻撃",
+              "meaning": "インターネットを通じてコンピューターに侵入し、データを盗んだり、システムを止めたりする攻撃。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。法律で禁止されている。"
+            }
+          ],
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "米中間選挙で共和党が大敗、バンス副大統領は「イランでの戦争」に原因",
@@ -545,7 +644,18 @@
               "word": "副大統領",
               "meaning": "大統領を補佐する米国のナンバー2。大統領に何かあれば職務を引き継ぐ。"
             }
-          ]
+          ],
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "香港民主派の象徴・黄之鋒氏に禁錮10年",
@@ -594,7 +704,18 @@
               "word": "禁錮",
               "meaning": "刑務所に入れられるが、作業は義務づけられない刑罰。"
             }
-          ]
+          ],
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "プーチン氏、2027年のG20マンチェスター会合に招待されず",
@@ -643,7 +764,18 @@
               "word": "対ロ制裁",
               "meaning": "ウクライナ侵攻などを理由に、各国がロシアに科している経済的な罰則。"
             }
-          ]
+          ],
+          "score": {
+            "total": 52,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         }
       ]
     },
@@ -672,7 +804,18 @@
               "word": "SMS",
               "meaning": "電話番号あてに短い文章を送れるサービス。認証コードの受け取りなどにも使われる。"
             }
-          ]
+          ],
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "ドコモに不正アクセス、顧客情報が最大約30万件流出の可能性",
@@ -690,7 +833,18 @@
               "word": "不正アクセス",
               "meaning": "権限のない人が他人のシステムやサーバーに入り込むこと。情報流出の原因になる。"
             }
-          ]
+          ],
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "メール配信「アララ」への不正アクセス、モスやワークマンなどで流出発表相次ぐ",
@@ -709,7 +863,18 @@
               "word": "メール配信サービス",
               "meaning": "企業が会員やお客さんに、まとめてメールを送るための仕組みを提供するサービス。"
             }
-          ]
+          ],
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "米議会でテック企業への圧力強まる見通し",
@@ -732,7 +897,18 @@
               "word": "DOGE",
               "meaning": "マスク氏が主導した米政府の効率化組織。政府の支出や人員を大きく削減した。"
             }
-          ]
+          ],
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "人型ロボット専業のAgility、初めて米ナスダックに上場",
@@ -755,7 +931,18 @@
               "word": "ナスダック",
               "meaning": "米国の株式市場の一つ。IT企業やハイテク企業が多く上場している。"
             }
-          ]
+          ],
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "アマゾン、Prime会員の料理宅配をUber Eatsと提携",
@@ -778,7 +965,18 @@
               "word": "GrubHub",
               "meaning": "米国の料理宅配サービス。アマゾンはこれまでPrime会員向けの特典で提携していた。"
             }
-          ]
+          ],
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         }
       ]
     },
@@ -786,28 +984,6 @@
       "id": "ai",
       "name": "AI",
       "items": [
-        {
-          "title": "フジテレビ、ドラマ制作に生成AIを本格導入 27年には全ドラマで",
-          "summary": [
-            "フジテレビがドラマ制作で生成AIの活用を本格化すると発表した。",
-            "「救命病棟24時」ではAIで生成した架空の空撮風景に煙を合成した。",
-            "2027年10月をめどに、全ドラマで対応できる体制を整える。"
-          ],
-          "source": "Impress Watch",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
-          "region": "国内",
-          "publishedAt": "2026-11-05T07:18:01.000Z",
-          "terms": [
-            {
-              "word": "生成AI",
-              "meaning": "文章や画像、動画などを新しく作り出せるAI。ChatGPTや画像生成AIが代表例。"
-            },
-            {
-              "word": "空撮",
-              "meaning": "ドローンやヘリコプターなどから空中で撮影した映像や写真。"
-            }
-          ]
-        },
         {
           "title": "マーケターの6割超が「生成AI使いこなし格差」を実感",
           "summary": [
@@ -828,7 +1004,51 @@
               "word": "生成AI",
               "meaning": "文章や画像などを新しく作り出すAI。ChatGPTが代表例。"
             }
-          ]
+          ],
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "フジテレビ、ドラマ制作に生成AIを本格導入 27年には全ドラマで",
+          "summary": [
+            "フジテレビがドラマ制作で生成AIの活用を本格化すると発表した。",
+            "「救命病棟24時」ではAIで生成した架空の空撮風景に煙を合成した。",
+            "2027年10月をめどに、全ドラマで対応できる体制を整える。"
+          ],
+          "source": "Impress Watch",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKNXV0amJoeHhwbWpiYXJvaTlReXd6WWthTnYyN1JlbGdPd1c1cGJNUGJtWkktSm1uZ3V0X2RoVktOWjBrRU1EaFROVzdfSXdXYTJpVkxjMHNtQzBaWDVHM1R2bW8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T07:18:01.000Z",
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを新しく作り出せるAI。ChatGPTや画像生成AIが代表例。"
+            },
+            {
+              "word": "空撮",
+              "meaning": "ドローンやヘリコプターなどから空中で撮影した映像や写真。"
+            }
+          ],
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "災害報道での生成AIの課題を議論、マスコミ倫理懇の大会が広島で開幕",
@@ -850,26 +1070,18 @@
               "word": "生成AI",
               "meaning": "文章や画像などを新しく作り出すAI。ChatGPTが代表例。"
             }
-          ]
-        },
-        {
-          "title": "中間選挙後、データセンターをめぐる対立が激化か",
-          "summary": [
-            "米中間選挙では、データセンターへの反対が党派を超えて広がった。",
-            "AI業界の政治団体は数百万ドルを投じたが、結果はまちまちだった。",
-            "今後、データセンターをめぐるより大きな対立が起きる可能性がある。"
           ],
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-          "region": "海外",
-          "publishedAt": "2026-11-05T01:02:14.000Z",
-          "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677",
-          "terms": [
-            {
-              "word": "データセンター",
-              "meaning": "大量のサーバーを置いて、インターネットやAIの計算を動かす施設。電力や水を多く使う。"
-            }
-          ]
+          "score": {
+            "total": 23,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "ChatGPTでGIFアニメが作成可能に、OpenAIが「Images 2.6」発表",
@@ -891,7 +1103,48 @@
               "word": "GIFアニメ",
               "meaning": "数枚の画像を順番に表示して動いて見せる画像形式。SNSのスタンプなどでよく使われる。"
             }
-          ]
+          ],
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "中間選挙後、データセンターをめぐる対立が激化か",
+          "summary": [
+            "米中間選挙では、データセンターへの反対が党派を超えて広がった。",
+            "AI業界の政治団体は数百万ドルを投じたが、結果はまちまちだった。",
+            "今後、データセンターをめぐるより大きな対立が起きる可能性がある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "region": "海外",
+          "publishedAt": "2026-11-05T01:02:14.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677",
+          "terms": [
+            {
+              "word": "データセンター",
+              "meaning": "大量のサーバーを置いて、インターネットやAIの計算を動かす施設。電力や水を多く使う。"
+            }
+          ],
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "メタ、AIコーディングのスタートアップConductorを買収",
@@ -914,7 +1167,18 @@
               "word": "AIエージェント",
               "meaning": "人の代わりに予約や調べものなどの作業を自分で判断してこなすAI。"
             }
-          ]
+          ],
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         }
       ]
     },
@@ -943,7 +1207,18 @@
               "word": "続落",
               "meaning": "株価などが前の日に続いて下がること。4日続落は4日連続の値下がり。"
             }
-          ]
+          ],
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "米民主党勝利で株価明暗、医療や再エネに買い・防衛株に逆風",
@@ -965,7 +1240,18 @@
               "word": "防衛関連株",
               "meaning": "防衛装備をつくる企業の株。各国の防衛費や政策の変化で値動きしやすい。"
             }
-          ]
+          ],
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "トヨタ株が午後一段高、今期見通しを上方修正",
@@ -987,7 +1273,18 @@
               "word": "営業利益",
               "meaning": "本業でどれだけ稼いだかを表す利益。売上から原材料費や人件費などを引いたもの。"
             }
-          ]
+          ],
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "米国でAI株が下落、原油は反発",
@@ -1009,29 +1306,18 @@
               "word": "寄り付き",
               "meaning": "その日の取引で最初に値段がつくこと。"
             }
-          ]
-        },
-        {
-          "title": "インド株、7カ月ぶりの大幅高 原油安と海外資金の流入で",
-          "summary": [
-            "インドの株式市場で株価が大きく上昇し、7カ月ぶりの上げ幅を記録した。",
-            "原油価格の下落が追い風になった。",
-            "海外投資家からの資金流入も相場を押し上げた。"
           ],
-          "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
-          "region": "海外",
-          "publishedAt": "2026-11-05T02:37:00.000Z",
-          "terms": [
-            {
-              "word": "原油価格",
-              "meaning": "石油のもとになる原油の値段。上がると燃料や物価が高くなり、企業や家計の負担が増える。"
+          "score": {
+            "total": 75,
+            "parts": {
+              "japan": 35,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
             },
-            {
-              "word": "海外投資家",
-              "meaning": "外国から株を売り買いする投資家。資金量が大きく、相場を動かす力がある。"
-            }
-          ]
+            "penalty": 0
+          }
         },
         {
           "title": "米株先物、ダウは上昇続く一方でAI株は軟調",
@@ -1053,7 +1339,51 @@
               "word": "ダウ平均",
               "meaning": "米国の代表的な企業30社の株価から計算する指数。米国株全体の動きの目安になる。"
             }
-          ]
+          ],
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 35,
+              "global": 10,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "インド株、7カ月ぶりの大幅高 原油安と海外資金の流入で",
+          "summary": [
+            "インドの株式市場で株価が大きく上昇し、7カ月ぶりの上げ幅を記録した。",
+            "原油価格の下落が追い風になった。",
+            "海外投資家からの資金流入も相場を押し上げた。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-05T02:37:00.000Z",
+          "terms": [
+            {
+              "word": "原油価格",
+              "meaning": "石油のもとになる原油の値段。上がると燃料や物価が高くなり、企業や家計の負担が増える。"
+            },
+            {
+              "word": "海外投資家",
+              "meaning": "外国から株を売り買いする投資家。資金量が大きく、相場を動かす力がある。"
+            }
+          ],
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         }
       ]
     },
@@ -1081,25 +1411,18 @@
               "word": "特殊詐欺",
               "meaning": "電話などで相手を信じ込ませ、現金をだまし取る詐欺の総称。オレオレ詐欺などが含まれる。"
             }
-          ]
-        },
-        {
-          "title": "山口の海上で見つかった男児の遺体、殺人・死体遺棄事件も視野に捜査",
-          "summary": [
-            "山口県の海上で見つかった男の子の遺体について、死因が判明した。",
-            "警察は殺人や死体遺棄事件の可能性も視野に捜査している。",
-            "詳しい経緯はまだ明らかになっていない。"
           ],
-          "source": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeTRKWkFlUUZXQThRNjM4WU9CaVphRXlGT3VMcURSUEdZUzlnQTdYdnEtZC0teUpDcllDNGVZYzI5eGI2eGdHVk1qMmxtRE5Xd0prYjNuSFVybXhZelptdXNTVTFveUU?oc=5",
-          "region": "国内",
-          "publishedAt": "2026-11-05T10:00:00.000Z",
-          "terms": [
-            {
-              "word": "死体遺棄",
-              "meaning": "亡くなった人の遺体を捨てたり隠したりする犯罪。"
-            }
-          ]
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "マイナカード偽造の疑いで中国籍の男逮捕、組織的グループか",
@@ -1117,7 +1440,47 @@
               "word": "マイナンバーカード",
               "meaning": "マイナンバーと顔写真が入ったカード。本人確認や行政手続き、健康保険証として使える。"
             }
-          ]
+          ],
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
+        },
+        {
+          "title": "山口の海上で見つかった男児の遺体、殺人・死体遺棄事件も視野に捜査",
+          "summary": [
+            "山口県の海上で見つかった男の子の遺体について、死因が判明した。",
+            "警察は殺人や死体遺棄事件の可能性も視野に捜査している。",
+            "詳しい経緯はまだ明らかになっていない。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGeTRKWkFlUUZXQThRNjM4WU9CaVphRXlGT3VMcURSUEdZUzlnQTdYdnEtZC0teUpDcllDNGVZYzI5eGI2eGdHVk1qMmxtRE5Xd0prYjNuSFVybXhZelptdXNTVTFveUU?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-05T10:00:00.000Z",
+          "terms": [
+            {
+              "word": "死体遺棄",
+              "meaning": "亡くなった人の遺体を捨てたり隠したりする犯罪。"
+            }
+          ],
+          "score": {
+            "total": 30,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "ポーランド、ロシアのためのスパイ容疑で4人を逮捕",
@@ -1135,7 +1498,18 @@
               "word": "スパイ活動",
               "meaning": "他国のために、機密情報をひそかに集めたり伝えたりする活動。"
             }
-          ]
+          ],
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "米の元人気YouTuber、性犯罪で起訴 ドキュメンタリーの告発受け",
@@ -1157,7 +1531,18 @@
               "word": "ドキュメンタリー",
               "meaning": "実際の出来事や人物を取材して記録した映像作品。"
             }
-          ]
+          ],
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          }
         },
         {
           "title": "ハロウィーンで子どもに幻覚成分入りグミ、2人逮捕 米サンディエゴ",
@@ -1179,7 +1564,18 @@
               "word": "ハロウィーン",
               "meaning": "10月31日のお祭り。米国では子どもが仮装して家々を回り、お菓子をもらう習慣がある。"
             }
-          ]
+          ],
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          }
         }
       ]
     }

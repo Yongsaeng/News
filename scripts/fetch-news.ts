@@ -12,7 +12,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { collectAll, DIGEST_DIR, jstDate, RAW_DIR, readRaw, type RawCategory } from "./lib/collect";
-import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, type CategoryDigest, type Digest, type MarketQuote, type NewsItem } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, SCORE_RUBRIC, type CategoryDigest, type Digest, type MarketQuote, type NewsItem } from "../src/lib/types";
 
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
 
@@ -21,6 +21,9 @@ const CategorySchema = z.object({
     z.object({
       index: z.number().int().describe("候補リストの番号"),
       region: z.enum(["国内", "海外"]).describe("記事の内容で判断：日本で起きた出来事・日本が主役なら国内、海外で起きた出来事・外国が主役なら海外（配信元の国ではない）"),
+      scores: z
+        .array(z.object({ key: z.string(), value: z.number().int() }))
+        .describe("重要度の採点。国内は people(40) money(30) certainty(10) outlook(10) coverage(10)、海外は japan(50) global(20) timing(10) certainty(10) coverage(10) の5項目"),
       title: z.string().describe("日本語の見出し（30字程度）"),
       summary: z.array(z.string()).describe("日本語の要約をちょうど3行。各行40字程度"),
       insight: z
@@ -76,7 +79,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     messages: [
       {
         role: "user",
-        content: `カテゴリ「${cat.name}」の候補記事です。内容が国内の記事を${PER_REGION}件、内容が海外の記事を${PER_REGION}件選び（候補の国内/海外は配信元の目安）、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。国内記事は、背景から分かりやすく解説し、どんな人にどう影響するかを具体的に。海外記事は、背景を分かりやすく解説し、為替・物価・企業・安全保障など日本にどの経路でどう影響しそうかを具体的に。断定は避けてください。" : ""}${marketInfo}\n\n${list}`,
+        content: `カテゴリ「${cat.name}」の候補記事です。内容が国内の記事を${PER_REGION}件、内容が海外の記事を${PER_REGION}件選び（候補の国内/海外は配信元の目安）。各候補を重要度で採点し（国内は影響を受ける人の多さ・お金や暮らしへの影響、海外は日本への影響を重視）、点数の高いものを選んでください、日本語の見出しと3行要約を作ってください。${withInsight ? "各記事に考察も付けてください。国内記事は、背景から分かりやすく解説し、どんな人にどう影響するかを具体的に。海外記事は、背景を分かりやすく解説し、為替・物価・企業・安全保障など日本にどの経路でどう影響しそうかを具体的に。断定は避けてください。" : ""}${marketInfo}\n\n${list}`,
       },
     ],
   });
@@ -84,11 +87,21 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
   const parsed = response.parsed_output;
   if (!parsed) throw new Error(`${cat.name}: 要約の解析に失敗しました`);
 
-  const picks = parsed.picks.filter((p) => cands[p.index]);
-  const items: NewsItem[] = REGIONS.flatMap((r) => picks.filter((p) => p.region === r).slice(0, PER_REGION))
+  const scored = parsed.picks
+    .filter((p) => cands[p.index])
+    .map((p) => {
+      const rubric: Record<string, number> = SCORE_RUBRIC[p.region];
+      const parts = Object.fromEntries(
+        Object.entries(rubric).map(([k, max]) => [k, Math.max(0, Math.min(max, p.scores.find((s) => s.key === k)?.value ?? 0))]),
+      );
+      const total = Object.values(parts).reduce((a, b) => a + b, 0);
+      return { ...p, score: { total, parts, penalty: 0 as const } };
+    })
+    .sort((a, b) => b.score.total - a.score.total);
+  const items: NewsItem[] = REGIONS.flatMap((r) => scored.filter((p) => p.region === r).slice(0, PER_REGION))
     .map((p) => {
       const c = cands[p.index];
-      const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: p.region, publishedAt: c.publishedAt, image: c.image };
+      const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: p.region, publishedAt: c.publishedAt, image: c.image, score: p.score };
       if (withInsight && p.insight) item.insight = { angle: p.region === "海外" ? "日本への影響" : "影響を受ける人", ...p.insight, points: p.insight.points.slice(0, 4) };
       return item;
     });

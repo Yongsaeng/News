@@ -54,6 +54,8 @@ export interface NewsItem {
   insight?: Insight;
   /** 記事中の難しい言葉（2〜4語） */
   terms?: Term[];
+  /** 重要度の採点（SUMMARIZE.md の採点表）。画面には出さない */
+  score?: Score;
 }
 
 export interface CategoryDigest {
@@ -86,3 +88,18 @@ export interface Digest {
 
 /** 考察が必須のカテゴリ */
 export const INSIGHT_CATEGORIES: CategoryId[] = ["economy", "politics"];
+
+/** 重要度の採点。国内と海外で項目が違う */
+export const SCORE_RUBRIC = {
+  国内: { people: 40, money: 30, certainty: 10, outlook: 10, coverage: 10 },
+  海外: { japan: 50, global: 20, timing: 10, certainty: 10, coverage: 10 },
+} as const;
+
+export interface Score {
+  /** 合計（各項目の合計＋減点） */
+  total: number;
+  /** 項目ごとの点数（国内：people, money, certainty, outlook, coverage／海外：japan, global, timing, certainty, coverage） */
+  parts: Record<string, number>;
+  /** 前日までに載せた話の減点（0 または -30） */
+  penalty: number;
+}

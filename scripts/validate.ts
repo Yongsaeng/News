@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import { CATEGORIES } from "../src/lib/sources";
-import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, insightTexts } from "../src/lib/types";
+import { INSIGHT_CATEGORIES, PER_REGION, REGIONS, SCORE_RUBRIC, insightTexts } from "../src/lib/types";
 import { DIGEST_DIR, jstDate, readRaw } from "./lib/collect";
 
 const Item = z.object({
@@ -39,6 +39,11 @@ const Item = z.object({
       watch: z.string().min(10).max(60),
     })
     .optional(),
+  score: z.object({
+    total: z.number().int(),
+    parts: z.record(z.string(), z.number().int().min(0)),
+    penalty: z.union([z.literal(0), z.literal(-30)]),
+  }),
   terms: z
     .array(z.object({ word: z.string().min(1).max(20), meaning: z.string().min(10).max(120) }))
     .max(5)
@@ -101,6 +106,27 @@ function main() {
       const order = c.items.map((it) => it.region).join(",");
       const sorted = [...c.items].sort((a, b) => REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region)).map((it) => it.region).join(",");
       if (order !== sorted) errors.push(`${c.name}: 国内の記事を先、海外の記事を後に並べてください`);
+    }
+
+    // 重要度の採点：項目と上限が採点表どおりか、合計が合っているか、地域内で点数の高い順か
+    for (const c of d.categories) {
+      c.items.forEach((it, i) => {
+        const rubric: Record<string, number> = SCORE_RUBRIC[it.region];
+        const keys = Object.keys(rubric).sort().join(",");
+        if (Object.keys(it.score.parts).sort().join(",") !== keys) {
+          errors.push(`${c.name}[${i}]: ${it.region}の記事の score.parts は ${keys} の5項目にしてください`);
+          return;
+        }
+        for (const [k, max] of Object.entries(rubric)) {
+          if (it.score.parts[k] > max) errors.push(`${c.name}[${i}]: score.parts.${k} は${max}点までです`);
+        }
+        const sum = Object.values(it.score.parts).reduce((a, b) => a + b, 0) + it.score.penalty;
+        if (sum !== it.score.total) errors.push(`${c.name}[${i}]: score.total は項目の合計＋減点（${sum}）にしてください`);
+      });
+      for (const r of REGIONS) {
+        const totals = c.items.filter((it) => it.region === r).map((it) => it.score.total);
+        if (totals.some((t, j) => j > 0 && t > totals[j - 1])) errors.push(`${c.name}: ${r}の記事は score.total の高い順に並べてください`);
+      }
     }
 
     // 政治・経済は考察が必須。海外は「日本への影響」、国内は「影響を受ける人」
