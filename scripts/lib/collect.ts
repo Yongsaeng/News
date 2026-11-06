@@ -137,7 +137,8 @@ function splitPublisher(title: string, feed: Feed): { title: string; source: str
   const head = m[1].replace(/\s*[：:]\s*時事ドットコム$/, "").trim();
   const dupSuffix = ` - ${publisher}`;
   const headClean = head.endsWith(dupSuffix) ? head.slice(0, -dupSuffix.length).trim() : head;
-  if (headClean.length < 4) return { title: "", source: feed.name };
+  // 見出しが媒体名だけのもの（「- Anthropic」など、記事ではないページ）は使わない
+  if (headClean.length < 4 || headClean.replace(/^-\s*/, "") === publisher) return { title: "", source: feed.name };
   // 「Google ニュース」のようなまとめフィードは媒体名を、ソースを決めたフィードはソース名を使う
   return { title: headClean, source: /google/i.test(feed.name) ? publisher : feed.name, publisher };
 }
