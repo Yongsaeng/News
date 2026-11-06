@@ -1,0 +1,23 @@
+name: 試し収集（作業ブランチ用・一時）
+on:
+  push:
+    branches: [claude/project-thread-ynl0t4]
+permissions:
+  contents: read
+jobs:
+  trial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: RSSの確認
+        if: hashFiles('scripts/probe-feeds.ts') != ''
+        run: npx tsx scripts/probe-feeds.ts
+      - name: 試し収集（コミットしない）
+        if: hashFiles('scripts/trial-stats.ts') != ''
+        run: npx tsx scripts/trial-stats.ts
