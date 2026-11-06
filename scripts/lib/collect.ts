@@ -135,7 +135,7 @@ function splitPublisher(title: string, feed: Feed): { title: string; source: str
   if (!m) return { title, source: feed.name };
   const publisher = m[2].trim();
   // 「見出し：時事ドットコム」「見出し - 媒体名」のように媒体名が重なっている飾りを外す
-  const head = m[1].replace(/\s*[：:]\s*時事ドットコム$/, "").trim();
+  const head = m[1].replace(/\s*[：:]\s*時事ドットコム$/, "").replace(/^画像・写真[：:]/, "").trim();
   const dupSuffix = ` - ${publisher}`;
   const headClean = head.endsWith(dupSuffix) ? head.slice(0, -dupSuffix.length).trim() : head;
   // 見出しが媒体名だけのもの（「- Anthropic」など、記事ではないページ）は使わない
@@ -157,6 +157,8 @@ const AGGREGATORS = /Yahoo|Google/i;
 interface Entry extends Candidate {
   feed: string;
   rank: number;
+  /** URL が同じときだけ重複とみなす（TDnet の開示は会社が違っても見出しが似るため） */
+  urlOnly?: boolean;
 }
 
 function rankOf(c: Candidate, feed: Feed): number {
@@ -230,7 +232,9 @@ function dedupe(entries: Entry[], category: string): Entry[] {
     const nt = normTitle(e.title);
     const day = e.publishedAt ? jstDate(new Date(e.publishedAt)) : "";
     const dup = kept.find(
-      (k) => k.nu === nu || ((!k.day || !day || k.day === day) && titleSimilarity(k.nt, nt) >= SIMILAR),
+      (k) =>
+        k.nu === nu ||
+        (!k.urlOnly && !e.urlOnly && (!k.day || !day || k.day === day) && titleSimilarity(k.nt, nt) >= SIMILAR),
     );
     if (dup) {
       MERGED.push({ category, kept: `${dup.title}（${dup.source}）`, dropped: `${e.title}（${e.source}）` });
@@ -394,7 +398,7 @@ async function collectCategory(cat: CategoryConfig): Promise<{ candidates: Candi
       .sort((a, b) => (f.via === "hn" ? 0 : Date.parse(b.publishedAt || "0") - Date.parse(a.publishedAt || "0")))
       .slice(0, f.limit ?? PER_FEED);
     feeds[f.name] = fresh.length;
-    for (const c of fresh) all.push({ ...c, feed: f.name, rank: rankOf(c, f) });
+    for (const c of fresh) all.push({ ...c, feed: f.name, rank: rankOf(c, f), urlOnly: f.via === "tdnet" || undefined });
   });
   const unique = dedupe(all, cat.name);
 
@@ -419,7 +423,7 @@ async function collectCategory(cat: CategoryConfig): Promise<{ candidates: Candi
     for (const list of [dom, intl]) {
       const e = list.shift();
       if (!e || mixed.length >= MAX_CANDIDATES) continue;
-      const { feed: _f, rank: _r, ...c } = e;
+      const { feed: _f, rank: _r, urlOnly: _u, ...c } = e;
       mixed.push(c);
     }
   }
