@@ -292,7 +292,7 @@ async function fetchFeed(feed: Feed): Promise<Candidate[]> {
   for (const item of parsed.items) {
     if (!item.title || !item.link) continue;
     const { title, source, publisher } = splitPublisher(clean(item.title), feed);
-    if (!title) continue;
+    if (!title || /^[-–—]\s/.test(title)) continue; // 見出しが空・媒体名だけのページ
     if (feed.match && !feed.match.test(title)) continue;
     if (feed.publisher && !(publisher && feed.publisher.test(publisher))) continue;
     const publishedAt = item.isoDate ?? dateFromUrl(item.link);
