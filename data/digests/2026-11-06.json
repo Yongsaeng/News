@@ -1,18 +1,18 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T14:19:39Z",
+  "generatedAt": "2026-11-06T15:07:37Z",
   "headline": [
     "米国のAI株安が世界に広がり、日経平均は3643円安の5万7434円で5日続落した。",
     "米10月の雇用は予想を大きく上回る16.5万人増。ドル円は一時158円台後半に。",
-    "情報流出が相次ぎ警察は合同捜査本部を設置。偽の「最終確認通知書」にも注意。"
+    "情報流出が相次ぎ警察庁長官が対応を指示。偽の「最終確認通知書」にも注意。"
   ],
   "markets": [
     {
       "symbol": "^N225",
       "name": "日経平均",
       "price": 57434.77,
-      "change": -3643.128437500003,
-      "changePercent": -5.964724606934464
+      "change": -4753.858906250003,
+      "changePercent": -7.644257462914152
     },
     {
       "symbol": "998405.T",
@@ -24,72 +24,72 @@
     {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7353.73,
-      "change": -334.89011718750044,
-      "changePercent": -4.355659560274951
+      "price": 7417.39,
+      "change": 63.66001953125033,
+      "changePercent": 0.8656833974096019
     },
     {
       "symbol": "^IXIC",
       "name": "NASDAQ",
-      "price": 24314.998,
-      "change": -1421.5117656250004,
-      "changePercent": -5.52332767174065
+      "price": 24730.617,
+      "change": 415.61699999999837,
+      "changePercent": 1.7093028994447805
     },
     {
       "symbol": "^DJI",
       "name": "NYダウ",
-      "price": 51523.06,
-      "change": -1833.0610937500023,
-      "changePercent": -3.4355216536996775
+      "price": 51371.64,
+      "change": -151.41859375000058,
+      "changePercent": -0.29388510286997677
     },
     {
       "symbol": "JPY=X",
       "name": "ドル円",
-      "price": 158.391,
-      "change": 0.03400537109374113,
-      "changePercent": 0.02147386743062996
+      "price": 158.29,
+      "change": -0.06699462890625796,
+      "changePercent": -0.042306074994194705
     },
     {
       "symbol": "EURJPY=X",
       "name": "ユーロ円",
-      "price": 176.412,
-      "change": -1.4969965820312439,
-      "changePercent": -0.8414395060347613
+      "price": 176.454,
+      "change": -1.4549965820312423,
+      "changePercent": -0.8178319309222591
     },
     {
       "symbol": "^TNX",
       "name": "米10年債利回り",
-      "price": 4.868,
-      "change": 0.031000106811523764,
-      "changePercent": 0.6408953379382641
+      "price": 4.884,
+      "change": 0.04700010681152378,
+      "changePercent": 0.9716788887613976
     },
     {
       "symbol": "^VIX",
       "name": "VIX",
-      "price": 26.58,
-      "change": -1.600000305175783,
-      "changePercent": -5.6777866850551915
+      "price": 24.03,
+      "change": -4.15000030517578,
+      "changePercent": -14.726757488407674
     },
     {
       "symbol": "CL=F",
       "name": "WTI原油",
-      "price": 90.55,
-      "change": 0.030003356933590908,
-      "changePercent": 0.033145556834141894
+      "price": 90.97,
+      "change": 0.4500033569335926,
+      "changePercent": 0.4971314335196252
     },
     {
       "symbol": "GC=F",
       "name": "金",
-      "price": 4056.6,
-      "change": -56.90000000000009,
-      "changePercent": -1.3832502734897312
+      "price": 4052.5,
+      "change": -61,
+      "changePercent": -1.4829220858149994
     },
     {
       "symbol": "BTC-USD",
       "name": "ビットコイン",
-      "price": 75500.18,
-      "change": -441.945000000007,
-      "changePercent": -0.5819497413326358
+      "price": 75120.97,
+      "change": -821.1549999999988,
+      "changePercent": -1.0812905222233362
     }
   ],
   "categories": [
@@ -98,59 +98,60 @@
       "name": "経済",
       "items": [
         {
-          "title": "レカネマブの注射薬が保険適用へ、自宅で使用可能に",
+          "title": "ドコモの情報流出が30万件に、口座番号も",
           "summary": [
-            "アルツハイマー病の治療薬「レカネマブ」の注射薬が、自宅で使えるようになる。",
-            "中医協（中央社会保険医療協議会）が保険適用を了承した。",
-            "薬価は1人あたり年282万円に決まった。"
+            "NTTドコモで、不正アクセスによる情報流出が30万件にのぼった。",
+            "流出した情報には、口座番号も含まれていた。",
+            "時事通信が伝えた。"
           ],
-          "source": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56QWU0YXgzWWk2UDN3WnRRV3JSZDViZlZ4WmdxWEJTNU5hSWV2QlZtNlJwcG9iSl9WRlJ1cC0weTBkSERKVjN1bkZFdFN5bGJOS3RnNDFpU2JoYlgtV1JGQjNWdFc?oc=5",
+          "source": "時事ドットコム",
+          "url": "https://www.jiji.com/jc/article?k=2026110601132&g=eco",
           "region": "国内",
-          "publishedAt": "2026-11-06T10:04:00.000Z",
+          "publishedAt": "2026-11-06T11:47:00.000Z",
+          "image": "https://www.jiji.com/news2/kiji_photos/202611/20261106at77S_o.jpg",
           "insight": {
             "angle": "影響を受ける人",
-            "what": "これまで病院で受けていた認知症の薬を、注射薬として自宅で使えるようになる。公的保険が使え、薬の値段は1人年282万円に決まった。",
-            "why": "認知症の人は高齢化で増えており、通院の負担が本人や家族の大きな悩みになっている。自宅で使える形になれば通院の回数を減らせる可能性がある。一方で薬の値段が高いため、保険で支える国の医療費が増えることも議論になりやすい。",
+            "what": "携帯電話大手のドコモで、外部からの不正アクセスにより会員の情報が30万件流出した。中には銀行の口座番号も含まれていた。",
+            "why": "ドコモは料金の支払いのために、多くの会員の口座の情報を預かっている。ここ数週間、通信会社や通販サイトで不正アクセスによる流出が相次いでおり、攻撃が巧妙になっている。口座番号が漏れると、それを使って本物らしく見せかけた詐欺の連絡が来るおそれがある。",
             "points": [
               {
-                "label": "認知症の人と家族",
-                "text": "通院の回数が減り、付き添いや移動の負担が軽くなる可能性がある。",
-                "level": "大",
+                "label": "ドコモの利用者",
+                "text": "自分の情報が含まれているか確認し、不審な電話やメールに注意する必要がある。",
+                "level": "中",
                 "when": "すぐ"
               },
               {
-                "label": "医療保険の加入者全体",
-                "text": "高い薬が保険で使われるほど医療費が増え、保険料の負担に影響する可能性がある。",
+                "label": "ネットサービスの利用者",
+                "text": "企業の管理が問われ、パスワードの変更や二段階認証の設定が求められる場面が増えそう。",
                 "level": "小",
-                "when": "数年後"
+                "when": "数カ月後"
               }
             ],
-            "watch": "自宅での使用がいつから始まるか、使える人の条件が注目点。"
+            "watch": "ドコモが流出の範囲と補償をどう説明するかが焦点。"
           },
           "score": {
-            "total": 85,
+            "total": 75,
             "parts": {
               "people": 30,
-              "money": 30,
+              "money": 15,
               "certainty": 10,
-              "outlook": 5,
+              "outlook": 10,
               "coverage": 10
             },
             "penalty": 0
           },
           "terms": [
             {
-              "word": "レカネマブ",
-              "meaning": "アルツハイマー病の原因とされるたんぱく質を減らし、症状の進み方を遅らせる薬。"
+              "word": "NTTドコモ",
+              "meaning": "日本最大の携帯電話会社。スマホの通信のほか、ネット通販や決済のサービスも手がける。"
             },
             {
-              "word": "中医協",
-              "meaning": "中央社会保険医療協議会の略。保険で使える薬や治療の値段を話し合って決める国の会議。"
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のコンピューターやシステムに入り込むこと。法律で禁止されている。"
             },
             {
-              "word": "薬価",
-              "meaning": "国が決める薬の公定価格。保険が使える場合、患者はこのうち一部だけを支払う。"
+              "word": "口座番号",
+              "meaning": "銀行の預金口座を見分けるための番号。悪用されると詐欺に使われるおそれがある。"
             }
           ]
         },
@@ -209,42 +210,43 @@
           ]
         },
         {
-          "title": "株価急落に楽観と慎重が交錯、成長戦略会議で企業首脳",
+          "title": "KDDI社長、決算会見で2つのおわび",
           "summary": [
-            "株価の急落について、企業のトップから楽観的な見方と慎重な見方の両方が出た。",
-            "政府の成長戦略会議に出席した企業首脳らが語った。",
-            "ロイターが伝えた。"
+            "KDDIの社長が、決算の記者会見で2つのことについておわびをした。",
+            "おわびの内容は見出しでは明らかにされていない。",
+            "Yahoo!ニュースが伝えた。"
           ],
-          "source": "ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY2VzNjJ2dklDc3I3Wmkyc3BOMi0xYlh4cEE2dG9NbkhBSGRLbGF2c0tqRlFXUTNZS3dRQ1B3NEQtUkdRNHFrc3BoeTU4SVhPVWVKamhKZ3pBc3hpSVdyNDMzT2xycXpNcG90bzlmUkF1V1lFZ2ZmX3h1Q2NjcW05S2pmeGcyQQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601580?source=rss",
           "region": "国内",
-          "publishedAt": "2026-11-06T10:45:45.000Z",
+          "publishedAt": "2026-11-06T13:44:06.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/6/f063b8a2b80a7be9cdebb1d4ad49f6552e9208ea5c0613ebee49a144ff1319c4.jpg",
           "insight": {
             "angle": "影響を受ける人",
-            "what": "株価が大きく下がったことについて、政府の会議に出た企業のトップの意見が分かれた。すぐ戻るという見方と、注意が必要だという見方がある。",
-            "why": "日経平均は米国のAI関連株の急落につられて大きく下がっている。企業のトップが株価をどう見るかは、設備投資や賃上げの判断にも関わる。意見が割れているのは、今回の下落が一時的か、AIへの投資ブームの曲がり角かがまだ分からないためと考えられる。",
+            "what": "携帯大手KDDIの社長が、決算を発表する記者会見の場で、2つのことについて謝った。",
+            "why": "決算会見は、会社が成績を説明し、今後の方針を示す場になる。そこで社長がおわびをするのは、利用者や株主に迷惑をかけた問題があったためと考えられる。通信会社のサービスは生活に欠かせないため、トラブルがあれば多くの人に影響が出やすい。",
             "points": [
               {
-                "label": "株や投資信託を持つ人",
-                "text": "値下がりが続くか戻るか見方が割れており、慌てた売り買いは避けたい局面。",
-                "level": "中",
+                "label": "auの利用者",
+                "text": "おわびの対象がサービスの問題なら、補償や改善策が示される可能性がある。",
+                "level": "小",
                 "when": "すぐ"
               },
               {
-                "label": "会社員",
-                "text": "企業が先行きを慎重に見ると、来年の賃上げや採用に影響が出る可能性がある。",
+                "label": "KDDIの株主",
+                "text": "問題への対応次第で、会社の評価や株価に影響が出る可能性がある。",
                 "level": "小",
                 "when": "数カ月後"
               }
             ],
-            "watch": "来週以降、株価の下げ止まりと企業の投資計画の変化が焦点。"
+            "watch": "おわびの中身と、再発防止策の説明が焦点。"
           },
           "score": {
-            "total": 55,
+            "total": 63,
             "parts": {
               "people": 30,
               "money": 15,
-              "certainty": 2,
+              "certainty": 10,
               "outlook": 5,
               "coverage": 3
             },
@@ -252,12 +254,12 @@
           },
           "terms": [
             {
-              "word": "成長戦略会議",
-              "meaning": "日本経済を伸ばすための政策を話し合う政府の会議。企業の経営者や専門家が参加する。"
+              "word": "KDDI",
+              "meaning": "「au」ブランドで携帯電話事業を行う日本の大手通信会社。"
             },
             {
-              "word": "企業首脳",
-              "meaning": "会社の社長や会長など、経営のトップに立つ人たちのこと。"
+              "word": "決算",
+              "meaning": "会社が一定の期間にどれだけ売り上げ、もうけたかをまとめて発表すること。"
             }
           ]
         },
@@ -269,9 +271,10 @@
             "JTは経営権を事実上奪われ、悪影響は避けられない見通しだ。"
           ],
           "source": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02bF9Zb2NKVkVHOGhOS2oyUWQ5MnhUc1dXcmhwVWRYeW8zaEVfejlmS0cwNkVNR1gwdzRkUkpvRG5UTFlzRnppMUNMM2R1QmstTXgtQV8tVHRBSXdUNEdseHJIQUo?oc=5",
+          "url": "https://www.yomiuri.co.jp/economy/20261106-GYT1T00262/",
           "region": "海外",
           "publishedAt": "2026-11-06T12:27:00.000Z",
+          "image": "https://www.yomiuri.co.jp/media/2026/11/20261106-GYT1I00265-1.jpg?type=ogp",
           "insight": {
             "angle": "日本への影響",
             "what": "ロシア政府が、日本企業JTの現地子会社の資産を自分たちの管理下に置いた。日本政府は撤回を求めているが、JTは事実上経営できなくなる。",
@@ -321,19 +324,20 @@
           ]
         },
         {
-          "title": "米10月雇用16.5万人増で予想を大幅に上回る、失業率4.1％",
+          "title": "米10月の雇用16.5万人増、予想を上回る",
           "summary": [
-            "米国の10月の雇用者数は16.5万人増え、予想を大きく上回った。",
-            "失業率は4.1％に下がった。",
+            "米国の10月の雇用者数は16.5万人増え、予想を上回った。",
+            "働く人が増えるペースは、市場の見込みより速かった。",
             "米国の景気の強さを示す結果になった。"
           ],
-          "source": "ロイター",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2RuRy11VUpnVndfWWkwZDJnZEpRdHZYTmRWWklDcy1qT3I5cHBMZDhWQm15VDFxX0VVV0JyTnZ2ZUU2YWpIblJIWTRqYjEyRUdBdmt4Q0FKd2dNMDZWTEpsN1BwcUZua0xremhWVEozazdYeGpwd2NtXzZDdWdtV3kwNEdfQQ?oc=5",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601587?source=rss",
           "region": "海外",
-          "publishedAt": "2026-11-06T13:54:10.000Z",
+          "publishedAt": "2026-11-06T15:03:11.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/6/2230870268f9414bc508336bf076c384976f6503d7832e5eaa3650754d80454b.jpg",
           "insight": {
             "angle": "日本への影響",
-            "what": "米国で10月に働く人が予想よりずっと多く増え、仕事が見つからない人の割合も下がった。米国の景気が強いことを示す数字だ。",
+            "what": "米国で10月に働く人が16.5万人増え、予想より多かった。米国の景気が強いことを示す数字だ。",
             "why": "米国の中央銀行（FRB）は、景気や雇用が強いと物価が上がりやすいため、金利を高めに保とうとする。雇用が強いという結果は金利の高止まりや利上げの見方につながり、日米の金利差を通じて円安・ドル高を招きやすい。",
             "points": [
               {
@@ -374,8 +378,8 @@
               "meaning": "働いている人の数。前の月からどれだけ増えたかで景気の良し悪しを見る。"
             },
             {
-              "word": "失業率",
-              "meaning": "働きたいのに仕事が見つからない人の割合。低いほど景気が良いとされる。"
+              "word": "FRB",
+              "meaning": "米国の中央銀行。金利を上げ下げして、景気や物価の動きを調整する。"
             }
           ]
         },
@@ -501,9 +505,10 @@
             "共同通信が伝えた。"
           ],
           "source": "共同通信",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XNENqQWx5a1Vmd3ZSTUFZNHpWdzlTNWVORW1TajZqY2gtYUZGZ0xlTzF3QXZzYjQ2YnY0ZzZRTVlRUnVaX3BSa0lGdw?oc=5",
+          "url": "https://www.47news.jp/15194114.html",
           "region": "国内",
           "publishedAt": "2026-11-06T12:02:00.000Z",
+          "image": "https://img.cf.47news.jp/public/photo/3a4744d8171b2e7792b2b1b8ed17ddde/photo.jpg",
           "insight": {
             "angle": "影響を受ける人",
             "what": "人口が減り続ける日本で、どう対策するかの戦略をつくるため、政府が専門家の会議を始めた。少子化の流れを変える方法を話し合う。",
@@ -608,9 +613,10 @@
             "長官は職にとどまる考えを示した形だ。"
           ],
           "source": "時事通信",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EalJOVzFOT2xfTmk0bnlQX3BhX2hGemFHQTJZNjhpUkg4NEtLZTVNOVl6allVcTRkQ1BiUGp2Ylp2VWY3Vi0xS1hDYUZPYXZHN0xrY19UUUtzNlF2RUNZdHdXMlI?oc=5",
+          "url": "https://www.jiji.com/jc/p?id=20261106094631-0094034186",
           "region": "海外",
           "publishedAt": "2026-11-06T11:41:03.000Z",
+          "image": "https://www.jiji.com/news/photos/photo_news/images/658/0094034186.jpg",
           "insight": {
             "angle": "日本への影響",
             "what": "米国の外交のトップが辞めるのではないかという報道が出ていたが、本人がそれを否定した。",
@@ -661,7 +667,7 @@
             "ロイターが伝えた。"
           ],
           "source": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ3ZYSHc0NzlFY3JNTzJja3pTVjB6YXhxeUxoNVZmMVRSSmtDMXBzRjFPLTJFWGhINGNZMDBBRVdZaURHMW1ZeWVzVjRxVDRIdUJ5WFE5Ql9ua01tSVd5LVdQNHlVbTFUQjJkSmMwaUJlTXA4QzdRWlo4N1RIejFWREJ0NFp2ZEtZejNqWF9ITXN2dDFZX01JUXo4eGRVMHhPRGx0WmkxbDFLOXp4?oc=5",
+          "url": "https://www.reuters.com/world/china/meta-pauses-planned-terms-updates-keeps-existing-rules-place-2026-11-06/",
           "region": "海外",
           "publishedAt": "2026-11-06T13:29:03.000Z",
           "insight": {
@@ -835,35 +841,36 @@
           ]
         },
         {
-          "title": "LINEが「パスキー」に対応、機種変更でもログインが簡単に",
+          "title": "東京駅と羽田空港が18分に、新線のトンネル工事が本格化",
           "summary": [
-            "LINEが、パスワードの代わりに使える「パスキー」に対応した。",
-            "パスワードを忘れても、ログインしやすくなる。",
-            "OSをまたぐ機種変更のときも、ログインが簡単になる。"
+            "JR東日本は、建設中の新線「羽田空港アクセス線（仮称）」の工事を報道陣に公開した。",
+            "シールドマシンを使ったトンネル工事が始まる。",
+            "完成すると、東京駅と羽田空港が18分で結ばれる。"
           ],
-          "source": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1OEdkbnVvYWFzM2VCNW5DbGdMYUw1YXNPMVRLbmJPdFBGcmZQVmdMeVJyMU8xNnVSZ1c0NDVORVpfVTEyTGg4ckd2aXFBTFE4ckpxbnVjWnVDTkh5VHJOYzhrRHQ5RnUwUjltRkRyYVdta0N5WFFsNFpyMUlRc2s?oc=5",
+          "source": "Impress Watch",
+          "url": "https://www.watch.impress.co.jp/docs/news/2154495.html",
           "region": "国内",
-          "publishedAt": "2026-11-06T10:03:43.000Z",
+          "publishedAt": "2026-11-06T11:31:40.000Z",
+          "image": "https://www.watch.impress.co.jp/img/ipw/list/2154/495/h001.jpg",
           "score": {
-            "total": 53,
+            "total": 48,
             "parts": {
-              "people": 40,
+              "people": 30,
               "money": 0,
               "certainty": 10,
-              "outlook": 0,
+              "outlook": 5,
               "coverage": 3
             },
             "penalty": 0
           },
           "terms": [
             {
-              "word": "パスキー",
-              "meaning": "パスワードの代わりに、スマホの顔認証や指紋などでログインする仕組み。盗まれにくい。"
+              "word": "シールドマシン",
+              "meaning": "地下を丸く掘り進みながら、トンネルの壁をつくっていく大きな機械。"
             },
             {
-              "word": "OS",
-              "meaning": "スマホやパソコンを動かす基本のソフト。iPhoneのiOSやAndroidなど。"
+              "word": "JR東日本",
+              "meaning": "東京を中心に、関東や東北で鉄道を運行する会社。"
             }
           ]
         },
@@ -902,69 +909,70 @@
           ]
         },
         {
-          "title": "Facebookがディープフェイク詐欺広告を承知で掲載か、詐欺収入160億ドルと文書",
+          "title": "エヌビディアCEO、中国スパイ疑惑で米議会に呼び出し",
           "summary": [
-            "Facebookが、AIで作ったディープフェイクによる詐欺広告を、承知のうえで掲載していると指摘された。",
-            "文書によると、詐欺広告による収入は160億ドルにのぼるという。",
-            "Hacker Newsで大きな話題になった。"
-          ],
-          "source": "Hacker News",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-          "region": "海外",
-          "publishedAt": "2026-11-05T23:09:57.000Z",
-          "score": {
-            "total": 55,
-            "parts": {
-              "japan": 20,
-              "global": 20,
-              "timing": 10,
-              "certainty": 2,
-              "coverage": 3
-            },
-            "penalty": 0
-          },
-          "terms": [
-            {
-              "word": "ディープフェイク",
-              "meaning": "AIで本物そっくりに作った偽の動画や音声。有名人をかたる詐欺に使われる。"
-            },
-            {
-              "word": "詐欺広告",
-              "meaning": "うその投資話などで人をだますための広告。SNSで広く問題になっている。"
-            }
-          ]
-        },
-        {
-          "title": "Linux機器にSSHで侵入できる脆弱性、Alpineの一部設定に影響",
-          "summary": [
-            "ハッカーがLinuxの機器にSSHで入り込める脆弱性が見つかった。",
-            "Alpineと呼ばれるLinuxの一部の設定が影響を受ける。",
-            "ほかのLinuxも影響を受ける可能性がある。"
+            "米議会が、半導体大手エヌビディアのジェンスン・フアンCEOを呼び出した。",
+            "中国の情報機関とされる人物とのつながりについて説明を求めている。",
+            "Ars Technicaが伝えた。"
           ],
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+          "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
           "region": "海外",
-          "publishedAt": "2026-11-05T23:09:36.000Z",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2017/05/getty-hacking-1152x648.jpg",
+          "publishedAt": "2026-11-06T14:13:32.000Z",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285710586-1024x648.jpg",
           "score": {
             "total": 53,
             "parts": {
               "japan": 20,
-              "global": 10,
-              "timing": 10,
-              "certainty": 10,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
               "coverage": 3
             },
             "penalty": 0
           },
           "terms": [
             {
-              "word": "Linux",
-              "meaning": "無料で使えるOSの一つ。サーバーやネット機器、家電などに広く使われている。"
+              "word": "エヌビディア",
+              "meaning": "AIに欠かせない高性能の半導体（GPU）をつくる米国の会社。"
             },
             {
-              "word": "SSH",
-              "meaning": "離れた場所のコンピューターに、安全に接続して操作するための仕組み。"
+              "word": "CEO",
+              "meaning": "最高経営責任者の略。会社の経営のいちばん上に立つ人。"
+            }
+          ]
+        },
+        {
+          "title": "テスラ、サイバートラックの生産を2027年に終了",
+          "summary": [
+            "米テスラは、電気自動車「サイバートラック」の生産を2027年にやめる。",
+            "イーロン・マスク氏が明らかにした。",
+            "工場の場所は、自動運転タクシー「サイバーキャブ」の生産に使う。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+          "region": "海外",
+          "publishedAt": "2026-11-06T11:50:10.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/04/Cybertruck_78-resized.jpeg?resize=1200,800",
+          "score": {
+            "total": 40,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "テスラ",
+              "meaning": "電気自動車をつくる米国の会社。イーロン・マスク氏が経営している。"
+            },
+            {
+              "word": "サイバーキャブ",
+              "meaning": "テスラが開発する、運転手のいらない自動運転タクシー。"
             }
           ]
         }
@@ -975,21 +983,21 @@
       "name": "AI",
       "items": [
         {
-          "title": "情報漏えいの背後にAIエージェント、悪用相次ぐ「ARTEX」の正体",
+          "title": "民事裁判の迅速化へ制度見直し、生成AIの使い方も議論",
           "summary": [
-            "相次ぐ情報漏えいの背後に、AIエージェントの悪用があると日経クロステックが伝えた。",
-            "悪用が相次いでいるのは「ARTEX」と呼ばれるものだという。",
-            "有料記事のため、詳しい内容は見出しの範囲にとどまる。"
+            "長くかかる民事裁判をもっと早く進めるため、法務省が制度の見直しを始めた。",
+            "初めての会合が開かれた。",
+            "生成AIの使い方をめぐる意見も出た。"
           ],
-          "source": "日経クロステック",
-          "url": "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100113/103000198/",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/articles/255e21ea95ed1706f695416936861326c870eafe",
           "region": "国内",
-          "publishedAt": "2026-11-05T22:00:00.000Z",
-          "paywalled": true,
+          "publishedAt": "2026-11-06T13:59:18.000Z",
+          "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-01247813-fnn-000-1-view.jpg?exp=10800",
           "score": {
-            "total": 48,
+            "total": 33,
             "parts": {
-              "people": 30,
+              "people": 15,
               "money": 0,
               "certainty": 5,
               "outlook": 10,
@@ -999,12 +1007,16 @@
           },
           "terms": [
             {
-              "word": "AIエージェント",
-              "meaning": "人の代わりに、自分で考えて作業を進めるAIのこと。"
+              "word": "民事裁判",
+              "meaning": "お金の貸し借りや契約など、人や会社どうしの争いを解決するための裁判。"
             },
             {
-              "word": "情報漏えい",
-              "meaning": "個人情報や会社の秘密が、外部に漏れてしまうこと。"
+              "word": "法務省",
+              "meaning": "裁判や法律、刑務所などの仕組みを担当する国の役所。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動でつくるAIのこと。"
             }
           ]
         },
@@ -1077,39 +1089,6 @@
           ]
         },
         {
-          "title": "OpenAI、サイバーセキュリティー向けの新モデル「GPT-6 Cyber」",
-          "summary": [
-            "OpenAIが、サイバーセキュリティー向けのAIモデル「GPT-6 Cyber」を発表した。",
-            "悪用できる脆弱性を見つけ、修正方法まで考えることができる。",
-            "安全な使い方の範囲にとどまるよう訓練されている。"
-          ],
-          "source": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber",
-          "region": "海外",
-          "publishedAt": "2026-11-05T09:00:00.000Z",
-          "score": {
-            "total": 70,
-            "parts": {
-              "japan": 20,
-              "global": 20,
-              "timing": 10,
-              "certainty": 10,
-              "coverage": 10
-            },
-            "penalty": 0
-          },
-          "terms": [
-            {
-              "word": "サイバーセキュリティー",
-              "meaning": "コンピューターやネットを攻撃から守る取り組みのこと。"
-            },
-            {
-              "word": "脆弱性",
-              "meaning": "ソフトの弱点。攻撃者に悪用されると、情報を盗まれたりする。"
-            }
-          ]
-        },
-        {
           "title": "Anthropicの上場計画に逆風、評価額1.5兆ドルに投資家が難色",
           "summary": [
             "Anthropicの株式上場（IPO）が、壁にぶつかっている。",
@@ -1140,6 +1119,44 @@
             {
               "word": "評価額",
               "meaning": "その会社に、全体でどれだけの値打ちがあるかを金額で表したもの。"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI、データセンター計画の秘密保持契約を見直し",
+          "summary": [
+            "OpenAIが、データセンター計画での秘密保持契約（NDA）の利用をやめる方向だ。",
+            "中間選挙で、有権者がデータセンター建設への反対をはっきり示したことを受けた。",
+            "The Vergeが伝えた。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+          "region": "海外",
+          "publishedAt": "2026-11-06T00:37:56.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "秘密保持契約",
+              "meaning": "仕事で知った秘密を外にもらさないと約束する契約。英語の略でNDAと呼ぶ。"
+            },
+            {
+              "word": "データセンター",
+              "meaning": "たくさんのコンピューターを置き、AIやネットのサービスを動かす大きな施設。"
+            },
+            {
+              "word": "中間選挙",
+              "meaning": "米国で大統領の任期の途中に行われる、議会の議員などを選ぶ選挙。"
             }
           ]
         },
@@ -1184,16 +1201,17 @@
       "name": "株価・マーケット",
       "items": [
         {
-          "title": "日経平均3643円安の5万7434円、5日続落",
+          "title": "日経平均が一時4300円下落、AIデータセンターに逆風",
           "summary": [
-            "6日の日経平均株価は5日続落した。",
-            "下げ幅は3643円で、終値は5万7434円だった。",
-            "株探が伝えた。"
+            "6日の日経平均株価は、一時4300円下落した。",
+            "米国の選挙で民主党が大勝し、AIデータセンターへの逆風が意識された。",
+            "テレビ朝日系（ANN）が伝えた。"
           ],
-          "source": "株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lX3NvSTdGTlVNMGFiNHNhcWRaMUdQVFQxV1QtMVJRSkowc3RlT29pbmZpMjUtRl9VLTB6TF9fZ29vMDYzSHAwWm9MLVBkSlI4aVE?oc=5",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/articles/6daa6e68c9de2b5a7488c407e1ec6e8b8587d256?source=rss",
           "region": "国内",
-          "publishedAt": "2026-11-06T12:30:52.000Z",
+          "publishedAt": "2026-11-06T14:54:16.000Z",
+          "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-90203661-ann-000-1-view.jpg?exp=10800",
           "score": {
             "total": 90,
             "parts": {
@@ -1211,8 +1229,8 @@
               "meaning": "日本を代表する225社の株価をもとにした指数。日本の株式市場の動きを表す。"
             },
             {
-              "word": "続落",
-              "meaning": "株価などが、前の日に続いて下がること。"
+              "word": "民主党",
+              "meaning": "米国の二大政党の一つ。今回の選挙でデータセンター建設に厳しい姿勢を示している。"
             }
           ]
         },
@@ -1224,9 +1242,10 @@
             "ニューヨークの為替市場での動きだ。"
           ],
           "source": "みんかぶ",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOMWNvODZzTnpVb0RIOUExUUNkMzJqUHNjYzNPbEU4S1lWdHF4TjROS0d4SGJhQUlINXluR0k2dy1BS2QwLTJEbQ?oc=5",
+          "url": "https://fx.minkabu.jp/news/383804",
           "region": "国内",
           "publishedAt": "2026-11-06T13:40:29.000Z",
+          "image": "https://mfx-assets.s3.ap-northeast-1.amazonaws.com/news_ogp/forex.png",
           "score": {
             "total": 78,
             "parts": {
@@ -1250,35 +1269,40 @@
           ]
         },
         {
-          "title": "KDDI、上期の決算短信を開示",
+          "title": "ミマキエンジ、今期の利益見通しを上方修正し最高益へ",
           "summary": [
-            "KDDIが、2027年3月期の第2四半期（中間期）の決算短信を開示した。",
-            "国際会計基準（IFRS）による連結決算だ。",
-            "説明会資料やデータブックもあわせて公開した。"
+            "ミマキエンジニアリングは、今期の経常利益の見通しを上方修正した。",
+            "一転して10％の増益となり、最高益になる見込みだ。",
+            "配当も9円増やす。"
           ],
-          "source": "TDnet",
-          "url": "https://www.release.tdnet.info/inbs/140120261105566017.pdf",
+          "source": "株探",
+          "url": "https://s.kabutan.jp/news/k202611060011/",
           "region": "国内",
-          "publishedAt": "2026-11-06T06:45:00.000Z",
+          "publishedAt": "2026-11-06T14:31:20.000Z",
+          "image": "https://async.api.kabutan.jp/og_image?stock_code=6638&stock_name=%E3%83%9F%E3%83%9E%E3%82%AD%E3%82%A8%E3%83%B3%E3%82%B8&title=%E4%BB%8A%E6%9C%9F%E7%B5%8C%E5%B8%B8%E3%82%92%E4%B8%80%E8%BB%A210%EF%BC%85%E5%A2%97%E7%9B%8A%E3%81%AB%E4%B8%8A%E6%96%B9%E4%BF%AE%E6%AD%A3%E3%83%BB%E6%9C%80%E9%AB%98%E7%9B%8A%E3%80%81%E9%85%8D%E5%BD%93%E3%82%829%E5%86%86%E5%A2%97%E9%A1%8D",
           "score": {
-            "total": 48,
+            "total": 43,
             "parts": {
               "people": 15,
               "money": 15,
               "certainty": 10,
-              "outlook": 5,
+              "outlook": 0,
               "coverage": 3
             },
             "penalty": 0
           },
           "terms": [
             {
-              "word": "決算短信",
-              "meaning": "会社が決算の内容を、速報としてまとめて発表する書類。"
+              "word": "経常利益",
+              "meaning": "本業のもうけに、利息など本業以外の損益を加えた利益。会社の実力を表す。"
             },
             {
-              "word": "IFRS",
-              "meaning": "国際会計基準の略。世界で広く使われている、会社の成績表の作り方のルール。"
+              "word": "上方修正",
+              "meaning": "会社が、前に出した業績の見通しを良い方向に直すこと。"
+            },
+            {
+              "word": "配当",
+              "meaning": "会社が利益の一部を、株を持っている人に分けて配るお金。"
             }
           ]
         },
@@ -1317,6 +1341,40 @@
           ]
         },
         {
+          "title": "米民主党幹部、AIインフラの拡大に歯止めを要求",
+          "summary": [
+            "中間選挙で大勝した米民主党の幹部が、AIインフラの拡大を抑えるよう求めた。",
+            "当選した議員や進歩派の議員が、より厳しい制限を主張している。",
+            "CNBCが伝えた。"
+          ],
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+          "region": "海外",
+          "publishedAt": "2026-11-05T20:17:16.000Z",
+          "image": "https://image.cnbcfm.com/api/v1/image/108363195-1789494139297-gettyimages-2294931488-AFP_C8EA8N2.jpeg?v=1789494213&w=1920&h=1080",
+          "score": {
+            "total": 75,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIインフラ",
+              "meaning": "AIを動かすためのデータセンターや電力、半導体などの土台となる設備。"
+            },
+            {
+              "word": "進歩派",
+              "meaning": "社会の変化や規制の強化に積極的な考え方を持つ政治家のグループ。"
+            }
+          ]
+        },
+        {
           "title": "米リッチモンド連銀総裁、利上げは「緩やかに」",
           "summary": [
             "米リッチモンド連銀のバーキン総裁が、今後の利上げを見込んでいると述べた。",
@@ -1349,39 +1407,6 @@
               "meaning": "物の値段が全体的に上がり続けること。"
             }
           ]
-        },
-        {
-          "title": "中国政府、株価下落を受け市場の安定化を指示",
-          "summary": [
-            "中国政府が、株式市場の安定化に向けた取り組みを強めるよう求めた。",
-            "株価の売りが再び強まったことを受けた対応だ。",
-            "香港の英字紙が伝えた。"
-          ],
-          "source": "South China Morning Post",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd0NBMjNlR2l6NUhCUmdmTUZ0aE1DX1dUUUhKYUpaZ3UzcHNodi1CYUtPYm5RWHE4dHo3Z3Rxam5VSGw5WjNLVGlfLVFEdXhubVNCQnE2REtVeXdJaWwySW1FckJvczY3YTByYVNDdklHQXVuZUVnckRXQ1VlakRqS1JQLUVKeHZHUzJTS0tIR1JsakZPdlE0c3Naalp2NDRheFUxZ1JpUzlRNVNjSlVUODhTaXFpcWZVYzBrX29xYw?oc=5",
-          "region": "海外",
-          "publishedAt": "2026-11-06T14:00:21.000Z",
-          "score": {
-            "total": 58,
-            "parts": {
-              "japan": 20,
-              "global": 20,
-              "timing": 10,
-              "certainty": 5,
-              "coverage": 3
-            },
-            "penalty": 0
-          },
-          "terms": [
-            {
-              "word": "安定化",
-              "meaning": "値動きが激しくならないよう、落ち着かせること。"
-            },
-            {
-              "word": "売り",
-              "meaning": "株を手放す注文が多くなり、株価が下がること。"
-            }
-          ]
         }
       ],
       "comment": "日経平均は5.96％安、TOPIXは5.90％安と全面安。米国もナスダックが5.52％安。ドル円は158円台で横ばい、VIXは26台に下がった。"
@@ -1398,9 +1423,10 @@
             "センターは「絶対に送付しません」としている。"
           ],
           "source": "福井新聞社",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsdjN5c1E1NFNIWXNPWkpYSVh2eVpzaWZSM041eXlMMXV2U2xJOWZZR0h3LTBBZHlkTDVLZkNPYjNkdC1sR0hmTFV2dGdHU3NsYWFsYmZxQTBEOEJtcnlnMl82a1ktY1dscW5TNA?oc=5",
+          "url": "https://www.fukuishimbun.co.jp/articles/gallery/2727548?ph=1",
           "region": "国内",
           "publishedAt": "2026-11-05T06:26:43.000Z",
+          "image": "https://fki.ismcdn.jp/mwimgs/9/7/-/img_97d3d0ce53f81b05867e4e42634e928778373.jpg",
           "score": {
             "total": 80,
             "parts": {
@@ -1424,16 +1450,17 @@
           ]
         },
         {
-          "title": "相次ぐ不正アクセス事件、警察が合同捜査本部を設置",
+          "title": "大規模な情報流出を受け、警察庁長官が捜査を指示",
           "summary": [
-            "相次ぐ不正アクセス事件を受けて、警察庁と都道府県警察が合同捜査本部を設けた。",
-            "事件の実態解明を進める。",
-            "企業からの大規模な情報流出が続いていた。"
+            "企業をねらった不正アクセスで、大規模な個人情報の流出が相次いでいる。",
+            "警察庁長官が、これらの事件への対応を指示した。",
+            "高度な技術を悪用した犯行とされている。"
           ],
-          "source": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2S05qMFdpWmZCTGkwaUtfMTZUY0RiT29wbzNMY3VuZ05aNVg0ZFVSdlFWYTh3M1ZDLUpEczA1MEIxT3ZuanEtZzRBSm5tQWJPRFBERjF0bmROc2l0MU1Wd09BSTNjY3JjRmVkNkk2cWxNWmlIMVpRSXd4VEFHQTg?oc=5",
+          "source": "警察庁",
+          "url": "http://www.npa.go.jp/newlyarrived/2026/20261106001.html",
           "region": "国内",
-          "publishedAt": "2026-11-06T12:12:22.000Z",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "image": "https://www.npa.go.jp/common2/img/og_image_npa.jpg",
           "score": {
             "total": 70,
             "parts": {
@@ -1447,12 +1474,12 @@
           },
           "terms": [
             {
-              "word": "合同捜査本部",
-              "meaning": "複数の警察が協力して、大きな事件を一緒に調べるための組織。"
+              "word": "警察庁",
+              "meaning": "全国の警察をまとめる国の役所。大きな事件では都道府県の警察に指示を出す。"
             },
             {
               "word": "不正アクセス",
-              "meaning": "許可なく他人のコンピューターやシステムに入り込むこと。"
+              "meaning": "許可なく他人のコンピューターやシステムに入り込むこと。法律で禁止されている。"
             }
           ]
         },
@@ -1464,9 +1491,10 @@
             "富山テレビが伝えた。"
           ],
           "source": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vd0tNQ3NoN19MSGJEdkRyMlB6VFVfeUJUM0xSbVNSbjRDaGtHZm9QUm1XWnh2Qk91SEZkTldPYTNsWkhWam8zQTZhTGVFU2ZHSk9xSFJ6dnk5X0hNeW1oY0dwR1c5T3RkT3NIUUpmTmNxVGdxbkJ4TTBwYXpDSmc?oc=5",
+          "url": "https://news.yahoo.co.jp/articles/edd6383e2be7f2957dae2afaae688ebe49062cc3",
           "region": "国内",
           "publishedAt": "2026-11-06T12:55:02.000Z",
+          "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-90026877-bbt-000-1-thumb.jpg?exp=10800",
           "score": {
             "total": 63,
             "parts": {
