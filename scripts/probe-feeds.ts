@@ -122,7 +122,7 @@ async function probe([name, url]: [string, string]) {
 
 async function quote(sym: string) {
   try {
-    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`, { headers: { "User-Agent": UA } });
+    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(12000) });
     const j = await r.json();
     return `${sym}: HTTP ${r.status} price=${j.chart?.result?.[0]?.meta?.regularMarketPrice} err=${JSON.stringify(j.chart?.error)}`;
   } catch (e) {
@@ -130,18 +130,22 @@ async function quote(sym: string) {
   }
 }
 
+const race = <T,>(p: Promise<T>, ms: number, label: string) =>
+  Promise.race([p, new Promise<string>((r) => setTimeout(() => r(`TIMEOUT | ${label}`), ms))]);
+
 async function main() {
-  const out = await Promise.all(C.map(probe));
-  console.log(out.join("\n"));
-  for (const s of ["^TNX", "^VIX", "EURJPY=X", "CL=F", "GC=F", "BTC-USD", "^TOPX", "998405.T", "^TPX", "1306.T"]) console.log(await quote(s));
+  setTimeout(() => { console.log("全体タイムアウト"); process.exit(0); }, 150000);
+  await Promise.all(C.map((c) => race(probe(c), 40000, c[0]).then((l) => console.log(l))));
+  await Promise.all(["^TNX", "^VIX", "EURJPY=X", "CL=F", "GC=F", "BTC-USD", "^TOPX", "998405.T", "^TPX", "1306.T"].map((s) => race(quote(s), 15000, s).then((l) => console.log(l))));
   console.log("YJ TOPIX:", await raw("https://finance.yahoo.co.jp/quote/998405.T"));
   try {
-    const r = await fetch("https://finance.yahoo.co.jp/quote/998405.T", { headers: { "User-Agent": UA } });
+    const r = await fetch("https://finance.yahoo.co.jp/quote/998405.T", { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
     const t = await r.text();
     const m = t.match(/"price":"?([\d,.]+)/) || t.match(/_3rXWJKZF[^>]*>([\d,.]+)</);
     console.log("YJ TOPIX price guess:", m?.[1], t.includes("TOPIX"));
   } catch (e) { console.log("YJ err", e); }
-  const ids: number[] = await (await fetch("https://hacker-news.firebaseio.com/v0/topstories.json")).json();
+  const ids: number[] = await (await fetch("https://hacker-news.firebaseio.com/v0/topstories.json", { signal: AbortSignal.timeout(15000) })).json();
   console.log("HN API top ids:", ids.length);
+  process.exit(0);
 }
 main();
