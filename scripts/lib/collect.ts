@@ -261,6 +261,13 @@ async function fetchHackerNews(feed: Feed): Promise<Candidate[]> {
     }));
 }
 
+const FEED_TIMEOUT_MS = 30_000;
+
+/** 応答が返ってこないフィードで収集全体が止まらないよう、時間を区切る */
+function withTimeout<T>(p: Promise<T>, ms: number): Promise<T> {
+  return Promise.race([p, new Promise<T>((_, reject) => setTimeout(() => reject(new Error(`timeout ${ms / 1000}s`)), ms).unref())]);
+}
+
 /** 配信日時のない項目（警察庁など）は URL 中の日付（…/20261106001.html など）を使う */
 function dateFromUrl(url: string): string | undefined {
   const m = url.match(/(20\d{2})[-/]?(0[1-9]|1[0-2])[-/]?(0[1-9]|[12]\d|3[01])(?:\d{0,4})(?:[./]|$)/);
@@ -308,7 +315,7 @@ export interface CategoryStats {
 
 async function collectCategory(cat: CategoryConfig): Promise<{ candidates: Candidate[]; stats: CategoryStats }> {
   const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
-  const results = await Promise.allSettled(cat.feeds.map((f) => fetchFeed(f)));
+  const results = await Promise.allSettled(cat.feeds.map((f) => withTimeout(fetchFeed(f), FEED_TIMEOUT_MS)));
   const all: Entry[] = [];
   const feeds: Record<string, number> = {};
   results.forEach((r, i) => {
@@ -362,7 +369,7 @@ async function collectCategory(cat: CategoryConfig): Promise<{ candidates: Candi
 async function fetchQuote(symbol: string, name: string): Promise<MarketQuote | null> {
   try {
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=5d&interval=1d`;
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
+    const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     const result = json.chart?.result?.[0];

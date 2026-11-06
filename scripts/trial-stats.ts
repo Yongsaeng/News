@@ -2,7 +2,10 @@
 import { collectAll, MERGED } from "./lib/collect";
 
 async function main() {
+  const t0 = Date.now();
+  setTimeout(() => { console.log("6分たっても終わらないため打ち切り"); process.exit(1); }, 360_000).unref();
   const raw = await collectAll();
+  console.log(`\n収集にかかった時間: ${((Date.now() - t0) / 1000).toFixed(0)} 秒`);
   console.log("\n===== 指数 =====");
   for (const q of raw.markets) console.log(`${q.name} (${q.symbol}): ${q.price} (${q.changePercent.toFixed(2)}%)`);
   console.log("\n===== カテゴリごとの件数 =====");
@@ -22,4 +25,4 @@ async function main() {
     for (const x of c.candidates.slice(0, 8)) console.log(`  ${x.paywalled ? "🔒" : "  "}[${x.region}] ${x.title.slice(0, 50)}（${x.source}） snip=${x.snippet.length}`);
   }
 }
-main();
+main().then(() => process.exit(0));
