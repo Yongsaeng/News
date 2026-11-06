@@ -133,8 +133,13 @@ function splitPublisher(title: string, feed: Feed): { title: string; source: str
   const m = title.match(/^(.*) - ([^-]{1,40})$/);
   if (!m) return { title, source: feed.name };
   const publisher = m[2].trim();
+  // 「見出し：時事ドットコム」「見出し - 媒体名」のように媒体名が重なっている飾りを外す
+  const head = m[1].replace(/\s*[：:]\s*時事ドットコム$/, "").trim();
+  const dupSuffix = ` - ${publisher}`;
+  const headClean = head.endsWith(dupSuffix) ? head.slice(0, -dupSuffix.length).trim() : head;
+  if (headClean.length < 4) return { title: "", source: feed.name };
   // 「Google ニュース」のようなまとめフィードは媒体名を、ソースを決めたフィードはソース名を使う
-  return { title: m[1].trim(), source: /google/i.test(feed.name) ? publisher : feed.name, publisher };
+  return { title: headClean, source: /google/i.test(feed.name) ? publisher : feed.name, publisher };
 }
 
 // ---------------------------------------------------------------------------
@@ -180,7 +185,8 @@ export function normTitle(t: string): string {
   return t
     .normalize("NFKC")
     .toLowerCase()
-    .replace(/【[^】]{0,8}】|\[[^\]]{0,8}\]/g, "")
+    .replace(/^◎/, "")
+    .replace(/【(速報|独自|詳報|更新|動画|写真|解説|続報|号外|news|ニュース)】|\[(速報|独自|動画)\]/gi, "")
     .replace(/\s*[|｜]\s*[^|｜]{1,30}$/, "")
     .replace(/[（(][^）)]{1,10}[）)]$/, "")
     .replace(/[\s\p{P}\p{S}]/gu, "");
@@ -196,14 +202,17 @@ function bigrams(s: string): Set<string> {
 export function titleSimilarity(a: string, b: string): number {
   if (!a || !b) return 0;
   if (a === b) return 1;
+  // 数字（価格・件数など）が違う見出しは、別の時点・別の出来事のことが多いので、ほぼ同じ文面のときだけ重複とみなす
+  const nums = (t: string) => (t.match(/\d+(?:\.\d+)?/g) ?? []).sort().join(",");
+  const numPenalty = nums(a) !== nums(b) ? 0.2 : 0;
   const short = a.length < b.length ? a : b;
   const long = a.length < b.length ? b : a;
-  if (short.length >= 12 && long.includes(short)) return 0.95;
+  if (short.length >= 12 && long.includes(short)) return 0.95 - numPenalty;
   const A = bigrams(a);
   const B = bigrams(b);
   let n = 0;
   for (const x of A) if (B.has(x)) n++;
-  return (2 * n) / (A.size + B.size || 1);
+  return (2 * n) / (A.size + B.size || 1) - numPenalty;
 }
 
 const SIMILAR = 0.7;
@@ -282,6 +291,7 @@ async function fetchFeed(feed: Feed): Promise<Candidate[]> {
   for (const item of parsed.items) {
     if (!item.title || !item.link) continue;
     const { title, source, publisher } = splitPublisher(clean(item.title), feed);
+    if (!title) continue;
     if (feed.match && !feed.match.test(title)) continue;
     if (feed.publisher && !(publisher && feed.publisher.test(publisher))) continue;
     const publishedAt = item.isoDate ?? dateFromUrl(item.link);
