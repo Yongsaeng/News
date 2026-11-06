@@ -4,6 +4,16 @@ export interface Feed {
   name: string;
   url: string;
   region: "国内" | "海外";
+  /** 取得方法。rss＝公式RSS（既定）、google＝Googleニュースの「site:ドメイン」検索、hn＝Hacker News 公式API */
+  via?: "rss" | "google" | "hn";
+  /** 有料・会員制。見出し・URL・配信日時・ソース名だけを取り、本文や画像は取らない（画面に🔒有料） */
+  paywalled?: true;
+  /** 見出しがこの条件に合う記事だけ使う（総合フィードから AI 関連だけ取るときなど） */
+  match?: RegExp;
+  /** Googleニュースの検索結果のうち、配信元がこの条件に合う記事だけ使う（site: 検索で取れないソース用） */
+  publisher?: RegExp;
+  /** このフィードから使う記事の上限（既定 15） */
+  limit?: number;
 }
 
 export interface CategoryConfig {
@@ -14,14 +24,31 @@ export interface CategoryConfig {
 
 const gnewsJa = (q: string) =>
   `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=ja&gl=JP&ceid=JP:ja`;
+const gnewsEn = (q: string) =>
+  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
 const gnewsTopicJa = (topic: string) =>
   `https://news.google.com/rss/headlines/section/topic/${topic}?hl=ja&gl=JP&ceid=JP:ja`;
 const gnewsTopicEn = (topic: string) =>
   `https://news.google.com/rss/headlines/section/topic/${topic}?hl=en-US&gl=US&ceid=US:en`;
 
+/** Google ニュースの「site:ドメイン」検索（公式RSSがないソース用） */
+const site = (domain: string, words = "", lang: "ja" | "en" = "ja") =>
+  (lang === "ja" ? gnewsJa : gnewsEn)(`site:${domain}${words ? ` ${words}` : ""} when:1d`);
+
+// 時事・共同（47NEWS）は総合のRSSしかないため、見出しの語でカテゴリを絞る
+const KW_ECONOMY = "(経済 OR 景気 OR 物価 OR 日銀 OR 企業 OR 決算 OR 賃上げ OR 円相場)";
+const KW_POLITICS = "(政府 OR 首相 OR 国会 OR 自民 OR 与党 OR 野党 OR 選挙 OR 外相 OR 閣議)";
+const KW_CRIME = "(逮捕 OR 容疑 OR 事件 OR 詐欺 OR 警察 OR 送検 OR 起訴 OR 判決)";
+
+/** 総合フィードから AI の記事だけを取り出す条件 */
+const AI_TITLE = /AI|ＡＩ|人工知能|生成|LLM|ChatGPT|Gemini|Claude|Copilot|エージェント|機械学習/;
+
 /**
  * カテゴリごとのニュースソース。
  * 取得できないフィードは自動でスキップされるので、自由に足し引きしてください。
+ *
+ * - via 省略：公式RSS／via: "google"：Googleニュースの site: 検索（公式RSSがないソース）／via: "hn"：Hacker News 公式API
+ * - paywalled：有料・会員制。見出し・URL・配信日時・ソース名だけを取る（画面に🔒有料）
  */
 export const CATEGORIES: CategoryConfig[] = [
   {
@@ -31,8 +58,16 @@ export const CATEGORIES: CategoryConfig[] = [
       { name: "NHK", url: "https://www3.nhk.or.jp/rss/news/cat5.xml", region: "国内" },
       { name: "Yahoo!ニュース", url: "https://news.yahoo.co.jp/rss/topics/business.xml", region: "国内" },
       { name: "Google ニュース", url: gnewsTopicJa("BUSINESS"), region: "国内" },
+      // jp.reuters.com は site: 検索に出ないため、キーワード検索の結果を配信元「Reuters」で絞る
+      { name: "ロイター", url: gnewsJa(`ロイター ${KW_ECONOMY} when:1d`), region: "国内", via: "google", publisher: /Reuters|ロイター/ },
+      { name: "時事通信", url: site("jiji.com", KW_ECONOMY), region: "国内", via: "google" },
+      { name: "日本経済新聞", url: site("nikkei.com/article", KW_ECONOMY), region: "国内", via: "google", paywalled: true },
+      // bloomberg.co.jp も site: 検索ではほぼ出ないため、同じく配信元で絞る
+      { name: "Bloomberg", url: gnewsJa("ブルームバーグ when:1d"), region: "国内", via: "google", publisher: /Bloomberg/, paywalled: true },
       { name: "BBC", url: "https://feeds.bbci.co.uk/news/business/rss.xml", region: "海外" },
       { name: "Google News", url: gnewsTopicEn("BUSINESS"), region: "海外" },
+      { name: "Reuters", url: site("reuters.com/business", "", "en"), region: "海外", via: "google" },
+      { name: "Bloomberg", url: "https://feeds.bloomberg.com/economics/news.rss", region: "海外", paywalled: true },
     ],
   },
   {
@@ -41,10 +76,13 @@ export const CATEGORIES: CategoryConfig[] = [
     feeds: [
       { name: "NHK", url: "https://www3.nhk.or.jp/rss/news/cat4.xml", region: "国内" },
       { name: "Yahoo!ニュース", url: "https://news.yahoo.co.jp/rss/topics/domestic.xml", region: "国内" },
+      { name: "共同通信", url: site("47news.jp", KW_POLITICS), region: "国内", via: "google" },
+      { name: "時事通信", url: site("jiji.com", KW_POLITICS), region: "国内", via: "google" },
       { name: "Yahoo!ニュース 国際", url: "https://news.yahoo.co.jp/rss/topics/world.xml", region: "海外" },
       { name: "NHK 国際", url: "https://www3.nhk.or.jp/rss/news/cat6.xml", region: "海外" },
-      { name: "BBC", url: "https://feeds.bbci.co.uk/news/politics/rss.xml", region: "海外" },
       { name: "BBC World", url: "https://feeds.bbci.co.uk/news/world/rss.xml", region: "海外" },
+      { name: "Reuters", url: site("reuters.com/world", "", "en"), region: "海外", via: "google" },
+      { name: "AP News", url: site("apnews.com/article", "world", "en"), region: "海外", via: "google" },
     ],
   },
   {
@@ -54,8 +92,14 @@ export const CATEGORIES: CategoryConfig[] = [
       { name: "ITmedia", url: "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml", region: "国内" },
       { name: "Yahoo!ニュース", url: "https://news.yahoo.co.jp/rss/topics/it.xml", region: "国内" },
       { name: "Google ニュース", url: gnewsTopicJa("TECHNOLOGY"), region: "国内" },
+      { name: "Impress Watch", url: "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf", region: "国内" },
+      { name: "Publickey", url: "https://www.publickey1.jp/atom.xml", region: "国内" },
+      { name: "GIGAZINE", url: "https://gigazine.net/news/rss_2.0/", region: "国内" },
       { name: "TechCrunch", url: "https://techcrunch.com/feed/", region: "海外" },
       { name: "The Verge", url: "https://www.theverge.com/rss/index.xml", region: "海外" },
+      { name: "Ars Technica", url: "https://feeds.arstechnica.com/arstechnica/index", region: "海外" },
+      { name: "WIRED", url: "https://www.wired.com/feed/rss", region: "海外" },
+      { name: "Hacker News", url: "https://hacker-news.firebaseio.com/v0/topstories.json", region: "海外", via: "hn", limit: 10 },
     ],
   },
   {
@@ -64,8 +108,18 @@ export const CATEGORIES: CategoryConfig[] = [
     feeds: [
       { name: "ITmedia AI+", url: "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml", region: "国内" },
       { name: "Google ニュース", url: gnewsJa("生成AI OR 人工知能 when:1d"), region: "国内" },
+      { name: "AINOW", url: "https://ainow.ai/feed/", region: "国内" },
+      { name: "日経クロステック", url: "https://xtech.nikkei.com/rss/index.rdf", region: "国内", match: AI_TITLE, paywalled: true },
       { name: "TechCrunch", url: "https://techcrunch.com/category/artificial-intelligence/feed/", region: "海外" },
       { name: "The Verge", url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", region: "海外" },
+      { name: "OpenAI", url: "https://openai.com/news/rss.xml", region: "海外" },
+      { name: "Anthropic", url: gnewsEn("site:anthropic.com when:2d"), region: "海外", via: "google" },
+      { name: "Google DeepMind", url: "https://deepmind.google/blog/rss.xml", region: "海外" },
+      { name: "The Decoder", url: "https://the-decoder.com/feed/", region: "海外" },
+      // 公式RSSは GitHub Actions から 429（アクセス制限）になるため Google ニュース経由
+      { name: "VentureBeat", url: gnewsEn("site:venturebeat.com AI when:2d"), region: "海外", via: "google" },
+      { name: "Meta AI", url: gnewsEn("site:ai.meta.com when:2d"), region: "海外", via: "google" },
+      { name: "MIT Technology Review", url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", region: "海外", paywalled: true },
     ],
   },
   {
@@ -73,7 +127,13 @@ export const CATEGORIES: CategoryConfig[] = [
     name: "株価・マーケット",
     feeds: [
       { name: "Google ニュース", url: gnewsJa("株価 OR 日経平均 OR 為替 when:1d"), region: "国内" },
-      { name: "Google News", url: `https://news.google.com/rss/search?q=${encodeURIComponent("stock market when:1d")}&hl=en-US&gl=US&ceid=US:en`, region: "海外" },
+      { name: "株探", url: site("kabutan.jp"), region: "国内", via: "google" },
+      { name: "みんかぶ", url: site("minkabu.jp"), region: "国内", via: "google" },
+      { name: "ロイター", url: gnewsJa("ロイター (株 OR 日経平均 OR 円 OR 為替 OR 債券 OR 日銀) when:1d"), region: "国内", via: "google", publisher: /Reuters|ロイター/ },
+      { name: "Google News", url: gnewsEn("stock market when:1d"), region: "海外" },
+      { name: "Bloomberg", url: "https://feeds.bloomberg.com/markets/news.rss", region: "海外", paywalled: true },
+      { name: "CNBC", url: "https://www.cnbc.com/id/10000664/device/rss/rss.html", region: "海外" },
+      { name: "MarketWatch", url: "https://feeds.content.dowjones.io/public/rss/mw_topstories", region: "海外" },
     ],
   },
   {
@@ -82,16 +142,32 @@ export const CATEGORIES: CategoryConfig[] = [
     feeds: [
       { name: "NHK", url: "https://www3.nhk.or.jp/rss/news/cat1.xml", region: "国内" },
       { name: "Google ニュース", url: gnewsJa("事件 OR 逮捕 OR 詐欺 when:1d"), region: "国内" },
-      { name: "Google News", url: `https://news.google.com/rss/search?q=${encodeURIComponent("crime arrested when:1d")}&hl=en-US&gl=US&ceid=US:en`, region: "海外" },
+      { name: "共同通信", url: site("47news.jp", KW_CRIME), region: "国内", via: "google" },
+      { name: "時事通信", url: site("jiji.com", KW_CRIME), region: "国内", via: "google" },
+      // 警察庁・警視庁の公式RSS（新着情報）から、詐欺・犯罪被害の注意喚起だけを取り出す
+      { name: "警察庁", url: "https://www.npa.go.jp/newlyarrived/rss20.xml", region: "国内", match: /詐欺|注意|被害|不正|サイバー|犯罪|検挙/ },
+      { name: "警視庁", url: "https://www.keishicho.metro.tokyo.lg.jp/rss_news.xml", region: "国内", match: /詐欺|注意|被害|犯罪|防犯|サイバー/ },
+      {
+        name: "消費者庁",
+        url: "https://www.caa.go.jp/news.rss",
+        region: "国内",
+        match: /注意|喚起|詐欺|被害|事故|リコール|悪質|処分|命令|勧告|相談/,
+      },
     ],
   },
 ];
 
-/** 株価・為替（Yahoo Finance のチャートAPIで取得） */
+/** 株価・為替・金利など（Yahoo Finance のチャートAPIで取得。TOPIX だけは collect.ts の fetchTopix で日本版から取得） */
 export const MARKET_SYMBOLS = [
   { symbol: "^N225", name: "日経平均" },
   { symbol: "^GSPC", name: "S&P 500" },
   { symbol: "^IXIC", name: "NASDAQ" },
   { symbol: "^DJI", name: "NYダウ" },
   { symbol: "JPY=X", name: "ドル円" },
+  { symbol: "EURJPY=X", name: "ユーロ円" },
+  { symbol: "^TNX", name: "米10年債利回り" },
+  { symbol: "^VIX", name: "VIX" },
+  { symbol: "CL=F", name: "WTI原油" },
+  { symbol: "GC=F", name: "金" },
+  { symbol: "BTC-USD", name: "ビットコイン" },
 ];

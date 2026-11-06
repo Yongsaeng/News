@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { CATEGORIES, MARKET_SYMBOLS, type CategoryConfig } from "../../src/lib/sources";
+import { CATEGORIES, MARKET_SYMBOLS, type CategoryConfig, type Feed } from "../../src/lib/sources";
 import type { CategoryId, MarketQuote } from "../../src/lib/types";
 
-const MAX_CANDIDATES = 30; // 1カテゴリあたりの候補記事の上限
+const MAX_CANDIDATES = 40; // 1カテゴリあたりの候補記事の上限
+const PER_FEED = 15; // 1フィードから使う記事の上限（Feed.limit で変更可）
 const MAX_AGE_HOURS = 36;
 const UA = "Mozilla/5.0 (compatible; news-digest/1.0)";
 
@@ -16,12 +17,16 @@ export interface Candidate {
   region: "国内" | "海外";
   publishedAt?: string;
   image?: string;
+  /** 有料・会員制のソース。見出し・URL・配信日時・ソース名だけを持つ */
+  paywalled?: true;
 }
 
 export interface RawCategory {
   id: CategoryId;
   name: string;
   candidates: Candidate[];
+  /** 取得件数（重複を除く前と後） */
+  stats?: CategoryStats;
 }
 
 /** data/raw/YYYY-MM-DD.json の形 */
@@ -102,7 +107,7 @@ async function ogImage(url: string): Promise<string | undefined> {
 
 /** 画像のない候補に og:image を補う（同時 8 件まで） */
 async function fillImages(cands: Candidate[]): Promise<void> {
-  const todo = cands.filter((c) => !c.image);
+  const todo = cands.filter((c) => !c.image && !c.paywalled); // 有料記事のページは開かない
   let i = 0;
   await Promise.all(
     Array.from({ length: 8 }, async () => {
@@ -123,55 +128,235 @@ function clean(text = ""): string {
 }
 
 /** Google ニュースのタイトル末尾「 - 媒体名」を分離する */
-function splitPublisher(title: string, fallback: string): { title: string; source: string } {
+function splitPublisher(title: string, feed: Feed): { title: string; source: string; publisher?: string } {
+  if (!/news\.google\.com/.test(feed.url)) return { title, source: feed.name };
   const m = title.match(/^(.*) - ([^-]{1,40})$/);
-  if (m && fallback.toLowerCase().includes("google")) return { title: m[1].trim(), source: m[2].trim() };
-  return { title, source: fallback };
+  if (!m) return { title, source: feed.name };
+  const publisher = m[2].trim();
+  // 「Google ニュース」のようなまとめフィードは媒体名を、ソースを決めたフィードはソース名を使う
+  return { title: m[1].trim(), source: /google/i.test(feed.name) ? publisher : feed.name, publisher };
 }
 
-async function collectCategory(cat: CategoryConfig): Promise<Candidate[]> {
-  const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
-  const results = await Promise.allSettled(cat.feeds.map((f) => parser.parseURL(f.url).then((feed) => ({ f, feed }))));
-  const seen = new Set<string>();
-  const out: Candidate[] = [];
-  for (const r of results) {
-    if (r.status === "rejected") {
-      console.warn(`  [skip] ${cat.name}: ${String(r.reason).slice(0, 120)}`);
+// ---------------------------------------------------------------------------
+// 重複を除く
+// ---------------------------------------------------------------------------
+
+/** 元の配信社（通信社・大手紙）。重複したときはこれを優先して残す */
+const ORIGINAL_SOURCES =
+  /共同|47NEWS|時事|ロイター|Reuters|\bAP\b|Associated Press|Bloomberg|ブルームバーグ|日本経済新聞|日経|NHK/i;
+/** 他社記事のまとめ（同じ記事が何度も出やすい） */
+const AGGREGATORS = /Yahoo|Google/i;
+
+interface Entry extends Candidate {
+  feed: string;
+  rank: number;
+}
+
+function rankOf(c: Candidate, feed: Feed): number {
+  let r = 0;
+  if (ORIGINAL_SOURCES.test(c.source)) r += 4;
+  else if (!AGGREGATORS.test(c.source) && !AGGREGATORS.test(feed.name)) r += 2;
+  if (!c.paywalled) r += 1; // 同じ配信社どうしなら無料で読めるほう
+  if (c.snippet) r += 0.5;
+  return r;
+}
+
+/** URL を比べやすい形にする（追跡用のパラメータ・末尾の / などを除く） */
+export function normUrl(u: string): string {
+  try {
+    const url = new URL(u);
+    url.hash = "";
+    for (const k of [...url.searchParams.keys()]) {
+      if (/^(utm_|ref$|fbclid$|gclid$|ncid$|taid$|cmpid$|mod$|smid$|rss)/i.test(k)) url.searchParams.delete(k);
+    }
+    return (url.host.replace(/^www\./, "") + url.pathname.replace(/\/+$/, "") + url.search).toLowerCase();
+  } catch {
+    return u;
+  }
+}
+
+/** 見出しを比べやすい形にする（記号・空白・【速報】などの飾りを除く） */
+export function normTitle(t: string): string {
+  return t
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/【[^】]{0,8}】|\[[^\]]{0,8}\]/g, "")
+    .replace(/\s*[|｜]\s*[^|｜]{1,30}$/, "")
+    .replace(/[（(][^）)]{1,10}[）)]$/, "")
+    .replace(/[\s\p{P}\p{S}]/gu, "");
+}
+
+function bigrams(s: string): Set<string> {
+  const out = new Set<string>();
+  for (let i = 0; i < s.length - 1; i++) out.add(s.slice(i, i + 2));
+  return out;
+}
+
+/** 見出しの似ている度合い（0〜1、文字の2文字組の一致率） */
+export function titleSimilarity(a: string, b: string): number {
+  if (!a || !b) return 0;
+  if (a === b) return 1;
+  const short = a.length < b.length ? a : b;
+  const long = a.length < b.length ? b : a;
+  if (short.length >= 12 && long.includes(short)) return 0.95;
+  const A = bigrams(a);
+  const B = bigrams(b);
+  let n = 0;
+  for (const x of A) if (B.has(x)) n++;
+  return (2 * n) / (A.size + B.size || 1);
+}
+
+const SIMILAR = 0.7;
+
+/** 重複としてまとめた例（試し実行の確認用） */
+export const MERGED: { category: string; kept: string; dropped: string }[] = [];
+
+function dedupe(entries: Entry[], category: string): Entry[] {
+  const sorted = [...entries].sort((a, b) => b.rank - a.rank);
+  const kept: (Entry & { nu: string; nt: string; day: string })[] = [];
+  for (const e of sorted) {
+    const nu = normUrl(e.url);
+    const nt = normTitle(e.title);
+    const day = e.publishedAt ? jstDate(new Date(e.publishedAt)) : "";
+    const dup = kept.find(
+      (k) => k.nu === nu || ((!k.day || !day || k.day === day) && titleSimilarity(k.nt, nt) >= SIMILAR),
+    );
+    if (dup) {
+      MERGED.push({ category, kept: `${dup.title}（${dup.source}）`, dropped: `${e.title}（${e.source}）` });
       continue;
     }
-    const { f, feed } = r.value;
-    for (const item of feed.items.slice(0, 20)) {
-      if (!item.title || !item.link) continue;
-      const ts = item.isoDate ? Date.parse(item.isoDate) : NaN;
-      if (!Number.isNaN(ts) && ts < cutoff) continue;
-      const { title, source } = splitPublisher(clean(item.title), f.name);
-      const key = title.slice(0, 40);
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push({
-        title,
-        snippet: clean(item.contentSnippet || item.content || "").slice(0, 300),
-        source,
-        url: item.link,
-        region: f.region,
-        publishedAt: item.isoDate,
-        image: (() => {
-          const img = imageFromItem(item);
-          return img ? upscale(img) : undefined;
-        })(),
-      });
-    }
+    kept.push({ ...e, nu, nt, day });
   }
-  // 新しい順に並べ、国内と海外が偏らないよう交互に詰める
-  out.sort((a, b) => Date.parse(b.publishedAt || "0") - Date.parse(a.publishedAt || "0"));
-  const dom = out.filter((c) => c.region === "国内");
-  const intl = out.filter((c) => c.region === "海外");
+  return kept.map(({ nu: _nu, nt: _nt, day: _day, ...e }) => e);
+}
+
+// ---------------------------------------------------------------------------
+// フィードの取得
+// ---------------------------------------------------------------------------
+
+const HN_MIN_POINTS = 100; // Hacker News はこのポイント以上の記事だけ使う
+
+/** Hacker News 公式API：トップ記事のうちポイント上位 */
+async function fetchHackerNews(feed: Feed): Promise<Candidate[]> {
+  const res = await fetch("https://hacker-news.firebaseio.com/v0/topstories.json", { signal: AbortSignal.timeout(15000) });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const ids = ((await res.json()) as number[]).slice(0, 40);
+  const items = await Promise.all(
+    ids.map((id) =>
+      fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`, { signal: AbortSignal.timeout(10000) })
+        .then((r) => r.json())
+        .catch(() => null),
+    ),
+  );
+  return items
+    .filter((it) => it && it.type === "story" && it.title && (it.score ?? 0) >= HN_MIN_POINTS)
+    .sort((a, b) => b.score - a.score)
+    .map((it) => ({
+      title: clean(it.title),
+      snippet: `Hacker News で ${it.score} ポイント・コメント ${it.descendants ?? 0} 件`,
+      source: feed.name,
+      url: it.url || `https://news.ycombinator.com/item?id=${it.id}`,
+      region: feed.region,
+      publishedAt: new Date(it.time * 1000).toISOString(),
+    }));
+}
+
+/** 配信日時のない項目（警察庁など）は URL 中の日付（…/20261106001.html など）を使う */
+function dateFromUrl(url: string): string | undefined {
+  const m = url.match(/(20\d{2})[-/]?(0[1-9]|1[0-2])[-/]?(0[1-9]|[12]\d|3[01])(?:\d{0,4})(?:[./]|$)/);
+  if (!m) return undefined;
+  return new Date(`${m[1]}-${m[2]}-${m[3]}T09:00:00+09:00`).toISOString();
+}
+
+async function fetchFeed(feed: Feed): Promise<Candidate[]> {
+  if (feed.via === "hn") return fetchHackerNews(feed);
+  const parsed = await parser.parseURL(feed.url);
+  const out: Candidate[] = [];
+  for (const item of parsed.items) {
+    if (!item.title || !item.link) continue;
+    const { title, source, publisher } = splitPublisher(clean(item.title), feed);
+    if (feed.match && !feed.match.test(title)) continue;
+    if (feed.publisher && !(publisher && feed.publisher.test(publisher))) continue;
+    const publishedAt = item.isoDate ?? dateFromUrl(item.link);
+    if (feed.paywalled) {
+      // 有料・会員制：見出し・URL・配信日時・ソース名だけ（本文や画像は取らない）
+      out.push({ title, snippet: "", source, url: item.link, region: feed.region, publishedAt, paywalled: true });
+      continue;
+    }
+    const img = imageFromItem(item);
+    out.push({
+      title,
+      snippet: clean(item.contentSnippet || item.content || "").slice(0, 300),
+      source,
+      url: item.link,
+      region: feed.region,
+      publishedAt,
+      image: img ? upscale(img) : undefined,
+    });
+  }
+  return out;
+}
+
+export interface CategoryStats {
+  /** 取得した件数（重複を除く前） */
+  fetched: number;
+  /** 重複を除いた後の件数 */
+  unique: number;
+  /** フィードごとの取得件数（取得失敗は -1） */
+  feeds: Record<string, number>;
+}
+
+async function collectCategory(cat: CategoryConfig): Promise<{ candidates: Candidate[]; stats: CategoryStats }> {
+  const cutoff = Date.now() - MAX_AGE_HOURS * 3600 * 1000;
+  const results = await Promise.allSettled(cat.feeds.map((f) => fetchFeed(f)));
+  const all: Entry[] = [];
+  const feeds: Record<string, number> = {};
+  results.forEach((r, i) => {
+    const f = cat.feeds[i];
+    if (r.status === "rejected") {
+      console.warn(`  [skip] ${cat.name} / ${f.name}: ${String(r.reason).slice(0, 120)}`);
+      feeds[f.name] = -1;
+      return;
+    }
+    const fresh = r.value
+      .filter((c) => {
+        const ts = c.publishedAt ? Date.parse(c.publishedAt) : NaN;
+        return Number.isNaN(ts) || ts >= cutoff;
+      })
+      // Hacker News はポイント順のまま、ほかは新しい順にしてから上限まで使う
+      .sort((a, b) => (f.via === "hn" ? 0 : Date.parse(b.publishedAt || "0") - Date.parse(a.publishedAt || "0")))
+      .slice(0, f.limit ?? PER_FEED);
+    feeds[f.name] = fresh.length;
+    for (const c of fresh) all.push({ ...c, feed: f.name, rank: rankOf(c, f) });
+  });
+  const unique = dedupe(all, cat.name);
+
+  // 国内・海外それぞれ、フィードごとに新しい順に並べてから1件ずつ順番に取り出す（特定のソースに偏らないように）
+  const byRegion = (region: Candidate["region"]) => {
+    const groups = new Map<string, Entry[]>();
+    for (const e of unique.filter((c) => c.region === region)) {
+      if (!groups.has(e.feed)) groups.set(e.feed, []);
+      groups.get(e.feed)!.push(e);
+    }
+    const lists = [...groups.values()].map((g) =>
+      g.sort((a, b) => Date.parse(b.publishedAt || "0") - Date.parse(a.publishedAt || "0")),
+    );
+    const out: Entry[] = [];
+    while (lists.some((l) => l.length)) for (const l of lists) if (l.length) out.push(l.shift()!);
+    return out;
+  };
+  const dom = byRegion("国内");
+  const intl = byRegion("海外");
   const mixed: Candidate[] = [];
   while (mixed.length < MAX_CANDIDATES && (dom.length || intl.length)) {
-    if (dom.length) mixed.push(dom.shift()!);
-    if (intl.length && mixed.length < MAX_CANDIDATES) mixed.push(intl.shift()!);
+    for (const list of [dom, intl]) {
+      const e = list.shift();
+      if (!e || mixed.length >= MAX_CANDIDATES) continue;
+      const { feed: _f, rank: _r, ...c } = e;
+      mixed.push(c);
+    }
   }
-  return mixed;
+  return { candidates: mixed, stats: { fetched: all.length, unique: unique.length, feeds } };
 }
 
 async function fetchQuote(symbol: string, name: string): Promise<MarketQuote | null> {
@@ -193,19 +378,46 @@ async function fetchQuote(symbol: string, name: string): Promise<MarketQuote | n
   }
 }
 
+/**
+ * TOPIX は Yahoo Finance（米国版）に指数がないため、Yahoo!ファイナンス（日本版）の指数ページから
+ * 現在値と前日終値を読む。ページの作りが変わったら取れなくなるので、そのときはスキップする
+ */
+async function fetchTopix(): Promise<MarketQuote | null> {
+  const name = "TOPIX";
+  try {
+    const res = await fetch("https://finance.yahoo.co.jp/quote/998405.T", {
+      headers: { "User-Agent": UA },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    const num = (v?: string) => (v ? Number(v.replace(/,/g, "")) : NaN);
+    const price = num(html.match(/_StyledNumber__value[\w-]*">([\d,]+\.\d+)</)?.[1]);
+    const prev = num(html.match(/前日終値\\*"\s*,\s*\\*"value\\*"\s*:\s*\\*"([\d,]+\.\d+)/)?.[1]);
+    if (!(price > 0) || !(prev > 0) || Math.abs(price / prev - 1) > 0.2) throw new Error(`読み取り失敗 price=${price} prev=${prev}`);
+    const change = price - prev;
+    return { symbol: "998405.T", name, price, change, changePercent: (change / prev) * 100 };
+  } catch (e) {
+    console.warn(`  [skip] ${name}: ${String(e).slice(0, 120)}`);
+    return null;
+  }
+}
+
 export async function collectAll(): Promise<RawData> {
   const date = jstDate();
-  const markets = (await Promise.all(MARKET_SYMBOLS.map((s) => fetchQuote(s.symbol, s.name)))).filter(
-    (q): q is MarketQuote => q !== null,
-  );
-  console.log(`  株価: ${markets.length}/${MARKET_SYMBOLS.length} 件`);
+  const quotes = await Promise.all(MARKET_SYMBOLS.map((s) => fetchQuote(s.symbol, s.name)));
+  quotes.splice(1, 0, await fetchTopix()); // 日経平均の次に TOPIX
+  const markets = quotes.filter((q): q is MarketQuote => q !== null);
+  console.log(`  株価: ${markets.length}/${quotes.length} 件`);
   const categories: RawCategory[] = [];
   for (const cat of CATEGORIES) {
-    const candidates = await collectCategory(cat);
+    const { candidates, stats } = await collectCategory(cat);
     await fillImages(candidates);
     const withImg = candidates.filter((c) => c.image).length;
-    console.log(`  ${cat.name}: 候補 ${candidates.length} 件（画像あり ${withImg} 件）`);
-    categories.push({ id: cat.id, name: cat.name, candidates });
+    console.log(
+      `  ${cat.name}: 取得 ${stats.fetched} 件 → 重複を除いて ${stats.unique} 件 → 候補 ${candidates.length} 件（画像あり ${withImg} 件）`,
+    );
+    categories.push({ id: cat.id, name: cat.name, candidates, stats });
   }
   return { date, collectedAt: new Date().toISOString(), markets, categories };
 }
