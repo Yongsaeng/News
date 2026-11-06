@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Parser from "rss-parser";
-import { CATEGORIES, MARKET_SYMBOLS, type CategoryConfig, type Feed } from "../../src/lib/sources";
+import { CATEGORIES, MARKET_SYMBOLS, TDNET_MAJOR, type CategoryConfig, type Feed } from "../../src/lib/sources";
 import type { CategoryId, MarketQuote } from "../../src/lib/types";
 
 const MAX_CANDIDATES = 40; // 1カテゴリあたりの候補記事の上限
@@ -80,6 +80,7 @@ function imageFromItem(item: FeedItem): string | undefined {
 /** 元記事のページから og:image を読む（先頭 300KB だけ） */
 async function ogImage(url: string): Promise<string | undefined> {
   if (/news\.google\.com/.test(url)) return undefined; // Google ニュースの転送ページには記事画像がない
+  if (/\.pdf(\?|$)/i.test(url)) return undefined; // TDnet の開示資料（PDF）
   try {
     const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow", signal: AbortSignal.timeout(8000) });
     if (!res.ok || !res.body) return undefined;
@@ -285,8 +286,56 @@ function dateFromUrl(url: string): string | undefined {
   return new Date(`${m[1]}-${m[2]}-${m[3]}T09:00:00+09:00`).toISOString();
 }
 
+/**
+ * TDnet 公式の開示一覧（I_list_001_YYYYMMDD.html から 100 件ずつ）を、今日と前日の分だけ読む。
+ * 主要企業（TDNET_MAJOR）の開示だけを、タイトル・PDFのURL・時刻・会社名で返す（本文は取らない）
+ */
+async function fetchTdnet(feed: Feed): Promise<Candidate[]> {
+  const out: Candidate[] = [];
+  const days = [jstDate(), jstDate(new Date(Date.now() - 864e5))];
+  const strip = (h: string) => clean(h.replace(/&amp;/g, "&").replace(/&nbsp;/g, " "));
+  let pages = 0;
+  for (const day of days) {
+    const ymd = day.replace(/-/g, "");
+    for (let page = 1; page <= 20; page++) {
+      const url = `${feed.url}I_list_${String(page).padStart(3, "0")}_${ymd}.html`;
+      const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000) });
+      if (!res.ok) break;
+      pages++;
+      const html = await res.text();
+      const rows = html.split(/<tr[\s>]/i).slice(1);
+      let found = 0;
+      for (const row of rows) {
+        const cell = (k: string) => row.match(new RegExp(`class="[^"]*${k}[^"]*"[^>]*>([\\s\\S]*?)</td>`, "i"))?.[1] ?? "";
+        const time = strip(cell("kjTime"));
+        const code = strip(cell("kjCode")).slice(0, 4);
+        if (!/^\d{1,2}:\d{2}$/.test(time) || !code) continue;
+        found++;
+        const company = TDNET_MAJOR[code];
+        if (!company) continue;
+        const titleCell = cell("kjTitle");
+        const href = titleCell.match(/href="([^"]+)"/i)?.[1];
+        const title = strip(titleCell);
+        if (!href || !title) continue;
+        out.push({
+          title: `${company}：${title}`,
+          snippet: "",
+          source: feed.name,
+          url: new URL(href, url).toString(),
+          region: feed.region,
+          publishedAt: new Date(`${day}T${time.padStart(5, "0")}:00+09:00`).toISOString(),
+        });
+      }
+      if (found < 100) break; // 最後のページ
+    }
+  }
+  if (pages === 0) throw new Error("開示一覧ページを取得できませんでした");
+  return out;
+}
+
 async function fetchFeed(feed: Feed): Promise<Candidate[]> {
   if (feed.via === "hn") return fetchHackerNews(feed);
+  if (feed.via === "tdnet") return fetchTdnet(feed);
   const parsed = await parser.parseURL(feed.url);
   const out: Candidate[] = [];
   for (const item of parsed.items) {

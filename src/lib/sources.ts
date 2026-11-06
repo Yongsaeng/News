@@ -5,7 +5,7 @@ export interface Feed {
   url: string;
   region: "国内" | "海外";
   /** 取得方法。rss＝公式RSS（既定）、google＝Googleニュースの「site:ドメイン」検索、hn＝Hacker News 公式API */
-  via?: "rss" | "google" | "hn";
+  via?: "rss" | "google" | "hn" | "tdnet";
   /** 有料・会員制。見出し・URL・配信日時・ソース名だけを取り、本文や画像は取らない（画面に🔒有料） */
   paywalled?: true;
   /** 見出しがこの条件に合う記事だけ使う（総合フィードから AI 関連だけ取るときなど） */
@@ -47,7 +47,7 @@ const AI_TITLE = /AI|ＡＩ|人工知能|生成|LLM|ChatGPT|Gemini|Claude|Copilo
  * カテゴリごとのニュースソース。
  * 取得できないフィードは自動でスキップされるので、自由に足し引きしてください。
  *
- * - via 省略：公式RSS／via: "google"：Googleニュースの site: 検索（公式RSSがないソース）／via: "hn"：Hacker News 公式API
+ * - via 省略：公式RSS／via: "google"：Googleニュースの site: 検索（公式RSSがないソース）／via: "hn"：Hacker News 公式API／via: "tdnet"：TDnet 公式の開示一覧ページ
  * - paywalled：有料・会員制。見出し・URL・配信日時・ソース名だけを取る（画面に🔒有料）
  */
 export const CATEGORIES: CategoryConfig[] = [
@@ -130,6 +130,8 @@ export const CATEGORIES: CategoryConfig[] = [
       { name: "株探", url: site("kabutan.jp"), region: "国内", via: "google" },
       { name: "みんかぶ", url: site("minkabu.jp"), region: "国内", via: "google" },
       { name: "ロイター", url: gnewsJa("ロイター (株 OR 日経平均 OR 円 OR 為替 OR 債券 OR 日銀) when:1d"), region: "国内", via: "google", publisher: /Reuters|ロイター/ },
+      // 適時開示は TDnet 公式の一覧ページから、主要企業（TDNET_MAJOR）の開示タイトルとURLだけを取る
+      { name: "TDnet", url: "https://www.release.tdnet.info/inbs/", region: "国内", via: "tdnet", limit: 15 },
       { name: "Google News", url: gnewsEn("stock market when:1d"), region: "海外" },
       { name: "Bloomberg", url: "https://feeds.bloomberg.com/markets/news.rss", region: "海外", paywalled: true },
       { name: "CNBC", url: "https://www.cnbc.com/id/10000664/device/rss/rss.html", region: "海外" },
@@ -147,6 +149,13 @@ export const CATEGORIES: CategoryConfig[] = [
       // 警察庁・警視庁の公式RSS（新着情報）から、詐欺・犯罪被害の注意喚起だけを取り出す
       { name: "警察庁", url: "https://www.npa.go.jp/newlyarrived/rss20.xml", region: "国内", match: /詐欺|注意|被害|不正|サイバー|犯罪|検挙/ },
       { name: "警視庁", url: "https://www.keishicho.metro.tokyo.lg.jp/rss_news.xml", region: "国内", match: /詐欺|注意|被害|犯罪|防犯|サイバー/ },
+      // 国民生活センターは公式RSSがなく site: 検索も固定ページしか出ないため、注意喚起を伝える報道をキーワードで拾う
+      {
+        name: "Google ニュース（国民生活センター）",
+        url: gnewsJa("国民生活センター (注意 OR 注意喚起 OR 相談 OR トラブル) when:2d"),
+        region: "国内",
+        via: "google",
+      },
       {
         name: "消費者庁",
         url: "https://www.caa.go.jp/news.rss",
@@ -171,3 +180,21 @@ export const MARKET_SYMBOLS = [
   { symbol: "GC=F", name: "金" },
   { symbol: "BTC-USD", name: "ビットコイン" },
 ];
+
+/** TDnet で開示を拾う主要企業（証券コード4桁）。足し引き自由 */
+export const TDNET_MAJOR: Record<string, string> = {
+  "7203": "トヨタ自動車", "7267": "ホンダ", "7201": "日産自動車", "7269": "スズキ", "7270": "SUBARU", "6902": "デンソー",
+  "6201": "豊田自動織機", "5108": "ブリヂストン", "6758": "ソニーグループ", "6501": "日立製作所", "6503": "三菱電機",
+  "6752": "パナソニックHD", "6702": "富士通", "6861": "キーエンス", "6981": "村田製作所", "6954": "ファナック",
+  "6594": "ニデック", "6367": "ダイキン工業", "6273": "SMC", "6301": "コマツ", "6326": "クボタ", "7011": "三菱重工業",
+  "7751": "キヤノン", "7741": "HOYA", "7733": "オリンパス", "4901": "富士フイルムHD", "7974": "任天堂",
+  "8035": "東京エレクトロン", "6857": "アドバンテスト", "6146": "ディスコ", "6920": "レーザーテック", "6723": "ルネサス",
+  "4063": "信越化学工業", "5401": "日本製鉄", "1605": "INPEX", "9984": "ソフトバンクグループ", "9432": "NTT",
+  "9433": "KDDI", "9434": "ソフトバンク", "4689": "LINEヤフー", "4755": "楽天グループ", "6098": "リクルートHD",
+  "8306": "三菱UFJ FG", "8316": "三井住友FG", "8411": "みずほFG", "8604": "野村HD", "8591": "オリックス",
+  "8766": "東京海上HD", "8725": "MS&AD", "6178": "日本郵政", "8058": "三菱商事", "8031": "三井物産", "8001": "伊藤忠商事",
+  "8053": "住友商事", "8002": "丸紅", "8801": "三井不動産", "8802": "三菱地所", "9020": "JR東日本", "9022": "JR東海",
+  "9101": "日本郵船", "9104": "商船三井", "9201": "日本航空", "9202": "ANAHD", "9501": "東京電力HD", "9983": "ファーストリテイリング",
+  "3382": "セブン&アイHD", "2914": "JT", "2802": "味の素", "4452": "花王", "4502": "武田薬品工業", "4519": "中外製薬",
+  "4568": "第一三共", "4543": "テルモ", "4661": "オリエンタルランド",
+};
