@@ -19,6 +19,7 @@ const Item = z.object({
   url: z.string().url(),
   region: z.enum(["国内", "海外"]),
   publishedAt: z.string().optional(),
+  paywalled: z.literal(true).optional(),
   image: z.string().url().optional(),
   insight: z
     .object({
@@ -161,6 +162,8 @@ function main() {
           if (!cand) errors.push(`${c.name}[${i}]: url が収集データにありません（${it.url}）`);
           else if (it.image && it.image !== cand.image) errors.push(`${c.name}[${i}]: image は候補の値をそのまま使ってください`);
           else if (!it.image && cand.image) errors.push(`${c.name}[${i}]: 候補に image があるのでコピーしてください`);
+          if (cand && !!it.paywalled !== !!cand.paywalled)
+            errors.push(`${c.name}[${i}]: paywalled は候補の値をそのまま使ってください（有料記事には true、無料記事には付けない）`);
         });
       }
     } else {

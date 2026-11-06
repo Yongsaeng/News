@@ -102,6 +102,7 @@ async function summarizeCategory(client: Anthropic, cat: RawCategory, quotes: Ma
     .map((p) => {
       const c = cands[p.index];
       const item: NewsItem = { title: p.title, summary: p.summary.slice(0, 3), source: c.source, url: c.url, region: p.region, publishedAt: c.publishedAt, image: c.image, score: p.score };
+      if (c.paywalled) item.paywalled = true;
       if (withInsight && p.insight) item.insight = { angle: p.region === "海外" ? "日本への影響" : "影響を受ける人", ...p.insight, points: p.insight.points.slice(0, 4) };
       return item;
     });

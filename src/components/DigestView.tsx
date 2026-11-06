@@ -40,6 +40,7 @@ function Source({ item, onImage = false }: { item: NewsItem; onImage?: boolean }
   return (
     <p className={`text-[11px] tracking-wide ${onImage ? "text-white/55" : "text-faint"}`}>
       {item.source}
+      {item.paywalled && <span className="ml-2 font-bold">🔒有料</span>}
       {t && <span className="ml-2">{t}</span>}
     </p>
   );
