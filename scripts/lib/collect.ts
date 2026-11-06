@@ -106,15 +106,68 @@ async function ogImage(url: string): Promise<string | undefined> {
   }
 }
 
-/** 画像のない候補に og:image を補う（同時 8 件まで） */
+/**
+ * Google ニュースの転送URL（news.google.com/rss/articles/…）から元記事のURLを求める。
+ * 転送ページに埋め込まれた署名と時刻を使い、Google ニュース自身の変換APIに問い合わせる。
+ */
+let gnewsBlocked = false;
+async function decodeGoogleNews(url: string): Promise<string | undefined> {
+  const id = url.match(/news\.google\.com\/(?:rss\/)?articles\/([^?/]+)/)?.[1];
+  if (!id || gnewsBlocked) return undefined;
+  try {
+    const page = await fetch(`https://news.google.com/rss/articles/${id}`, {
+      headers: { "User-Agent": UA },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (page.status === 429) gnewsBlocked = true;
+    if (!page.ok) return undefined;
+    const html = await page.text();
+    const sg = html.match(/data-n-a-sg="([^"]+)"/)?.[1];
+    const ts = html.match(/data-n-a-ts="([^"]+)"/)?.[1];
+    if (!sg || !ts) return undefined;
+    const inner = JSON.stringify([
+      "garturlreq",
+      [["X", "X", ["X", "X"], null, null, 1, 1, "US:en", null, 1, null, null, null, null, null, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0],
+      id,
+      Number(ts),
+      sg,
+    ]);
+    const res = await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute", {
+      method: "POST",
+      headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8" },
+      body: "f.req=" + encodeURIComponent(JSON.stringify([[["Fbv4je", inner, null, "generic"]]])),
+      signal: AbortSignal.timeout(8000),
+    });
+    if (res.status === 429) gnewsBlocked = true;
+    if (!res.ok) return undefined;
+    const text = await res.text();
+    const part = text.split("\n\n")[1];
+    const decoded = JSON.parse(JSON.parse(part)[0][2])[1];
+    return typeof decoded === "string" && /^https?:\/\//.test(decoded) ? decoded : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+export const IMAGE_STATS = { googleLinks: 0, decoded: 0, images: 0 };
+
+/** 画像のない候補に og:image を補う（同時 6 件まで）。Google ニュース経由は元記事URLに直してから読む */
 async function fillImages(cands: Candidate[]): Promise<void> {
   const todo = cands.filter((c) => !c.image && !c.paywalled); // 有料記事のページは開かない
   let i = 0;
   await Promise.all(
-    Array.from({ length: 8 }, async () => {
+    Array.from({ length: 6 }, async () => {
       while (i < todo.length) {
         const c = todo[i++];
+        if (/news\.google\.com/.test(c.url)) {
+          IMAGE_STATS.googleLinks++;
+          const real = await decodeGoogleNews(c.url);
+          if (!real) continue;
+          IMAGE_STATS.decoded++;
+          c.url = real; // 元記事へ直接リンクする
+        }
         c.image = await ogImage(c.url);
+        if (c.image) IMAGE_STATS.images++;
       }
     }),
   );
@@ -490,6 +543,9 @@ export async function collectAll(): Promise<RawData> {
     );
     categories.push({ id: cat.id, name: cat.name, candidates, stats });
   }
+  console.log(
+    `  画像: Googleニュース経由 ${IMAGE_STATS.googleLinks} 件 → 元記事URLに変換 ${IMAGE_STATS.decoded} 件、og:image 取得 ${IMAGE_STATS.images} 件`,
+  );
   return { date, collectedAt: new Date().toISOString(), markets, categories };
 }
 
