@@ -1,0 +1,24 @@
+name: プレビュー用画像の取得（一時）
+on:
+  push:
+    branches: [claude/project-thread-c79m27]
+    paths: [".github/workflows/preview-assets.yml"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          D=2026-11-07
+          mkdir -p preview/$D
+          i=0
+          for u in $(python3 -c "import json;d=json.load(open('data/digests/$D.json'));print('\n'.join(x['image'] for c in d['categories'] for x in c['items'] if x.get('image')))"); do
+            i=$((i+1)); curl -sL --max-time 20 -A 'Mozilla/5.0' -o "preview/$D/$i.img" "$u" || true
+            echo "$i $u" >> preview/$D/index.txt
+          done
+          ls -la preview/$D
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview && git commit -m "preview images" && git push
