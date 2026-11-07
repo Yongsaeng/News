@@ -1,0 +1,50 @@
+name: プレビューの作成
+
+# 毎朝のまとめ（data/digests）が main に push されたら、プレビュー用の1枚のHTMLを作って
+# preview-html ブランチの preview.html に置く。要約の定期実行がそれを読んでプレビューを更新する
+on:
+  push:
+    branches: [main]
+    paths: ["data/digests/**"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-preview
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: ページを取得
+        run: |
+          npx next start -p 3123 > /tmp/srv.log 2>&1 &
+          for i in $(seq 1 60); do curl -sf -o /tmp/home.html localhost:3123 && break; sleep 1; done
+          test -s /tmp/home.html
+      - name: プレビューHTMLに変換
+        run: |
+          pip install --quiet pillow
+          mkdir -p /tmp/out
+          python3 scripts/preview/build_preview.py "$PWD" /tmp/home.html scripts/preview/tail.html /tmp/out/preview.html
+          latest=$(ls data/digests/*.json | sort | tail -1 | xargs basename | cut -d. -f1)
+          echo "$latest" > /tmp/out/date.txt
+      - name: preview-html ブランチに置く
+        run: |
+          cd /tmp/out
+          git init -q -b preview-html
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview.html date.txt
+          git commit -qm "preview: $(cat date.txt)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" preview-html
