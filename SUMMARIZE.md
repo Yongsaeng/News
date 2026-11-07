@@ -134,3 +134,13 @@ git commit -m "digest: <今日>"
 git pull --rebase origin main
 git push origin main
 ```
+
+## 4. プレビューを更新する
+
+勇生さんはスマホでプレビュー（https://claude.ai/artifact/QhQeLVED5UjKyecQx5GRcG ）を見ています。これは自動では変わらないので、毎朝ここで差し替えます。
+
+1. 手順3の push で GitHub Actions「プレビューの作成」（`.github/workflows/build-preview.yml`）が動き、数分で `preview-html` ブランチに `preview.html` と `date.txt` ができる
+2. `git fetch origin preview-html` を1分おきに繰り返し、`git show origin/preview-html:date.txt` が今日の日付になるまで最大20分待つ
+3. なったら `git show origin/preview-html:preview.html > <作業用フォルダ>/morning-brief.html` で保存する
+4. Artifact ツールで、まず action `read` で上のURLを読み、続けて同じ `url` を指定して保存したファイルを publish する。新しいURLを作らないこと
+5. 20分待っても来ない場合や publish に失敗した場合は、「プレビューは更新できなかった」と理由を一言添えて報告する（まとめ自体は完了している）
