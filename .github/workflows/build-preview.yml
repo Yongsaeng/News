@@ -4,8 +4,8 @@ name: プレビューの作成
 # preview-html ブランチの preview.html に置く。要約の定期実行がそれを読んでプレビューを更新する
 on:
   push:
-    branches: [main, claude/project-thread-c79m27]
-    paths: ["data/digests/**", ".github/workflows/build-preview.yml"]
+    branches: [main]
+    paths: ["data/digests/**"]
   workflow_dispatch: {}
 
 permissions:
