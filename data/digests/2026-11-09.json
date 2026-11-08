@@ -1,0 +1,1633 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-08T22:04:38Z",
+  "headline": [
+    "日経平均は前営業日に6％安で「弱気相場」入り。今週は米物価指標とハイテク決算が焦点。",
+    "自民党は消費減税法案の採決を棄権した議員の処分を検討。首相は金正恩氏との会談に意欲。",
+    "エヌビディアがCEOと中国スパイとされる人物の関係を調査。ロシアはJTの事業管理を拡大。"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 57434.77,
+      "change": -3643.128437500003,
+      "changePercent": -5.964724606934464
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7376.86,
+      "change": 23.130019531249673,
+      "changePercent": 0.3145345231968293
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 24579.424,
+      "change": 264.42399999999907,
+      "changePercent": 1.087493316882579
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 51285.73,
+      "change": -237.3285937499968,
+      "changePercent": -0.46062598034268476
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 158.335,
+      "change": 0.8369989013671955,
+      "changePercent": 0.5314346185530485
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "蛍光灯の製造禁止が迫る、家庭でも対応を",
+          "summary": [
+            "蛍光灯の製造が禁止される時期が近づいている。",
+            "工場やオフィスだけでなく、一般の家庭でも対応が必要だとされる。",
+            "照明の切り替えをどう進めるかが課題になっている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601786?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T05:58:43.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/09632071af73b1787f947f0539ab0c0f8036eb53829abaaf7596a4d05c13c566.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "蛍光灯をつくることが禁止される日が近づいていて、家庭でも照明を切り替えるなどの備えが必要だと伝えられています。",
+            "why": "蛍光灯には少しだけ水銀が使われています。水銀による健康や環境への害を減らすための国際的な取り決め「水俣条約」で、蛍光灯の製造や輸出入を段階的にやめることが決まりました。今ある蛍光灯はそのまま使えますが、替えの品は手に入りにくくなるとみられます。",
+            "points": [
+              {
+                "label": "一般の家庭",
+                "text": "替えの蛍光灯が店から減り、LEDへの切り替えが必要になりそうです。器具ごと替えると費用がかかる場合があります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "電気代を払う家庭",
+                "text": "LEDは使う電気が少ないため、切り替えると電気代が下がる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "集合住宅の管理者",
+                "text": "廊下や階段など共用部分の照明も多く、交換の計画を早めに立てる必要が出てきそうです。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "製造が止まる時期と、店頭から蛍光灯が減るペース。"
+          },
+          "score": {
+            "total": 73,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "水俣条約",
+              "meaning": "水銀による健康や環境への害を防ぐための国際的な約束。日本の水俣病の教訓から名づけられた。"
+            },
+            {
+              "word": "水銀",
+              "meaning": "常温で液体の金属。体に入ると健康を害するおそれがあり、使い方が厳しく制限されている。"
+            },
+            {
+              "word": "LED",
+              "meaning": "電気を流すと光る部品を使った照明。蛍光灯より電気代が安く、長持ちする。"
+            }
+          ]
+        },
+        {
+          "title": "倉庫に古米の山、赤字覚悟で販売",
+          "summary": [
+            "倉庫に古いコメ（古米）が大量に残っている。",
+            "売り手は赤字になるのを覚悟して販売している。",
+            "在庫を減らすため、損を出してでも売る動きが出ている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601793?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T06:42:20.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/755cb7ae0b8d576808ad4659e69e8ebfd6c17ada9cd3844742cf58c4ff760f75.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "前の年までに収穫されたコメ（古米）が倉庫に大量に残り、売り手が損を覚悟で売り出していると伝えられています。",
+            "why": "コメは毎年秋に新米が出回るため、売れ残った分は古米となり、時間がたつほど値打ちが下がります。値段が高い時期に多めに仕入れたり、思ったより売れなかったりすると在庫が余ります。保管にもお金がかかるため、損をしてでも早く売り切ろうとする動きが出ます。",
+            "points": [
+              {
+                "label": "コメを買う家庭",
+                "text": "安い古米が出回れば、コメにかかる出費を少し抑えられる可能性があります。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "コメ農家",
+                "text": "在庫が余ると新米の値段も下がりやすく、収入が減るおそれがあります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "コメの販売業者",
+                "text": "赤字での販売が続けば、経営が苦しくなる業者が出る可能性があります。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "新米の値段と、店頭のコメの価格がどう動くか。"
+          },
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "古米",
+              "meaning": "前の年までに収穫されて、売れ残ったコメ。時間がたつほど味が落ち、値段も下がりやすい。"
+            },
+            {
+              "word": "在庫",
+              "meaning": "売るために持っているが、まだ売れていない商品のこと。"
+            },
+            {
+              "word": "新米",
+              "meaning": "その年の秋に収穫されたばかりのコメ。古米より高い値段で売られることが多い。"
+            }
+          ]
+        },
+        {
+          "title": "ドコモ、ahamoサイトの緊急メンテナンスを完了",
+          "summary": [
+            "NTTドコモは、料金プラン「ahamo」のサイトの緊急メンテナンスを終えた。",
+            "「サイトの安全性が確認できた」ためとしている。",
+            "不正アクセスでは約29万回線分の情報が流出し、ドコモは被害者にお見舞金を出す。"
+          ],
+          "source": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nTkREaFhSTDA4YXFySlZnR1ltbWQtTVVaQmt5ckJ2QzJnWnJzU3hSWks2S29wdWJRQ1J6UlNNUlRaZEs1YTEzYWdZWUpQZUJubjVEelVNTGU5d3I4MUZSVjBlT2Z5c3U0Z1V3ZDZPUdIBaEFVX3lxTE1KVDdoZ1hyaHZIWjlHOWFWSGthWTNGNEZNNTF6Ul9YM1g0ZTFJY3FmUTZ6WmM3VWZGY3Z2OUl4NTFLRDlnLVNjT19KSldvSENCOFpPTkF4ZlZJeE4ybmlvUUY0Mk81d290?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T04:32:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "NTTドコモが、不正アクセスを受けて止めていた「ahamo」のサイトを、安全が確認できたとして再開しました。流出は約29万回線分で、口座番号などの一部も含まれます。",
+            "why": "ドコモは不正アクセスを受け、被害が広がるのを防ぐためにサイトを止めて調べていました。流出した情報には本人確認書類の番号も含まれ、なりすましなどに悪用されるおそれがあります。1カ月足らずの間に長い通信障害も起きており、信頼の回復が課題です。",
+            "points": [
+              {
+                "label": "ドコモの契約者",
+                "text": "自分の情報が流出していないか、ドコモからのお知らせを確かめる必要があります。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "情報が流出した人",
+                "text": "本人確認書類の番号を使ったなりすましや、詐欺の連絡に注意が必要です。お見舞金も支払われます。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "携帯会社を選ぶ人",
+                "text": "トラブルが続いたことで、ほかの会社への乗り換えを考える人が出る可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "お見舞金の額と支払いの時期、再発を防ぐ対策の中身。"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ahamo",
+              "meaning": "NTTドコモの、ネットで申し込む割安な料金プラン。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。情報を盗んだり書き換えたりする目的で行われる。"
+            },
+            {
+              "word": "本人確認書類",
+              "meaning": "運転免許証やマイナンバーカードなど、本人であることを示す書類。"
+            },
+            {
+              "word": "お見舞金",
+              "meaning": "被害を受けた人に、おわびの気持ちとして会社が支払うお金。"
+            }
+          ]
+        },
+        {
+          "title": "JTのロシア事業、元FSB職員の企業が管理と報道",
+          "summary": [
+            "ロシアのプーチン大統領が、JTの現地法人3社を新たに一時管理下に置いた。",
+            "管理下の現地法人は計7社となり、FSBの元職員の企業が管理すると報じられた。",
+            "ロシア外務省は「露骨な敵対行為への対抗措置」と説明している。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13QzVVVmZGNy1BX0hyRmk3R1VOX3VJQ1h1ZTk3T1RvcWVfeVZmbHBYS3NEUW9ra1pTLWxZaVVCejl4cXpnZXhWMm5qd1c2SnFpaTZMczJPeTFsbk0xMkJLRHJ1UXkwWkxBU0M4ZQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T18:57:12.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ロシア政府がJT（日本たばこ産業）の現地法人3社を新たに国の管理下に置き、合計7社になりました。運営はロシアの情報機関FSBの元職員の企業が担うと報じられています。",
+            "why": "ロシアはウクライナ侵攻のあと、制裁をかける国を「非友好国」と呼び、その国の企業の資産を一時管理の名目で事実上取り上げる例が続いています。JTはロシアで大きなたばこ事業を持っていたため、日本への対抗措置の標的になったとみられます。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "JTは利益の大きな柱を失うおそれがあり、株価や配当に影響が出る可能性があります。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本企業の海外事業",
+                "text": "ロシアに残るほかの日本企業の資産も取り上げられるおそれが強まり、撤退を急ぐ動きが出そうです。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本政府の抗議に対しロシアは強い姿勢を崩しておらず、日ロ関係はさらに冷え込みそうです。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "JTがロシア事業の損失を決算にどれだけ計上するか。"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 50,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "FSB",
+              "meaning": "ロシア連邦保安庁。国内の治安やスパイ対策を受け持つロシアの情報機関。"
+            },
+            {
+              "word": "現地法人",
+              "meaning": "日本の会社が外国につくった、その国の法律に基づく会社。"
+            },
+            {
+              "word": "非友好国",
+              "meaning": "ロシアが、制裁をかけてくる日本や欧米などの国を指して使う呼び方。"
+            },
+            {
+              "word": "一時管理",
+              "meaning": "ロシア政府が外国企業の資産を「一時的に」管理すること。実際には取り上げに近いとされる。"
+            }
+          ]
+        },
+        {
+          "title": "ウォール街で大型買収を急ぐ動き、中間選挙後に期限を意識",
+          "summary": [
+            "米ウォール街で、大型のM&A（企業の合併・買収）を急いでまとめようとする動きが出ている。",
+            "中間選挙で民主党が躍進し、トランプ政権のうちに案件を終えたいとの思惑がある。",
+            "広告テック業界などでも、M&Aにブレーキがかかるかが注目されている。"
+          ],
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3o2UUtxWnBENkQtZkNqbC1hNHljZGRsYklfOHVhTXRYQjgzWnZqUWEzT1c0ZVJZektZVHBoelZkVHF3M3pxRDRSOXZpYjNieW44d216M0JMSXo4TWloSFZUXzZqWS1zY3hMd3o4THBQSFZfelRwdEZ3SnhOZVhWSnZwdTRwd3hveTc0Q3JEQmQ5Z2plNXpfSHJoSkI3MkR5anNVd1Z6VThlRTY3X3V6VFJCNEI1Zw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T14:00:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "アメリカの金融界で、大きな企業の合併・買収（M&A）を急いでまとめようとする動きが広がっていると報じられています。",
+            "why": "トランプ政権は企業の合併に比較的寛容だとみられてきました。中間選挙で民主党が勢いを増したことで、この先は審査が厳しくなるかもしれないと考え、今のうちに大きな案件を決めてしまおうとする動きが出ています。",
+            "points": [
+              {
+                "label": "日本企業の買収",
+                "text": "アメリカで企業を買おうとする日本企業も、手続きを急ぐか様子を見るかの判断を迫られそうです。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "大型の買収が増えると、関係する企業の株価が大きく動きやすくなる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "民主党が議会で合併の審査を厳しくする動きを見せるか。"
+          },
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "M&A",
+              "meaning": "会社どうしが一つになる「合併」と、ほかの会社を買い取る「買収」をまとめた呼び方。"
+            },
+            {
+              "word": "ウォール街",
+              "meaning": "ニューヨークにある金融の中心地。アメリカの金融業界全体を指す言葉としても使われる。"
+            },
+            {
+              "word": "中間選挙",
+              "meaning": "アメリカで大統領の任期4年の真ん中に行われる議会の選挙。政権への評価とされる。"
+            }
+          ]
+        },
+        {
+          "title": "NASA、月面基地で100億ドルの契約 スペースXなど参入",
+          "summary": [
+            "NASAが、100億ドル規模の月面基地の契約を発表した。",
+            "宇宙企業のスペースXやブルーオリジンが加わる。",
+            "月の開発をめぐる企業の競争が「ゴールドラッシュ」のように熱を帯びている。"
+          ],
+          "source": "New York Post",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb052bXJ2SjJsejdJOHJ5dGRRM1lESi1fcS1kZUwyQXZ0V1pMWW5sZGRjNGE0aEJuWmI2ME1LOFJNVkdJTXJlSXlGdVBIUzlzVlVSNnc5c0RFR1VtWEp6VjVsZGlGMlpQUFpqRVBfbnVFcEFSWnhVMWRjYU9ocHNqQUh1UW1kcllEc19vaXAwWC1XQ2x4UjEyNWNQMUdQX3R5cy1YeGhqUS0zYzI0ZFdMaFI2OV8?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T08:37:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "アメリカ航空宇宙局（NASA）が、月に基地をつくるための100億ドル（約1.6兆円）規模の契約を発表し、スペースXやブルーオリジンなどが加わります。",
+            "why": "アメリカは人を再び月に送り、長く滞在できる拠点をつくる計画を進めています。開発を民間企業に任せることで、早く安く進めようとしています。中国も月の開発を進めており、国や企業の競争が激しくなっています。",
+            "points": [
+              {
+                "label": "日本の宇宙関連企業",
+                "text": "月の開発の市場が広がり、部品や技術を持つ日本企業にも仕事が回る可能性があります。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の宇宙政策",
+                "text": "アメリカと協力して月を目指す日本にとって、計画の進み具合が自国の計画にも関わります。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "どの企業が基地のどの部分を担当するか、契約の詳しい中身。"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "NASA",
+              "meaning": "アメリカ航空宇宙局。アメリカの宇宙開発を担う国の機関。"
+            },
+            {
+              "word": "スペースX",
+              "meaning": "イーロン・マスク氏が率いるアメリカの宇宙企業。ロケットを再利用する技術で知られる。"
+            },
+            {
+              "word": "ブルーオリジン",
+              "meaning": "アマゾン創業者のジェフ・ベゾス氏がつくったアメリカの宇宙企業。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "自民党、消費減税法案の採決を棄権した議員の処分を検討",
+          "summary": [
+            "自民党は、消費税減税法案の採決を棄権した議員の処分を検討している。",
+            "法案は衆院本会議で可決されたが、石破前首相らは採決の際に退席していた。",
+            "党の方針に従わなかった議員への対応が焦点になっている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601782?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T05:33:35.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261106-d1910f0/all/images/ogp_default.png",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "消費税を下げる法案の衆議院での採決で、賛成も反対もせずに棄権した自民党の議員について、党が処分を検討しています。",
+            "why": "政党は大事な法案で党として賛否を決め、議員全員がそれに従うのが原則です（党議拘束）。消費税の減税には、財源への不安などから党内にも慎重な意見がありました。棄権を許すと党のまとまりが弱まるため、処分で引き締めを図るとみられます。",
+            "points": [
+              {
+                "label": "買い物をする全員",
+                "text": "法案は参議院での審議に進みます。成立すれば、買い物のときの税の負担が軽くなります。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "自民党の議員",
+                "text": "処分の重さによっては党内の対立が深まり、法案の審議にも影響する可能性があります。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "処分の対象と重さ、参議院での法案審議の日程。"
+          },
+          "score": {
+            "total": 73,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "棄権",
+              "meaning": "採決のときに、賛成も反対もせず投票しないこと。"
+            },
+            {
+              "word": "衆院本会議",
+              "meaning": "衆議院の議員全員が集まり、法案などを最終的に採決する会議。"
+            },
+            {
+              "word": "党議拘束",
+              "meaning": "政党が法案への賛成・反対を決め、所属議員にその通りに投票させる決まり。"
+            },
+            {
+              "word": "財源",
+              "meaning": "政策を実行するために必要なお金の出どころ。"
+            }
+          ]
+        },
+        {
+          "title": "日米外相会談、パリでのG7に合わせて調整",
+          "summary": [
+            "日本とアメリカの外相会談を開く方向で調整が進んでいる。",
+            "フランス・パリで開かれるG7の会合に合わせて行う見通しだ。",
+            "両国の外交のトップが、対面で意見を交わす機会になる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601851?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T14:28:33.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/4d3a4e868f565c50fc7934aba156a1b68e92c0266637c0d579cb3caf33b195c4.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本の外務大臣とアメリカの国務長官が会談する方向で、パリで開かれる主要7カ国（G7）の会合に合わせて日程を調整しています。",
+            "why": "G7は日本やアメリカ、ヨーロッパの主要国が集まる枠組みで、会合に合わせて2国間の会談を開くことがよくあります。アメリカでは中間選挙で与党が苦戦し、政権の方針が変わるかが注目されています。日本は同盟国として、早めに考えをすり合わせたいとみられます。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "関税や貿易の話し合いが進めば、アメリカに製品を売る企業の見通しが立ちやすくなります。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "国民全体",
+                "text": "日米の連携を確かめることで、日本周辺の安全保障の安定につながる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "会談の日程と、安全保障や経済で何を確認するか。"
+          },
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "外相",
+              "meaning": "外務大臣のこと。外国との交渉など外交を担当する大臣。"
+            },
+            {
+              "word": "G7",
+              "meaning": "日本、アメリカ、イギリス、フランス、ドイツ、イタリア、カナダの主要7カ国の集まり。"
+            },
+            {
+              "word": "国務長官",
+              "meaning": "アメリカで外交を担当する長官。日本の外務大臣にあたる。"
+            }
+          ]
+        },
+        {
+          "title": "首相、金正恩氏との首脳会談に意欲",
+          "summary": [
+            "首相が、北朝鮮の金正恩氏との首脳会談に意欲を示した。",
+            "日朝の首脳が直接会って話し合うことを目指す考えだ。",
+            "実現に向けた今後の動きが注目される。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601806?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T08:02:24.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/e84e77e47f094de22bf10d398502840b355edc43fb4885f8aab99cc35f6b25bb.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "首相が、北朝鮮のトップである金正恩氏と直接会って話し合いたいという考えを示しました。",
+            "why": "日本と北朝鮮には国交がなく、北朝鮮による日本人の拉致問題も長く解決していません。被害者の家族が高齢になる中、首脳どうしが直接話さなければ前に進まないとの考えがあるとみられます。一方、北朝鮮は核やミサイルの開発を続けており、実現のめどは立っていません。",
+            "points": [
+              {
+                "label": "拉致被害者の家族",
+                "text": "会談が実現すれば、被害者の帰国に向けた話し合いが進む可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "国民全体",
+                "text": "対話の窓口ができれば、ミサイル発射などの緊張を和らげるきっかけになる可能性があります。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "北朝鮮側が会談の呼びかけにどう反応するか。"
+          },
+          "score": {
+            "total": 45,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "金正恩",
+              "meaning": "北朝鮮の最高指導者。国の政治や軍を率いる立場にある。"
+            },
+            {
+              "word": "首脳会談",
+              "meaning": "国のトップどうしが直接会って話し合うこと。"
+            },
+            {
+              "word": "拉致問題",
+              "meaning": "1970〜80年代に北朝鮮が日本人を連れ去った問題。今も帰国できていない人がいる。"
+            },
+            {
+              "word": "国交",
+              "meaning": "国どうしが正式に外交の関係を結んでいること。"
+            }
+          ]
+        },
+        {
+          "title": "ロシアがウクライナの電力網を攻撃、来週の協議を前に",
+          "summary": [
+            "ロシアの攻撃で9人がけがをし、ウクライナの電力網が被害を受けた。",
+            "来週、アブダビでウクライナとロシアの代表団が加わる3者協議が予定されている。",
+            "大規模な攻撃は、この協議の直前に行われた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-07T12:49:36.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0554/live/2786bc40-daa0-11f1-a523-f508a3e924cb.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ロシアがウクライナの電力などのエネルギー施設を大規模に攻撃し、9人がけがをしました。来週には両国の代表団が加わる話し合いが予定されています。",
+            "why": "冬が近づく中で電気や暖房が止まると、市民の暮らしに深刻な打撃になります。話し合いの前に攻撃を強めることで、交渉を有利に進めようとしているとの見方があります。戦争を終わらせる条件をめぐって、両国の主張は大きく離れたままです。",
+            "points": [
+              {
+                "label": "電気・燃料の値段",
+                "text": "戦争が長引けばエネルギーの値段が下がりにくく、日本の電気代や燃料代にも影響が残りそうです。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "停戦が近づけば、日本も復興の支援やロシアへの制裁の見直しを迫られる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "アブダビでの協議で、停戦の条件が話し合われるか。"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "電力網",
+              "meaning": "発電所から家庭や工場へ電気を届けるための、送電線などのしくみ全体。"
+            },
+            {
+              "word": "アブダビ",
+              "meaning": "中東のアラブ首長国連邦の首都。国際的な話し合いの場になることが多い。"
+            },
+            {
+              "word": "代表団",
+              "meaning": "国などを代表して、交渉や会議に出席する人たちのグループ。"
+            }
+          ]
+        },
+        {
+          "title": "米中間選挙、接戦の2州は結果確定まで数週間か",
+          "summary": [
+            "アメリカの中間選挙で、接戦となった2つの州の結果が出るまで数週間かかる見通しだ。",
+            "票の差が小さく、勝敗はまだ決まっていない。",
+            "議会の最終的な議席の配分にも関わるため、行方が注目される。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6601753?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-08T01:28:58.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/902f5a9611f4ef35fc608a56d5b56accfe91dc490f45ea90a7b8e10760a4259b.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "アメリカの中間選挙で、2つの州の選挙が大接戦となり、勝ち負けが決まるまでに数週間かかる可能性があると伝えられています。",
+            "why": "アメリカでは郵便で送られた票なども数えるため、差が小さいと集計や確認に時間がかかります。差がとても小さい場合は数え直しが行われることもあります。今回は民主党が大きく勝っており、残りの議席が議会の力関係にどう響くかが焦点です。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "議会の勢力がはっきりするまでアメリカの政策の先行きが読みにくく、株価が揺れやすくなりそうです。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "円相場",
+                "text": "選挙後の政策の見通しが変わると、ドルと円の交換比率も動く可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "接戦2州の最終結果と、議会の議席の配分。"
+          },
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "中間選挙",
+              "meaning": "アメリカで大統領の任期4年の真ん中に行われる議会の選挙。政権への評価とされる。"
+            },
+            {
+              "word": "議席",
+              "meaning": "議会で議員が座る席。議員の数を表し、多いほど議会で力を持つ。"
+            },
+            {
+              "word": "集計",
+              "meaning": "票などを数えて、まとめること。"
+            }
+          ]
+        },
+        {
+          "title": "サウジの空爆で少なくとも33人死亡、フーシ派が発表",
+          "summary": [
+            "イエメンの武装組織フーシ派は、サウジアラビアの空爆で少なくとも33人が死亡したと発表した。",
+            "サウジアラビアは、フーシ派と戦う連合軍を率いている。",
+            "サウジ側はコメントしていない。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-08T04:03:12.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2670/live/bfaac760-dacc-11f1-bda8-29fb69dbc026.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イエメンの武装組織フーシ派が、サウジアラビアの空爆で少なくとも33人が亡くなったと明らかにしました。サウジ側は何も述べていません。",
+            "why": "イエメンでは長く内戦が続いており、サウジアラビアは政府側を支える国々の連合軍を率いてフーシ派と戦ってきました。フーシ派はイランの支援を受けているとされ、紅海を通る船を攻撃したこともあります。中東の争いは周りの国を巻き込みやすいのが特徴です。",
+            "points": [
+              {
+                "label": "ガソリンの値段",
+                "text": "中東の緊張が高まると原油の値段が上がりやすく、日本のガソリン代に響く可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "海運・輸出入",
+                "text": "紅海の周りの航路が不安定になると、船の運賃や輸送にかかる日数が増えるおそれがあります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "フーシ派が報復に出るか、紅海を通る船の安全。"
+          },
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "フーシ派",
+              "meaning": "イエメンの武装組織。イランの支援を受けているとされ、サウジアラビアなどと戦っている。"
+            },
+            {
+              "word": "空爆",
+              "meaning": "飛行機などから爆弾を落として攻撃すること。"
+            },
+            {
+              "word": "連合軍",
+              "meaning": "複数の国が一緒になってつくる軍隊。"
+            },
+            {
+              "word": "紅海",
+              "meaning": "アフリカとアラビア半島の間にある海。アジアとヨーロッパを結ぶ船の重要な通り道。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "「なりすまし電話」が巧妙に、対策は",
+          "summary": [
+            "他人になりすまして電話をかける手口が巧妙になっている。",
+            "どのように身を守ればよいか、対策が紹介されている。",
+            "電話を使ったなりすましへの注意が呼びかけられている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601743?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T00:33:18.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/d0d382e10f4662bab2cd0128857eae089f87b2d3641ef1c2909ad6820f8c8684.jpg",
+          "score": {
+            "total": 65,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "なりすまし",
+              "meaning": "他人や会社、役所の人などのふりをして、相手をだますこと。"
+            },
+            {
+              "word": "手口",
+              "meaning": "犯罪などのやり方のこと。"
+            },
+            {
+              "word": "巧妙",
+              "meaning": "やり方がたくみで、見破りにくいこと。"
+            }
+          ]
+        },
+        {
+          "title": "個人情報を「手放す」企業が続々",
+          "summary": [
+            "持っている個人情報を「手放す」企業が相次いでいる。",
+            "必要のない客の情報を、そもそも持たないようにする動きだ。",
+            "情報を持たないことで、流出のおそれ自体を減らす狙いがあるとみられる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601787?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-08T05:32:18.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/8/5efe0a53af37f1c490286293e5af719ddad54d1e4f9bfb30d72919e93ba10968.jpg",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 40,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "個人情報",
+              "meaning": "名前や住所、電話番号など、それを見ればだれのことか分かる情報。"
+            },
+            {
+              "word": "流出",
+              "meaning": "情報などが外にもれ出ること。"
+            }
+          ]
+        },
+        {
+          "title": "海外ハッカーが日本を「割に合う国」と見る理由",
+          "summary": [
+            "海外のハッカーが、日本を「割に合う国」と見なすようになったと指摘されている。",
+            "企業が「宝の山」としてためてきた個人情報が、かえって狙われる原因になった。",
+            "日本企業の情報の持ち方が問われている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91Q29Sb011SDBqN252T1BYM0hiNWg1UzQwa05QR3FGVDFGR0UzMWxsYUNjUnZQTTh2RWNxSXFlT1lqTF9wUktrN09sYnF4UlNkVGtmNjAtQjM4YVU1UWtENGVDTTZjMlJsOVo4cGdXNzZxTU5DdHBPX3B3ODFSbWs?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T01:15:36.000Z",
+          "score": {
+            "total": 50,
+            "parts": {
+              "people": 40,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ハッカー",
+              "meaning": "ここでは、コンピューターに不正に入り込み、情報を盗むなどする人のこと。"
+            },
+            {
+              "word": "個人情報",
+              "meaning": "名前や住所、電話番号など、それを見ればだれのことか分かる情報。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア、CEOと中国スパイとされる人物の関係を調査",
+          "summary": [
+            "米エヌビディアは、ジェンスン・フアンCEOとメガスピード社の幹部との関係について調査を始めると発表した。",
+            "この幹部は、中国の国家安全省に同社をスパイするよう依頼されたと報じられている。",
+            "フアン氏は社内向けの文書で、この人物と不倫関係にあったことを認めた。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "region": "海外",
+          "publishedAt": "2026-11-08T20:22:39.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エヌビディア",
+              "meaning": "AI向けの半導体で世界最大手のアメリカ企業。"
+            },
+            {
+              "word": "CEO",
+              "meaning": "最高経営責任者。会社の経営のいちばん上に立つ人。"
+            },
+            {
+              "word": "国家安全省",
+              "meaning": "中国でスパイ活動や国の安全を受け持つ役所。"
+            }
+          ]
+        },
+        {
+          "title": "世界の電力網を悩ませた謎の電力低下、ドイツの研究者が原因を特定",
+          "summary": [
+            "世界各地の電力網で、複数の場所で同時に起きる電力の低下が謎とされてきた。",
+            "ドイツの研究者のチームが、その原因を突き止めた。",
+            "長く電力網を悩ませてきた謎が解けたと伝えられている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
+          "region": "海外",
+          "publishedAt": "2026-11-08T20:30:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2022/08/electrical-grid-at-night.jpg?resize=1200,800",
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "電力網",
+              "meaning": "発電所から家庭や工場へ電気を届けるための、送電線などのしくみ全体。"
+            }
+          ]
+        },
+        {
+          "title": "スナップの眼鏡型端末「Specs」、高価だが着け心地は向上",
+          "summary": [
+            "米スナップが長年開発してきた眼鏡型の端末「Specs」が、この秋に発売される。",
+            "値段はまだとても高いが、以前より着け心地はずっと良くなったという。",
+            "利用者に受け入れられるかが注目されている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
+          "region": "海外",
+          "publishedAt": "2026-11-08T21:00:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/SPECS27_52_Front_View81.png?resize=1200,675",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スナップ",
+              "meaning": "写真や動画を送り合うアプリ「スナップチャット」を運営するアメリカの企業。"
+            },
+            {
+              "word": "Specs",
+              "meaning": "スナップが開発した眼鏡型の端末。目の前の景色に画像などを重ねて表示できる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "コクヨ、開発部門の「資料散乱」をAIで解消 Notionを活用",
+          "summary": [
+            "コクヨは、NotionとAIエージェントを組み合わせ、開発部門の情報管理を効率化した。",
+            "社内に情報はたまっているのに、必要な資料が見つからない課題があった。",
+            "情報の管理から文書のレビューまでを効率よく進める仕組みをつくった。"
+          ],
+          "source": "ITmedia AI+",
+          "url": "https://kn.itmedia.co.jp/kn/article/2611/09/2000002973/",
+          "region": "国内",
+          "publishedAt": "2026-11-08T21:00:00.000Z",
+          "image": "https://kn.itmedia.co.jp/kn/article/ogp/2611/09/2000002973/10011528/2048",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Notion",
+              "meaning": "メモや資料、予定などをまとめて管理できるアメリカ製のアプリ。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受けて、調べものや作業を自分で順番に進めてくれるAI。"
+            },
+            {
+              "word": "レビュー",
+              "meaning": "内容が正しいか、問題がないかを確認すること。"
+            }
+          ]
+        },
+        {
+          "title": "日東工業、図面から見積り情報を生成AIで取り出すアプリ",
+          "summary": [
+            "日東工業は、建物の図面から分電盤の見積り情報を取り出すWebアプリを開発した。",
+            "生成AIの技術を使って、図面の中から必要な情報を読み取る。",
+            "見積りづくりの手間を減らすことを目指している。"
+          ],
+          "source": "デジタルクロス",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VSkZhbGUtSXFBcGtiM3JnMmdJajhsN3d0SHhfZXZCUUxyMjd2bkRaTG90TXZHWUE5SG5ISk1XcFpTTG5XUXFidzQ4YzRsT2tISERROE9JcjZRZW1sSmU3c05VUQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T21:00:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "分電盤",
+              "meaning": "建物に来た電気を各部屋やコンセントに分けて送る装置。ブレーカーが入った箱。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを新しく作り出すAI。質問に答えたり資料を作ったりできる。"
+            },
+            {
+              "word": "見積り",
+              "meaning": "工事や商品にかかる費用を、前もって計算して示すこと。"
+            }
+          ]
+        },
+        {
+          "title": "富山県、生成AI検索で観光の情報発信 事業者を公募",
+          "summary": [
+            "富山県は、生成AIによる検索を使った観光情報の発信と誘客の事業を行う。",
+            "事業を任せる会社を「公募型プロポーザル」で募っている。",
+            "AIで調べものをする旅行者に、富山の情報を届ける狙いとみられる。"
+          ],
+          "source": "トラベルボイス",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RWXhCMVJGbGJyekp1bVJMckNVRGZhSmh5TUpjR0J4QVNVN2VMUHFlSkFKSkN6M1NUVlNoOFZiWkpDblRFRUpQZFRJMGNZY3B4?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T12:01:50.000Z",
+          "score": {
+            "total": 23,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを新しく作り出すAI。質問に答えたり資料を作ったりできる。"
+            },
+            {
+              "word": "誘客",
+              "meaning": "観光客などのお客を呼び込むこと。"
+            },
+            {
+              "word": "公募型プロポーザル",
+              "meaning": "広く参加を募り、提案の内容を比べて仕事を任せる相手を選ぶやり方。"
+            }
+          ]
+        },
+        {
+          "title": "アップル、Siriのエージェント化を急ぐ",
+          "summary": [
+            "アップルが、音声アシスタント「Siri」を自分で作業を進めるAIにしようと急いでいる。",
+            "ブルームバーグのマーク・ガーマン氏によると、ターナスCEOがフェデリギ氏に開発の前倒しを求めている。",
+            "オープンAIの「Dots」やメタの「Muse」に対抗できるAIエージェントを目指す。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "region": "海外",
+          "publishedAt": "2026-11-08T19:18:19.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 40,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Siri",
+              "meaning": "iPhoneなどに入っているアップルの音声アシスタント。話しかけると操作や検索をしてくれる。"
+            },
+            {
+              "word": "ブルームバーグ",
+              "meaning": "アメリカの大手の経済ニュース通信社。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受けて、調べものや作業を自分で順番に進めてくれるAI。"
+            }
+          ]
+        },
+        {
+          "title": "AI音楽のSuno、エルビスとエミネムの権利者が提訴",
+          "summary": [
+            "AIで音楽を作るSunoが、新たに2件の訴訟を起こされた。",
+            "エルビス・プレスリーの楽曲の権利者と、エミネムの代表曲の出版社が訴えた。",
+            "Sunoが歌手をまねた音楽や歌詞を違法に生み出していると主張している。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+          "region": "海外",
+          "publishedAt": "2026-11-08T17:23:19.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 33,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Suno",
+              "meaning": "文章で指示するだけで歌や曲を作れるアメリカのAIサービス。"
+            },
+            {
+              "word": "権利者",
+              "meaning": "曲などの著作権を持ち、その使い方を決められる人や会社。"
+            },
+            {
+              "word": "訴訟",
+              "meaning": "裁判所に訴えて、争いごとの判断を求めること。"
+            }
+          ]
+        },
+        {
+          "title": "NYTの料理アプリにAIアシスタント、夕食づくりで活躍",
+          "summary": [
+            "米ニューヨーク・タイムズの料理アプリ「NYT Cooking」に、AIアシスタントが組み込まれた。",
+            "米メディアの記者が試したところ、平日の夕食の鶏肉料理では役に立った。",
+            "一方、ケーキづくりでは失敗しかけたという。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "region": "海外",
+          "publishedAt": "2026-11-07T15:50:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ニューヨーク・タイムズ",
+              "meaning": "アメリカを代表する新聞社の一つ。"
+            },
+            {
+              "word": "AIアシスタント",
+              "meaning": "質問に答えたり、作業を手伝ったりしてくれるAIの機能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "「弱気相場」入りの日経平均、下値はどこまで",
+          "summary": [
+            "日経平均株価が「弱気相場」入りした。",
+            "どこまで下がるのか、下値の水準が焦点になっている。",
+            "米国でのAI規制の行方が注目材料とされる。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zNVlVS1R0QUJRRmZBakJubzV1RHZzeW5SbG1RTFMtTERTaGNDYXNrNjA1TE0yYTY4YmMyVnhCVW1GcnF5SnhoZmxJT2gyNm1UZ2ZuUkFDRkc3TEhjWmxwWk4wWmNzUkx3NmFUcQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T20:00:00.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "弱気相場",
+              "meaning": "株価が最近の高値から2割ほど下がり、下落の流れが続いている状態。"
+            },
+            {
+              "word": "日経平均株価",
+              "meaning": "日本を代表する225社の株価から計算する指数。日本の株式市場全体の動きの目安。"
+            },
+            {
+              "word": "下値",
+              "meaning": "株価が下がったとき、どのあたりで下げ止まるかという値段の水準。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均は26年度末に「7万円回復」か、高市政策で株高不況続く",
+          "summary": [
+            "日経平均は26年度末に7万円まで回復する、との見方を紹介している。",
+            "高市政権の政策で、株価は高いのに景気は良くない「株高不況」が続くと分析している。",
+            "政権発足から1年、「サナエノミクス」の良い面と悪い面を検証する企画だ。"
+          ],
+          "source": "ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Zcnp1UW1OMGdPbnZ1bDhaaW9zVWRMWEx1QkVfcDhocFIzYTdsbDBEX2xVeGlLTjc5VXBBV3lxMlFKM2xxa1hjdW5XLWs?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T19:30:00.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "年度末",
+              "meaning": "4月から翌年3月までの1年の区切りの終わり。26年度末は2027年3月。"
+            },
+            {
+              "word": "株高不況",
+              "meaning": "株価は高いのに、暮らしの実感としての景気は良くない状態。"
+            },
+            {
+              "word": "サナエノミクス",
+              "meaning": "高市早苗首相の経済政策の呼び名。安倍元首相の「アベノミクス」になぞらえた言葉。"
+            }
+          ]
+        },
+        {
+          "title": "今週の米国株、物価指標とハイテク決算が試練に",
+          "summary": [
+            "今週の米国市場では、消費者物価指数（CPI）とハイテク企業の決算が注目される。",
+            "株式市場は不安定な状態が続いている。",
+            "これらの結果が相場の行方を左右しそうだ。"
+          ],
+          "source": "FXEmpire",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa0RlU0FZTXB3blFUZGozNmdUdUxFUG5iRmZncjF5TUVHTndqU0UtdkM0dkQtcHBKSUFTdE81cURMUEVJdUdKRUxodktmZlJDUVIyaVQzdEFXTzZnLW1rMXlMYTBWUUZneEhCUUR2QlZWX0JXdlNRVUtTRWJMTVY1a1pDSWNaTVdhQzVITVdoOG5RNnhTY3RONjFzREs2TksyZUltdGktRThZdzVRX2pITG80VkFkQQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T20:01:38.000Z",
+          "score": {
+            "total": 73,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "消費者物価指数",
+              "meaning": "ふだん買うモノやサービスの値段の動きを表す数字。物価が上がっているかの目安になる。"
+            },
+            {
+              "word": "決算",
+              "meaning": "会社が一定の期間のもうけや損を計算して、発表すること。"
+            }
+          ]
+        },
+        {
+          "title": "痛手を受けた米国株、週明けの先物取引を前に警戒",
+          "summary": [
+            "大きく下げて値動きが荒い米国株市場で、週明けの先物取引の始まりが迫っている。",
+            "投資家にとって、今どう動くべきかが問われている。",
+            "米投資情報紙が、荒れた相場への向き合い方を解説している。"
+          ],
+          "source": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVU9IbWdfVU5FdE02c2NySGtkOVZLa1YzMXpYS3lYNURLczg4NUcxb2lKNmJFbTVXNGh1RTllMTdrOU9EY2daWXVmVjNja3BzZ3FfdVljeDlLWVkySnZRQW5KNnJMcmdQazFGRlZoREU2UlZab19sUHpMVGtxcWllQUl2R1hzX0xlLVo1OFhiYTZNMmUyaUk2blhNbVc2QW4xZnlCUk9HZXBJUDlCQnVveWhwWXBibGNZN1RzbDNvb2JCNC1UQlRlTFZPeDZoM2lGb0xPalBReHFaM0xYd2lTWg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T19:34:00.000Z",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "先物取引",
+              "meaning": "将来の決まった日に、今決めた値段で売り買いする約束をする取引。相場の先行きの目安になる。"
+            },
+            {
+              "word": "投資家",
+              "meaning": "もうけを期待して、株などにお金を出す人や会社。"
+            }
+          ]
+        },
+        {
+          "title": "AI投資の減速で株価はさらに下落、2028年にはGDPも押し下げとの予測",
+          "summary": [
+            "AIへの投資が来年は鈍り、2028年には減少に転じるとの予測が出た。",
+            "その結果、株価はさらに下がると見込んでいる。",
+            "AI投資の減少は、経済の規模を示すGDPも押し下げるとしている。"
+          ],
+          "source": "Fortune",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQjhoVjFHMHlSYjYxNXpaUkt1NFNoQ2hyS1c3ZDBMY2dCa3p1UDNnd1g5RkNUUTBPNkZoOFNDeWZqRzAzSmhVdUNhNTIyc01UODBERDVMdDFiVUFNNW1BMW1OWGczU0FIYXBHYkZWbUdMWVp3clNmVi1JMzE2OURxdHhSRDA2R1NGNTZuOFRGeFJYTVdsY0E?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T18:22:00.000Z",
+          "score": {
+            "total": 62,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 2,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "GDP",
+              "meaning": "国内総生産。国の中で1年間に生み出されたモノやサービスの価値の合計。"
+            },
+            {
+              "word": "AI投資",
+              "meaning": "企業がAIの開発や、それに使うデータセンターなどにお金をかけること。"
+            }
+          ]
+        }
+      ],
+      "comment": "前営業日の日経平均は6.0％安の5万7434円で「弱気相場」入り。米国はナスダック1.1％高、ダウ0.5％安。今週は米物価指標に注目。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "交番で「ショウリンジ」、中高生の迷惑行為が横行",
+          "summary": [
+            "交番に入って「ショウリンジ」と叫んだり、警察官を挑発する「ポリ鬼」をしたりする中高生の迷惑行為が広がっている。",
+            "動画が拡散されることで、こうした行為に拍車がかかっている。",
+            "逮捕者も出ている。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53Z0p1QzBSY0pXOFJYUlZwb0phcU1iSllnR1pJRGhlZmNSbHZ1MHI5NXYzTkRScTBGWnpvQkJnZ1pTNEdWMTdjaWdpeTV2MmxXNUdXQ2FpVmJIT1BtZ0VzVW02MWxCQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T20:00:00.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "挑発",
+              "meaning": "相手をわざと怒らせたり、反応させたりしようとすること。"
+            },
+            {
+              "word": "拡散",
+              "meaning": "SNSなどで、情報や動画がたくさんの人に次々と広まること。"
+            },
+            {
+              "word": "拍車",
+              "meaning": "「拍車がかかる」で、物事の勢いがさらに強まること。"
+            }
+          ]
+        },
+        {
+          "title": "大阪・梅田の書店で店員刺される、33歳男を逮捕",
+          "summary": [
+            "大阪・梅田の「MARUZEN&ジュンク堂書店」で、男性店員が突然包丁で刺され病院に運ばれた。",
+            "店内に座り込んでいた33歳の男が、傷害の疑いで現行犯逮捕された。",
+            "男は「社会全体に恨みがあった」と話しているという。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hVlY0NHQzS25JbFN4c0RTbDlNaWtTeUVWZ2xWeFFxSGZ6V1VaeTBmZEZrMktjN3hVZnlEa2tMMHZfdlVSWVZLUUtUalFzb0tENEU3Z3BZWXEwbm9RT3loYjlfQVJhdGM?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T09:04:42.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "現行犯逮捕",
+              "meaning": "犯罪をしている最中や直後に、その場で逮捕すること。"
+            },
+            {
+              "word": "傷害",
+              "meaning": "人にけがをさせる犯罪。"
+            }
+          ]
+        },
+        {
+          "title": "福井の山林の遺体、監禁事件の被害者の26歳女性と判明",
+          "summary": [
+            "福井県あわら市の山中で見つかった遺体は、石川県の監禁事件の被害者の26歳女性と分かった。",
+            "死因は窒息だった。",
+            "女性を監禁した疑いで49歳の男が逮捕・送検されており、男の供述をもとに捜索して遺体が見つかった。"
+          ],
+          "source": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40SjdvTXJNb28zYU9zc2hNdHpnY0t4Z1czcmpkazZKRWlXMVAwblVvSXVzejlpdHZtamM3ZG9YQTZHMXBQNUZhb2gyWkV6NWFBVXk4WmJpN05YYV81eFhmcENjSzg4Y3VST1Z3MHBaaHFfQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-08T20:51:11.000Z",
+          "score": {
+            "total": 15,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "監禁",
+              "meaning": "人を閉じこめたり、自由に動けないようにしたりする犯罪。"
+            },
+            {
+              "word": "送検",
+              "meaning": "警察が事件の書類や容疑者を検察に送ること。"
+            },
+            {
+              "word": "供述",
+              "meaning": "容疑者などが取り調べで話した内容。"
+            }
+          ]
+        },
+        {
+          "title": "ポーランドの銃乱射事件、検察がテロとして捜査",
+          "summary": [
+            "ポーランドで6人が死亡した銃乱射事件について、検察当局がテロ事件として捜査している。",
+            "事件は南部の都市クラクフの中心部で起きた。",
+            "警察官2人が犯人を止め、さらなる被害を防いだと伝えられている。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9xVXc0aWl5YXRyNUFMWkptbkpQR2ZmV29halltUkNSandEczMwbE0xVXlac0psbS11QUhBZkVPRVh4UGVDMV9UVi1TVF9Ea2s3NUhrcXR1UWIwNDRva2NN?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T20:44:56.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "検察",
+              "meaning": "事件を調べ、裁判にかけるかどうかを決める国の機関。"
+            },
+            {
+              "word": "テロ",
+              "meaning": "政治的な目的などのために、暴力で人々を恐れさせる行為。"
+            },
+            {
+              "word": "銃乱射",
+              "meaning": "銃を何発も撃って、多くの人を無差別に傷つけること。"
+            }
+          ]
+        },
+        {
+          "title": "米アイダホ州、いたずら中に15歳が撃たれ男を逮捕",
+          "summary": [
+            "米アイダホ州ボイシで、いたずらの最中に15歳の少年が銃で撃たれた。",
+            "家のチャイムを鳴らして逃げる「ピンポンダッシュ」のいたずらだった。",
+            "警察は、撃ったとみられる男を逮捕した。"
+          ],
+          "source": "KTVB",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVFdMcWFVUXVlU3RJNWhRVFFfTmswVjdNZ1hvRVdyQW1KRWZvcmRORWtrLW9wOFFfc3QyX29vLUJZZ3AzQU9SVk5ZeE9POVI2MV9tQkwtQy13TC1FNWhwcHVNcDZDbG01b1FBbEwxaV83SDRtSzk4cUtXaGU2S0lDa3piQ0ZLbi1OeU5xYTlBY3JucDV1b0NiZkNYNktpTEg2RTYzRjIzd2J1Q1gxTGdyRWE1WkRwTkU3Y3RzY3lZQWo3a3M3aEI4clpfbUNUTHlwWE1UeFdNR1I1M1FqS3RfTzFJa0w1dw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T21:27:00.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ボイシ",
+              "meaning": "アメリカ北西部、アイダホ州の州都。"
+            },
+            {
+              "word": "ピンポンダッシュ",
+              "meaning": "家のチャイムを鳴らして、住人が出る前に走って逃げるいたずら。"
+            }
+          ]
+        },
+        {
+          "title": "NYでジョギング中の人が刺され死亡、元警官の学校職員を逮捕",
+          "summary": [
+            "米ニューヨークのブルックリンで、ジョギングをしていた人が刺されて死亡した。",
+            "学校の補助職員の男が逮捕された。",
+            "男は短い期間、ニューヨーク市警の警察官を務めていた。"
+          ],
+          "source": "NBC News",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWUowd0U2QVJXSzZtbGx4N2NOel80YV9ibkpzWXVZTGc1cERkZjNBalZwOFlWUTY0M3FsRDFZQ2F2dWNVSVl4MWh1RzJBcFNUdWNEYlRNZjIzR1hyRVJwUXBoZF9oWDhaYXFzaV9EZDFaTm8xU3EwRkJIQlJOZ082TWJEc1NKVG11SzZlZU1tSlRvcHdvckF6bXdpN0FIVDhhbXJQTjJB?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-08T18:19:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ブルックリン",
+              "meaning": "ニューヨーク市をつくる5つの区の一つ。"
+            },
+            {
+              "word": "ニューヨーク市警",
+              "meaning": "ニューヨーク市の警察。アメリカで最も大きな警察組織。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
