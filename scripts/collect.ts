@@ -28,6 +28,7 @@ async function main() {
     if (f.endsWith(".json") && f.slice(0, 10) < cutoff) fs.unlinkSync(path.join(RAW_DIR, f));
   }
   console.log(`✅ ${total} 件を保存しました: ${path.relative(process.cwd(), file)}`);
+  process.exit(0); // 応答待ちの通信が残っていても終わらせる
 }
 
 main().catch((e) => {

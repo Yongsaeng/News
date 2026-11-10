@@ -48,6 +48,8 @@ export interface NewsItem {
   url: string;
   region: "国内" | "海外";
   publishedAt?: string;
+  /** 有料・会員制のソース（見出しのみ取得）。画面では「🔒有料」と表示する */
+  paywalled?: boolean;
   /** 記事のサムネイル画像URL（取得できたときだけ） */
   image?: string;
   /** 政治・経済のみ：このニュースの考察 */
