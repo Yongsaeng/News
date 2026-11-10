@@ -1,0 +1,1593 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-10T22:04:23Z",
+  "headline": [
+    "米国の物価が予想を上回り、12月の大幅利上げ観測が浮上。米国株は下落し、ドルは上昇した。",
+    "ソフトバンクGは7680億円の赤字。ホンダは円安とHVで上方修正し、日経平均は6万円台を回復。",
+    "シェアフルで最大750万件の情報流出か。アンソロピックは上場へ、米露ウは和平協議を再開。"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 60459.58,
+      "change": 3024.8104687500017,
+      "changePercent": 5.266514505824239
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7520.93,
+      "change": -29.00994140624971,
+      "changePercent": -0.3842406910702699
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 25065.875,
+      "change": -187.265625,
+      "changePercent": -0.7415538042607324
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 52231.89,
+      "change": -157.86000000000058,
+      "changePercent": -0.30131848310022585
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 158.762,
+      "change": 0.46999255371093795,
+      "changePercent": 0.29691489879576755
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "ソフトバンクG、中間決算は7680億円の赤字 マスク氏の投稿は否定",
+          "summary": [
+            "ソフトバンクグループの中間決算は7680億円の最終赤字で、損失を計上した。",
+            "それでもAIへの投資は続ける考えを示した。",
+            "マスク氏がXに書いた「債務不履行」との投稿は、決算説明会で「事実無根」と否定した。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnM1J6ejZKcGtkY0E5Q2FlSnpEaDg0aUhQQmE2V0JZSDA2ZmFTdVJlTVZzQ1BkXzBsaGtqRGNqeXZpLWY2VTRabEZ6WXNMM0dNUVJfYXI3Y0FKMTVlbVJ2SV90M20?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T15:40:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "ソフトバンクグループの4〜9月期は大きな赤字になりました。米国の起業家マスク氏が「債務不履行」と投稿しましたが、会社ははっきり否定しました。",
+            "why": "同社は投資会社の色が濃く、持っている株や事業の価値が下がると、そのまま損失として決算に出ます。最近はAI関連株が値下がりし、データセンター事業でも損失が出たと報じられています。借金をしてAIに大きく投資しているため、返済の心配をあおる投稿には敏感にならざるを得ません。",
+            "points": [
+              {
+                "label": "ソフトバンクGの株主",
+                "text": "赤字や投稿をきっかけに株価が大きく動きやすくなり、値下がりの不安が続く可能性があります。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "投資信託で株を持つ人",
+                "text": "日経平均に占める比重が大きい銘柄なので、日経平均の動きを通じて間接的に影響します。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "AI関連の取引先企業",
+                "text": "投資の続け方しだいで、データセンターなどの仕事の量が変わるかもしれません。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "AI関連株の値動きと、データセンター投資を予定どおり続けられるか。"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "最終赤字",
+              "meaning": "会社の売り上げから費用や税金をすべて引いた最後のもうけがマイナスになること。"
+            },
+            {
+              "word": "債務不履行",
+              "meaning": "借りたお金の返済や利息の支払いが約束どおりにできなくなること。デフォルトともいう。"
+            },
+            {
+              "word": "決算説明会",
+              "meaning": "会社が決算の内容を投資家や記者に説明する場。質問にも答える。"
+            }
+          ]
+        },
+        {
+          "title": "タマホーム社員、火災保険金を不正請求の疑い",
+          "summary": [
+            "住宅メーカーのタマホームの社員らが、火災保険の保険金について不正請求の疑いが出た。",
+            "過去の写真を使って架空の修理費用を請求するなどし、340件・約2300万円にのぼると報じられた。",
+            "損害保険各社は、タマホームに調査を求めている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602099?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T14:38:31.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/2fe8432b387a09a09988d965fed8af9aac44f626842ccf2813236644d664d6c2.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "タマホームの社員らが、昔の写真を使うなどして、実際にはない修理の費用を火災保険に請求していた疑いが明らかになりました。",
+            "why": "火災保険は火事だけでなく、台風や雪で屋根が壊れた場合なども対象になります。修理を請け負う業者が写真や見積もりを用意して請求を手伝うことが多く、その書類が正しいかを保険会社がすべて現場で確かめるのは難しいため、不正が入り込むすきがあったとみられます。",
+            "points": [
+              {
+                "label": "火災保険の契約者",
+                "text": "不正で払われた保険金が増えると、そのぶん保険料の値上げにつながるおそれがあります。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "タマホームで家を建てた人",
+                "text": "自分の家の保険請求が正しく扱われたか、会社や保険会社からの説明を確かめておくと安心です。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "住宅会社・修理業者",
+                "text": "保険会社が請求の確認を厳しくし、写真や書類の提出が増える可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "タマホームの社内調査の結果と、損保各社が求める返金の範囲。"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "火災保険",
+              "meaning": "家が火事や台風、水害などで壊れたときの修理費などを払ってくれる保険。"
+            },
+            {
+              "word": "損害保険",
+              "meaning": "事故や災害でものが壊れたときの損害を補う保険。火災保険や自動車保険など。"
+            },
+            {
+              "word": "不正請求",
+              "meaning": "本当は起きていない損害や、実際より大きな金額を申告して保険金を受け取ろうとすること。"
+            }
+          ]
+        },
+        {
+          "title": "ホンダ、今年度の業績見通しを上方修正 円安とHVが追い風",
+          "summary": [
+            "ホンダが今年度（2027年3月期）の業績見通しを引き上げた。",
+            "最終的な黒字は5000億円と、従来の予想から25％上方修正した。",
+            "円安に加え、ハイブリッド車（HV）やバイクの販売が好調だった。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zcC1RcnQ3cXVCSktzendKbDE4WEtaNUYyUWdpZ1g3N2laellpSzctYjNLQ2FaRUMxRURiTEJjQ1ZncVkxTW1Rd0lNX01tTFpIODlVak5BTENtU3VtR0FJ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T12:15:46.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "ホンダが今年度のもうけの見通しを引き上げました。円安で海外の売り上げが円に直すと増えたことと、ハイブリッド車やバイクがよく売れたことが理由です。",
+            "why": "ホンダは売り上げの多くを海外で稼いでいます。ドルなどで得た売り上げを円に換えると、円安のときほど金額がふくらみます。また電気自動車の普及が想定より遅れる中、燃費の良いハイブリッド車の人気が高まり、得意とする車種が売れやすい環境になっています。",
+            "points": [
+              {
+                "label": "ホンダの株主",
+                "text": "利益の見通しが上がったことで、配当や株価にとっては追い風になりそうです。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "自動車部品の会社",
+                "text": "ハイブリッド車の生産が増えれば、部品の注文が増える可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "自動車業界で働く人",
+                "text": "業績が良いと、来年の賃上げやボーナスの交渉で有利な材料になりえます。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "円相場の行方と、ハイブリッド車の販売が年末にかけて続くか。"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "上方修正",
+              "meaning": "会社が、前に出した業績の見通しを良い方向に変えること。"
+            },
+            {
+              "word": "円安",
+              "meaning": "円の価値が他の通貨に比べて下がること。輸出企業は海外での売り上げを円にすると増える。"
+            },
+            {
+              "word": "ハイブリッド車（HV）",
+              "meaning": "ガソリンエンジンと電気モーターを組み合わせて走る車。燃費が良い。"
+            }
+          ]
+        },
+        {
+          "title": "米国の物価が予想より上昇、12月の大幅利上げ観測も",
+          "summary": [
+            "米国の10月の消費者物価指数は前月比0.4％上がり、市場の予想を上回った。",
+            "FRBのウォラー理事が12月に0.5％の利上げもありうると発言し、利上げ観測が急に強まった。",
+            "ドルは上昇し、12月に0.5％利上げする確率は15％に高まった。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRU9kTzA5RllrZm5SQmhidm1Za2c1QkdnOHZHSF9ubXU4ZjZsWmJHdEdoa2NxSlFjX0FOSVRoczRrSlBPR3dQRTUxdlpZdWlXbFN5T1d2WDgxenVyelRuOFBnMl9zbUZDNnUzLWlIemVDZlc5OEJLTDhmRDlVSnlaNmhDbHBpUQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:55:27.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の10月の物価の上がり方が予想より強く、米国の中央銀行が12月に金利をさらに上げるのではないかという見方が広がりました。",
+            "why": "物価が上がり続けると、中央銀行は金利を上げてお金の流れを絞り、物価を落ち着かせようとします。今回は食品や家賃などが上がったと伝えられ、インフレが根強いと受け止められました。米国の金利が上がると、より高い利回りを求めてドルを買う動きが強まります。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "日米の金利差が広がるとの見方から円安・ドル高が進みやすくなります。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "ガソリン・食品価格",
+                "text": "円安が進むと輸入品の値段が上がり、日本の物価を押し上げる要因になります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "米国の金利上昇は世界の株を売る材料になり、日本株の重しになることがあります。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "12月の米国の金融政策を決める会合で、利上げ幅が0.5％になるか。"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "消費者物価指数",
+              "meaning": "ふだん買う食品や家賃、サービスなどの値段の動きをまとめた数字。物価の上がり具合を示す。"
+            },
+            {
+              "word": "FRB",
+              "meaning": "米国の中央銀行にあたる組織。金利を上げ下げして物価や景気を調整する。"
+            },
+            {
+              "word": "利上げ",
+              "meaning": "中央銀行が政策金利を引き上げること。お金を借りにくくして物価の上昇を抑える。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピック、時価総額1.3兆ドル規模で上場へ",
+          "summary": [
+            "AI「Claude」を開発する米アンソロピックが、株式を上場する計画を進めている。",
+            "売り出し価格は1株70〜78ドルで、事前に予想されたより低い水準となった。",
+            "評価額は1.3兆〜1.4兆ドル規模とされ、AIへの熱狂を試す場になりそうだ。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:56:12.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "AI「Claude」を開発する米国のアンソロピックが株式の上場を準備しています。1株の値段は予想より低めに設定されましたが、会社全体の値打ちは1兆ドルを超える規模です。",
+            "why": "AIの開発には巨額の計算設備が必要で、企業は上場などで大きな資金を集めようとしています。一方で最近はAI関連株が値下がりし、投資家の熱気が冷めつつあります。このため値段を控えめにして、確実に買い手を集めようとしたとみられます。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "上場後の値動きが、AI・半導体関連株全体の雰囲気を左右し、日本株にも波及しそうです。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "AIに投資する日本企業",
+                "text": "AI企業の値打ちがどう評価されるかで、出資している企業の損益が変わる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "上場直後の株価が売り出し価格を上回るかどうか。"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "上場",
+              "meaning": "会社の株を証券取引所で誰でも売り買いできるようにすること。多くの資金を集められる。"
+            },
+            {
+              "word": "評価額",
+              "meaning": "その会社全体にどれくらいの値打ちがあるかを金額で表したもの。"
+            },
+            {
+              "word": "アンソロピック",
+              "meaning": "米国のAI企業。対話型AI「Claude」を開発している。"
+            }
+          ]
+        },
+        {
+          "title": "米FDA、「マンジャロ」などに視力低下リスクを警告",
+          "summary": [
+            "米食品医薬品局（FDA）が、糖尿病治療薬「マンジャロ」などに視力低下のおそれがあると警告した。",
+            "GLP-1と呼ばれる種類の薬で、まれに目の病気が起きるリスクがあるとしている。",
+            "製薬会社は、薬の注意書きに警告を加えるよう求められた。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XOFU3VExhcWhpZDVpdDF1Mk1Icy1OMW55UElSYVpKblpZM0ZsS3BQSVhMdjA3OUI2VldXOTJxQmtXRko4Q1NqcmRQT0QtdUhObG5mWEhERzFiU25BbllZ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T11:31:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国で薬を監督する役所が、糖尿病の治療や減量に使われる薬について、まれに視力が下がる目の病気が起きるおそれがあると注意を呼びかけました。",
+            "why": "GLP-1という種類の薬は血糖値を下げ、食欲も抑えるため、世界で使う人が急に増えました。使う人が増えると、まれな副作用も見つかりやすくなります。FDAは、薬の説明書きに目のリスクをはっきり書くよう製薬会社に求めました。",
+            "points": [
+              {
+                "label": "この薬を使っている人",
+                "text": "日本でも処方されている薬なので、見え方に異常があれば早めに医師に相談することが大切になります。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の医療・規制",
+                "text": "日本の当局も添付文書の見直しなどを検討する可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "日本の厚生労働省や製薬会社が注意書きを見直すかどうか。"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FDA",
+              "meaning": "米国で薬や食品の安全を審査・監督する役所。日本の厚生労働省の一部の役割にあたる。"
+            },
+            {
+              "word": "GLP-1",
+              "meaning": "血糖値を下げるホルモンに似た働きをする薬の種類。食欲を抑えるため減量目的でも使われる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "原子力潜水艦、導入を視野に検討へ",
+          "summary": [
+            "政府が、原子力潜水艦の導入を視野に検討を進める方向となった。",
+            "原子力を動力にする潜水艦で、これまで日本は保有していない。",
+            "安全保障の強化をめぐる議論の一つとして注目される。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602067?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:23:37.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/8c508f4f27850b627c4aa85fd2175e62938600a0f6d76072172789e6b42056e5.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本がこれまで持っていなかった原子力で動く潜水艦について、導入も視野に入れた検討を始めることになりました。",
+            "why": "今の日本の潜水艦はディーゼルと電池で動き、ときどき浮上に近い深さまで上がる必要があります。原子力潜水艦は長い期間潜り続けられるため、周辺国の軍事力が強まる中で抑止力を高めたいという考えがあるとみられます。一方で費用が非常に大きく、原子力の平和利用との関係も論点になりそうです。",
+            "points": [
+              {
+                "label": "納税者",
+                "text": "建造や運用には巨額の費用がかかるとみられ、防衛費の負担をどうまかなうかが議論になりそうです。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "港のある地域の住民",
+                "text": "配備先の港では、原子炉の安全や事故時の対応が地元の関心事になる可能性があります。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "防衛産業の企業",
+                "text": "造船や原子力の技術をもつ企業に、新しい仕事が生まれる可能性があります。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "防衛力強化の計画に導入の方針がどう書き込まれるか。"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "原子力潜水艦",
+              "meaning": "原子炉で動く潜水艦。燃料補給なしで長い期間、深く潜ったまま行動できる。"
+            },
+            {
+              "word": "安全保障",
+              "meaning": "他国からの攻撃などから国や国民の安全を守ること。防衛や外交を含む。"
+            }
+          ]
+        },
+        {
+          "title": "内水氾濫の被害を減らすため、国が対応策",
+          "summary": [
+            "大雨で街の中に水があふれる「内水氾濫」の被害を減らすため、国が対応策をまとめる。",
+            "川の堤防が切れる洪水とは別のタイプの浸水被害にあたる。",
+            "都市部を中心に、各地の水害対策に関わる動きとなる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602029?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T03:49:52.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/2bc5925eec9066bcb76ce512d319e035ae57dfa658d1fa9e3addc59bf4160d4d.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "川そのものがあふれるのではなく、大雨のときに街の排水が追いつかずに水があふれる「内水氾濫」について、国が被害を減らす対策を打ち出します。",
+            "why": "近年は短い時間に大量の雨が降ることが増え、下水道の処理能力を超える場面が目立っています。内水氾濫は川から離れた住宅地でも起き、地下室や地下駐車場が浸水しやすいのが特徴です。下水道の整備には時間とお金がかかるため、国が自治体の取り組みを後押しする必要があるとみられます。",
+            "points": [
+              {
+                "label": "都市部に住む人",
+                "text": "住んでいる場所の内水氾濫のハザードマップを確認し、大雨のときの備えをしておくことが大切になります。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "自治体",
+                "text": "国の方針に合わせて、下水道や雨水をためる施設の整備計画を見直すことになりそうです。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "家を買う人",
+                "text": "浸水リスクの情報が増えると、地域によって保険料や物件選びに影響が出る可能性があります。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "対策の中身と、自治体への支援にどれだけ予算がつくか。"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "内水氾濫",
+              "meaning": "大雨で下水道や水路が水をさばききれず、街の中に水があふれること。"
+            },
+            {
+              "word": "浸水",
+              "meaning": "建物や道路が水につかること。床上・床下浸水などに分けられる。"
+            }
+          ]
+        },
+        {
+          "title": "日中首脳会談、実現への調整が難航",
+          "summary": [
+            "日本と中国の首脳会談の実現に向けた調整が、うまく進んでいない。",
+            "両国の首脳が直接会って話し合う機会になるはずだった。",
+            "日中関係の行方に関わる動きとして注目される。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602093?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T13:42:28.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/88cd986d56e1d23f8568ce654141056e2421a8dbdb759382416048dae685a9d2.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本と中国のトップが会って話し合う会談について、実現に向けた調整がうまくいっていないと伝えられました。",
+            "why": "中国は日本にとって最大級の貿易相手で、多くの日本企業が中国で事業をしています。一方で、領土や安全保障をめぐる問題もあり、関係はたびたび冷え込みます。トップ同士の会談はこうした問題を話し合う大切な機会ですが、条件が合わないと開催が見送られることがあります。",
+            "points": [
+              {
+                "label": "中国と取引する企業",
+                "text": "関係が冷え込むと、輸出入の手続きや現地での事業に不安が広がる可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "中国に住む日本人",
+                "text": "両国の関係の変化が、現地での安全や生活の環境にも影響することがあります。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "国際会議の場などで、短時間でも会談が実現するかどうか。"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "首脳会談",
+              "meaning": "国のトップ同士が直接会って話し合うこと。両国関係の方向を決める大事な場になる。"
+            },
+            {
+              "word": "日中関係",
+              "meaning": "日本と中国の国としての関係。経済のつながりが深い一方、安全保障などで対立もある。"
+            }
+          ]
+        },
+        {
+          "title": "ウクライナ和平協議、初日は「建設的」 米露ウが9カ月ぶり",
+          "summary": [
+            "ウクライナ、米国、ロシアの代表団がアラブ首長国連邦（UAE）で和平協議を始めた。",
+            "3カ国がそろう協議は2月以来、約9カ月ぶりとなる。",
+            "ゼレンスキー大統領は、初日の話し合いは建設的だったと述べた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:21:55.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ロシアとウクライナの戦争を終わらせるため、米国を交えた3カ国の話し合いが約9カ月ぶりに開かれました。ウクライナの大統領は初日の内容を前向きに評価しました。",
+            "why": "戦争が長引く中、ロシアはウクライナの電力網への攻撃を続けており、冬を前に市民の暮らしへの打撃が心配されています。米国は停戦の仲介に力を入れていますが、占領された土地の扱いなどで双方の主張には大きな差があるとみられ、合意は簡単ではありません。",
+            "points": [
+              {
+                "label": "ガソリン・電気代",
+                "text": "停戦が近づけばエネルギー価格が落ち着き、日本の燃料費の負担が軽くなる可能性があります。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "停戦後の復興支援やロシアへの制裁の扱いで、日本も役割を求められそうです。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "協議の2日目以降に、停戦の条件で歩み寄りが見られるか。"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "和平協議",
+              "meaning": "戦争や紛争を終わらせるために、当事者が条件を話し合うこと。"
+            },
+            {
+              "word": "ゼレンスキー大統領",
+              "meaning": "ウクライナの大統領。ロシアの侵攻が始まってから国を率いている。"
+            },
+            {
+              "word": "アラブ首長国連邦（UAE）",
+              "meaning": "中東の産油国。ドバイなどがあり、国際的な話し合いの場になることも多い。"
+            }
+          ]
+        },
+        {
+          "title": "イスラエルで新議会が発足、政権づくりの争いへ",
+          "summary": [
+            "イスラエルで選挙後の新しい議会が発足し、議員が就任した。",
+            "ネタニヤフ首相の最大のライバル、アイゼンコット氏が最初に組閣に挑む機会を得た。",
+            "新政権ができれば、ネタニヤフ氏が首相の座を失う可能性がある。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:03:16.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/36f9/live/603c9f80-dcf5-11f1-93e1-3b657b665bcf.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イスラエルで新しい議会が始まり、次の政権を誰がつくるかの争いが本格化しました。ネタニヤフ首相の対抗馬に、先に政権づくりを試す権利が与えられました。",
+            "why": "イスラエルは多くの政党が議席を分け合うため、一つの党だけで過半数を取るのは難しく、複数の党で連立を組む必要があります。誰が首相になるかで、ガザや周辺国への対応が変わる可能性があり、中東の情勢を左右する重要な分かれ道になっています。",
+            "points": [
+              {
+                "label": "原油価格",
+                "text": "中東の緊張が和らぐか強まるかで原油の値段が動き、日本のガソリン代にも影響します。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "新政権の方針しだいで、中東の和平や人道支援への日本の関わり方が変わりそうです。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "アイゼンコット氏が期限内に過半数の支持を集められるか。"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "組閣",
+              "meaning": "首相となる人が大臣を選び、内閣（政府）をつくること。"
+            },
+            {
+              "word": "ネタニヤフ首相",
+              "meaning": "イスラエルの首相。長く政権を率い、ガザでの戦闘を指揮してきた。"
+            }
+          ]
+        },
+        {
+          "title": "「平和評議会」、ガザ洪水後のイスラエルの支援は不十分",
+          "summary": [
+            "トランプ氏が立ち上げた「平和評議会」が、ガザの洪水後のイスラエルの支援対応を「不十分」と批判した。",
+            "同評議会がイスラエルを批判するのは珍しい。",
+            "一方で、市民の苦しみについてはハマスにも責任があるとした。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:21:18.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/bd6f/live/934efd20-dcfd-11f1-933b-ff2499ee76f6.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ガザで洪水が起きた後、イスラエルの支援の対応について、トランプ氏が作った「平和評議会」が不十分だと批判しました。",
+            "why": "ガザでは長い戦闘で住宅や水道などが壊れ、多くの人が避難生活を続けています。そこへ洪水が重なり、被害が広がったとみられます。平和評議会は米国主導でガザの復興を進める役割を担っており、これまでイスラエル寄りとみられてきたため、今回の批判は異例です。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "人道支援の必要が高まれば、日本にも資金や物資の支援が求められる可能性があります。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "中東の安定",
+                "text": "米国とイスラエルの関係に変化が出れば、和平の進み方にも影響しそうです。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "イスラエルがガザへの支援物資の搬入を増やすかどうか。"
+          },
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "平和評議会",
+              "meaning": "トランプ米大統領が立ち上げた組織。ガザの停戦後の統治や復興に関わる。"
+            },
+            {
+              "word": "ハマス",
+              "meaning": "パレスチナのガザ地区を支配してきたイスラム組織。イスラエルと戦闘を続けてきた。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "スキマバイト「シェアフル」、最大750万件の個人情報流出か",
+          "summary": [
+            "スキマバイトアプリ「シェアフル」の運営会社が、社内管理システムに不正アクセスを受けたと発表した。",
+            "最大で約750万件のユーザーアカウントの個人情報が流出した可能性がある。",
+            "給与を振り込むための口座情報なども含まれるという。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003072/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:50:02.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003072/10011763/2048",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スキマバイト",
+              "meaning": "空いた時間に数時間だけ働く短時間のアルバイト。アプリで探して申し込む。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。情報を盗んだり壊したりする。"
+            }
+          ]
+        },
+        {
+          "title": "情報漏えい続出で、「その人専用の詐欺メール」に懸念",
+          "summary": [
+            "9月末から企業を狙った不正アクセスが相次ぎ、利用者の個人情報があちこちで漏れている。",
+            "漏れた情報を使い、一人ひとりに合わせたフィッシングの詐欺メールが出てくることが心配されている。",
+            "詐欺メールの報告件数の推移を、監視する企業や組織に聞いた。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T07:23:08.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/09/2000002926/10011427/2048",
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "フィッシング",
+              "meaning": "本物そっくりのメールやサイトで、IDやパスワード、カード番号をだまし取る詐欺。"
+            },
+            {
+              "word": "個人情報",
+              "meaning": "名前や住所、電話番号、メールアドレスなど、特定の人がわかる情報。"
+            }
+          ]
+        },
+        {
+          "title": "任天堂、Switch 2の「脱獄」を最新更新で封じる",
+          "summary": [
+            "任天堂が、Nintendo Switch 2の「脱獄」を最新のアップデートで封じた。",
+            "脱獄は、メーカーが設けた制限を外して本体を改造することを指す。",
+            "わずか数週間で対応したという。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHJqVDRCczRRdzYzckQ0R2ZrckNYY01DakFGTUl1RnFsODcxMTlBUC10dE1zeE1VVm52Slp6ZjlXU2NHNFBCMUxXbmp3bDFvTE44QVgzTFpKM0duajk0WWZVcmNGeEY1U2N3eFVhUGRfYVNwd3VHemRHMUJmc2NPQldDQzJ3Ri1s?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T08:44:01.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "脱獄",
+              "meaning": "ゲーム機やスマホにメーカーがかけた制限を、不正な方法で外すこと。"
+            },
+            {
+              "word": "アップデート",
+              "meaning": "ソフトを新しい版に更新すること。不具合や弱点を直すために配られる。"
+            }
+          ]
+        },
+        {
+          "title": "ニューヨーク州のAI安全法が施行へ、OpenAIなどに新たな監督",
+          "summary": [
+            "米ニューヨーク州が、幅広いAI安全法の運用を始める準備を進めている。",
+            "OpenAIやアンソロピックなど大手開発企業に、登録や安全対策の公表を求める。",
+            "重大な事故の報告も義務づけ、守らない場合は罰金を科す。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:52:13.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AI安全法",
+              "meaning": "AIが社会に大きな害を与えないよう、開発企業に対策や報告を求める法律。"
+            },
+            {
+              "word": "OpenAI",
+              "meaning": "米国のAI企業。対話型AI「ChatGPT」を開発している。"
+            }
+          ]
+        },
+        {
+          "title": "ソニー、PS PlusのPC向けアプリを12月で終了",
+          "summary": [
+            "ソニーが、PlayStation PlusのPC向けアプリを12月10日で終了すると明らかにした。",
+            "上位プランの会員が、一部のゲームをPCでストリーミングで遊べるアプリだった。",
+            "ソニーによると利用者はごく少なく、対象者には直接知らせるという。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:40:52.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23426446/playstation_plus_logo_blog.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 58,
+            "parts": {
+              "japan": 30,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "PlayStation Plus",
+              "meaning": "ソニーのゲーム機向けの有料会員サービス。オンライン対戦や遊び放題のゲームがある。"
+            },
+            {
+              "word": "ストリーミング",
+              "meaning": "データを手元に保存せず、ネット経由で受け取りながら再生・プレイする方式。"
+            }
+          ]
+        },
+        {
+          "title": "米X-energy、小型原発の建設許可を取得",
+          "summary": [
+            "米国のX-energyが、米原子力規制委員会から建設許可を得た。",
+            "テキサス州に小型の原子炉を4基建設する計画だ。",
+            "同社にとって初めての小型モジュール炉（SMR）となる。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:43:55.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900",
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "小型モジュール炉（SMR）",
+              "meaning": "工場で部品をつくって組み立てる小さな原子炉。建設しやすく、安全性も高めやすいとされる。"
+            },
+            {
+              "word": "原子力規制委員会",
+              "meaning": "米国で原子力発電所の安全を審査し、許可を出す政府機関。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "AIで作った偽画像による保険金不正、損保各社が対策強化",
+          "summary": [
+            "生成AIで作った偽の画像を使った保険金の不正請求が問題になっている。",
+            "損害保険各社は、AIの偽画像を見破る対策を強めている。",
+            "事故や災害の写真が本物かどうかを確かめる取り組みだ。"
+          ],
+          "source": "毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13NHF0Qk55T3pyXzMzUDlsUHVkMDZEcWdnQm9UWnFYeGJhZjJINHBBRUd3Y1BMajRDVmpVc05CVGpPWTlmU21xWGctSXlPMnFyZjhFRXBic3VTZ0R6OGFTMGRNcm96MUNq?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T17:00:49.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを新しく作り出せるAI。"
+            },
+            {
+              "word": "不正請求",
+              "meaning": "本当は起きていない損害などを申告して、保険金を受け取ろうとすること。"
+            }
+          ]
+        },
+        {
+          "title": "読書感想文を生成AIで書いてはいけないのか",
+          "summary": [
+            "教育メディアのリセマムが、読書感想文と生成AIの関係を取り上げた。",
+            "生成AIで感想文を書くことの是非を考える内容だ。",
+            "AI時代の教育のあり方を問う記事となっている。"
+          ],
+          "source": "リセマム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50MnQ2QnhfX0tEUnFJZVhTb252SEZWREN5d2pOY0czbXNIdEtZODV1VV84Wkttb2tMcEYzbXYwTkExWXo1NXZtZWhNZHJjX3pPcDdYLWEyYXBWMnhWdmtOSEhmU2xHQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:15:03.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを新しく作り出せるAI。"
+            },
+            {
+              "word": "読書感想文",
+              "meaning": "本を読んで考えたことや感じたことをまとめる作文。夏休みの宿題で定番。"
+            }
+          ]
+        },
+        {
+          "title": "生成AIで本のジャンルを自動づけ、書店のDXへ",
+          "summary": [
+            "CX PubteXなどが、生成AIを使って書誌のジャンルを自動で付ける機能を共同で開発した。",
+            "2026年11月から提供を始める。",
+            "書店のデジタル化（DX）を進めるねらいがある。"
+          ],
+          "source": "ニュープリネット",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPN05BTC1FVmtVRXJBVHh2U3lHUzJXQ1BYOUkzakZWUUJIbWtnYWVia043RjdpazZPNlhQSm9zT2RNUWd6WmJfal9IUlVRamJmeW93R1c1S1ZScVJucnRRVjBHMklCWDhZdVhuOGUyLTZkR3poV2YxUnp3dUV1ZkFsc0J4aTVaNGl3azBwSUZQNDBxZXpidTRKWXduWGRSWkRGLUFodXdBQjNYUkZvanRpZ2JwLTI3dndXcXdTMGdNNE5aWjhERjY2cXd3VTlTVF9OUkdObmE0YTRkV2xJM0x0clZhellzendraVp3ekFBTG15akNEWWh2Vi1KWllmU2R5RXVHOGlJTHlJa0huRkwwd2ZCQzFNNE8wZGpyR3ZGT0ZURXRIUzR6QnZrTXNuRFdxdkgyT1lHRE43eTBFQURoYWo4eVQ5QnI5aVlr?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:01:58.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "DX",
+              "meaning": "デジタルトランスフォーメーションの略。デジタル技術で仕事の進め方や仕組みを変えること。"
+            },
+            {
+              "word": "書誌",
+              "meaning": "本の題名や著者、出版社、ジャンルなど、本を見分けるための情報。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピック、AI搭載のオフィスソフトを投入",
+          "summary": [
+            "米アンソロピックが、AIを組み込んだ独自のオフィスソフトを打ち出した。",
+            "企業やプログラミング向けの道具で知られ、他のAI企業がその戦略をまねてきた。",
+            "会議中に計画の下書きや予定表の作成、質問への回答をする「Claude Meetings」も発表した。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "アンソロピック",
+              "meaning": "米国のAI企業。対話型AI「Claude」を開発している。"
+            },
+            {
+              "word": "オフィスソフト",
+              "meaning": "文書作成や表計算、会議など、職場の日常業務に使うソフトの総称。"
+            }
+          ]
+        },
+        {
+          "title": "ChatGPT、企業の公式AI「ビジネスエージェント」と会話可能に",
+          "summary": [
+            "ChatGPTで、企業を代表する認証済みのAIエージェント「ビジネスエージェント」と会話できるようになる。",
+            "商品の比較など、買い物の手助けをする役割を想定している。",
+            "まず米国の通販やオンラインサービスの企業から使えるようにする。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Business-Agent-Customer-Conversation.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受けて、調べものや手続きなどを自分で進めるAI。"
+            },
+            {
+              "word": "ChatGPT",
+              "meaning": "米OpenAIの対話型AI。質問に答えたり文章を書いたりできる。"
+            }
+          ]
+        },
+        {
+          "title": "グーグル、新AI「Gemini 4 Carbon」を一般公開",
+          "summary": [
+            "グーグルが最新のAIモデル「Gemini 4 Carbon」を一般向けに公開した。",
+            "2週間前に一部のサイバー防御の専門家に先行して提供していた。",
+            "同社は「最も強力なモデル」とし、アンソロピックやOpenAIの最高水準と競えるとしている。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Gemini-4-Carbon-Key-Art.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIモデル",
+              "meaning": "大量のデータで学習した、AIの頭脳にあたる仕組み。性能は種類によって違う。"
+            },
+            {
+              "word": "サイバー防御",
+              "meaning": "ハッカーなどの攻撃からコンピューターやネットワークを守ること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "日経平均が続伸、3日ぶりに6万円台を回復",
+          "summary": [
+            "10日の東京株式市場で日経平均株価は続伸した。",
+            "3営業日ぶりに6万円台を回復した。",
+            "AIや半導体に関連する銘柄に買いが入った。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XUFJWeW40NEJSOXBnVXRrR3RsTUM3cTZRNUQ0Q2Q4Vkk0aWRkYU53MUpKY2J0aUVraXZkNkxCYTdmNnM2LTNmb2wwc3BpM3VsNktzcDJKSGI3MkJZZlVmTEJvbjU3VElmQlRXdA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T06:58:21.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "続伸",
+              "meaning": "株価などが前の日に続いて上がること。"
+            },
+            {
+              "word": "半導体",
+              "meaning": "電気を通したり止めたりできる材料で作る部品。スマホやAIの計算に欠かせない。"
+            }
+          ]
+        },
+        {
+          "title": "シティG証券、日経平均7万円台の年内回復の可能性は",
+          "summary": [
+            "日本経済新聞が、シティグループ証券の阪上亮太氏に今後の相場を聞いた。",
+            "日経平均が年内に7万円台を回復する可能性がテーマとなっている。",
+            "専門家による相場の見通しの一つだ。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pai1uYkpfM3JPdldUbmJXSUpQNU5zX2FuTjBWQ3NTWXVXQTZOODB2RzZ4UGxQYktrV3k5dzZBMTBvU01NWldUZXVKTWluWS1DWEN1TTRFM1VSekN6UWpaUE5lUFM2Wmc3VDdvWA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均",
+              "meaning": "東京証券取引所に上場する代表的な225社の株価から計算する指数。日本の株価の目安。"
+            },
+            {
+              "word": "相場",
+              "meaning": "株や為替などが市場で取引される値段や、その動きのこと。"
+            }
+          ]
+        },
+        {
+          "title": "フィデリティ投信、日経平均は27年3月末に6万8000円",
+          "summary": [
+            "フィデリティ投信の重見吉徳氏が、日経平均の見通しを示した。",
+            "2027年3月末に6万8000円になると予想している。",
+            "今の水準から上昇が続くとみる見方だ。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00OTFEbWlOa2NOSFk4d19JSlBXc1QzSkNpWWhpd3R6Rjl2UmwyUEc4T0lyU3RybEhCRXdQeDlkSXdWZy1nYkxvNmJEQjNZbUIxU21Pcm82LWVqNUxYcThKRERrT0ljam1xV0hFeg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:00:00.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 3,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "投信",
+              "meaning": "投資信託の略。多くの人から集めたお金を専門家がまとめて運用する商品。"
+            },
+            {
+              "word": "日経平均",
+              "meaning": "東京証券取引所に上場する代表的な225社の株価から計算する指数。日本の株価の目安。"
+            }
+          ]
+        },
+        {
+          "title": "米国株が下落、物価上振れで利上げ観測が強まる",
+          "summary": [
+            "10日の米国株式市場で、ダウとS&P500が下落した。",
+            "10月の消費者物価指数が予想を上回り、利上げ観測が強まったことが響いた。",
+            "10年債の利回りは5％まで上がり、エヌビディア株は6％下がったと伝えられた。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:12:26.000Z",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "S&P500",
+              "meaning": "米国の代表的な500社の株価から計算する指数。米国株全体の動きの目安。"
+            },
+            {
+              "word": "利回り",
+              "meaning": "債券などを持つことで得られる利息の割合。上がると株の魅力が相対的に下がりやすい。"
+            },
+            {
+              "word": "消費者物価指数",
+              "meaning": "ふだん買う食品や家賃、サービスなどの値段の動きをまとめた数字。"
+            }
+          ]
+        },
+        {
+          "title": "米コアウィーブ株、決算を受けて時間外で6％超上昇",
+          "summary": [
+            "米コアウィーブの株価が、時間外取引で6％を超えて上がった。",
+            "四半期の決算発表を受けた動きだ。",
+            "AI向けの計算設備を提供する会社として注目されている。"
+          ],
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTXFxV3RVbmtUellOdjJ3MlVzN0VDUFJ6TDV1anF4Qy1qRDVHUW1vdUFJcHFXNFgxT3p0OTZYRHEwbHZReTRPTlpFSWNxS1hZQ05lUjVVREg0Sm4wSmNhaHE3dlRtbEQ5Yy1iakdNelliNG4tWGNTeFJQdWJvQ2k4Z2tOSVRRNzA?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:10:03.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "時間外取引",
+              "meaning": "通常の取引時間が終わった後に行われる株の売買。決算発表への反応が出やすい。"
+            },
+            {
+              "word": "四半期",
+              "meaning": "1年を3カ月ずつ4つに分けた期間。企業は四半期ごとに業績を発表する。"
+            }
+          ]
+        },
+        {
+          "title": "ゴールドマン、マイクロンは「無視できないほど割安」",
+          "summary": [
+            "米ゴールドマン・サックスが、米マイクロン株について見解を示した。",
+            "株価が17％下がったことで「無視できないほど割安」になったと指摘した。",
+            "今後70％上がる余地があると予想している。"
+          ],
+          "source": "BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0UGRZNmFqUFk0dTFSVW5fQkRCRkpialYyWFBWbVhRWEhjZ2RRVWMzNkxNTTc5TnFyakxvSF9NX3FMcDBmeGIycVJsS0FJMUwzODFjVHJUU2lDVmFsLUFLT291TjBraU5tcG9na1c1MHBxeHRU?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:29:29.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "割安",
+              "meaning": "会社の実力や利益に比べて、株価が低いと考えられる状態。"
+            },
+            {
+              "word": "マイクロン",
+              "meaning": "米国の半導体メーカー。データを記憶するメモリーを作っている。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均はAI・半導体株に買いが入り3日ぶりに6万円台を回復。米国株は物価の上振れで利上げ観測が強まり、そろって小幅に下落した。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "偽TikTokでスマホ遠隔操作、詐欺の疑いで2人逮捕",
+          "summary": [
+            "スマホを遠隔操作できる不正なアプリを使い、他人の電子決済サービスで買い物をした疑いで中国籍の男2人が逮捕された。",
+            "「TikTok18+」と名乗るアプリで、トレーディングカードをだまし取ったとみられる。",
+            "3道県警による捜査で、この手口の摘発は全国で初めてという。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GR3JOc1NNY3FfZHZkLTJic3Z6emkzVEpiQ0o1ZFdWenBNWGZMOU5ZcnVTbm9PQllGdVRCblhGRUcwTmc2MDRpMlpLY28taG82?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:39:05.000Z",
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "遠隔操作",
+              "meaning": "離れた場所から、ネットを通じて他人のスマホやパソコンを操ること。"
+            },
+            {
+              "word": "電子決済",
+              "meaning": "現金を使わず、スマホやカードでお金を払う仕組み。QRコード決済など。"
+            }
+          ]
+        },
+        {
+          "title": "徳島・阿波市長ら3人逮捕、事故の修理費をだまし取った疑い",
+          "summary": [
+            "徳島県阿波市の市長ら3人が詐欺の疑いで逮捕され、市役所に家宅捜索が入った。",
+            "市長が起こした事故の修理費などとして、約350万円をだまし取った疑いがある。",
+            "修理費用を機器の調達という名目で請求した疑いもあり、市は12日に会見する。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01X1BmNGlNd1lUUHRVaU5ldjlYSm93dFdkaUUxdThEMmdfV2RlQkpRdm1fQlNWWl9hRVdiTlc3YlhZRTVRNWxoZ3BXLVRGV0FnQmM4anNQQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:07:22.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "家宅捜索",
+              "meaning": "警察が裁判所の許可を得て、証拠を探すために建物などを調べること。"
+            },
+            {
+              "word": "詐欺",
+              "meaning": "うそをついて人をだまし、お金や物を取ること。"
+            }
+          ]
+        },
+        {
+          "title": "「ルフィ」広域強盗事件、詐欺グループのトップが初公判",
+          "summary": [
+            "各地で相次いだ「ルフィ」広域強盗事件をめぐり、裁判が始まる。",
+            "詐欺グループのトップとされる被告の初公判が開かれる。",
+            "一連の事件の全体像がどこまで明らかになるか注目される。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1veGNnT3ZOOWExTHFQSTVWQXdRcDZVcmJPanI0eEp1OUxDZlpEcVNMVkt6aDREY0FvOEc4NUJWb082NzZHNEc1NEhKX09kejlvYVNLZlZqUEFXNER3Y3pZ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:21:45.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "初公判",
+              "meaning": "刑事裁判で最初に開かれる審理。起訴された内容を認めるかどうかが示される。"
+            },
+            {
+              "word": "広域強盗",
+              "meaning": "複数の都道府県にまたがって起きた一連の強盗事件。"
+            }
+          ]
+        },
+        {
+          "title": "英警察、ロシア情報機関に協力した疑いで米陸軍兵士を逮捕",
+          "summary": [
+            "英国の警察が、41歳の米陸軍の兵士をスパイの疑いで逮捕した。",
+            "ロシアの情報機関に協力した疑いが持たれている。",
+            "英警察は米国などと協力して捜査している。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWWxOdzJEVzhFTXpUTUVzSHBjS1JMUGZFUHNEeXJWYllSeUlKRVRFQVhVYUt0ZDFqNFU2azQyRHZTMzl0UEFvY1FnZXg4QVJiWWlHaTVIcmJ0aFBxUjhkT3FkbVE1b0xnUHRuNjJoSEU3SjFFalVGRFlUazZ2NDkwdDhITS1qWk0?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:37:44.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "情報機関",
+              "meaning": "外国の秘密情報を集めたり、スパイを防いだりする国の組織。"
+            },
+            {
+              "word": "スパイ",
+              "meaning": "他の国や組織の秘密情報をひそかに集めて渡す人。"
+            }
+          ]
+        },
+        {
+          "title": "米カリフォルニア州、77歳男性宅の強盗で容疑者を逮捕",
+          "summary": [
+            "米カリフォルニア州ネバダ郡で、77歳の男性の家に入った強盗事件の容疑者が逮捕された。",
+            "男性は亡くなっている。",
+            "逮捕されたのはサンフランシスコ湾岸地域の容疑者だと伝えられた。"
+          ],
+          "source": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zVFIzZm5Zd2tXRE0wQUZjVlBqcUNUZWR3Sm9na3gxWVhzRFZXNXdTUTJvVWtwWFhrc0w5UWE0ZmF0NjNaeXE0OXF6TDRyN2xNRVZSTW9XbDd0anYydExKSkV4dllxWElyMDNpQXpn0gFuQVVfeXFMTzQ0QVlTR3FYRWtnS0I0aV91ak1GQUpEWmk4VEYwdXVtQ194eHBneFNCbkpISTVyeU8tQ3FIblF2cFpLdlNDWUJURmZCaXJrVUJ5b21reGxIZEdUcDMyMUV1bTJqNTNkSUhveVVSQ3c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:40:48.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "容疑者",
+              "meaning": "罪を犯した疑いで警察の捜査を受けている人。"
+            },
+            {
+              "word": "強盗",
+              "meaning": "暴力や脅しを使って人のお金や物を奪う犯罪。ここでは住宅に入っての犯行を指す。"
+            }
+          ]
+        },
+        {
+          "title": "米移民当局、「インスタの王」と呼ばれるイラン人を逮捕",
+          "summary": [
+            "米移民・関税執行局（ICE）のロサンゼルス支部が、イラン人の男を逮捕した。",
+            "男は「インスタグラムの王」と呼ばれていたという。",
+            "ICEが自ら発表した。"
+          ],
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPakxEcGx6T0tTWEQwU1B4UVhDTm9IYUp5a24zcm1hMlhIZlBRTUhLSmhESzJMWUZFTDFOd0lMeF9OT1ZNTkk4cDdFYW5YeXJGaUlSc2hGQXk1dzUxdnRWU1VLcjRSaFB2MXhzMnA5MmV3aXlURUNHRDNqTGlWcDhRRGxQZGdtWDQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:36:17.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ICE",
+              "meaning": "米移民・関税執行局。不法に滞在する外国人の取り締まりなどを行う米政府機関。"
+            },
+            {
+              "word": "インスタグラム",
+              "meaning": "写真や動画を共有するSNS。米メタが運営している。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
