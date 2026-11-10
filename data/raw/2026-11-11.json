@@ -1,0 +1,1600 @@
+{
+  "date": "2026-11-11",
+  "collectedAt": "2026-11-10T21:55:00.551Z",
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 60459.58,
+      "change": 3024.8104687500017,
+      "changePercent": 5.266514505824239
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7520.93,
+      "change": -29.00994140624971,
+      "changePercent": -0.3842406910702699
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 25065.875,
+      "change": -187.265625,
+      "changePercent": -0.7415538042607324
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 52231.89,
+      "change": -157.86000000000058,
+      "changePercent": -0.30131848310022585
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 158.762,
+      "change": 0.46999255371093795,
+      "changePercent": 0.29691489879576755
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "candidates": [
+        {
+          "title": "アンソロピックIPO、熱狂より現実路線 AIマネー変調でテック7社下支え",
+          "snippet": "アンソロピックIPO、熱狂より現実路線 AIマネー変調でテック7社下支え 日本経済新聞 アンソロピックIPO、「ロックアップ」概要判明 上場直後に売り圧力 日本経済新聞 アンソロピック創業者7人、大型IPOで保有株2800億円相当を売却へ（TBS CROSS DIG with Bloomberg） Yahoo!ニュース AI急落で試練の秋相場、米アンソロピック上場と11月IPOの行方 ＜株探トップ特集＞ 株探 アンソロピックのIPO、最大約10.2兆円規模に－ロイター TBS NEWS DIG",
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OdEJZRFgzbVpVMk40bzJCcFk2bHV0UHl2bVJPRjdWLW5NYXRIS2JfQWRNU3AwSzNSZ2tnWGNJaUFrWkg3by1oci1PZmFKQzVidVN3c3BLMjBTbHFsNTQwSE5QQzlnSkQ1NDN1Tg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:03:20.000Z"
+        },
+        {
+          "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+          "snippet": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:22:36.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "title": "タマホーム社員 火災保険不正請求の疑い 損保各社調査求める",
+          "snippet": "タマホーム社員 火災保険不正請求の疑い 損保各社調査求める NHKニュース タマホーム 保険金不正 ３４０件、２３００万円 虚偽の写真で請求 読売新聞 タマホーム社員 火災保険の保険金“不正請求” 計数千万円規模か（2026年11月10日掲載）｜日テレNEWS NNN 日テレNEWS NNN タマホーム社員、火災保険金を不正請求 被害額は数千万円規模か 毎日新聞 タマホームの社員ら、火災保険の保険金計２３００万円を不正請求…過去の写真で「架空の修理費用」など（読売新聞オンライン） Yahoo!ニュース",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXa3ZiZUtJMmxKVUlFMWZMZXp1QVdLYUNFX3BWMzhRVTZwY2JZdzFkTkpXZE9mWDR6VDIwUUNoQXN2Ym0zd2pwaXMxODEwQjB4WUhwREQ3OW1WT2tXV2pF?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:56:00.000Z"
+        },
+        {
+          "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+          "snippet": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns CNBC CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook Yahoo Finance CoreWeave Meets Wall Street Expectations, Shares Rise WSJ CoreWeave Reports Strong Third Quarter 2026 Results Business Wi",
+          "source": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdUJtNENyWm80blVZMUNHNFh2MXpxTmdMSnhmTzF5a0t0NUxWNjJFZ09ZejRoay04MzMwallkZ1hBV0ZRSGVoRG80V0xIcURMcnhyc2Y4VUM5VW9CX2RtcFdDTzBITF9FbnFMWG9SWVNVT2xXM0M3YVo3cUxPVmF4ag?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:19:29.000Z"
+        },
+        {
+          "title": "米12月0.5％利上げ確率15％に、10月ＣＰＩ予想上回る",
+          "snippet": "米12月0.5％利上げ確率15％に、10月ＣＰＩ予想上回る Reuters 12月利上げ論、CPI上振れで急拡大 FRB高官「0.5%上げも」 日本経済新聞 ＮＹ外為市場＝ドル上昇、ＣＰＩ上振れで12月利上げ観測強まる Reuters アメリカの10月消費者物価指数 前月比＋0.4％ 市場予想上回る TBS NEWS DIG WSJ日本版：米インフレ根強く、FRBの利上げペース加速も焦点に 毎日新聞",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRU9kTzA5RllrZm5SQmhidm1Za2c1QkdnOHZHSF9ubXU4ZjZsWmJHdEdoa2NxSlFjX0FOSVRoczRrSlBPR3dQRTUxdlpZdWlXbFN5T1d2WDgxenVyelRuOFBnMl9zbUZDNnUzLWlIemVDZlc5OEJLTDhmRDlVSnlaNmhDbHBpUQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T17:55:27.000Z"
+        },
+        {
+          "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+          "snippet": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:06:04.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3676/live/532a9840-dd3d-11f1-9ac0-6b8f7fc58221.jpg"
+        },
+        {
+          "title": "麻生コンクリート工業の「ＪＩＳ不適合」生コン、福岡市などの建築物で使用された可能性…国交省発表",
+          "snippet": "麻生コンクリート工業の「ＪＩＳ不適合」生コン、福岡市などの建築物で使用された可能性…国交省発表 読売新聞 麻生コンクリ JIS認証取り消し Yahoo!ニュース 本来と異なる種類のセメント配合 麻生コンクリート工業がJIS認証取り消し 管理記録も改ざん 5年間で190の現場に納入 TBS NEWS DIG 麻生コンクリート工業問題（1）JIS不正、サイロ転用のため残存セメントを混入か 21年以前も調査が必要 NET-IB NEWS 麻生コンクリート社長呼び 福岡県、建築基準法上の文書報告求める 朝日新聞",
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEVS1TLVdhNVF2M3p3N1ZScnR2ZUpPeDBrSmlSSDA1V01SaUN0eXctRUdmd1I2RXhGOW1nYUxHNG1YRlU4ZXpiQ3pxX3Q0czFFd2R4SkpYaFdwY0VURHVudWt3NUJZUQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T15:55:00.000Z"
+        },
+        {
+          "title": "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates",
+          "snippet": "Stock Market Today: Yields Jump as Inflation Comes in Hotter Than Expected — Live Updates WSJ Here's the inflation breakdown for October 2026 — in one chart CNBC Fed’s Waller opens door to half-point rate hike in December The Hill 'Not great': October CPI inflation rises 0.4% as food and rent costs ",
+          "source": "WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAycGFzVmI4Q3NSQ2ZMTC1DdDR0M2R3SG1OZm1DMHZ6OG9qa3dJUllpSThRa1RlYm5uWGZrVDE1VHJZU0xJdlBFRWpZSnhzU2hUMlJ1UDdJXzFxamNqTDE5bkgwUXowRV9JdUhyckdOclgyMHlaZFE2RlZR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:59:00.000Z"
+        },
+        {
+          "title": "マスク氏がＸで「ソフトバンクは債務不履行」と投稿、ソフトバンクＧが決算説明会で「事実無根」と否定",
+          "snippet": "マスク氏がＸで「ソフトバンクは債務不履行」と投稿、ソフトバンクＧが決算説明会で「事実無根」と否定 読売新聞 ソフトバンクG中間決算 7680億円の最終赤字 損失計上もAI投資を進める考え（TBS NEWS DIG Powered by JNN） Yahoo!ニュース サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露 ITmedia ソフトバンク、上期は営業利益・純利益ともに過去最高――通期予想を上方修正、純利益目標を「2年前倒し」達成へ ケータイ Watch ソフトバンクG中間決算 7680億円の最終赤字 損失計上も",
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnM1J6ejZKcGtkY0E5Q2FlSnpEaDg0aUhQQmE2V0JZSDA2ZmFTdVJlTVZzQ1BkXzBsaGtqRGNqeXZpLWY2VTRabEZ6WXNMM0dNUVJfYXI3Y0FKMTVlbVJ2SV90M20?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T15:40:00.000Z"
+        },
+        {
+          "title": "They had jobs, homes and cars. Now they're in line at the food bank",
+          "snippet": "They had jobs, homes and cars. Now they're in line at the food bank USA Today",
+          "source": "USA Today",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORkZZQmJnOUNHaDV1YVpSVlBGQXpOV19aOEpCTzEtX1F4Zl9HZGN0WENualhVNG9WZWM3RjQwSDJFYUlBN0lLRExtYjctdUtRTldYWEdKY24wU2FscncxT2MzNC00VjNVcldpLUtGR3lKejlsOWJPUFRLb1F3M20wblRzRlA2cG13UjNsN29nYmlHMjRyVndGUnIzcXRJMnEzeWlKUHNqbDZSNWFITnc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:44:00.000Z"
+        },
+        {
+          "title": "【ＮＹ為替オープニング】米CPIやウォラーFRB理事発言で利上げ確率大幅上昇、10年債入札やFRB高官発言に注目",
+          "snippet": "【ＮＹ為替オープニング】米CPIやウォラーFRB理事発言で利上げ確率大幅上昇、10年債入札やFRB高官発言に注目 ザイFX！ FRB理事、2倍利上げ言及 12月会合、インフレ警戒（共同通信） Yahoo!ニュース ＮＹ時間に伝わった発言・ニュース みんかぶ FX/為替 WSJ日本版：米ダラス連銀総裁、利上げペース加速の可能性に言及 毎日新聞 NY外為：ドル高値更新、ローガン米ダラス連銀総裁も速やかな利上げの必要性に言及 ｄメニューニュース",
+          "source": "ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03NjVsdUxWSTVlX0ZhLTJtV0QtZk1tMVdudFROY2hyQ2RyNGZyMjVqeUNaSWprdjY4aVBzUVF2SFBGSEUwTVNvN1Jpbk15Mng1elE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T14:58:00.000Z"
+        },
+        {
+          "title": "Oil Prices Extend Decline After Trump Signals Restraint on Iran",
+          "snippet": "Oil Prices Extend Decline After Trump Signals Restraint on Iran WSJ Oil prices fall to lowest since August as Trump says Iran war is ‘effectively over’ The Guardian Brent crude briefly dips below $90 for first time since August on Iran hopes CNBC Oil Extends Drop as Trump Says Further Iran Strikes U",
+          "source": "WSJ",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWY0eGlzV2FfSkxTRE1BTWZaTjNtWmIxSjJocnF1a2YzbzczUWlWUFBLMDhlWFdkN0s2MFJDNThNTUQyQlRkT0s5bTRfZUpWbnE0QWlmV0lDbXQxQlVXUk41M3M3UF9lWVZ2ekM4QnQ5WXE2N0d0RWNRY3NRNHc2YnBQblFkZTFhQ0ZWWURxa3ljN2FBSU5TWERiMlZqektRZl85YTBqb09zNDNZNjNQVVJn?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:43:00.000Z"
+        },
+        {
+          "title": "タマホーム社員 保険金を不正請求",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602099?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T14:38:31.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/2fe8432b387a09a09988d965fed8af9aac44f626842ccf2813236644d664d6c2.jpg"
+        },
+        {
+          "title": "With Its Giant I.P.O., Anthropic Ties Itself Closer to Nvidia",
+          "snippet": "With Its Giant I.P.O., Anthropic Ties Itself Closer to Nvidia The New York Times Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019 Yahoo Finance Nvidia selloff deepens, adding to AI jitters Reuters Anthropic, Nvidia, CoreWeave, Take-Two, D-Wave, Securitize, an",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40WWRMa0xmRm9vTGdfM2E0MXRhQUtaMmc1QnZzdm4tVG5zSlJsMWxnRzJsMXhxdlJHcC1hb0NTTF8tU25OODhVdjd4Z2JpYnpHQ3BnNktJbUZQcnFrbEJ4UW5EOXR4YVI2TXU5SnhWWXp1Y3AyeVpwVQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:32:37.000Z"
+        },
+        {
+          "title": "もう終わりやで 明石ダコ深刻不漁",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602095?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T14:12:10.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/dff253a556b2b3adbdfe84c695ddaee4c2880ae57a1310406cd03046717a978d.jpg"
+        },
+        {
+          "title": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor",
+          "snippet": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor Reuters Anthropic to Seek $1.3 Trillion Valuation in IPO WSJ Anthropic Seeks to Raise Record $90 Billion in Historic IPO Bloomberg.com Anthropic's Blockbuster IPO Filing Contains a Surprising Nod to Washington Y",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUtnS210c1pKNVpEZXJ1V1JpdUdyZ0h5OGh2SzVCXzJaVGRwaDZnb0NQZUxFS0ZFWmxwbU53ZlJtdlBkOWplZHdaNkloU0xwV3hvdlpjNnh0R1FISXdMOExfc09JckJqTWxjSWlZSjZpN0RWR1kyRUF6YUlXN0dqSm5XQU5TUmFmbWpFbGlzT3FZRllaMGU4cld0cDlsaFVYY0IzV2ZNYmwxYW0yd1FDaw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:55:19.000Z"
+        },
+        {
+          "title": "万博のEVバス補助金 返還は半分",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602091?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T13:32:36.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/74f9327f3638cabc6cf5b01ea75a76d9ef426685a8eca1679c83851bfb1b72ef.jpg"
+        },
+        {
+          "title": "Amazon's Ring launches flying security drones, patrol robots to guard homes, businesses",
+          "snippet": "Amazon's Ring launches flying security drones, patrol robots to guard homes, businesses Fox Business Amazon's Ring unveils flying drone and robot to patrol homes and businesses CNBC Amazon's Ring introduces security drone and robot Axios Amazon’s Ring debuts security robots including a drone NBC New",
+          "source": "Fox Business",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdFhaU0hya1hreHcyQmV2VlpyTU9QUEtMZE05MzkyajczbFZ1MndzSklxcEh0V0VJUTNseU02UFNhNVYwdU11VkhtT0JqQUpyZk8zT25uZUJDeWh5NlBTNTd6akMweUtNUi1MRWdTbkdCVk5Md19GbVpvUVM1VXRqckxGUGhld21abzhmc1EtdW45UEtOMnREcWlHaHFpUkgxM3Q0TGhXdmtaSnZ6UTFNRWNUam1faDFsWTVn0gHAAUFVX3lxTE1tZjRhNVNHcVZBNHo1Uk1ITERhWHJmX0xVQk80dHJqMjNpSTBDb1BJYWZSMTAzMnlqOUxodDUtMjdhdXlENXZaa1o0d0dadGNtQU0wRnpUaTdER0ZCZUlYRnpLa3FDMzhWNzNobWxNTl8zWFlKUFduY1RWOEQwVTBlSTN4ZVVZdFMtYnUwSWlJQkdUM3Bxb211dzFGU0kyNTlWLXlNc0tOckFCVGxneURJQU8tOHlzYUl4cUVqSlV3eg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:41:47.000Z"
+        },
+        {
+          "title": "ホンダ 今年度の業績見通しを上方修正 円安やHVの販売増で",
+          "snippet": "ホンダ 今年度の業績見通しを上方修正 円安やHVの販売増で NHKニュース 決算:ホンダ最終黒字5000億円に上振れ 27年3月期、円安やHV好調で 日本経済新聞 地域の現場から支局便り（33）大島造船所、長崎で工場見学会 子どもの興味関心刺激 日刊工業新聞 ホンダ、今期最終を25％上方修正 株探 ホンダ、純利益予想5千億円 27年3月期を上方修正、バイクが好調 朝日新聞",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zcC1RcnQ3cXVCSktzendKbDE4WEtaNUYyUWdpZ1g3N2laellpSzctYjNLQ2FaRUMxRURiTEJjQ1ZncVkxTW1Rd0lNX01tTFpIODlVak5BTENtU3VtR0FJ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T12:15:46.000Z"
+        },
+        {
+          "title": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes",
+          "snippet": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes Bloomberg.com No Yeah Buts in Today's CPI. It's All Bad For Bonds Mortgage News Daily Traders Who Rushed to Safety of Bonds Get Rattled in Reversal Bloomberg.com Treasury yields rise as investors await October CPI and producer prices CN",
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakFPZlVwd2pvZDUwU0IzS3I3bHNNTlJOV3JRUXpyTEstS0FRN2JHeDE1R2J6cWxBU3o4SWI2SWhLNTdmdDZzTl9Na3lSLVdqcDd1c0RtSHllU3dSRk04aGNqWmZnbVQxdVVDRmhzcmlJU2tHUnJWQ1JNNzhmNXZITHJmdFpOZWdrWWdvam95YWpvd1ZxWDlROG5Za185MW1fWjFqb05QYmhzRDhpY0NHT3dMeWQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:39:43.000Z"
+        },
+        {
+          "title": "スマホ遠隔操作し商品だまし取った疑い 中国籍の2人逮捕 福岡",
+          "snippet": "スマホ遠隔操作し商品だまし取った疑い 中国籍の2人逮捕 福岡 NHKニュース スマホ遠隔操作し詐欺疑い 逮捕 Yahoo!ニュース 「TikTok18+」遠隔操作可能なアプリで電子決済サービスを不正に使用してトレーディングカードをだまし取ったか 中国籍の男2人逮捕 TBS NEWS DIG 偽TikTokでスマホ乗っ取りか 2人逮捕、全国初検挙 3道県警 毎日新聞 不正アプリでスマホを遠隔操作? 他人の電子決済サービスで買い物した容疑 2人逮捕 兵庫県警など 神戸新聞",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOaXhCWEhSbDhwVFZTVHV5aDZLU3pVbjlVamJEUnRVUkhuckd0UWRTTTdJU21rNk9kbTVCUUJueEM3dzF6NjhlUTlIMzhsQWdEb1ZmSm9hLWttSC1kN1pn?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:44:00.000Z"
+        },
+        {
+          "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+          "snippet": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness BBC The FDA has a new warning about GLP-1s and vision loss. Should you worry? The Washington Post US FDA orders new eye risk warnings for Ozempic, Zepbound CNN FDA warns of rare eye condition causing bl",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02N2prd0FUZWRGTWdTOGlOMTg3R1RmR0pOMllPSWt1bjJReXFaSm9ON0tsdzNLWXBhbk4xSnlDdGxjbTRSLTVjcVQ3azBsUGFkbDZwNjFrc0NwdGc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:16:52.000Z"
+        },
+        {
+          "title": "マック 新チキン商品の販売休止へ",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602081?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:31:51.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/fe9c7a55473d750f4c9f99d854358106f14da287f4e89b7a3b79d5e47251b02a.jpg"
+        },
+        {
+          "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+          "snippet": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:56:12.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "title": "米FDA 糖尿病治療薬「マンジャロ」などに視力低下リスクを警告",
+          "snippet": "米FDA 糖尿病治療薬「マンジャロ」などに視力低下リスクを警告 NHKニュース マンジャロで視力低下恐れ 米FDA Yahoo!ニュース 糖尿病治療薬「マンジャロ」などに視力低下のおそれ 米FDAが注意喚起 TBS NEWS DIG 「マンジャロ」などGLP1薬に視力低下の恐れ 米FDAが警告 産経ニュース 「マンジャロ」まれに視力低下、GLP-1使用でリスク増 米FDA 朝日新聞",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XOFU3VExhcWhpZDVpdDF1Mk1Icy1OMW55UElSYVpKblpZM0ZsS3BQSVhMdjA3OUI2VldXOTJxQmtXRko4Q1NqcmRQT0QtdUhObG5mWEhERzFiU25BbllZ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:31:00.000Z"
+        },
+        {
+          "title": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
+          "snippet": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds CNBC Data Show Households Still Managing to Meet Their Monthly Debts The New York Times US Household Delinquencies Rise Slightly, NY Fed Report Shows Bloomberg.com Inflation rises again — and so does credit-card debt Mar",
+          "source": "CNBC",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95aTlKdTh6c1pEYzdjUzdGZjBveWhZT0FaMGxRQVpCMjQ2eXd4dGdqSDB1NjczNlpRQjllbGNzNGpCN0ZQZGJIUWlSc24yX29UYWh3djdwajZjNTZWUXMtcVJRaDZXMjlqYnV3cw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:16:18.000Z"
+        },
+        {
+          "title": "エディオン、ECサイトに不正アクセス クレカ決済556回分の情報流出か",
+          "snippet": "エディオン、ECサイトに不正アクセス クレカ決済556回分の情報流出か 産経ニュース エディオン、通販サイト利用者のカード番号・セキュリティーコードなど５６０件超流出か…不正プログラム検知 読売新聞 エディオン通販、PC向け決済画面に不正プログラム カード情報流出の恐れ Yahoo!ニュース 【速報】エディオンの通販サイトに「不正プログラム」組み込まれる 稼働中に利用者がPCから入力したクレジットカード情報が漏洩した可能性も 注意呼びかけ au Webポータル エディオン 不正プログラムでクレカ情報500件余漏えいのおそれ | NHKニュース | サイバー攻撃、ＡＩ・ネット・ＩＴ、企業・経営 ",
+          "source": "産経ニュース",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yQmFRUEpUaDFVMXdlY0ljUzdhNFh4Y2ZJRHdIM2hGOVlsLXk3SHRXV3JiZ1ZoZllWSURGRDlVSjZyNS16ZU1Gc0FRSFBfNzRyb2tvdndSeUx6VGdwdHFPdzVWb3IydHViV0lGNXU3Wm9HbWFmRnc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:19:31.000Z"
+        },
+        {
+          "title": "IBM to end visa, green card sponsorship for most roles in its Consulting arm",
+          "snippet": "IBM to end visa, green card sponsorship for most roles in its Consulting arm Reuters IBM to End Immigration Sponsorship for Roles in Biggest Unit Bloomberg.com IBM ending visa sponsorship for most roles in IBM Consulting: What will happen to employees? The Times of India IBM is ending immigration sp",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVZScURucjRfQ1FmYkxYLXhJeTRrbzRXMzBMX0tUUWNjQVRzTXVKV0cxamRiOEY5bGhueWJPRDZndGNYODVvdXBXemdhbkcwMGVMNUJEMjhYTW9xd2MyRmJFbVd5SGsxeFFFN3FfUkI5cmo4dElPUlhWZkdXV0kwOFVLSHM4TW0wNmZyZU5VdExWWkV1MVpXa3VRTGxJemFoNDMxdFkwYmo0SFZWZ3BzeEFR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:08:41.000Z"
+        },
+        {
+          "title": "関電が作業服を刷新 ビームス監修",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602078?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T10:57:49.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/85a63b1f9d4ccfb58ab3ed8a3fba22b4dc6bf1bb2ec177af8d564cd70a658a0f.jpg"
+        },
+        {
+          "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+          "snippet": "The contents of the calendar, including hair clips and keychains, have been widely criticised on social media.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:04:55.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b12e/live/a6d1b5b0-dcec-11f1-93e1-3b657b665bcf.png"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "candidates": [
+        {
+          "title": "小泉氏 首相総裁選出馬なら支える",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602107?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:39:18.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/11/d039934f8cb7374061f231a7839795fcc1af87d132ab59f42c4af61ea37bab8e.jpg"
+        },
+        {
+          "title": "Meghan's father Thomas Markle detained for allegedly cutting off ankle monitor, officials say",
+          "snippet": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:23:00.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2a13/live/1b8d2f10-dd47-11f1-9ac0-6b8f7fc58221.jpg"
+        },
+        {
+          "title": "日中首脳会談 実現への調整不調",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602093?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T13:42:28.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/88cd986d56e1d23f8568ce654141056e2421a8dbdb759382416048dae685a9d2.jpg"
+        },
+        {
+          "title": "First day of Ukraine peace talks constructive, Zelensky says",
+          "snippet": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:21:55.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "title": "自民・小渕氏ら 税調副会長を辞任",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602083?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:44:04.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/a73e22ccfa6b97c8dd179973bb6302ae6f2f7d2a8d4962ec18e890df04f229b0.jpg"
+        },
+        {
+          "title": "Nvidia hires major New York law firm to investigate Jensen Huang affair",
+          "snippet": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:06:04.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3676/live/532a9840-dd3d-11f1-9ac0-6b8f7fc58221.jpg"
+        },
+        {
+          "title": "原子力潜水艦 導入視野に検討へ",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602067?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:23:37.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/8c508f4f27850b627c4aa85fd2175e62938600a0f6d76072172789e6b42056e5.jpg"
+        },
+        {
+          "title": "Spain's king and queen attend memorial service for rail crash victims",
+          "snippet": "Sixty-nine people died in the collision near Toledo two weeks ago and 28 are still in hospital.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwew54yd4wo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:46:40.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d303/live/f5a86570-dd42-11f1-9ac0-6b8f7fc58221.jpg"
+        },
+        {
+          "title": "日本 米中露会談巡り米に懸念伝達",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602040?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T05:55:50.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/ae560500b2ab88ad69cd0d32ba009ddbf07effddb682610e6cdf29c176255a90.jpg"
+        },
+        {
+          "title": "US federal authorities could have prevented Epstein crimes, report finds",
+          "snippet": "The report by a Republican-led congressional committee follows a 15-month investigation into the handling of the late disgraced financier's case.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynyn8zyr8o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:36:58.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0579/live/42e0a7e0-dd1f-11f1-8806-aded7f09be16.jpg"
+        },
+        {
+          "title": "内水氾濫の被害軽減へ 国が対応策",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602029?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T03:49:52.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/2bc5925eec9066bcb76ce512d319e035ae57dfa658d1fa9e3addc59bf4160d4d.jpg"
+        },
+        {
+          "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "snippet": "Supporters of Sheikh Hasina want her to return from exile in India.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:26:42.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/cb4a/live/173fa7e0-dd3c-11f1-a701-fddedf244c16.png"
+        },
+        {
+          "title": "「国内間通信」も監視対象に 検討",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601992?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T00:26:31.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg"
+        },
+        {
+          "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+          "snippet": "The US Food and Drug Administration says Ozempic, Wegovy, and other weight-loss drugs must have labels about the condition, known as NAION.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crwydyde0lp3o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:43:04.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/35c3/live/a6b43310-dd22-11f1-ab46-9fae224bbf6f.jpg"
+        },
+        {
+          "title": "石破前首相ら戒告処分 参院側不満",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6601976?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-09T21:48:49.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/5be7a944815075e533cfea6df30293279251e7230589a639ba9bb65141dc9d04.jpg"
+        },
+        {
+          "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+          "snippet": "Najib Razak was convicted for his role in the billion-dollar scandal involving the 1MDB sovereign wealth fund.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:33:51.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/59a5/live/b9ccd5d0-dd2a-11f1-ab46-9fae224bbf6f.jpg"
+        },
+        {
+          "title": "Arrests made after visit from former US President Biden",
+          "snippet": "Joe Biden was in Dublin to see his son Hunter awarded the Gold Medal for Outstanding Contribution for Public Discourse",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck78p827y642o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:07:56.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ce84/live/f1e32540-dd30-11f1-ab46-9fae224bbf6f.jpg"
+        },
+        {
+          "title": "Anti-homosexuality laws in Trinidad and Tobago overturned",
+          "snippet": "The ruling brings to an end an 11-year legal battle by dual-citizen Jason Jones.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cm0e0evlpp87o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:04:18.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d932/live/81424720-dd2c-11f1-ab46-9fae224bbf6f.jpg"
+        },
+        {
+          "title": "Scottish Labour leader says the UK should re-join EU",
+          "snippet": "Michael Marra said he wanted \"solidarity, not separation\" and accepted that \"re-joining the EU won't be easy\".",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c820v0e43xr4o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:53:39.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d2b8/live/070275a0-dd06-11f1-97df-bd0937690c4d.jpg"
+        },
+        {
+          "title": "Israel's new parliament sworn in as leaders compete to form government",
+          "snippet": "Benjamin Netanyahu's main political rival, Gadi Eisenkot, has first chance to build a new government and oust the prime minister.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:03:16.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/36f9/live/603c9f80-dcf5-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "title": "Tories pledge to cut benefits for children with 'milder cases' of ADHD",
+          "snippet": "Conservative shadow minister Helen Whately says the system risks putting children on a \"conveyor belt\" towards a \"lifetime on benefits\".",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c3j474prl2r7o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:37:14.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0a8a/live/e0f65010-dd10-11f1-9019-999bcb7fa2d2.jpg"
+        },
+        {
+          "title": "Arrests made in Mohamed Al Fayed probe in France, police say",
+          "snippet": "The Ritz hotel in Paris, which is still owned by the Al Fayed family, is one of the properties searched by police.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwyrd4ywo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:19:48.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1966/live/79e95480-dcfc-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
+          "snippet": "About 50 other people were injured in the pile-ups along a section of the Trakia motorway, officials have said.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:07:51.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3a87/live/b5143f50-dcf4-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+          "snippet": "The group, formed by Trump, issues rare criticism of Israel, while also blaming Hamas for the suffering of civilians in Gaza.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:21:18.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/bd6f/live/934efd20-dcfd-11f1-933b-ff2499ee76f6.jpg"
+        },
+        {
+          "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
+          "snippet": "Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:10:20.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f934/live/9e648690-dd01-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+          "snippet": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T13:45:13.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8ff4/live/cdef63c0-dd0c-11f1-97df-bd0937690c4d.jpg"
+        },
+        {
+          "title": "French wartime resistance heroine Solange Alexandre dies aged 104",
+          "snippet": "With 30 men under her orders, she organised sabotage operations, sheltered Allied airmen and joined the fight against the occupying German forces.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T13:23:54.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b46b/live/32b5bef0-dd06-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "title": "米・露・ウの協議 9カ月ぶり再開",
+          "snippet": "",
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6602085?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T12:24:04.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/4f97b5d9dbd2723a52475e48ac254768ed798cad498b755e895c7b0a31ca1fb3.jpg"
+        },
+        {
+          "title": "Police officer dies and another injured after backpack explosion in northern Spain",
+          "snippet": "Officers attended the scene in connection with a separate incident at a residential building in the Spanish city.",
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T11:25:46.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/612d/live/a358da40-dcfa-11f1-9ef0-4b5930e2f80e.jpg"
+        },
+        {
+          "title": "イスラエル 新政権発足のカギは",
+          "snippet": "",
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6602070?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-10T09:36:06.000Z",
+          "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/mutsujishoji/02762282/title-1794227287329.jpeg?exp=10800"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "candidates": [
+        {
+          "title": "「盗撮」→「法律で規制」が話題のAI眼鏡 海外では大ヒットなのに、日本での普及は限定的 ビジネスでの活用事例を探る",
+          "snippet": "海外で規制する動きが出ている「AI眼鏡（スマートグラス）」。負の側面が注目されがちだが、ビジネスや医療の現場で活用される事例も出始めている。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/11/2000002913/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/11/2000002913/10011402/2048"
+        },
+        {
+          "title": "Oura is acquiring medical AI chatbot startup Counsel Health",
+          "snippet": "Oura announced its quarterly earnings today and said it agreed to acquire Counsel Health for $625 million, after adding the company's AI chatbot to its app earlier this year. Counsel Health calls itself an \"AI-native primary care company,\" using the app to deliver AI-generated responses and insights",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:40:31.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268600_oura_ring_5_AKrales_0104.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "証明書コンビニ交付で障害か 復旧",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602104?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T17:50:07.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261110-124bdbb/all/images/ogp_default.png"
+        },
+        {
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+          "snippet": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:08:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?resize=1200,801"
+        },
+        {
+          "title": "米アンソロピック、10兆円調達へ 市場予想大幅に下回る（時事通信）",
+          "snippet": "米アンソロピック、10兆円調達へ 市場予想大幅に下回る（時事通信） Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qMl9mVmhjZENPbmo0UmFQQVdOYlc1dzhJR2RlMklzZmtWYzBad0tjajNWeGhvbk8yVW1VLVZzYldkVDN1RG1PYnVJa2d3NTVRU0RsRGJUdURIWHdnalNQa3FRRGNUWFczY3JSNWhaY1BfV0owdUZjNFJuSFNRa28?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T12:44:28.000Z"
+        },
+        {
+          "title": "Sony cancels live-service shooter Fairgames",
+          "snippet": "Sony has canceled Fairgames, a heist game announced in 2023, according to Bloomberg. Fairgames had once been part of Sony's big planned push for PlayStation live service games, but the company ended up canceling some planned live service titles, including in the God of War and The Last of Us franchi",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:06:12.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK097_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "「夜空が真っ赤に染まった」…ウクライナのドローンがロシアの巨大製油所を攻撃、激しく炎上する現場を捉えた映像",
+          "snippet": "「夜空が真っ赤に染まった」…ウクライナのドローンがロシアの巨大製油所を攻撃、激しく炎上する現場を捉えた映像 Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RdnM3OWFnMDJmdUhXR3AzMHRrcFkxZU9XSTl6QTEwbDM5VmQxZDB4ejhEdTZhVm9yVl9LUHlRUDlYenFqb0lXODlhY1dWMEVKWVZXV1dRZnYxbVBEYTFrU3J4d1lrMHFjQ3hYbzU1N3ZTd0liQWNYaTlSTkxxLXc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T12:01:27.000Z"
+        },
+        {
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "snippet": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:52:13.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024"
+        },
+        {
+          "title": "スマホ遠隔操作し詐欺疑い 逮捕",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602082?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:39:05.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/eae44b6b1e5915f5c3217892b866a8d64a1b972ea18fd023dbd2885f9f22dacf.jpg"
+        },
+        {
+          "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
+          "snippet": "Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:47:05.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/headshot-Proximal.jpg?resize=1200,675"
+        },
+        {
+          "title": "ソフトバンクG、マスク氏の「債務不履行」投稿に「全くの事実無根」 7～9月期決算は1兆円超の赤字",
+          "snippet": "ソフトバンクグループの後藤芳光CFOは11月10日の決算説明会で、米SpaceXのイーロン・マスクCEOがXに投稿した「債務不履行」の指摘を「全くの事実無根」と否定した。米中間選挙での民主党勝利については、データセンター事業が遅れる可能性も「シナリオの一つ」とした。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003079/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:01:53.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003079/10011785/2048"
+        },
+        {
+          "title": "X-energy gets green light to build its first small modular nuclear reactors",
+          "snippet": "X-energy received a construction permit from the U.S. Nuclear Regulatory Commission to build four reactors in Texas.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:43:55.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900"
+        },
+        {
+          "title": "日商簿記など 合否や得点が流出か",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602077?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T10:37:38.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/7d0b47884df29cd9ec0ffc5dc9a4a001015e6fdca9d89974fce3edb81b7acb45.jpg"
+        },
+        {
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "snippet": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:57:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/Jared-Kaplan_headshot2.jpg?resize=900,1200"
+        },
+        {
+          "title": "スキマバイト「シェアフル」に不正アクセス 最大750万アカウント漏えいか 給与振込用の口座情報なども",
+          "snippet": "スキマバイトアプリ「シェアフル」を運営するシェアフル（東京都港区）は11月9日、社内管理システムへの不正アクセスにより、最大約750万件のユーザーアカウントに関する個人情報が流出した可能性があると発表した。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003072/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:50:02.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003072/10011763/2048"
+        },
+        {
+          "title": "The PlayStation Plus PC app is shutting down next month",
+          "snippet": "Sony is retiring the PlayStation Plus app for PC on December 10th. Sony says it will notify users directly about the shutdown. The app allowed PlayStation Plus Premium subscribers to stream certain games on PC, but according to Sony, not many people are using that perk: With a very small number of e",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/games/1031144/sony-playstation-plus-windows-pc-app-shutting-down",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:40:52.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23426446/playstation_plus_logo_blog.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "Nintendo Switch 2の「脱獄」、任天堂が最新アップデートで封じる。わずか数週間で対応（多根清史） - エキスパート",
+          "snippet": "Nintendo Switch 2の「脱獄」、任天堂が最新アップデートで封じる。わずか数週間で対応（多根清史） - エキスパート Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHJqVDRCczRRdzYzckQ0R2ZrckNYY01DakFGTUl1RnFsODcxMTlBUC10dE1zeE1VVm52Slp6ZjlXU2NHNFBCMUxXbmp3bDFvTE44QVgzTFpKM0duajk0WWZVcmNGeEY1U2N3eFVhUGRfYVNwd3VHemRHMUJmc2NPQldDQzJ3Ri1s?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T08:44:01.000Z"
+        },
+        {
+          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+          "snippet": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:23:34.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296609700.jpg?resize=1200,799"
+        },
+        {
+          "title": "サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
+          "snippet": "ソフトバンクの宮川潤一社長が、子会社IDCフロンティアへの不正アクセスを巡り、脆弱性診断の不備を謝罪した。AIの進化で新たな脆弱性が相次いで見つかる中、サイバー攻撃への対応に苦慮する現状も明かした。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003069/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T08:23:42.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003069/10011753/2048"
+        },
+        {
+          "title": "Starlink Mini 2 adds a swappable battery",
+          "snippet": "SpaceX announced a new version of its all-in-one satellite internet terminal that integrates a dish, Wi-Fi router, and now a battery into a single device about the size of a laptop. According to some users on X who shared screenshots of invitations to order Starlink Mini 2, the dish is priced at $99",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:19:12.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/starlinkmini2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "ケンタ 一部メニュー画像にAI使用",
+          "snippet": "",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602054?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-10T08:08:34.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/10/db586ae3f000e2e8e7293ffdcc9d02798179c0ea79d4e697b7825c3bfdfc501d.jpg"
+        },
+        {
+          "title": "The US is winning the AI race. Jensen Huang could have blown it",
+          "snippet": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool le",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:04:05.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "情報漏えい続出でフィッシングに変化？ “その人専用詐欺メール”登場の懸念",
+          "snippet": "9月末から企業を標的とした不正アクセスが相次いでおり、ユーザーなどの個人情報がそこかしこで漏えいしている。詐欺メールの報告件数などに動きはあるのか。推移を監視する企業や組織に聞いてみた。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T07:23:08.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/09/2000002926/10011427/2048"
+        },
+        {
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "snippet": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:03:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683"
+        },
+        {
+          "title": "ケンタッキー、一部メニュー画像に生成AI 実験販売の商品など SNSは「違和感」の声も",
+          "snippet": "日本ケンタッキー・フライド・チキンが、実験販売メニューの商品画像の制作に生成AIを用いることがあると、ITmedia NEWSの取材に回答した。フロートの画像が「AI画像ではないか」とXで話題になったことがきっかけだが、利用の意図や狙いは明らかにしていない。",
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003070/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T07:13:36.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/10/2000003070/10011756/2048"
+        },
+        {
+          "title": "Google’s Pixel Tag tracker is now available",
+          "snippet": "After years of third-party Android trackers from companies like Samsung, Motorola, and Pebblebee, Google's Pixel Tag is now available for purchase. First announced in August, the Pixel Tag is designed to work with Google's tracking network and app that was renamed the Find Hub last year. The Pixel T",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/pixeltag2.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "「Galaxy Z Fold8」に乗り換えて1カ月、パスポート型の横長画面はマンガも動画も快適 ただし、“あの機能”には注意も（1/3 ページ） - ITmedia PC USER",
+          "snippet": "「Galaxy Z Fold8」に乗り換えて1カ月、パスポート型の横長画面はマンガも動画も快適 ただし、“あの機能”には注意も（1/3 ページ） - ITmedia PC USER ITmedia",
+          "source": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIQjk5N0xxRFVtZmdCb1lNWDN3T1Z4QXVONUt6b1lTcFZQWFFIQmR4Z0lydENCUmFSanEtNms4anpPQTI2UFkzM3BQbDJZb2RuQ09sLWhvT1p5aUh2a2pueEZBM0hIZXRtc1VILXI1c9IBaEFVX3lxTE9UeUFQazdhTkYyenlzQTAxX0xYTUxqUVhiaEY4QmlnNnJTUFNKT0Q1cVQtMlpjUGpfQlNrMGo4M2dnNzlyNkdHdDFhb2E0cUZ2ZFVrRFRkSUptU3NhVXRmQkExQlRBNVZT?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T07:00:00.000Z"
+        },
+        {
+          "title": "Google is making Pixel HiLight slightly more useful",
+          "snippet": "Google is adding a new feature to its underwhelming HiLight light on the back of Pixel 11 Pro phones: as part of the November 2026 Pixel Drop, the light can light up when you get Google Messages texts from your favorite contacts. Sure, it's a small addition to the disappointing ways you could use Hi",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1031089/google-pixel-drop-november-2026-hilight",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Pixel-11-Pro-HiLight-using-HiLight-Studio-Rainbow.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "ソフトバンクG、中間赤字に転落 7680億円、データセンターで損失（時事通信）",
+          "snippet": "ソフトバンクG、中間赤字に転落 7680億円、データセンターで損失（時事通信） Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVb1NIR19RSllRZk81Yzd0cW5pSVdBQzVnWUt2bGphaXBVS241VTNZODg4Vk9sRkw2Nm5LSFR6akk5Y1hIb1BmM01ia1JuUWdLc1FLWU9CSW1Dd0V6LVZTVVpoaEVqRDdCNUZZYnlKMmhNaF9OenFCTzhWVjJNeVk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T06:48:21.000Z"
+        },
+        {
+          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+          "snippet": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:49:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-8.46.19-AM.png?resize=1200,677"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "candidates": [
+        {
+          "title": "「さっきの話は忘れて」では消えない 生成AIの履歴の混入（尾藤克之） - エキスパート",
+          "snippet": "「さっきの話は忘れて」では消えない 生成AIの履歴の混入（尾藤克之） - エキスパート Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUVBLZ2xORVdiUkc5d0RMWF9DWVZRN1RWc0Jiejk5V0VYN2gya2VtLVNNS0pjajlMbmRpRUJaV0FUR0FkeVdMT2tsYm5hb3p4S0g4NVpwM2Zqa09ER05kb1lwa1NjelotWS1naXRFSkM1VUdBcHhULWpsb2xwU0N4bWUwV0lHMlh4?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:39:21.000Z"
+        },
+        {
+          "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+          "snippet": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:08:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2207801992.jpg?resize=1200,801"
+        },
+        {
+          "title": "Google ドライブ、CSE適用で機密ファイルを保護へ Google Workspaceに6つの仕様変更",
+          "snippet": "Googleは「Google Workspace」の機能を強化し、6つの新機能を追加した。Google ドライブでは、管理者が設定したポリシーに基づき、機密ファイルにCSEを自動適用する機能がベータ提供される。",
+          "source": "ITmedia AI+",
+          "url": "https://kn.itmedia.co.jp/kn/article/2611/11/2000003057/",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:00:00.000Z",
+          "image": "https://kn.itmedia.co.jp/kn/article/ogp/2611/11/2000003057/10011728/2048"
+        },
+        {
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "snippet": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:52:13.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024"
+        },
+        {
+          "title": "生成AIに自社製品を選ばせるには？ 「Adobe Acrobat」サイトへの誘導率を40％高めたアドビの手法",
+          "snippet": "生成AIに自社製品を選ばせるには？ 「Adobe Acrobat」サイトへの誘導率を40％高めたアドビの手法 JBpress",
+          "source": "JBpress",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdzNZRGZ0QkNXQ2hIWmxIdmdtcE91RGdvenJwM0ZpVGZyeGxRMmNjMHlFeXhQXzZlbnZPWU1wMUZKNm5NTUNBbk4wb0JubE5iY2FGYUt2QUF3WTBMTDFoYXk2YUQwQUxZa0RRTzJ6dUZuZ2xlZnNZSUZGdUNzWF9rZHgzaVRWSDVNbmVLak92THVkX2duM3hHeS04VXlWam1qdjV3Z0ZiYjlMaWlxX0E?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:00:00.000Z"
+        },
+        {
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "snippet": "Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:57:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/Jared-Kaplan_headshot2.jpg?resize=900,1200"
+        },
+        {
+          "title": "米中間選挙のもう一人の敗者は生成AI…ハイテク株の下落、データセンター建設は止まるのか？（Wedge（ウェッジ））",
+          "snippet": "米中間選挙のもう一人の敗者は生成AI…ハイテク株の下落、データセンター建設は止まるのか？（Wedge（ウェッジ）） Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0RjFLQlNERk9zb3lJcWZ5TERDZ2dGODEwYnJpQzBzU3lpZ1BIcTFtY0NzeFV0Ni10cGFodFE5VkRGT3dxVV9ESlpyNklpdjVndjNscVdWekRqaFpsTGkzSEdIeHVKY2JyREtmOWd5Vnd4Y2R6VWtJaS10OTk3U2s?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:06:29.000Z"
+        },
+        {
+          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+          "snippet": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:23:34.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296609700.jpg?resize=1200,799"
+        },
+        {
+          "title": "生成ＡＩ活用で教育の充実へ 市内小中学校教職員が研修",
+          "snippet": "生成ＡＩ活用で教育の充実へ 市内小中学校教職員が研修 沖縄八重山日報",
+          "source": "沖縄八重山日報",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RQi1Gc2tPTWZSMFZHQWZyVmpJWVBXQ0p6OVByZ1pGMjJNN3R1TFdWVEVLV25xM1h6UTRxZG1pc3hmWHJNdFRUNmpsX1AwNnBsS0RNdXV5dmQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:29.000Z"
+        },
+        {
+          "title": "The US is winning the AI race. Jensen Huang could have blown it",
+          "snippet": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool le",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:04:05.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "NotebookLMに公式APIが登場 WebページやYouTube動画の取り込みを自動化でき、MCPでAIエージェントからも使える",
+          "snippet": "NotebookLM（現Gemini Notebook）に、個人アカウントで使える公式のREST APIとMCPサーバが公開プレビューとして登場した。今できること、まだできないこと、使う前の条件を整理し、筆者が手元で試した結果も添える。",
+          "source": "ITmedia AI+",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news011.html",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z",
+          "image": "https://image.itmedia.co.jp/ait/articles/2611/11/cover_news011.jpg"
+        },
+        {
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "snippet": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:03:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683"
+        },
+        {
+          "title": "生成AIと連携、LaTeXコマンドやMermaid記法を出力させよう",
+          "snippet": "生成AIと連携、LaTeXコマンドやMermaid記法を出力させよう 日経クロステック",
+          "source": "日経クロステック",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zeVpIOExjU3FuT09FMnU0VnNMdUZMZDRHckVtRDZzdUh2QTgyLUFVMmx0ZXQtYXlmZVJxazVJTmxfQXlLdm40RjVXUllvSVYxWkhYVUZBWGhpeVVZV0RuRU5OWnQyT1FQclpZWQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z"
+        },
+        {
+          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+          "snippet": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:49:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-8.46.19-AM.png?resize=1200,677"
+        },
+        {
+          "title": "人工知能を働かせる仕組みが進歩、世界最高峰のAI国際会議KDD2026報告",
+          "snippet": "人工知能を働かせる仕組みが進歩、世界最高峰のAI国際会議KDD2026報告 日経クロステック",
+          "source": "日経クロステック",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WRm1vSlFQdkpBNTBfWEwxcHRGSGZXYWU4TXZrSjZNT2lEcHB6WEZub2U0Yk0yX2JtanB5WVFHNTBjRXd6bDIxX0RCT2NabF9EUGVzZTZQT3VmdHZzVjd2bU56Z2Y4RFBiTUVmYg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z"
+        },
+        {
+          "title": "ChatGPT is getting verified AI ‘Business Agents’",
+          "snippet": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in Cha",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Business-Agent-Customer-Conversation.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "CX PubteXと生成AI活用の書誌ジャンル自動生成機能を共同開発 26年11月より提供開始し書店DXを推進",
+          "snippet": "CX PubteXと生成AI活用の書誌ジャンル自動生成機能を共同開発 26年11月より提供開始し書店DXを推進 ニュープリネット",
+          "source": "ニュープリネット",
+          "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPN05BTC1FVmtVRXJBVHh2U3lHUzJXQ1BYOUkzakZWUUJIbWtnYWVia043RjdpazZPNlhQSm9zT2RNUWd6WmJfal9IUlVRamJmeW93R1c1S1ZScVJucnRRVjBHMklCWDhZdVhuOGUyLTZkR3poV2YxUnp3dUV1ZkFsc0J4aTVaNGl3azBwSUZQNDBxZXpidTRKWXduWGRSWkRGLUFodXdBQjNYUkZvanRpZ2JwLTI3dndXcXdTMGdNNE5aWjhERjY2cXd3VTlTVF9OUkdObmE0YTRkV2xJM0x0clZhellzendraVp3ekFBTG15akNEWWh2Vi1KWllmU2R5RXVHOGlJTHlJa0huRkwwd2ZCQzFNNE8wZGpyR3ZGT0ZURXRIUzR6QnZrTXNuRFdxdkgyT1lHRE43eTBFQURoYWo4eVQ5QnI5aVlr?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:01:58.000Z"
+        },
+        {
+          "title": "The indie game community is in disarray over AI and Big Walk",
+          "snippet": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI in the \"final stretch\" of the game's dev",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:32:47.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/BigWalk_Screenshot_Jun26_01.png?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "生成ＡＩ：見破れ！AI偽画像 保険金不正、損保各社が対策強化",
+          "snippet": "生成ＡＩ：見破れ！AI偽画像 保険金不正、損保各社が対策強化 毎日新聞",
+          "source": "毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13NHF0Qk55T3pyXzMzUDlsUHVkMDZEcWdnQm9UWnFYeGJhZjJINHBBRUd3Y1BMajRDVmpVc05CVGpPWTlmU21xWGctSXlPMnFyZjhFRXBic3VTZ0R6OGFTMGRNcm96MUNq?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T17:00:49.000Z"
+        },
+        {
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+          "snippet": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675"
+        },
+        {
+          "title": "AI時代のサステナビリティー",
+          "snippet": "AI時代のサステナビリティー IBM",
+          "source": "IBM",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YTGJuRExzN0RFNXdTanU2YkY1cFBVV0x2dXd6dzkxVWtnbnE2Z01vaXlDejNzQnZjS0l3LXBKTU1kVDc1eE1uMEtYVDNUYWVNTExwNVU4eXM1YmxhRkhyZEpGZzZMcERiUXF0WTlTRW13bFE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T14:09:32.000Z"
+        },
+        {
+          "title": "Anthropic has its own AI-powered office suite now",
+          "snippet": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And no",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "生成AIを使うが頼らない授業――全日本教育工学研究協議会全国大会 高知・香美市大会：教育とICT Online",
+          "snippet": "生成AIを使うが頼らない授業――全日本教育工学研究協議会全国大会 高知・香美市大会：教育とICT Online 日経BP",
+          "source": "日経BP",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Tc0g4OE40SzFvOUZJOURWR3ZnSnBFSFV3NnhwVjRBbWdyckRtRU5xbUttTUFZUktJaGx3WmZiX0RkTWV6ODk0M3VjMHE4alFZNXhtWUtVUVdLbC1KUThFTWlaRzBrN3VrdGEyeWtyaGlVZw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:45:08.000Z"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "snippet": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:04:19.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024"
+        },
+        {
+          "title": "生成AIの現在地",
+          "snippet": "生成AIの現在地 日経クロステック",
+          "source": "日経クロステック",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVXBtWEF4bXJySWJzYlQxRTFuRC1qWHZoSWtfOF9zU1c2WEdaQm9oOW4xajRJMUc2M05CbHJaMGc5WV9scnFJbXpqRTItVkI0aXZRZDdyaHJhY21udzVtR01NX0tOdXlVU0tGakRpOFhQRVlkOWlIVkhPcWpFWWczbjFoLWhfYnJWekJvRzFBUTFRSGVxVjZJWFFEYVlHSy1DbDJHQ21rZjlBLU5FQXF5dFo5NDAtNmk1UVo2QllOWlg2YkFOd19jMXVvekMwN2FwSkljMTVuZGg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T10:57:01.000Z"
+        },
+        {
+          "title": "eBay appears to have shut the door on third-party AI agents",
+          "snippet": "eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse and curate a daily digest of watches for sale on platforms like eBay, including a ",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:20:30.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "FIXER、NVIDIA Partner NetworkにSolution Advisor として参画～既存GPUサーバーの活用を支援し、生成AIの業務利用拡大へ～",
+          "snippet": "FIXER、NVIDIA Partner NetworkにSolution Advisor として参画～既存GPUサーバーの活用を支援し、生成AIの業務利用拡大へ～ 株式会社FIXER",
+          "source": "株式会社FIXER",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53ZkdfMklZUXVCZ1NtaDZMcWtLbHhvX1JCZjdYRXNuVG5ONFdFMUpGbndYTHk4N0ZLYlNJQmhVNDQ1RlluT052R2RlenFlT3h5NFp6ZkxXSWJzdEtPNEFVc3I5RWMyLTduY2xjYjRTSm83Vk9GRlFmTXRR?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T10:13:15.000Z"
+        },
+        {
+          "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+          "snippet": "Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of \"cybersecurity defenders\" two weeks ago. Google claims Carbon is its \"strongest model\" yet, and capable of competing with the very best systems from Anthropic and OpenAI. Google ",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "region": "海外",
+          "publishedAt": "2026-11-10T16:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Gemini-4-Carbon-Key-Art.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+        },
+        {
+          "title": "【AI時代の教育】読書感想文を生成AIで書いてはいけないのか",
+          "snippet": "【AI時代の教育】読書感想文を生成AIで書いてはいけないのか リセマム",
+          "source": "リセマム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50MnQ2QnhfX0tEUnFJZVhTb252SEZWREN5d2pOY0czbXNIdEtZODV1VV84Wkttb2tMcEYzbXYwTkExWXo1NXZtZWhNZHJjX3pPcDdYLWEyYXBWMnhWdmtOSEhmU2xHQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T09:15:03.000Z"
+        },
+        {
+          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "snippet": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:54:08.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-1484622878.jpeg?resize=1200,800"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "candidates": [
+        {
+          "title": "米コアウィーブ株価、時間外で6％超上昇 四半期決算を受けて(トレーダーズ・ウェブ)",
+          "snippet": "米コアウィーブ株価、時間外で6％超上昇 四半期決算を受けて(トレーダーズ・ウェブ) Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTXFxV3RVbmtUellOdjJ3MlVzN0VDUFJ6TDV1anF4Qy1qRDVHUW1vdUFJcHFXNFgxT3p0OTZYRHEwbHZReTRPTlpFSWNxS1hZQ05lUjVVREg0Sm4wSmNhaHE3dlRtbEQ5Yy1iakdNelliNG4tWGNTeFJQdWJvQ2k4Z2tOSVRRNzA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:10:03.000Z"
+        },
+        {
+          "title": "U.S. stocks slip following a discouraging update on inflation - Pittsburgh Post-Gazette",
+          "snippet": "U.S. stocks slip following a discouraging update on inflation Pittsburgh Post-Gazette",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQi15c01YQlJLa2huR0hWV0VCbHpKenpwRDdqQnFYMWwyYWRuQ1ZHNjNHZzVYLVA5OTFOSmlPdmJfR3hVX2dFN3JuMUhTYlMzM3cxUzgxV21WTUI5eC1YMWRZYlZrY2VONG5VRmxhSVA4WEs2Y2ROQ0c2RUpybjhORGpsQXNkNVFSQXlCVHd5X204WktaZzBfbjg0YzNWWWNya0wtbVQ4eFBuWTNURHdtRQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:30:29.000Z"
+        },
+        {
+          "title": "日経平均ベア2倍上場投信【1360】：株価・株式情報（夜間PTS含む）",
+          "snippet": "日経平均ベア2倍上場投信【1360】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqTENmZUFaNFdfSjNYNDdHREtlZU1HdGpsOXNNU3RIR0MxSlRxLTdrXzdmUlBiQ0l6U3BxWk00eDhncVVwR3BTV1A5TzlJSzExV2c?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:04:09.000Z"
+        },
+        {
+          "title": "How the stock market has performed after Veterans Day over the past decade",
+          "snippet": "How the stock market has performed after Veterans Day over the past decade MarketWatch",
+          "source": "MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSXBEY1ptb2ozRFJPZDRpbTIxRUlON1FTWFdOWXo4emtFa0pJXzVpX180eEc2ekYyMHhteGRmYXlMTlVpQTQwaGV5a2Juck9wT3FjYzZQNjh3bC1tU1NqU1E4eFk5QmQ0d2R0WW5nZlp1bzZHRWFEa29iNVR0bDlpX3gxOS00S0VKcXhyRXR0OG1ZQ2hKS21FUldrYVdIQVg0SXl6NHVRLURqMzhIOGdxcjhHN3E2TFdK?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:29:00.000Z"
+        },
+        {
+          "title": "シティG証券・阪上亮太氏 日経平均7万円台、年内回復の可能性は",
+          "snippet": "シティG証券・阪上亮太氏 日経平均7万円台、年内回復の可能性は 日本経済新聞",
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pai1uYkpfM3JPdldUbmJXSUpQNU5zX2FuTjBWQ3NTWXVXQTZOODB2RzZ4UGxQYktrV3k5dzZBMTBvU01NWldUZXVKTWluWS1DWEN1TTRFM1VSekN6UWpaUE5lUFM2Wmc3VDdvWA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z"
+        },
+        {
+          "title": "Opinion | Wall Street is becoming the world’s stock market",
+          "snippet": "Opinion | Wall Street is becoming the world’s stock market The Washington Post",
+          "source": "The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPanBuN0lUX2VwNHZKbGNzNml5LWY4TllER2ZNVGFERDBhNVZHS2tIRzJfaGpsSlRncFl5WEFQMERwd3d3c005YUx1NEVocExLWjFHMFcwY1JfUjFPV0dYQUtxUWhoX2NybklLbmJ5VTBhYlNyd1ZaSTEwWU5iRXlYVml0QlhDWktOQzBtUUpVaW5HQmVmWWNWWGtn?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:46:46.000Z"
+        },
+        {
+          "title": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報（夜間PTS含む）",
+          "snippet": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:54:07.000Z"
+        },
+        {
+          "title": "If a Stock Market Crash Is Coming, This Is What Warren Buffett Says Investors Should Do",
+          "snippet": "If a Stock Market Crash Is Coming, This Is What Warren Buffett Says Investors Should Do Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTGpMTlMwVDdnd0dIdXhyRFFFVXBIOUx6RmJaTnNPdFgtd0NSTzNfT1UtaGN1Z1cySUpkcHhoY3dMTmFQNHc5bEFmYkhaU3hWN1JpRkxVd0h4enlrVndxYUdETkJfQWJjeDY0OW5pZjBfQlE3Q3R3TXh6N2V6aF82eWduRlF5d0ZldXZPSFdHaloyYlI1TXFFeTlCOHNkZw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:22:02.000Z"
+        },
+        {
+          "title": "日経平均ブル2倍上場投信【1579】：株価・株式情報（夜間PTS含む）",
+          "snippet": "日経平均ブル2倍上場投信【1579】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3dzJtV1VSdXVDQmVlWjlwbENaMTAwM0R3SU5LNEpGZG9xbjQ2M3hUWjJIQ2FfaG9JUUQyY1JUMjF5S3E4Yy15aEVtdVk1eFRoRmc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:35:34.000Z"
+        },
+        {
+          "title": "Prediction: Nov. 18 Will Be a Huge Day for the Stock Market",
+          "snippet": "Prediction: Nov. 18 Will Be a Huge Day for the Stock Market Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWU0xYU9DckhqWVBtUTdIMmhHc3RPRHFDMlA1aXExSnl0Q3RLMFhUTU0tTm5obkhRWm9jU1JnaDU3SWk2b1VSY0xvTC13SzJiZXozczduQVJMdVRCNU1wcVl2NVRKRm9obVN1cHJBeXhVWUdmYWxZU3daOS1mNURjMUJCeXJYWEtZOEZsR3FuY1dUVC1MRlE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:20:02.000Z"
+        },
+        {
+          "title": "ゴールドマン・サックス、米マイクロンの17%下落で「株価は無視できないほど割安」と指摘、70%の上昇余地を予想",
+          "snippet": "ゴールドマン・サックス、米マイクロンの17%下落で「株価は無視できないほど割安」と指摘、70%の上昇余地を予想 BigGo ファイナンス",
+          "source": "BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0UGRZNmFqUFk0dTFSVW5fQkRCRkpialYyWFBWbVhRWEhjZ2RRVWMzNkxNTTc5TnFyakxvSF9NX3FMcDBmeGIycVJsS0FJMUwzODFjVHJUU2lDVmFsLUFLT291TjBraU5tcG9na1c1MHBxeHRU?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:29:29.000Z"
+        },
+        {
+          "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+          "snippet": "Anthropic targets valuation of up to $1.4tn in stock market flotation The Guardian",
+          "source": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZNcUt6ZldxUnNyTXZySGZacWZueTYtS0JOUVZ2S3JUWENYcThEMm9CSnVXX25QTGJYZGc3UVhKNXloQ0pPdUJpbkxZQ3Q1NEdSMzJEWjB5M3UwVDJ5UjhxdllTMEhjQm41UDg1QndqbE5KWkNBZ3RoMlhHSjM5SDkyN2tmQjZjcEpyNGMxVjF1MV9vRmpJb3d4X1NibmRYd3V5TUNxMGtacGJjXzNqRURn?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:08:00.000Z"
+        },
+        {
+          "title": "日経平均、27年3月末に6万8000円 フィデリティ投信の重見吉徳氏",
+          "snippet": "日経平均、27年3月末に6万8000円 フィデリティ投信の重見吉徳氏 日本経済新聞",
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00OTFEbWlOa2NOSFk4d19JSlBXc1QzSkNpWWhpd3R6Rjl2UmwyUEc4T0lyU3RybEhCRXdQeDlkSXdWZy1nYkxvNmJEQjNZbUIxU21Pcm82LWVqNUxYcThKRERrT0ljam1xV0hFeg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T19:00:00.000Z"
+        },
+        {
+          "title": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+          "snippet": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today Benzinga",
+          "source": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWEpRX0ZXeW82S2llNDRDY1haT0MyWFFNRUdxd0RZZE5fRmNQQndoQnFyRndKSEsyS0JJbFhQQjRENFR2VDFKUl9nMHhkY0JjdE9XVE5pQVBzUkVHMHpySWhGUkpweW5tRGpfajhpYjFES0V4X2k5MjYwTWVtbUt3MmhHQm1DTWNMUUQ5WWpUcG5iMFU0bXlhNHRXVlZSSjR5ektkTTgtN04tall2WWsyTTdudTlBbnk1Y0ZOR21EeC0?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:00:07.000Z"
+        },
+        {
+          "title": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む）",
+          "snippet": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む） Yahoo! JAPAN",
+          "source": "Yahoo! JAPAN",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wT0pLZFYweEZKZEI1MWVnSDNHYXJfemt1T1FNNDFfai1kRkFoVGp2Y0pLemJYVGRIUDc2VGNXVUlUSUFFdTNscnZBME81Ml9Oenc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T18:59:17.000Z"
+        },
+        {
+          "title": "Why the stock market isn’t more rattled by higher interest rates 💪",
+          "snippet": "Why the stock market isn’t more rattled by higher interest rates 💪 TKer by Sam Ro",
+          "source": "TKer by Sam Ro",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwaW5Rb09RRHZNUElod0FPVXItMGVwU29JTF9LLXpPNlFHMk0tQUlQbl9jbkRSbjQ2NzhuWktFWEJHVjhBOGxlQi1XTXRGdDZIdXZUS2JNbTBtT2VNMmlfd05XYjlBZGEyb2JSdQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:42:42.000Z"
+        },
+        {
+          "title": "(NEXT FUNDS) 日経ダブルインバース上場投信【1357】：株価・株式情報（夜間PTS含む）",
+          "snippet": "(NEXT FUNDS) 日経ダブルインバース上場投信【1357】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rcjVpV2ZEM1VtNnlBVk9SN0ZSOGkyMTI2WFlKejY4RS1LUm5CUVpFaS1YNUNMd2JSYkVCbzdMRjRIZE8xcHQ0XzdyRE5TT0hIaWc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T18:41:16.000Z"
+        },
+        {
+          "title": "Buy the Dip: 5 Stocks Insiders Are Loading Up On After the Recent Market Sell-Off",
+          "snippet": "Buy the Dip: 5 Stocks Insiders Are Loading Up On After the Recent Market Sell-Off Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMTM2MmJHNTVLS3NtcGw1Z1ZBd3phRjdBN0ZBeXRjUGJHRjdSUlF4aG55NXpuMG9DZDFRNHFHNHd3clJJeVB4Vm9nREtCTWdFc2JNZW1lVjduNFRabHBQbGFIY0wwbDh1TG9PZHFhbEs3QXZYdjVPMzBOMUdzbVFfZ3ROUndCOFhuTW5nN2dmbVpaTTly?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:19:27.000Z"
+        },
+        {
+          "title": "【テクニカル】日経平均株価テクニカル分析－はらみ足から陽線が続く強気パターンか",
+          "snippet": "【テクニカル】日経平均株価テクニカル分析－はらみ足から陽線が続く強気パターンか 外為どっとコム",
+          "source": "外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rb2M3aXQ0SzdwSjV0OWFUS2JzWGZqQ2VrYlVQZEtrMmdsb3FPeElvY29wVDAtOW85UUNPc1JHSXUzQy1SdFJOREx4Mi1IdXRVam84QVlkSmF5bmo3WE5ObE51aw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T16:07:50.000Z"
+        },
+        {
+          "title": "The Stock Market Is Shaky Right Now. Here's Why I'm Not Worried.",
+          "snippet": "The Stock Market Is Shaky Right Now. Here's Why I'm Not Worried. Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU01LNDk5Qm84M2c1T0FzcmRRc3JhTHhiQThMV3VoZkw3QnpjdUNTNGl2R3JtWlRRNGUwOXlSNWhyeU04MXByTHltcm8zN1NjQnJNdXhjbGd3dXJNcDRXbUhpeDdXMWtaVlNCU2sxMy1aX2JyYnNEQU1EcnR6dngtNEtwRGh0bTZOeUk4cy1tajVtT2FmUE83bw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:05:00.000Z"
+        },
+        {
+          "title": "(NEXT FUNDS)日経平均高配当株50指数連動型ETF【1489】：株価・株式情報（夜間PTS含む）",
+          "snippet": "(NEXT FUNDS)日経平均高配当株50指数連動型ETF【1489】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QSENxNlJuMUI2TzlkUldaZ3JEc1Y4Vk9Zb2RPb1FNZnJQaXR4OFc3SVhRYS1FWDBHTFlidkhfd3YzVl9RZklERWhvajJfaVViQ3c?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T16:00:29.000Z"
+        },
+        {
+          "title": "What's closed on Veterans Day? Are banks, post office or stock market open?",
+          "snippet": "What's closed on Veterans Day? Are banks, post office or stock market open? Bergen Record",
+          "source": "Bergen Record",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSEU0ZGZSMW9fQzV2blJtdElEeF9ocjM5MUctaW9ZUXc3UVVMdFJLUjhsNUFXVjN2aG0yVnVtQXloYmloZTZkcm81anpFd29yX3VUeW9pM2I5MG5ScVEwcGhzelFsVkd2T2RldGV1dmdXVU1WWE1GeFhuQUh2dGg4TXBLMzZJYjEzZ1E4OTAzTWpzWTE5eGZ4RUN4czctMldqaV9Ub0tiMUJMcmhWSjJWZGN0Z25pZHlGWUZoUklPM3FJWFd0M28xWHJpSVVwVGVpcUt2MUs4QTVZZFVFRVE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:51:45.000Z"
+        },
+        {
+          "title": "(NEXT FUNDS)日経225連動型上場投信【1321】：株価・株式情報（夜間PTS含む）",
+          "snippet": "(NEXT FUNDS)日経225連動型上場投信【1321】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83enVvUEFmamhtZHBSbkZoVC0xanlsQUp3NW5TRzJITTJucFRVVWZJOWE1T293TGt5ekMtcWh2YWw4c3NaVnRoYk9USFotcmZVVWc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T15:36:23.000Z"
+        },
+        {
+          "title": "Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+          "snippet": "Anthropic set for $1.3tn stock market debut despite 'catastrophic' AI warning BBC",
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HNWFGZG1teU8xOWttMlMzb1gtbVhmNW94MlFvanZrY3JCbVVkcExpX3VrTGFLOVgwaGhON21KMUN5SGI1R2hmM2pMMkJXQlFDaUU0TnV6TWVqNWM?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:56:12.000Z"
+        },
+        {
+          "title": "(株)東邦銀行【8346】：株価・株式情報（夜間PTS含む）",
+          "snippet": "(株)東邦銀行【8346】：株価・株式情報（夜間PTS含む） Yahoo!ファイナンス",
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ONk1YbUVhSjdPQ0lYSzc3ZFNRZ3l2QmVZRjByVlJQbU9QQVE5SXFPejFUdkVEa2MtN19VSlJSbl96XzE5dVNWeDRJNFVWTjFvc1E?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T15:08:18.000Z"
+        },
+        {
+          "title": "Anthropic targets $1.4 trillion valuation in massive stock market debut",
+          "snippet": "Anthropic targets $1.4 trillion valuation in massive stock market debut Al Jazeera",
+          "source": "Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOHZhYmNhZWVrNnlsNWpENXJtejAzaWpFY1U3UlRhNmp4cnllMXFYZ2dHcUhWOTJCcllWWDh3ejBreF96eElzTU52N2otWGpRRGJEV3hMVEtob2JuVWZvam1OR1cyYXlpeTMyOVNTaHBHLWJTN0Y1TlExUjVsNHdaT0V5WVNVeVY3YXdpT2dPS2JXZ2dZaDlReGVIeFdWUU51VDVQX05FZk1FTjdCdVBBX3RvSkdsd9IBuwFBVV95cUxPOFgxdTRMYy1YWWtuWkMwdnRMNl9LRW0wNGhsSXZEUzdWbTNJU0lScHhkXzVJSVpSTFpSdllYWk1SMENQUlc4ek1VOTBlLVFDcW1JaUdXaC1yWlZ4UkZkZmdzWGdrR19wMy1rRFE2U0JMdFpOWTJ1ZVdsdkpJUldqM0JYcTdGSXB5OE5GY2J2SmFRWXdCY0F2aXFOOXFSNWJVUW5la0VfcG1YQUpsQUkyTU9yT3hDUTY2cjRZ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:38:44.000Z"
+        },
+        {
+          "title": "レーティング日報【最上位を継続＋目標株価を増額】 (11月10日)",
+          "snippet": "レーティング日報【最上位を継続＋目標株価を増額】 (11月10日) 株探",
+          "source": "株探",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01Q01hTmhacjYxY3E0TjdxZkstdkxCMmRpY0FCUUJsaW1qM1ZKVlJWdUNhT25GcWRyRm0wZlItNjV0YVNEWF94bG1QQnFFbnl6eWktOHg3S0ZzMGNMYldEUw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T08:00:33.000Z"
+        },
+        {
+          "title": "Stock Market Today: Stock Market News And Analysis",
+          "snippet": "Stock Market Today: Stock Market News And Analysis Investor's Business Daily",
+          "source": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zdGl1MmxTM2JJa2pLNlFSWVhuZUd1ekRIeVpDcGVqckVJcloxaWlnRHJ3b0hqb291NXk4dlo0SmRQNlhDaGpubDh6ZWNTUHZiYVhjOVJINUxSYXE0NHRiNVE2OW51R2h4N1daaXRIdzVBR1UxT0g4?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T17:12:00.000Z"
+        },
+        {
+          "title": "東証大引け 日経平均は続伸 3日ぶり6万円回復 AI・半導体関連に買い",
+          "snippet": "東証大引け 日経平均は続伸 3日ぶり6万円回復 AI・半導体関連に買い 日本経済新聞",
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XUFJWeW40NEJSOXBnVXRrR3RsTUM3cTZRNUQ0Q2Q4Vkk0aWRkYU53MUpKY2J0aUVraXZkNkxCYTdmNnM2LTNmb2wwc3BpM3VsNktzcDJKSGI3MkJZZlVmTEJvbjU3VElmQlRXdA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T06:58:21.000Z"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets",
+          "snippet": "Stock market today: Dow, S&P 500 slip after CPI data raises Fed rate-hike bets Yahoo Finance",
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3g4SF9zazNmOHU3U1IzeWVXQUJoY3VIWmVZZGRXc3B0alp1SU1Bdk1EQnJJMWJXdTNpQmowcDYyaUhHNHFRQm9xSHhLNnJVb0dtY1NWZFdqVDRyaVBKVDZuejBlWXRIQ3BhSU5sd0tXUUVuVl9CWHdLMy1ma3RFdEx0NEZjdVhoWXhGMFVyWTZzWDhKajBfRmxNMldzR1N1NVBJc2k5cFhkUTFZdTJqNF9ia3ZnQmpQZWppcWFOUmtINmhvVVFIWVAtdVc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T15:12:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "candidates": [
+        {
+          "title": "逮捕の阿波市長ら 修理費用を機器の調達名目で請求か 徳島",
+          "snippet": "逮捕の阿波市長ら 修理費用を機器の調達名目で請求か 徳島 NHKニュース",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xMGxRaVVhSGJxbUJoR3lZUGhiR1BRb2xybjgwWHRvbm8yUXNBOVItM0MtMDRtNUlqT0wzazloVVlSQy1JdW9LZHFSTmVyTGlteW1ENWk3eUUtbWRUam9N?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:35:04.000Z"
+        },
+        {
+          "title": "Landmark Middle student arrested for threats against school, DCPS confirms",
+          "snippet": "Landmark Middle student arrested for threats against school, DCPS confirms firstcoastnews.com",
+          "source": "firstcoastnews.com",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV2xaUE96d3pXWlN0TElFWEtWNU00SDh0UlJ5RTNzNWUzQUtBYlFsZWVkNnU5MXE3VFdicGVQODZNdlBpR0NVWTV1SWxfeE1ueUY0QjV3a0Jvd0Y0QUx1OU9WU1BXamR1LU1OYTJnb2Fxb1A1YWgzWC03Y04tNjdJdjhwb1ZVTFExQVhrUzVlQTY2M29Fbks2dk5xXzVQUVduWWRXRER6LXZuc1V5b3c3VmFhS1ppd3BrNUNaelU5bHVGMVBrZEJHVThCMjdBUWpKLTJXbzZiMS1LWEMybEVINFVLYl8?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:47:00.000Z"
+        },
+        {
+          "title": "41歳の米陸軍兵士をスパイ容疑で逮捕 ロシアに協力か 英警察が米などと捜査",
+          "snippet": "41歳の米陸軍兵士をスパイ容疑で逮捕 ロシアに協力か 英警察が米などと捜査 テレ朝NEWS",
+          "source": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1maEEwVkhhQlhwUUJieTJSb1Y3dUFIRlNyUDhmVl9ZSE9icWJ5ZlM4S1dxRmcyYV9QSGM4Q05oUXdVTHd5eTZWeklSRnk2NkdwSW9VVmFjWGc4eGNBako4QWRPNTZ2UzVBY2t0aXZwNEZKVFlheGRZODhn?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:08:12.000Z"
+        },
+        {
+          "title": "Daily News- Nov. 10, 2026",
+          "snippet": "Daily News- Nov. 10, 2026 Riley County Police Department",
+          "source": "Riley County Police Department",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLR1NwUnNYbDA2MWdtS3FBXzhtbDU1eDZpZDlPbVVVRnIxdVRyZjBiZGVvYzNlV0IwaHVNaDdtZ2N0MGZBdlh0Rks2VG5hUVV3X0dxV2ZhdXdHbjg5RVIxQTdIclQ5cjZFLVNj?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:33:01.000Z"
+        },
+        {
+          "title": "徳島・阿波市役所に家宅捜索 市長ら3人を逮捕 市長が起こした事故の修理費など350万円をだまし取った疑い",
+          "snippet": "徳島・阿波市役所に家宅捜索 市長ら3人を逮捕 市長が起こした事故の修理費など350万円をだまし取った疑い TBS NEWS DIG",
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01X1BmNGlNd1lUUHRVaU5ldjlYSm93dFdkaUUxdThEMmdfV2RlQkpRdm1fQlNWWl9hRVdiTlc3YlhZRTVRNWxoZ3BXLVRGV0FnQmM4anNQQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T21:07:22.000Z"
+        },
+        {
+          "title": "Arrest warrant issued for man charged with attempted homicide",
+          "snippet": "Arrest warrant issued for man charged with attempted homicide WEAU",
+          "source": "WEAU",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZUhRZFE0TFlRS1FjYklfM0RzRURmLUltMmVJTDVtR0V4eUNTd0UxQmRoaThnSmdJWEhVZlhqMkhkekxPRGtneGNZYk5hWURSdEtLSHpvVkRzbWNNcmFhY0FQR0tBVzQ4R0owWTBoRWdHU1FqazhzTlZqblNFTGdVUHlPYlI3RGhjNHZka216b3o2d0FH0gGoAUFVX3lxTE5UMzl1Z3lZQVltMmRNR1JvUmV1TmhCYmNta0Vjc2N6ZDFzbEpnOUdrYjdDejg0Tkh5bmR1aEEyMnhMUWh2Q1c3UUt3NW83VHRiakRWX1pOMVR2bk5VZ2xEdlFoT092b2NQNGRIbzVlVUEzX0dDWmpDYjNHclFUY2FpMVpMTnEzZzUwNXY4dHA4ZE05a2ZSTUJsRFVibUpCc0swQV9Pay1vVA?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T21:32:00.000Z"
+        },
+        {
+          "title": "弟（58）を殺害か 兄（60）逮捕 「酒に酔って覚えていない」 鹿児島・曽於市",
+          "snippet": "弟（58）を殺害か 兄（60）逮捕 「酒に酔って覚えていない」 鹿児島・曽於市 テレ朝NEWS",
+          "source": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPTTVxS2kxaXBYc2NWanA3c1hOR1huSmljMVExbnpFeVpEc281NkxNRVhmNGRTMjc0VFNfa3lpTEZOcHdPNG43MkVvSXVBYnlmaHh1UFJKQWdtSENxWEx6aW5QMTlCUk81amxQWU04NW1BUQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:57:33.000Z"
+        },
+        {
+          "title": "Landmark Middle School student arrested after school shooting threat",
+          "snippet": "Landmark Middle School student arrested after school shooting threat News4JAX",
+          "source": "News4JAX",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON0UwZ1hmLXRDM0RaM3hlc0J2dlozblpJWjg0Qk1pd0JCY1dVV2VpRWxHTnhVODJOY0tsTHJmcHE4aVFnbkZHTHBsOFZnXzJzNnlKY3BwbTZPTDcwdU1Eby11VzBLYlFHWThVcDBFOXFEellkdXFYRWZOT3VrZ3dieG53LW56QWpiWFIzMHdkS1A1M1VkOXNnRTBvclphN3ViUTl3c0hiN3pjdWJ3ZWlCYm1GcUprN1U?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:45:03.000Z"
+        },
+        {
+          "title": "英警察、米陸軍兵士を逮捕 ロシア情報機関への協力容疑",
+          "snippet": "英警察、米陸軍兵士を逮捕 ロシア情報機関への協力容疑 Reuters",
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWWxOdzJEVzhFTXpUTUVzSHBjS1JMUGZFUHNEeXJWYllSeUlKRVRFQVhVYUt0ZDFqNFU2azQyRHZTMzl0UEFvY1FnZXg4QVJiWWlHaTVIcmJ0aFBxUjhkT3FkbVE1b0xnUHRuNjJoSEU3SjFFalVGRFlUazZ2NDkwdDhITS1qWk0?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:37:44.000Z"
+        },
+        {
+          "title": "Bay Area suspects arrested in Nevada County home burglary of man, 77, who died",
+          "snippet": "Bay Area suspects arrested in Nevada County home burglary of man, 77, who died Sacramento Bee",
+          "source": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zVFIzZm5Zd2tXRE0wQUZjVlBqcUNUZWR3Sm9na3gxWVhzRFZXNXdTUTJvVWtwWFhrc0w5UWE0ZmF0NjNaeXE0OXF6TDRyN2xNRVZSTW9XbDd0anYydExKSkV4dllxWElyMDNpQXpn0gFuQVVfeXFMTzQ0QVlTR3FYRWtnS0I0aV91ak1GQUpEWmk4VEYwdXVtQ194eHBneFNCbkpISTVyeU8tQ3FIblF2cFpLdlNDWUJURmZCaXJrVUJ5b21reGxIZEdUcDMyMUV1bTJqNTNkSUhveVVSQ3c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T20:40:48.000Z"
+        },
+        {
+          "title": "“ルフィ”広域強盗事件 詐欺グループトップ きょう初公判",
+          "snippet": "“ルフィ”広域強盗事件 詐欺グループトップ きょう初公判 NHKニュース",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1veGNnT3ZOOWExTHFQSTVWQXdRcDZVcmJPanI0eEp1OUxDZlpEcVNMVkt6aDREY0FvOEc4NUJWb082NzZHNEc1NEhKX09kejlvYVNLZlZqUEFXNER3Y3pZ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:21:45.000Z"
+        },
+        {
+          "title": "Son arrested after mother found stabbed to death in Glendale home",
+          "snippet": "Son arrested after mother found stabbed to death in Glendale home KTLA",
+          "source": "KTLA",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE00M2JjT2dfQ3h6Qzd6SzF6QW5panlTdG1kYllnb2xza0lfYktjSXdZTmhEbXdGQ1pfY0U3RlhNOGplUlNOMm4wTnJSQVlJdl9laTlsX0tONmY0R3R4RDZGYkFLd2NMQlVZYm5ScXEzMEpqSHd5ajdxeGNSd9IBgAFBVV95cUxNLXBOX0VqSFktZUEzLVpfcWpIM0p6dVZfNzJJVExNM0paOWt6Rl9ISXVrLWd2ZTFtaFN0dkU2aW13N191RENJQjU1bUdjQVgxQnJraDEwUkdpbkE0bnBOT0pSVXNKRWJhMWFjd21oaUFTSVlIZ2NzejhqeW9JdUV5WA?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:43:27.000Z"
+        },
+        {
+          "title": "「特殊詐欺のかけ子役」を斡旋か 職業安定法違反罪に問われた女（31）に拘禁刑1年6か月求刑 示談成立で弁護側は執行猶予求める 広島（RCC中国放送）",
+          "snippet": "「特殊詐欺のかけ子役」を斡旋か 職業安定法違反罪に問われた女（31）に拘禁刑1年6か月求刑 示談成立で弁護側は執行猶予求める 広島（RCC中国放送） Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kOHRQeUZyNFM4MTh4Unl2NkZ4TDVMTnNOczBrMHQ0RlBNdDNMMWZLMnF4dXRHMDllc0ptdG16V3RrNGFTZFBwa0pWLTBrTi1ZQVZfRmItYWY2RzR3RzE4NWpCNUpINVE1QjF3alVVOWZWNlNrTU4xaUVyOHY4S0E?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:06:30.000Z"
+        },
+        {
+          "title": "ICE Los Angeles arrests Iranian ‘King of Instagram’ - ICE | U.S. Immigration and Customs Enforcement (.gov)",
+          "snippet": "ICE Los Angeles arrests Iranian ‘King of Instagram’ ICE | U.S. Immigration and Customs Enforcement (.gov)",
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPakxEcGx6T0tTWEQwU1B4UVhDTm9IYUp5a24zcm1hMlhIZlBRTUhLSmhESzJMWUZFTDFOd0lMeF9OT1ZNTkk4cDdFYW5YeXJGaUlSc2hGQXk1dzUxdnRWU1VLcjRSaFB2MXhzMnA5MmV3aXlURUNHRDNqTGlWcDhRRGxQZGdtWDQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:36:17.000Z"
+        },
+        {
+          "title": "養子縁組届偽造疑い、逮捕 ３人「不動産相続狙った」 警視庁",
+          "snippet": "養子縁組届偽造疑い、逮捕 ３人「不動産相続狙った」 警視庁 朝日新聞",
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FRHVnaV8yOWVSWW91Sm9NM0tpbEJzUEk3RW9nZFJZVFBvWHc3WkJjdXYzdHVZSUNDbFVLNjNNT3FmZEdJUTVuWTN6dmxwQllCX0I4Y0Z6VVlvM2hG?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z"
+        },
+        {
+          "title": "Two arrested in alleged burglary of deceased Truckee man's home",
+          "snippet": "Two arrested in alleged burglary of deceased Truckee man's home ABC10",
+          "source": "ABC10",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd1ZGd0E3N1VIZENTdmtkaFpjRmNiWlBjVVN5R0g3d05JZU1taV9Sdkg1YWRFUVNZQkFWRjF0T0xqM2RyMXZGajd1bERaT2xpWWpFb2pHQVI0RjhBT0FXSkFLUlh5eUNBSzRfVG5qUF95cURxWV9zQS1MN0ZkNGFORnZfZlBVb19pQ1VReEV5ckdZWm52N0Zad29Pa0wweW8yQ3Z4bk5tMUpBVnVxRS1RaEw2bURCYV9fTUZCa3AyZ0NWTG94SVBnbnd0aDRNbFVFb0xndXA1U1dEelRR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:05:00.000Z"
+        },
+        {
+          "title": "（田中嘉寿子弁護士に聞く：上）性犯罪事件、司法の理解なければ",
+          "snippet": "（田中嘉寿子弁護士に聞く：上）性犯罪事件、司法の理解なければ 朝日新聞",
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kSm92Q3BsRUsyZVdNWVNDZE8wN1FPbUc1VzQ4NkxpN0xBc0dKTHlRamRrRkgxQmdfUDQzMmVUUUhqMlRTcTBsVl9NN2xESEd2VmIxSDBmOUNUclBL?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T20:00:00.000Z"
+        },
+        {
+          "title": "Central Park rape suspect arrested while working in Miami, linked to 2 others",
+          "snippet": "Central Park rape suspect arrested while working in Miami, linked to 2 others ABC7 New York",
+          "source": "ABC7 New York",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZUhBcjJld043U29Oc1lnZHd4S3dENkdqY2Fnbk9SUVBOb0hnek9UdDlYY3JkcC04WHVOTDNTRDY2S0llb1A3VlNWb0UzUEhCc184WG9USFZ5WElCOW5oSGFTWmtpeEFvNWwxZDFvSERUclY4ZVhJZ2VoSEcyUWN6Z1JHcktiWGVJeGVUdGhiWTRFTmxLdXhmaUJOY1B3RHBJaGJYQg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:04:30.000Z"
+        },
+        {
+          "title": "特殊詐欺の被害拡大を防ぐ国際会議 各国の官民連携強化を訴え",
+          "snippet": "特殊詐欺の被害拡大を防ぐ国際会議 各国の官民連携強化を訴え NHKニュース",
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4WmpVdzRVZ2tfOXluTE10bzAwTDV5dnRna3ZMSU1jSU9ZYmZHb0J5QUdCR3djZWFwZ3doZUlXMXgxVUxNNGZzejdFVHJ0MFBzRnpJTVlzc1ZzQ3VzMGlF?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T17:40:31.000Z"
+        },
+        {
+          "title": "Oxford High student arrested after police find gun on campus",
+          "snippet": "Oxford High student arrested after police find gun on campus The Anniston Star",
+          "source": "The Anniston Star",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdS1rRmYxOUFPbDU1Q01BYW9Jb0VuYXgxbHdZbThPYlJ0VnBmMExCOWhFMTAwdmhaUmlCaW5wMnBIYUVKeFFnRDNseEUyc2tScGlwT2NBRVc0N3VzQUxNV0FLb19SbmJoQ2JQdzJTWUJrRUlRRnRIRkxhcEF4LTJjdHF6U2pEemYzZnZIRHE0NXJQYncweW9wNjVJLW90QlhhcjJQWVJsbUFnZ3cyQ3pNdXNfU3NKczFrZzlpeGtkLU13ZlhmNTNLbUVENUxHQ1hKMUtaYnhqUXU2N3ptc3ExS2N1WTE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T19:03:00.000Z"
+        },
+        {
+          "title": "スマホ遠隔操作し詐欺疑い 逮捕",
+          "snippet": "スマホ遠隔操作し詐欺疑い 逮捕 Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GR3JOc1NNY3FfZHZkLTJic3Z6emkzVEpiQ0o1ZFdWenBNWGZMOU5ZcnVTbm9PQllGdVRCblhGRUcwTmc2MDRpMlpLY28taG82?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:39:05.000Z"
+        },
+        {
+          "title": "16-year-old arrested in Richmond for alleged possession of a firearm",
+          "snippet": "16-year-old arrested in Richmond for alleged possession of a firearm WTHR",
+          "source": "WTHR",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPR2p4MUlPcjJEMHhCelY2RVBWSmJRSzZ6d2x1dzYtd3BxcEFoTjYwNm51ZG1QMF9CRUs2ZnF5ZzJNeFFwZ0RmLXVpOHFmQ1VzRU9UTFlBWXlVc0NZZkVJUlVIYy0zamxrWW5hakFHa3J6a0hpZlVxcFBQZFE4SkJyTFRLdFdoODE1enM4d29GOHhERWdoVVN3UjlpZ2VWYjNlUHpuLTdyUkZONHpHcTM4a21iMk90YXV3VTJWRmxmZlRnZi1DdVJCdTg0M19PaGRsa1ZKSmV6czRrYVFOaEE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:40:00.000Z"
+        },
+        {
+          "title": "ニセ警官、裸撮影した疑い 特殊詐欺に乗じ「タトゥーないか調べる」 [福岡県]",
+          "snippet": "ニセ警官、裸撮影した疑い 特殊詐欺に乗じ「タトゥーないか調べる」 [福岡県] 朝日新聞",
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPODAxOEV5bXdWeTkzYnVDOWh4bDBfckFBa2lITE9GMEZnMEp5MW52ejVKYktGVG5IcDJGVTBZa3QxX3plMlZJX3VHb3VXLXRBdGhIWHBnVF82WVhTR0FLaHk4T3FTM2s?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:30:00.000Z"
+        },
+        {
+          "title": "Second suspect arrested in April Marshalltown burglary",
+          "snippet": "Second suspect arrested in April Marshalltown burglary weareiowa.com",
+          "source": "weareiowa.com",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTnFLeE92RGdLYm5IakhDX1NmWkhEMWxxM25EVkYtM1RGaWNXMFJLZDBLeXhSLTh5LVVMN0VEOGhJOThNWGJqdklObUY5WGR1NFlvdXBfVkRyQ09pM0taOWI1M205RE14b0pfTy1mekpvUWlyZTNUeVJfTXdoS0t1ZXFuSEdTNVBBaDVRbGQ1NFU4YWJKRlE5WEJVUHlEUk8wemdvMW1QX2l5WThmemFpVEUxcGFvMWxweHFqOFF1VE5pbDhod2dMZkU3LUlPZw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:25:00.000Z"
+        },
+        {
+          "title": "空き地に身元不明の白骨化遺体 事件と事故の両面で捜査 水戸市（日テレNEWS NNN）",
+          "snippet": "空き地に身元不明の白骨化遺体 事件と事故の両面で捜査 水戸市（日テレNEWS NNN） Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nNE1XaW9IMC12bDF2Q19rcm90U3BNcEM5aDBzZ2NfM01pY0NUaFNjSTNHNzNBWkE0ejFFUTVyYjkwMzlraGt4SVQ0Qmlfb3NhbUNpdEI2Y0ZBZklJZDd2Q3VJd09xNWpkMU5YTmUzUHd0X0h5TkoxNGdrcXRFMnc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:28:01.000Z"
+        },
+        {
+          "title": "Texas DPS announces arrest of most wanted list fugitive in McLennan County",
+          "snippet": "Texas DPS announces arrest of most wanted list fugitive in McLennan County kcentv.com",
+          "source": "kcentv.com",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZGYxUTA4NmxwLTA4UlRRcnoyMWR0LWdxNWxFM19SaXNva2FEZmlEZkwtR0xfZUh3c21JOW1VMWtrV1dzd1E4em4wMTBDLTJEemU0emcyVnRwVFRvWTJzLUhDVzluN1RmRlJkVml2WEVYblktbXZnQ3RRaDhFYUg3MkQyM2dpcnR5VzRrOTJNWHJZM0pfNUs3dG9MbWo4dTFyYnpKZG5jVTl4X1BKV090T0xoRzZocjRneUNQcU5HUGlGT1BOZVBtZzlaMmdjUGQxMm9zTVhRTVE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:13:47.000Z"
+        },
+        {
+          "title": "詐欺容疑で阿波市長ら逮捕 事故の修理費用“上乗せ”か",
+          "snippet": "詐欺容疑で阿波市長ら逮捕 事故の修理費用“上乗せ”か テレ朝NEWS",
+          "source": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93bTMwVnk1ZkFyeVMwbmZTMzRONlNoUXhiWTZCdWdtT2xvYXhqVDdxTXQ1c3B0TWx4UFh5OFlFakY5cC1lTUQtRzRKLWo4bVFBNDVBWUtZYmNQQUNLb0piRVRscFZTT1lSTVQ0LXo1THQwZw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T11:00:15.000Z"
+        },
+        {
+          "title": "Reward Paid in Tip Leading to Featured Fugitive’s Arrest",
+          "snippet": "Reward Paid in Tip Leading to Featured Fugitive’s Arrest Texas Department of Public Safety (.gov)",
+          "source": "Texas Department of Public Safety (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRmpRb21pUEtwU0xldjUzVEk1dVFqc3dHanNxcDAwazlPZUpEc09MOWE5aUx3cHFEQ2hCOW9ZMkszS2Y5TGcyV3lsV3c5TnJwcGZjaUNNZXBSTUxTWkdMRnNVMWZ6TkFmS1BBaV9WMXM5Vnc3allhQjBLbjQ0REdrNENLbVdRUlE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:09:09.000Z"
+        },
+        {
+          "title": "徳島・阿波市が１２日に会見へ 詐欺容疑で市長ら逮捕 自身が起こした事故の修理費をだまし取ったか",
+          "snippet": "徳島・阿波市が１２日に会見へ 詐欺容疑で市長ら逮捕 自身が起こした事故の修理費をだまし取ったか Yahoo!ニュース",
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NR2xvSXNvRl9ERHZkV3BjcEpNTmRfMDlwb0FqN05NODE5VWdxTDdOTnh2SnJCbHRoQnZldVotZEZXZlZ3azBmT2V2S3lQZHZoWGIxSGtGbkZEUzNkOUNvZXpKNmVGLURJdmJ2Sy1CLTY4TlMtYWVkdVJVYlBBSlE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-10T10:43:28.000Z"
+        },
+        {
+          "title": "Man arrested after alleged arson fires erupt in Lemon Grove",
+          "snippet": "Man arrested after alleged arson fires erupt in Lemon Grove NBC 7 San Diego",
+          "source": "NBC 7 San Diego",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcXNIQzJoNkMwNmxyZTVMM2FvU3o1ck1SWDdqZF9nY0pBcTFFV3dfVmRPQjNkOTRtN2pWdl9nUUNWaWxmOVNZVnY2SHo0NWlyR0tRQWV1NVZ6M2xlVlJQMlBZSWxFckFidWh3YzQ1aE5SVlJLQXNlOGlCNklidjVPaEw5MDNRN1lpVXRlaXFNX2RoY1g4ZGRnQnNITjlNZkZFZVV2d0dRdTJMSEHSAbMBQVVfeXFMTU0tbHJfczVfTnk2S3lTcGd4V205aGhaSHMyM2dXY3pQM1RLbGxWNzZkeVh1Vk1tNEFaZFh1Rm1IUU1melNIbXVyTnpoazZoXzIza2YzWmRUdFE0aTJYNGllWnJPajJjek40OE41RkFpeVEzNFl3dTVLZGQ2TjZtT3lOTUp6UkVlX2dXU2RpZkJfLUYyTVBBOHh6WjhLSXpEUm5ZaXg2MW1jX3hSWWFMOGxsQ1E?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-10T18:02:06.000Z"
+        }
+      ]
+    }
+  ]
+}
