@@ -1,0 +1,1541 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-14T22:02:14.000Z",
+  "headline": [
+    "米中露の3首脳が来週中国で会談へ、核削減を協議 日本政府は危機感",
+    "首相が「アジア版IEA」創設を提唱へ、防衛費は5年で60兆円規模を調整",
+    "来週はエヌビディア決算とアンソロピック上場が焦点、ビットコインは続落"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 61142.35,
+      "change": 322.99062499999854,
+      "changePercent": 0.5310654836209355
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7561.67,
+      "change": -30.729902343749927,
+      "changePercent": -0.40474557108436426
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 25136.273,
+      "change": -229.81684374999895,
+      "changePercent": -0.9060002750349951
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 52347.55,
+      "change": 50.46015625000291,
+      "changePercent": 0.09648750322582889
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.686,
+      "change": -0.04799353027343045,
+      "changePercent": -0.030045908959469243
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "首相、「アジア版IEA」の創設を提唱へ 石油備蓄で連携",
+          "summary": [
+            "高市首相が、東南アジアなどと「アジア版」国際エネルギー機関の創設を提唱する方向で調整している。",
+            "AZEC首脳会合で、石油の備蓄や緊急時の放出で各国が連携する案を示すとみられる。",
+            "インドネシアやタイに備蓄拠点を置き、フィリピンに融通する共同備蓄の枠組みも報じられている。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QSkk1Mkk2VzM2Mm5fbG9qWDQxYUtOSzdOQmpVZjNkRkNGeDVoT05qMXZzTlJ3Sm9kR3ozcE9obnZvRXZ6dFdVNE5hYWhKdzk4cWpPSFQwYXlxcU8xcEw0?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T15:46:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "首相がアジアの国々と石油をためておく仕組みをつくり、いざというときに融通し合う「アジア版IEA」を提案する方向で調整している。",
+            "why": "日本は石油のほとんどを中東などからの輸入に頼っている。中東情勢などで輸入が止まれば、ガソリンや電気代が急に上がりかねない。東南アジアの国々は備蓄が少ないとされ、日本のタンクや技術を生かして地域全体で備える狙いがあるとみられる。",
+            "points": [
+              {
+                "label": "車を使う人・運送業",
+                "text": "輸入が途絶えても備蓄を融通し合えれば、ガソリン価格の急な値上がりを和らげられる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "電気・ガスを使う家庭",
+                "text": "燃料の供給が安定すれば、電気代の急騰リスクを抑える助けになる。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "石油・タンク関連企業",
+                "text": "日本のタンクを使う共同備蓄が広がれば、備蓄施設の運営などで新たな仕事が生まれそう。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "AZEC首脳会合での首相の表明内容と、参加国の反応"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "国際エネルギー機関",
+              "meaning": "石油などのエネルギーが足りなくなったとき、加盟国が協力して備蓄を放出する国際組織。英語の略称はIEA。"
+            },
+            {
+              "word": "AZEC",
+              "meaning": "「アジア・ゼロエミッション共同体」の略。日本が主導し、アジアの国々と脱炭素やエネルギーで協力する枠組み。"
+            },
+            {
+              "word": "共同備蓄",
+              "meaning": "複数の国が協力して石油などをためておき、足りなくなった国に融通し合う仕組み。"
+            }
+          ]
+        },
+        {
+          "title": "来週の相場、エヌビディア決算・アンソロピック上場・米CPIが焦点",
+          "summary": [
+            "来週の相場では、エヌビディアの決算、アンソロピックの新規上場、米国の10月の消費者物価指数が注目点に挙がる。",
+            "国内株は、AI関連株がこれらを受けてどう動くかが焦点とされる。",
+            "来週の日経平均の予想レンジは5万9500〜6万3500円との見方も出ている。"
+          ],
+          "source": "財経新聞",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05U2lLNHN1SThPMHd6emdOb082NWFTeUtrWllwSG03eHNmQm51cmMzd0xsWUlQV3hrd1NRSDFBdW9BcWY4eGZjNG1wcGJ0blRWMWFveFdzZUVtMk9OVW1FdjZFZw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T06:40:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "来週はAI関連の大きな出来事と米国の物価統計が重なり、株価が大きく動く可能性がある週として注目されている。",
+            "why": "AIの半導体を手がけるエヌビディアは株式市場をけん引してきたが、CEO辞任で先行きに不安が出ている。同じ週にAI企業アンソロピックの上場も控え、AIへの期待が続くかを確かめる場になる。米国の物価が高ければ金利が下がりにくく、株価の重しになりやすい。",
+            "points": [
+              {
+                "label": "株や投資信託を持つ人",
+                "text": "AI関連株の値動き次第で、新NISAなどの資産が増減しやすい週になりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "AI・半導体関連の会社員",
+                "text": "決算の内容で業界の先行き見通しが変わり、会社の投資計画に影響する可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "エヌビディアの決算発表と米10月CPIの数字"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "消費者物価指数",
+              "meaning": "ふだん買うモノやサービスの値段が、前と比べてどれだけ上がったかを示す数字。英語の略称はCPI。"
+            },
+            {
+              "word": "新規上場",
+              "meaning": "会社が初めて株式を証券取引所に出し、だれでも株を売り買いできるようにすること。IPOともいう。"
+            },
+            {
+              "word": "予想レンジ",
+              "meaning": "株価がこの先、どのくらいの幅で動きそうかという見通し。下限と上限で示す。"
+            }
+          ]
+        },
+        {
+          "title": "菓子屋の倒産が過去最多に迫る勢い 老舗も低迷",
+          "summary": [
+            "菓子屋の倒産が、過去最多となる勢いで増えている。",
+            "長く続いてきた老舗の店でも、業績の低迷が目立っているという。",
+            "地域で親しまれてきた店の閉店が相次ぐ可能性がある。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-14T08:46:28.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/4c7c22638f841b5dabd360a4e400b63a1a9a54a999073629174fc8a582dd5acf.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "お菓子をつくって売る店の倒産が増え、今年は過去最多になりそうだ。長い歴史を持つ老舗でも経営が厳しくなっている。",
+            "why": "一般に、菓子づくりは砂糖・小麦・バター・卵など原料の値上がりの影響を受けやすい。電気代や人件費も上がる一方、値上げすると客が離れやすく、小さな店ほど価格に転嫁しにくい。後継ぎ不足が重なり、店をたたむ例が増えている可能性がある。",
+            "points": [
+              {
+                "label": "菓子店の経営者",
+                "text": "原料や光熱費の値上がりが続けば、値上げか事業の縮小かを迫られる店が増えそう。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "地域の住民",
+                "text": "なじみの和菓子屋やケーキ店がなくなり、地域の名物や手みやげの選択肢が減る可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "年間の倒産件数の確定値と、原料価格の動き"
+          },
+          "score": {
+            "total": 43,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "倒産",
+              "meaning": "会社や店が借金を返せなくなるなどして、事業を続けられなくなること。"
+            },
+            {
+              "word": "老舗",
+              "meaning": "何代にもわたって長く続いてきた店。伝統の味や信用を持つことが多い。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピックの上場、AIへの市場の信頼を試す場に",
+          "summary": [
+            "AI企業アンソロピックの新規上場が、AIに対する投資家の信頼を試す場になると報じられている。",
+            "AIへの懐疑的な見方が強まるなかでの上場で、ウォール街は売り込みに力を入れている。",
+            "エヌビディアのCEO退任と重なり、AI相場の次の流れを左右するとの見方もある。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcHZ4cmtrWmFOWXB6M0oyLWFDX2dJMEdOV3ZVelNIUUxpZDF4ZkdJaU5EZ2t6bUduUk9MaFJleEdsOHAzY3V6bWRzNmpxaTJFVGxYQVFic1BBU2VsUU01TjQ3S2dHNWlhZVhZczVzNi1aNTFLV3FnYmx0SVNsNjh1RC1FX21LZ0V0R0ktaDRLWTJjSWl6MHU1bUlrN3UxN0dXMklxNmV6T0VCalBZWm1aYUZYY05LdXJaWGtpM1c3UUFQb1Q5Q1M0Wk5YWQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T18:56:19.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "対話型AIを開発する米アンソロピックが株式を上場する予定で、AIへの投資熱が続くかを測る試金石として注目されている。",
+            "why": "AI関連株はここ数年、株式市場を押し上げてきたが、巨額の投資に見合うもうけが出るのかを疑う声も増えている。エヌビディアのトップ退任で不安が広がった直後でもあり、上場の人気が高いか低いかで市場の空気が大きく変わる可能性がある。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "米国のAI株が上がれば、日本の半導体関連株にも買いが広がりやすく、逆も起こりうる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "AIに投資する日本企業",
+                "text": "上場の評価が高ければ、AI企業への出資や提携を進める日本企業の追い風になりそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "上場時の株価と、初日の値動き"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "アンソロピック",
+              "meaning": "米国のAI企業。対話型AI「Claude」を開発している。"
+            },
+            {
+              "word": "新規上場",
+              "meaning": "会社が初めて株式を証券取引所に出し、だれでも株を売り買いできるようにすること。IPOともいう。"
+            },
+            {
+              "word": "ウォール街",
+              "meaning": "ニューヨークにある金融街。米国の大手銀行や証券会社が集まり、米金融業界の代名詞として使われる。"
+            }
+          ]
+        },
+        {
+          "title": "ビットコインが続落、6万4000ドル台まで下げる",
+          "summary": [
+            "ビットコインの価格が土曜日も下がり続け、約5.3％安の6万4734ドルまで下落した。",
+            "投資家がリスクを避ける空気が強まり、7万ドルを下回る水準が続いている。",
+            "CoinDeskは「割安な水準」に入ったと分析し、さらに下がるとの見方もある。"
+          ],
+          "source": "CoinDesk",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPREhQQTJ6T1M4cmdyMzU2SUhaYWszWDZOOWp0TzJ1M240RnY3RjI4OEpCQmlHR0pFbU1FekdXMXE1dzVjVHJlZ2ZMUjdOYXZIem5JY01DQ3JyYnIyUWxnZWNoR25TTG9DdExHNjNGMTdSNzJLZ3pKQ0JJeWxzMjV5cUlid3JkR0czV3ZmWlRnWXZ5QVBaSFJYZmltaU1Caks4NkdPTHo2bjE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T16:42:10.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "代表的な暗号資産であるビットコインの値下がりが週末も続き、6万4000ドル台まで下げた。",
+            "why": "暗号資産は株よりも値動きが激しく、投資家が慎重になると真っ先に売られやすい。今週はエヌビディアのトップ辞任などでAI関連株が揺れ、市場全体にリスクを避ける空気が広がった。株と暗号資産が一緒に下がる流れが続いているとみられる。",
+            "points": [
+              {
+                "label": "暗号資産を持つ日本の人",
+                "text": "値下がりで資産が目減りする人が増え、追加の売りが出る可能性もある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の株価",
+                "text": "リスクを避ける空気が強まれば、週明けの日本株にも売りが出やすい。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "週明けに7万ドル台を回復できるか"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ビットコイン",
+              "meaning": "インターネット上で取引される代表的な暗号資産（仮想通貨）。値動きが激しいことで知られる。"
+            },
+            {
+              "word": "リスクを避ける",
+              "meaning": "値下がりしそうな資産を売り、安全とされる資産にお金を移す投資家の動き。"
+            },
+            {
+              "word": "CoinDesk",
+              "meaning": "暗号資産に関するニュースを専門に伝える米国のメディア。"
+            }
+          ]
+        },
+        {
+          "title": "イタリア、メタに約8億ユーロの制裁金 利用者の写真に無断アクセス",
+          "summary": [
+            "イタリア当局が、メタに8億500万ユーロ（約8億8700万ドル）の制裁金を科した。",
+            "アンドロイド端末で、フェイスブック利用者の写真や動画にアクセスしていたことが問題とされた。",
+            "BBCによると、約2000万人の利用者にアクセスを知らせていなかったとされる。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T18:12:20.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イタリアの当局が、フェイスブックを運営するメタに巨額の制裁金を科した。スマホの写真や動画に、利用者に知らせずアクセスしていたことが理由とされる。",
+            "why": "欧州は個人のデータを守るルールが特に厳しく、大手IT企業に巨額の罰金を科す例が続いている。スマホの写真は個人の生活がそのまま写るため、無断で読み取ることへの批判は強い。今回の判断は、他の国の当局の対応にも影響する可能性がある。",
+            "points": [
+              {
+                "label": "日本の個人情報保護",
+                "text": "欧州の厳しい処分が続けば、日本でもアプリのデータ利用への監視を強める議論が進む可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本のスマホ利用者",
+                "text": "同じアプリを使う日本の利用者も、写真へのアクセス許可を見直すきっかけになりそう。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "メタが不服を申し立てるかどうか"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "制裁金",
+              "meaning": "法律やルールに違反した企業に、当局が罰として支払わせるお金。"
+            },
+            {
+              "word": "アンドロイド",
+              "meaning": "グーグルが開発したスマホ用の基本ソフト。世界のスマホの多くで使われている。"
+            },
+            {
+              "word": "メタ",
+              "meaning": "フェイスブックやインスタグラムを運営する米国の大手IT企業。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "防衛費、5年で60兆円規模に 政府が調整",
+          "summary": [
+            "政府が、防衛費を5年間で60兆円規模とする方向で調整している。",
+            "今後の防衛力整備の規模をどこまで大きくするかが焦点となる。",
+            "財源をどう確保するかも議論になりそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602504?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-13T23:38:26.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/9ce51eceb54a820abd29aa892e5e29e5f9344d31d906d638911c7be63386a7a2.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "政府が、これから5年間に使う防衛費の総額を60兆円ほどにする方向で調整していることが分かった。",
+            "why": "日本は周辺の安全保障環境が厳しくなったとして、防衛費を増やしてきた。5年間の総額を決めることで、ミサイルや装備、自衛官の待遇などに使える予算の枠が決まる。規模が大きくなるほど、そのお金を増税や国債でどうまかなうかが問われる。",
+            "points": [
+              {
+                "label": "納税者",
+                "text": "財源の手当てとして、所得税や法人税などの増税が議論になる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "自衛官とその家族",
+                "text": "予算が増えれば、給与や住環境など待遇の改善に回るお金も増えそう。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "防衛関連企業",
+                "text": "装備の発注が増え、造船や電機など関連企業の仕事が増える可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "年末の予算編成で示される総額と財源の内訳"
+          },
+          "score": {
+            "total": 73,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "防衛費",
+              "meaning": "自衛隊の装備や人件費、基地の運営など、国の守りのために使うお金。"
+            },
+            {
+              "word": "財源",
+              "meaning": "政策に使うお金をどこから出すか、その出どころ。税金や国の借金などがある。"
+            }
+          ]
+        },
+        {
+          "title": "米中露の接近に、日本政府が危機感",
+          "summary": [
+            "米国・中国・ロシアの3カ国が接近する動きに、日本政府が危機感を強めている。",
+            "3カ国の首脳会談が予定されるなか、日本の立場が置き去りにされる懸念がある。",
+            "日本外交の対応が問われることになりそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-14T11:17:04.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261113-bd39b63/all/images/ogp_default.png",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "米国・中国・ロシアの3カ国が近づく動きを見せ、日本政府は自国の頭越しに大事なことが決まるのではないかと危機感を持っている。",
+            "why": "日本は米国を最も大事な同盟国として、中国やロシアに向き合ってきた。その米国が中国・ロシアと直接話し合いを進めれば、日本の安全や利益に関わる問題が日本抜きで決まるおそれがある。核兵器の削減など大きなテーマも議題になるとされる。",
+            "points": [
+              {
+                "label": "日本の安全保障",
+                "text": "米国と中露の関係が変われば、日本の防衛計画の前提が揺らぐ可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "中国・ロシアと取引する企業",
+                "text": "大国間の緊張がやわらげば、ビジネスの環境が変わる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "米中露首脳会談の内容と、日本政府の発信"
+          },
+          "score": {
+            "total": 52,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "首脳会談",
+              "meaning": "国のトップどうしが直接会って話し合うこと。"
+            },
+            {
+              "word": "外交",
+              "meaning": "ほかの国と交渉したり関係を築いたりして、自分の国の安全や利益を守ること。"
+            }
+          ]
+        },
+        {
+          "title": "日本兵の墓が「無縁化」 解消を法律が阻む",
+          "summary": [
+            "戦争で亡くなった日本兵の墓が、管理する人のいない「無縁墓」になる例が出ている。",
+            "状況を解消しようにも、法律の壁があるという。",
+            "戦後80年を経て、遺族の高齢化などで墓を守る人が減っているとみられる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-14T12:32:53.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/942fb40e42c832cabe66aad9ae36be189d3bf1b25305e8e44e6b6b8c98ae4e16.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "戦争で亡くなった日本兵の墓が、守る人のいない無縁墓になりつつある。整理や移転を進めたくても、法律上の手続きが壁になっているという。",
+            "why": "一般に、墓地の移転や整理には、墓地に関する法律にもとづく手続きが必要で、縁故者の確認などに手間がかかる。戦後長い時間がたち、遺族の世代交代や高齢化が進んで墓を守る人が減っている。行政や地域がどこまで関わるかが課題になっている。",
+            "points": [
+              {
+                "label": "戦没者の遺族",
+                "text": "墓の管理が難しくなり、移転や合葬など今後の扱いを考える必要が出てきそう。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "墓地のある自治体",
+                "text": "管理者のいない墓が増えれば、自治体が維持や整理の負担を抱える可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "法律の見直しや国の支援策が議論されるか"
+          },
+          "score": {
+            "total": 15,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "無縁墓",
+              "meaning": "お参りや管理をする親族などがいなくなったお墓。"
+            },
+            {
+              "word": "遺族",
+              "meaning": "亡くなった人の家族や親族。"
+            }
+          ]
+        },
+        {
+          "title": "米中露の3首脳、来週中国で異例の会談へ",
+          "summary": [
+            "ホワイトハウスによると、トランプ大統領、プーチン大統領、習近平国家主席が来週、中国で会談する計画だ。",
+            "3首脳がそろう会談は前例がない。",
+            "トランプ氏は会談で「核兵器の削減」について話し合うという。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-14T15:53:55.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国・ロシア・中国の首脳が、来週そろって中国で会談する計画を米政府が明らかにした。核兵器を減らす話し合いが議題になる。",
+            "why": "米ロ中は世界で最も多くの核兵器を持つ国々で、3カ国の首脳がそろって話し合うのは前例がない。米ロの核軍縮の条約が切れるなど、核兵器を制限する仕組みが弱まっていることが背景にあるとみられる。ウクライナや台湾の問題が話し合われるかも注目される。",
+            "points": [
+              {
+                "label": "安全保障",
+                "text": "中国やロシアの核をめぐる合意ができれば、日本周辺の緊張がやわらぐ可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本抜きで大国間の取り決めが進めば、日本の発言力が問われることになりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の株価",
+                "text": "緊張緩和の期待が高まれば、株価に追い風となる可能性がある。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "会談で核軍縮の合意が出るかどうか"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ホワイトハウス",
+              "meaning": "米国の大統領が住み、仕事をする建物。米政府の代名詞としても使われる。"
+            },
+            {
+              "word": "習近平",
+              "meaning": "中国のトップである国家主席。中国共産党の総書記も務める。"
+            },
+            {
+              "word": "核兵器",
+              "meaning": "原子の核分裂などで巨大な爆発を起こす兵器。米国・ロシア・中国などが持っている。"
+            }
+          ]
+        },
+        {
+          "title": "米国、ドンバス割譲とNATO加盟の交換を打診か ゼレンスキー氏",
+          "summary": [
+            "ゼレンスキー大統領は、米国がドンバス地方をロシアに譲る代わりにNATO加盟を認める案を示したと明らかにした。",
+            "米国はこの発言を認めていない。",
+            "発言は、米国の特使がゼレンスキー氏やプーチン氏と会談した後に出た。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-14T20:41:45.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d028/live/47c10ab0-e013-11f1-b441-2b33b063138f.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナの大統領が、米国から「ドンバス地方を手放す代わりにNATOに入れる」という案を持ちかけられたと明かした。米国は認めていない。",
+            "why": "ロシアとの戦争を終わらせるため、米国は両国と話し合いを重ねている。ウクライナは領土を手放すことに強く反対し、安全の保証としてNATO加盟を求めてきた。領土と同盟を交換する案が本当なら、和平の条件として大きな転換になる。",
+            "points": [
+              {
+                "label": "エネルギー価格",
+                "text": "和平が進めばロシア産の資源をめぐる緊張がやわらぎ、燃料価格が落ち着く可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "力で奪った領土を認める形になれば、北方領土など日本の立場にも影響しかねない。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "米国が提案を認めるか、ロシアの反応"
+          },
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ドンバス",
+              "meaning": "ウクライナ東部の地域。ロシアが占領を進めており、戦争の主な舞台になっている。"
+            },
+            {
+              "word": "NATO",
+              "meaning": "北大西洋条約機構。米国や欧州の国々が、攻撃されたら互いに守り合う軍事同盟。"
+            },
+            {
+              "word": "ゼレンスキー",
+              "meaning": "ウクライナの大統領。ロシアの侵攻に対して抗戦を続けている。"
+            }
+          ]
+        },
+        {
+          "title": "ハンガリー、オルバン政権時代の元大臣の捜査で2000万ドル発見",
+          "summary": [
+            "ハンガリー当局が、オルバン政権時代の元大臣を捜査するなかで2000万ドルを見つけた。",
+            "マジャル首相は4月にオルバン氏を退けて政権につき、大がかりな汚職対策を約束していた。",
+            "前政権の不正をめぐる追及が本格化している。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-14T10:42:20.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/da9e/live/d437a0b0-e010-11f1-b884-a9f52ca7a4b1.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ハンガリーの捜査当局が、前のオルバン政権で大臣だった人物を調べるなかで、2000万ドルを見つけた。",
+            "why": "ハンガリーではオルバン氏が長く政権を握り、権力が一部に集中していると批判されてきた。4月の選挙で政権が交代し、新しい首相は汚職の徹底追及を約束していた。前政権の不正を明らかにすることで、欧州連合（EU）との関係を立て直す狙いもあるとみられる。",
+            "points": [
+              {
+                "label": "日本と欧州の関係",
+                "text": "ハンガリーがEUとの関係を改善すれば、欧州の結束が強まり日本との協力もしやすくなりそう。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "欧州に進出する日本企業",
+                "text": "汚職対策が進めば、現地での取引の透明性が高まる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "元大臣が起訴されるかどうか"
+          },
+          "score": {
+            "total": 25,
+            "parts": {
+              "japan": 5,
+              "timing": 2,
+              "certainty": 5,
+              "coverage": 3,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "オルバン",
+              "meaning": "ハンガリーで長く首相を務めた政治家。2026年4月に政権の座を失った。"
+            },
+            {
+              "word": "汚職",
+              "meaning": "政治家や公務員が立場を利用して、不正にお金や利益を得ること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "マイクロソフトの大規模障害、原因は過去の増強作業",
+          "summary": [
+            "マイクロソフトは、大規模な障害の原因が過去に行った設備の増強作業にあったと説明した。",
+            "障害からは全面的に復旧したと発表している。",
+            "同社は障害について謝罪した。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-14T14:42:06.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e058d3503fab7b659e391884f55f2d7474968c3d8b7af6b7f960cc5fadb11a63.jpg",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "マイクロソフト",
+              "meaning": "米国の大手IT企業。パソコンの基本ソフト「Windows」やメールソフト「Outlook」などを提供している。"
+            },
+            {
+              "word": "障害",
+              "meaning": "システムやサービスが正しく動かなくなり、使えなくなること。"
+            }
+          ]
+        },
+        {
+          "title": "AIを悪用した攻撃の拠点か、世界で約1000台を発見",
+          "summary": [
+            "AIを悪用したサイバー攻撃の拠点とみられるサーバーが、世界で約1000台見つかった。",
+            "ウェブサイトの弱点を探し、不正に侵入した疑いがあるという。",
+            "AIを使った攻撃が広がっている実態が浮かび上がった。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-14T13:45:44.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
+          "score": {
+            "total": 37,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "サイバー攻撃",
+              "meaning": "インターネットを通じて、他人のコンピューターに侵入したり情報を盗んだりすること。"
+            },
+            {
+              "word": "サーバー",
+              "meaning": "インターネット上でデータを保存したり、サービスを提供したりするコンピューター。"
+            }
+          ]
+        },
+        {
+          "title": "ドコモの通信障害、影響は「5G SA」回線の3〜4％",
+          "summary": [
+            "ドコモの通信障害で影響を受けた「5G SA」の回線は、5Gユーザーの3〜4％だった。",
+            "ITmediaの週間ランキングで、この話題が多く読まれた。",
+            "影響の規模を「少ない」とみるか「多い」とみるかで議論になっている。"
+          ],
+          "source": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZRDdVNFFFa0cwamxIWjFrZGpuYWVaR0ZsV2wtOF9DM0hmZ0tCSGlmYnV4NTgxbGF0a0tCVWxEdURLaWpoMzNMZkJyUlJ4RE1XdmcwX3hVSkQ3dHNyYkd2VndaSGFwdEVuS2xydENQY9IBaEFVX3lxTE5vdWdub0l2VUVKbVdla2VNWFM0RDRFMkp6aE9odmNmREhfSzFEREpqamJnTDFBbC1zS3lEaVVBcHVZaFRoc21xVmJud2ZfeVFQVVNzSTJPempxUXZXZXJSMTJLcVlFTl9S?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T04:15:00.000Z",
+          "score": {
+            "total": 28,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "5G SA",
+              "meaning": "5Gの専用設備だけで動く通信方式。4Gの設備に頼らないため、本来の速さを出しやすい。"
+            },
+            {
+              "word": "通信障害",
+              "meaning": "携帯電話やネットがつながりにくくなったり、使えなくなったりすること。"
+            }
+          ]
+        },
+        {
+          "title": "全米の航空便停止、古い銅線の交換作業が原因",
+          "summary": [
+            "金曜日に米連邦航空局が全米の航空便を地上待機させた原因は、古い銅線を取り替える作業だった。",
+            "ダフィー運輸長官が記者会見で明らかにした。",
+            "影響でシカゴの空港などに多くの乗客が足止めされた。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+          "region": "海外",
+          "publishedAt": "2026-11-14T17:44:28.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "連邦航空局",
+              "meaning": "米国の空の安全を担う政府機関。航空管制や航空機の安全審査を行っている。英語の略称はFAA。"
+            },
+            {
+              "word": "地上待機",
+              "meaning": "安全上の理由で、飛行機を出発させずに空港にとどめておくこと。"
+            }
+          ]
+        },
+        {
+          "title": "スペースX、スターシップ本体を発射塔で初めて受け止める",
+          "summary": [
+            "スペースXが、宇宙船スターシップを発射塔「メカジラ」の腕で受け止めることに初めて成功した。",
+            "ブースター（1段目）を受け止める計画は中止となり、海に落ちた。",
+            "ブースターでは過去に成功例があるが、宇宙船本体では初めて。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+          "region": "海外",
+          "publishedAt": "2026-11-14T21:44:44.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 47,
+            "parts": {
+              "japan": 5,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スペースX",
+              "meaning": "イーロン・マスク氏が率いる米国の宇宙企業。再使用できるロケットを開発している。"
+            },
+            {
+              "word": "スターシップ",
+              "meaning": "スペースXが開発中の巨大なロケットと宇宙船。月や火星への飛行をめざしている。"
+            },
+            {
+              "word": "ブースター",
+              "meaning": "ロケットの1段目。打ち上げの最初に大きな力を出し、途中で切り離される。"
+            }
+          ]
+        },
+        {
+          "title": "テスラ、自動運転車「サイバーキャブ」の個人向け予約を開始",
+          "summary": [
+            "テスラが、自動運転車「サイバーキャブ」の個人向けの予約受付を始めた。",
+            "利用できる地域が限られ、月額299ドルの料金がかかる。",
+            "マスク氏自身も月額料金は「高すぎる」と述べた。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+          "region": "海外",
+          "publishedAt": "2026-11-14T20:04:44.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
+          "score": {
+            "total": 40,
+            "parts": {
+              "japan": 5,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "自動運転",
+              "meaning": "人が運転しなくても、車がセンサーやAIで周りを判断して走る技術。"
+            },
+            {
+              "word": "サイバーキャブ",
+              "meaning": "テスラが開発した、ハンドルのない2人乗りの自動運転車。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "生成AIの活用、全国世論調査で賛否が二分",
+          "summary": [
+            "全国世論調査で、生成AIを活用することへの賛否が二つに分かれた。",
+            "使うことに前向きな人と、慎重な人がほぼ拮抗しているとみられる。",
+            "AIとの付き合い方について、社会の意見がまとまっていないことがうかがえる。"
+          ],
+          "source": "山陰中央新報デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyM2NvS2hWQmNiLUJsc05YbHdGS3hxdG9NbjVub3l5MHJXaWlkaTFpYUVFeE1UUzR2SDJWSy0xejBoRXZiX2lHWjVINzNKVVJ4LXZybVUxOHdXNm8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T20:00:00.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 40,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを新しくつくり出せるAI。ChatGPTなどが代表例。"
+            },
+            {
+              "word": "世論調査",
+              "meaning": "たくさんの人に同じ質問をして、社会全体の考え方を調べること。"
+            }
+          ]
+        },
+        {
+          "title": "生成AIで子どもの思考力は下がる？ 人工知能学会前会長に聞く",
+          "summary": [
+            "人工知能学会の前会長、栗原聡氏へのインタビューで、AI時代の教育が取り上げられた。",
+            "生成AIで子どもの思考力が低下するのかがテーマになっている。",
+            "AIを使った教育に、特に注意が必要な年代があるという。"
+          ],
+          "source": "新潮QUE",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PQ0VuLVhFYjhURFBMV09BVU9yanJEVGxJWk1scnJWYXotOVZoa2lSTXA0S1BtLVd3RmJVNDFLdWJfd011aEdNVkkyRTNlei1w?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T20:01:42.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "人工知能学会",
+              "meaning": "AIを研究する日本の学者や技術者が集まる学術団体。"
+            },
+            {
+              "word": "思考力",
+              "meaning": "自分で考え、筋道を立てて答えを出す力。"
+            }
+          ]
+        },
+        {
+          "title": "フアン氏の退任で、AIスタートアップの資金に大きな穴",
+          "summary": [
+            "エヌビディアはフアン氏のもとで、AIスタートアップに数百億ドルを投じてきた。",
+            "フアン氏が去り、出資額が小さくなることを起業家や投資家が警戒している。",
+            "企業の価値の評価も下がるとみられている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "region": "海外",
+          "publishedAt": "2026-11-13T22:43:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スタートアップ",
+              "meaning": "新しい技術やアイデアで急成長をめざす、創業まもない会社。"
+            },
+            {
+              "word": "エヌビディア",
+              "meaning": "AIに欠かせない半導体で世界最大手の米国企業。"
+            },
+            {
+              "word": "フアン氏",
+              "meaning": "エヌビディアを創業し、長くCEOを務めたジェンスン・フアン氏。11月に辞任した。"
+            }
+          ]
+        },
+        {
+          "title": "アマゾン、世界中のネット商品データを集める計画",
+          "summary": [
+            "アマゾンが、ネットで売られるあらゆる商品のデータを集める計画を進めていると、ロイターが報じた。",
+            "アマゾンで扱わない商品も含め、情報を自社のサイトで見られるようにする。",
+            "「ワールド・プロダクト・グラフ」という計画で、買い物客の他サイトへの流出を防ぐ狙い。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "region": "海外",
+          "publishedAt": "2026-11-13T23:49:11.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 54,
+            "parts": {
+              "japan": 20,
+              "timing": 2,
+              "certainty": 2,
+              "coverage": 10,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "アマゾン",
+              "meaning": "米国の大手通販企業。ネット通販のほか、クラウドなどの事業も手がける。"
+            },
+            {
+              "word": "ロイター",
+              "meaning": "英国に本社を置く国際的な通信社。世界のニュースを各メディアに配信している。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピックの消費者向けAIエージェント「Duet」を試す",
+          "summary": [
+            "アンソロピックの消費者向けAIエージェント「Claude Duet」を、米The Vergeの記者が試した。",
+            "少し心配性なところがあるが、意外なほど役に立つと評価している。",
+            "AIエージェントが日常で役立つことを示そうとする各社の試みの一つだ。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "region": "海外",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに、調べ物や予約などの作業を自分で進めてくれるAI。"
+            },
+            {
+              "word": "アンソロピック",
+              "meaning": "米国のAI企業。対話型AI「Claude」を開発している。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価",
+      "items": [
+        {
+          "title": "反発した株価の前に「不確実性の壁」 テレ東BIZの見通し",
+          "summary": [
+            "テレ東BIZが、来週以降の株価の見通しを伝えた。",
+            "株価は反発しているものの、その前に「不確実性の壁」が立ちはだかるとしている。",
+            "先行きの読みにくさが、上値を抑える要因になりそうだ。"
+          ],
+          "source": "テレ東BIZ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GYzlmVW9maFpnWW1YLU9SZGl6N01WaWlTN1J0eXd3Rk1VMXpLRi1YZWVCMHdvZXBXRVBXR3ZiODdSUmJMeTJwRXd4MDlyTVdNYl9Yc2E4YlgwR1k0SlFmYQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T20:15:36.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "反発",
+              "meaning": "下がっていた株価が、上向きに戻ること。"
+            },
+            {
+              "word": "上値",
+              "meaning": "株価がこれから上がっていくときの、高いほうの値段。「上値が重い」は上がりにくいこと。"
+            }
+          ]
+        },
+        {
+          "title": "Faber Company、株主優待の新設で夜間取引16％超高",
+          "summary": [
+            "Faber Companyがデジタルギフトの株主優待を新しく設けた。",
+            "年1000万円分のギフトを株主で分ける「シェア型優待」を導入する。",
+            "発表を受けて、株価は夜間取引で16％超も急騰した。"
+          ],
+          "source": "ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44VlZ2T2dtNFAxM0NfTWtRYW1kZDA2eXFwX2F3ZGlvYVZ2UmE4Y0xqdWN0UTFLcUl6UFktWkp3Q2N2ZlRwWHIxV1hxU0Jsanhaallv?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T08:08:18.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 5,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "株主優待",
+              "meaning": "会社が株主に、自社の商品や割引券などを贈る仕組み。日本独特の制度とされる。"
+            },
+            {
+              "word": "夜間取引",
+              "meaning": "証券取引所が閉まった後の夕方や夜に、株を売り買いできる取引。"
+            }
+          ]
+        },
+        {
+          "title": "来週の日経平均、予想は5万9500〜6万3500円",
+          "summary": [
+            "来週（11月16〜20日）の日経平均の予想レンジは、5万9500〜6万3500円とされた。",
+            "200日移動平均線がある6万2000円近辺での攻防が焦点になる。",
+            "好決算の内需株や金融株に注目が集まりそうだという。"
+          ],
+          "source": "ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoSk9wSU5EU1JHRnRGUVdDd01Vb3FvOFNETmZOdlIxTm1EUDh0X1pvRzNXUHVPaGVOakh0eEdJZ3N2SVUtVmlyMXRVS0FmYmlwbkRJ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T20:01:39.000Z",
+          "score": {
+            "total": 25,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "200日移動平均線",
+              "meaning": "過去200日分の株価の平均をつないだ線。長い目で見た株価の流れを示す目安。"
+            },
+            {
+              "word": "内需株",
+              "meaning": "国内での売り上げが中心の会社の株。小売りや鉄道、建設などが代表例。"
+            }
+          ]
+        },
+        {
+          "title": "米国株の反発は不安定、エヌビディア決算とアンソロピック上場が控える",
+          "summary": [
+            "米国株の新たな上昇の流れは、まだ不安定だとIBDが伝えた。",
+            "それでも、上昇に向けて準備が整った銘柄は多いという。",
+            "来週はエヌビディアの決算とアンソロピックの上場が控えている。"
+          ],
+          "source": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQmoxeERFTVM2VG9DVVBnRERlZG4tcU0tOGFveC1mYlhEZEJydUZNM2ptaExRYU1LYXg3XzlUUHhtZ29JSF9OYlZtd0FSaF9mME9TYzhTWUVJT0lSSGVPSTMxZlhkTWhQMVp4MkRFVUdUZHRTNVd1bTdTckF2Q3VYdUxKY3kyaFpDaTZkQ1BVMHdrTUNQLUhnVVhPZzJIM3h6Tlg2THNnZU5NRDRvV3NFZUlta28wVXloNGhfNUFFTWdKR3Q3Vk05RnBhQXdWQkl3UTlGRC1RRGo2QU9rTmc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T19:30:00.000Z",
+          "score": {
+            "total": 73,
+            "parts": {
+              "japan": 35,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "銘柄",
+              "meaning": "株式市場で売り買いされる、それぞれの会社の株。"
+            },
+            {
+              "word": "決算",
+              "meaning": "会社が一定期間のもうけや売り上げをまとめて発表すること。"
+            }
+          ]
+        },
+        {
+          "title": "バフェット氏、ここ数年で最も強い株式市場への警告",
+          "summary": [
+            "著名投資家ウォーレン・バフェット氏が、ここ数年で最も強い言葉で株式市場に警告を発した。",
+            "記事では、過去の例から今後の株価の動きを探っている。",
+            "株価の高さに対する警戒感が広がっている。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUZfeDBBaDdsRmN6TnJEc01FMnloVkxNNTNBS0taMEhnN0h4V2FBSTA0cFdOSm9TMmdNcDdwNDdfUjd2R0xLSkZqc0dFaERYU0Z4ODVUTDJoQkpqVTBpQ2JvTGJZT3BiQld0Q3IyVWNSSllGbmVOYmJ3Tk1aUWEwZ3doT1NIX195WnpNeTYxYmE1NkhzU0xuNDRYdlc3bjdlX09fSWpn?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T15:20:02.000Z",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3,
+              "global": 20
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ウォーレン・バフェット",
+              "meaning": "米国の著名投資家。長期投資で巨額の資産を築き、「投資の神様」と呼ばれる。"
+            }
+          ]
+        },
+        {
+          "title": "ピーター・ティール氏のファンド、前四半期にスペースX株170億ドル分が減少",
+          "summary": [
+            "ピーター・ティール氏のファンドから、前四半期に170億ドル分のスペースX株がなくなった。",
+            "Yahoo Financeが伝えた。",
+            "有力投資家の動きとして、宇宙関連株の行方に関心が集まっている。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOFYxXzVpNkh5aTJaZ3RjenFnSG1kUUlEQ1BhRDNYRFcxbnpPQ3FSdC1xN2p5dDZPWGlWMGdLdGw1UEpQS2xrUEl2MUNSSEhaODV4Uk5DMzc4SDZGRVROZmtXdzhWZXVqYnN1aWdNX2k4Y1JvYld0U3ZoVldNMmlweV93Z3ZCWGZxblpWa1E2RXg2SnYtQUduZw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T14:53:47.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "japan": 5,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ピーター・ティール",
+              "meaning": "米国の著名投資家。決済サービスのペイパルを共同で創業した。"
+            },
+            {
+              "word": "ファンド",
+              "meaning": "投資家から集めたお金をまとめて、株などに投資する仕組みや会社。"
+            }
+          ]
+        }
+      ],
+      "comment": "金曜の日経平均は323円高の6万1142円。米国はナスダックが0.9％安とハイテク株が重く、ドル円は159円台後半。来週はエヌビディア決算とアンソロピック上場に注目。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪",
+      "items": [
+        {
+          "title": "警察庁推奨の詐欺対策アプリを装う偽サイトに注意",
+          "summary": [
+            "特殊詐欺対策として警察庁がすすめるアプリを装った偽サイトが見つかり、県警が注意を呼びかけている。",
+            "偽サイトのURLを書いたSMSを送り、偽のアプリをダウンロードさせる手口だ。",
+            "本物のアプリは国際電話などをブロックする特殊詐欺対策用のもの。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3S0RwODJZQjJldnFycnZSRmJlckRKaEtpLXd5RjhDZWFGUmw5b05vdGFfRndwLUZOQmdHRjE2UFpBRmtnYkdqbGNkazVDNndjUHhtX2dva2VleU91MHFscnY2bWM?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T21:24:00.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "特殊詐欺",
+              "meaning": "電話やメールで相手をだまし、お金をふり込ませたり渡させたりする犯罪。オレオレ詐欺など。"
+            },
+            {
+              "word": "SMS",
+              "meaning": "電話番号あてに短い文章を送れる携帯電話のメッセージ機能。"
+            }
+          ]
+        },
+        {
+          "title": "74歳女性、「占いサイト」で2380万円の詐欺被害",
+          "summary": [
+            "74歳の女性が「占いサイト」を通じて2380万円をだまし取られた。",
+            "「金運を取り逃さないため」と言われ、186回にわたって送金したという。",
+            "京都新聞が詐欺被害として伝えた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIWVJZZ3hYYktCLW50RHhuQzZZdHowdklFbGVpSjFQbTAwOTRXcDZXNlFhOW1IaG1Bd21jQ1VxZlp2aFp5d2h5SHEzMjRYdHk3U0podDZMRmFLOXFDbnJaUnVuRzNRSnhKdjdkOTRRZlB0SE5wblNuTkluM0lZTFk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T11:03:15.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "詐欺",
+              "meaning": "うそをついて人をだまし、お金や物を取ること。"
+            },
+            {
+              "word": "送金",
+              "meaning": "銀行の振り込みなどで、ほかの人にお金を送ること。"
+            }
+          ]
+        },
+        {
+          "title": "闇バイトの勧誘、中高生の4％が経験 相模原の警察署が調査",
+          "summary": [
+            "相模原南署のアンケートで、中高生の4％が闇バイトに誘われた経験があると答えた。",
+            "勧誘はSNSなどが中心だった。",
+            "栃木県上三川町の強盗殺人事件から半年がたつ。"
+          ],
+          "source": "下野新聞社",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtSnVWT01zWGVMUy1SdlVqd05DaHVHaTlHQXhRdjVsdmk0RE5KTEJxLUQ5ajh5d1kyTHdGUmNtWkZIcGt3eGRoUGhMbjQ3SS1XQ0FXZjNQb1dhcUk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-14T20:01:37.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "闇バイト",
+              "meaning": "高い報酬をうたってSNSなどで集め、強盗や詐欺などの犯罪をさせる仕事。"
+            },
+            {
+              "word": "SNS",
+              "meaning": "X（旧ツイッター）やインスタグラムなど、ネット上で人とつながり情報をやりとりするサービス。"
+            }
+          ]
+        },
+        {
+          "title": "米メリーランド州、移民当局の逮捕が2倍近くに 犯罪歴のない人が中心",
+          "summary": [
+            "米メリーランド州で、移民・関税執行局（ICE）による逮捕が2026年にほぼ2倍になった。",
+            "増えた分の多くは、犯罪歴のない人の逮捕だった。",
+            "AFRO Newsが伝えた。"
+          ],
+          "source": "AFRO News",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPejZraVI1RWM1a0VYU3NCT196TW8yQW5WV2lzblEyX21qeHFQay01M3FORmFnV1lNWUQ5WTEzMUpEajN2VC0tWkd0YUZkWW9IemI4aXNQQmtXSFJadkcyRS1hN0R6bm01eWdGUkhIOG9xMDlBS2RfTVo2eXBlUDNvdGFfQjVvdXBQYWxSSmxFcWxScWFkTjRLMkRTLUZWN3k3U3FtS1E0ZV92eGd1OHdhVE11N3BXX0M4YW85NGJiY1lxdzRsV3pSOExCcUpDYjBqNWV1WXgwVVZ1QQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T21:06:20.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3,
+              "global": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "移民・関税執行局",
+              "meaning": "米国で不法に滞在する外国人の取り締まりなどを行う政府機関。略称はICE。"
+            },
+            {
+              "word": "犯罪歴",
+              "meaning": "過去に罪を犯して処罰されたことがあるという記録。"
+            }
+          ]
+        },
+        {
+          "title": "アルゼンチンの74歳、5階の自宅軟禁からどう逃げたのか",
+          "summary": [
+            "アルゼンチンで自宅軟禁中だった74歳の人物が、5階の部屋から逃げ出した。",
+            "ニューヨーク・タイムズがその経緯を取り上げた。",
+            "どのように逃走したのかが関心を集めている。"
+          ],
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONTRnQVJjWjRrdWxDNWNBemlqVzhRUERrcU9zdFdPR01HeWdzYkx1dlowVXNYV2diUy1aV3lmcXJVb0t0aXdEMEJ3NlJTdGxUZjQxcnpvSlZpQXlNaTlYcEVzZ1RTWXpZbGV6c29fc20xb0xmVnU5ZnNoelFkZ2ZkZGlNT1VkVURBMUhuVGlYZ3hEWjdXcFJpSExXa1RHSVpmcWc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T18:44:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3,
+              "global": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "自宅軟禁",
+              "meaning": "刑務所に入れる代わりに、自宅から出ることを禁じる処分。"
+            }
+          ]
+        },
+        {
+          "title": "米カリフォルニアのコストコ駐車場で高齢者狙いの窃盗、4人逮捕",
+          "summary": [
+            "米カリフォルニア州リバーバンクのコストコの駐車場で、高齢者を狙ったとみられる窃盗があった。",
+            "警察は4人を逮捕した。",
+            "Modesto Beeが伝えた。"
+          ],
+          "source": "Modesto Bee",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WX2c4NjhRbTJHemloeEpyaEE1QkZBekRMTVU1NkM4Mzhob1hTNlhfU3puNElTMHFrQUhtTWw3dUpZdk8yX0Z1VjE0ZVRfSmpfZGJRV2FGb3luS0UzcDhfVzhOTnFuc09COWExaHRB0gFuQVVfeXFMT3REVUVpNUJXWHNMeFFyckZVRk01elhXUmJUNkdDY2x6a3VKbUFTTXhtX01yNDNWMWJsUHNvNXlVZXVVcENkdzZxVzlGcHA5WXg1NjlQTnpnSHpRRUowcWQ5Q2FEWUFfUE5CNkFja2c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-14T20:20:54.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3,
+              "global": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "窃盗",
+              "meaning": "他人の物をこっそり盗むこと。"
+            },
+            {
+              "word": "コストコ",
+              "meaning": "会員制の大型倉庫店を世界で展開する米国の小売企業。日本にも店舗がある。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
