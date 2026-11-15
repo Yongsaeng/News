@@ -1,0 +1,1562 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-15T22:03:34Z",
+  "headline": [
+    "エヌビディア、米財務長官が経営陣の刷新を要求 フアン氏の復帰を求める動きも",
+    "イランが在バーレーン米軍基地を無人機攻撃、ホルムズ海峡で緊張続く",
+    "生活保護費の改定で物価高の反映が焦点、首相はAPECで日中関係に臨む"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 61142.35,
+      "change": 322.99062499999854,
+      "changePercent": 0.5310654836209355
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7561.67,
+      "change": -30.729902343749927,
+      "changePercent": -0.40474557108436426
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 25136.273,
+      "change": -229.81684374999895,
+      "changePercent": -0.9060002750349951
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 52347.55,
+      "change": 50.46015625000291,
+      "changePercent": 0.09648750322582889
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.615,
+      "change": -0.2599999999999909,
+      "changePercent": -0.16262705238466985
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "JSR売却で9000億円超の差益見込み、産業投資で最大級",
+          "summary": [
+            "半導体材料大手JSRの売却で、9000億円を超える差益が出る見込みとなった。",
+            "産業投資として過去最大級の利益になると読売新聞が報じた。",
+            "買い手の三井化学は買収額が1.8兆円と大きく、株価が年初来安値を更新した。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zRHhvakhmdkVnTG1nLTRBRmVCSE82TFJBNlFDczdzZnlOUVE5cEp5UDlVMEFDeWJPbUVLanRxTV93NnhFT2FVcWhYb2NQUjM0b0ZaNm12TGxrNDZJQ3hkRlotd3NJVU1jTFdxaVlfUkFjcFgxSkJjQlQyTFdkTmc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T20:03:55.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "半導体材料のJSRが三井化学に売られることになり、売る側に9000億円を超えるもうけが出る見込みになった。三井化学の子会社になる手続きは2027年度下半期に終わる予定。",
+            "why": "JSRは近年、国の資金が入ったファンドに買収されて上場をやめ、立て直しが進められてきた。半導体の需要が伸びて会社の価値が上がったため、売るときに大きな差益が出る。一方、三井化学は自社の時価総額の2倍を超える1.8兆円を払うため、借金が増えて財務が苦しくなるとの心配から株が売られた。",
+            "points": [
+              {
+                "label": "三井化学の株主",
+                "text": "買収のための借金が重荷になるとみられ、株価の下落が続くおそれがある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "半導体関連で働く人",
+                "text": "国内の素材メーカーの再編が進み、職場や取引先の体制が変わる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "納税者",
+                "text": "国の資金が入った投資で大きな利益が出れば、公的な投資のあり方を評価する材料になる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "2027年度下半期の取引完了と、三井化学の資金調達の方法"
+          },
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "半導体材料",
+              "meaning": "半導体を作るときに使う薬品や素材のこと。JSRは回路を焼き付ける材料で世界的に強い会社。"
+            },
+            {
+              "word": "年初来安値",
+              "meaning": "その年の初めから今日までの間で、株価がいちばん安くなった値段のこと。"
+            },
+            {
+              "word": "差益",
+              "meaning": "買ったときの値段と売ったときの値段の差でできたもうけのこと。"
+            }
+          ]
+        },
+        {
+          "title": "外食大手、スキマバイトを即戦力に",
+          "summary": [
+            "外食大手が、短時間だけ働く「スキマバイト」の人を即戦力として活用している。",
+            "Yahoo!ニュースのトピックスが取り上げた。",
+            "人手不足の中で、働き方と雇い方の形が変わりつつあることを示している。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602690?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T08:01:54.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/c9a05f671db69e33cba43be34d2183a2a221b4024b88a9410cc2fb98cb3c3bf1.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "外食チェーンの大手が、空いた時間だけ働くスキマバイトの人を、すぐ現場で働ける戦力として使い始めている。",
+            "why": "飲食店は人手不足が続き、正社員や長く働くアルバイトだけでは店を回しにくくなっている。スマホのアプリで単発の仕事を探す働き方が広がり、店側も忙しい時間帯だけ人を集められる。仕事の手順を簡単にすれば、初めての人でもすぐ働けるという考え方が背景にあるとみられる。",
+            "points": [
+              {
+                "label": "副業をしたい会社員",
+                "text": "空いた時間に飲食店で働きやすくなり、収入を少し増やす手段が広がりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "飲食店のアルバイト",
+                "text": "単発の働き手が増えると、シフトの組み方や時給に影響が出る可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "外食チェーンの利用者",
+                "text": "人手が確保できれば、営業時間の短縮や閉店を避けやすくなる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "スキマバイトの活用が外食以外の業種にも広がるか"
+          },
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スキマバイト",
+              "meaning": "空いた数時間だけアプリなどで仕事を探して働く、単発のアルバイトのこと。"
+            },
+            {
+              "word": "即戦力",
+              "meaning": "長い研修をしなくても、すぐに現場で役立つ働き手のこと。"
+            }
+          ]
+        },
+        {
+          "title": "タマホーム、架空請求を売上に計上か",
+          "summary": [
+            "住宅メーカーのタマホームが、架空請求を売上に計上していた疑いが浮上した。",
+            "Yahoo!ニュースのトピックスが取り上げた。",
+            "決算の数字の正しさが問われることになりそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602678?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T07:14:52.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/1efc1ef7716a199681a3b99856f9afebad18582fd494fe96e22eb3060db3d3e1.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "住宅メーカーのタマホームで、実際にはない取引の請求を売上として計上していた疑いが出ている。",
+            "why": "売上を実際より多く見せると、会社の業績が良く見え、株価や取引先の信用に影響する。上場企業は正しい決算を出す義務があり、不正が確かめられれば過去の決算の訂正や、責任者の処分が必要になる。社内の調査がどこまで広がるかが焦点になる。",
+            "points": [
+              {
+                "label": "タマホームの株主",
+                "text": "決算の訂正などが必要になれば、株価が大きく下がるおそれがある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "家を建てる予定の人",
+                "text": "会社の信用が揺らぐと、契約や工事の進め方に不安が出る可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "会社の調査結果と、過去の決算を訂正するかどうか"
+          },
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "架空請求",
+              "meaning": "実際には行っていない取引について、お金を求めること。ここでは売上の水増しにつながるもの。"
+            },
+            {
+              "word": "決算",
+              "meaning": "会社が一定の期間にいくらもうけたか、財産がどれだけあるかをまとめて発表すること。"
+            }
+          ]
+        },
+        {
+          "title": "米財務長官、エヌビディアに「劇的な刷新」と10日以内の説明要求",
+          "summary": [
+            "ベセント米財務長官が、エヌビディアの経営陣に「劇的な刷新」を求めた。",
+            "後任CEOは社外から選ぶべきだとし、10日以内に説明するよう求めている。",
+            "疑わしい中国向け半導体の販売で利益をかさ上げしたのではと疑問も示した。"
+          ],
+          "source": "Axios",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1Rud2hiNnZiMFQ2RlJYZUxjdkg3UElselZNd0d5Mk5EYVpfazI3NlMxRk1jbEFES1RhcE1QRXpXeThnVTRNcHQ0TURMdjF4RkpHNGpPQ3o0OFhoREpZV3NGaDg3cE9id3J4U3FOcDVLeVI0N1RNbEZ3aDA1WU9ZRG5ZUQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T17:49:09.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の財務長官が、エヌビディアの経営陣を大きく入れ替えるよう求め、後任のCEOは社外から選ぶべきだと述べた。10日以内の説明も求めている。",
+            "why": "エヌビディアは、前CEOのフアン氏と中国のスパイと疑われる人物との関係が問題になり、トップが辞めた。最先端の半導体が抜け道を通って中国に流れたとの疑いもあり、米政府は安全保障の問題として厳しく見ている。財務長官は、中国向けの販売で利益を大きく見せていなかったかも問題にしている。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "AI半導体の代表銘柄が揺れると、日本の半導体関連株も連れて下がりやすい。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "輸出企業",
+                "text": "米国が中国向けの半導体の規制を強めれば、日本の製造装置メーカーにも影響が及ぶ可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "米中の半導体やAIの対話が冷え込めば、日本も対中政策で難しい判断を迫られそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "10日以内の説明の中身と、新しいCEOが誰になるか"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ベセント",
+              "meaning": "米国の財務長官。国の財政や金融の政策を担当する、米政府の重要な閣僚。"
+            },
+            {
+              "word": "CEO",
+              "meaning": "最高経営責任者のこと。会社の経営で最終的な決定をする一番上の役職。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア、フアン氏の復帰を求める動き広がる",
+          "summary": [
+            "辞任したフアン氏のエヌビディアCEO復帰を求める署名が広がっている。",
+            "英紙FTは、フアン氏が側近と復帰について話し合っていると報じた。",
+            "一方で後任候補として、アームのハースCEOやAMDのスー氏の名前も挙がる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602724?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-15T13:02:58.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/27f5c848ccc13d7edcd5d0763d6359d9da7638e406e3b7543b2e0723448a94f7.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "エヌビディアのトップを辞めたフアン氏に戻ってきてほしいという署名が広がり、本人も側近と復帰について話していると報じられた。",
+            "why": "フアン氏は会社を創業し、AI向け半導体で世界一の会社に育てた人物で、投資家や取引先の信頼が厚い。問題の責任をとって辞めたものの、代わりがいないとの声が強い。一方、米政府は社外からの新しいトップを求めており、会社の中と政府の考えがぶつかっている。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "トップ人事の行方が決まらないと、半導体株の値動きが荒くなりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "ソフトバンクグループ",
+                "text": "傘下のアームのトップが候補とされ、人事次第で経営に影響が出る可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "取締役会がフアン氏の復帰と社外からの起用のどちらを選ぶか"
+          },
+          "score": {
+            "total": 77,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "署名",
+              "meaning": "ある考えに賛成する人が名前を書いて集め、意思を示すこと。ネット上で集めることも多い。"
+            },
+            {
+              "word": "アーム",
+              "meaning": "スマホなどの半導体の設計図を作り、各社に使わせている英国の会社。ソフトバンクグループが大株主。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピックの大型上場、オープンAIに圧力",
+          "summary": [
+            "英誌エコノミストは、アンソロピックの巨大な上場がオープンAIへの圧力になると報じた。",
+            "米CNBCは、苦戦するAI関連株にとって明るい材料を探す中での上場だと伝えた。",
+            "ブルームバーグは、世界で最も重要なAI銘柄になりつつあると報じた。"
+          ],
+          "source": "The Economist",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTd6eHRac3JHWEQ5TElWUXZZUWRsMHdXckRQbjJ6X3ZvOFUtVHZDcjFBVWVqOE9LVnNPS3NWeDROZUtsRFdEdklzRzctYlpWbWszbElsMU94VWxtUm5OZ1ozdUxWWnVGRlpGM3ozYWxISG5fS1Y5QlB1bVQ0Z09sVGphWmgzMlpKMWduNkZYX0N1b1Br?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:49:20.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "AI企業のアンソロピックが株式を上場し、ライバルのオープンAIにとって大きな圧力になると海外メディアが伝えている。",
+            "why": "AI企業は巨額の開発費を集める必要があり、上場すれば一般の投資家からも資金を集められる。いまAI関連株はエヌビディアの問題などで売られており、アンソロピックの株がどう評価されるかは、AIにお金が集まり続けるかを占う材料になる。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "上場が好調ならAI関連株全体の買い戻しにつながり、日本株にも追い風になりうる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の投資家",
+                "text": "新しいAI株に投資できるようになり、投資信託などを通じて組み入れが進む可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "上場後の株価と、オープンAIの資金集めの動き"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "上場",
+              "meaning": "会社の株を証券取引所で売り買いできるようにすること。広く資金を集められる。"
+            },
+            {
+              "word": "オープンAI",
+              "meaning": "対話型AI「ChatGPT」を作った米国の会社。アンソロピックの最大のライバル。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "生活保護費の改定、物価高をどう反映するかが焦点",
+          "summary": [
+            "生活保護費の改定に向けた議論が進んでいる。",
+            "物価の上昇をどこまで支給額に反映するかが焦点となっている。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602714?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T11:49:58.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/95279b6fed8b7743c02549614cd05317ca2b831d3c7141cd9e70aa8d324de765.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "生活保護で支給するお金の額を見直す議論が進んでおり、物価の上昇をどこまで反映するかが焦点になっている。",
+            "why": "生活保護費は、食費や光熱費など暮らしに必要なお金をもとに決められ、数年ごとに見直されている。食品や電気代の値上がりが続くと、今の支給額では同じ暮らしができなくなる。一方で増やせば国や自治体の負担が増えるため、どこまで上げるかで意見が分かれやすい。",
+            "points": [
+              {
+                "label": "生活保護を受けている人",
+                "text": "物価高が反映されれば、毎月受け取るお金が増える可能性がある。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "年金生活者",
+                "text": "生活保護の基準は他の支援制度の目安にも使われ、見直しの影響が広がりうる。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "自治体",
+                "text": "支給額が増えれば、国とともに費用を負担する自治体の財政に響く。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "年末の予算編成で決まる、来年度の支給額の水準"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生活保護",
+              "meaning": "収入や財産が少なく生活が苦しい人に、国が最低限の暮らしに必要なお金を支給する制度。"
+            },
+            {
+              "word": "改定",
+              "meaning": "決まっている金額やルールを見直して変えること。生活保護費は定期的に見直される。"
+            }
+          ]
+        },
+        {
+          "title": "首相がAPECに出席へ、焦点は日中関係",
+          "summary": [
+            "首相がAPEC（アジア太平洋経済協力）の首脳会議に出席する方向だ。",
+            "会議の場で日中関係をどう動かすかが焦点となっている。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602674?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T06:39:22.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/1a873e7c43d044566dc7de9f227dd220efcf3c60341161d90328bb3096a800f8.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "首相がアジア太平洋の国や地域が集まるAPECの首脳会議に出る方向で、中国との関係をどう扱うかが注目されている。",
+            "why": "APECには中国の首脳も参加するため、日中の首脳が直接話す機会になりうる。最近は米中露の首脳が会う予定が報じられ、日本は取り残されるとの危機感もある。中国は日本にとって最大級の貿易相手で、関係が冷えると企業の活動や観光にも響く。",
+            "points": [
+              {
+                "label": "中国と取引する企業",
+                "text": "首脳どうしの対話が進めば、輸出入や現地での事業の先行きが見えやすくなる。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "観光業",
+                "text": "関係が改善すれば中国からの旅行客が増え、観光地の売上に追い風になりうる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "APECの場で日中首脳会談が開かれるかどうか"
+          },
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "APEC",
+              "meaning": "アジア太平洋経済協力。日本・米国・中国など太平洋を囲む国や地域が、経済の協力を話し合う枠組み。"
+            },
+            {
+              "word": "首脳会議",
+              "meaning": "国のトップどうしが集まって話し合う会議。"
+            }
+          ]
+        },
+        {
+          "title": "消費減税「効果小さい」63%、共同通信の調査",
+          "summary": [
+            "共同通信の世論調査で、消費税の減税は「効果が小さい」と答えた人が63%にのぼった。",
+            "物価高への対策として議論される減税に、厳しい見方が多いことになる。",
+            "政府・与党の物価高対策の進め方に影響しそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602696?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T08:51:34.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2b8eb0ad877d6c9f329b0a4ac31685a12effdc41ad9743f97e218da951bb7777.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "共同通信の世論調査で、消費税を下げても効果は小さいと考える人が63%いることが分かった。",
+            "why": "物価高が続く中、消費税を下げて家計を助けるべきだという意見が政党などから出ている。ただ、減税には大きな財源が必要で、一時的に下げても物価そのものは下がらない、元に戻すときに混乱するといった指摘もある。調査結果は、有権者が減税の効き目に慎重な見方をしていることを示している。",
+            "points": [
+              {
+                "label": "買い物をするすべての人",
+                "text": "減税が見送られれば、レジで払う税の負担は今のまま続く。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "子育て世帯",
+                "text": "減税の代わりに給付など別の物価高対策が検討される可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "政府・与党がまとめる物価高対策に減税が入るかどうか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "世論調査",
+              "meaning": "多くの人に同じ質問をして、社会全体の考え方を数字でつかむ調査。"
+            },
+            {
+              "word": "消費税",
+              "meaning": "買い物やサービスの代金にかかる税金。今は原則10%、食品などは8%。"
+            }
+          ]
+        },
+        {
+          "title": "イラン、バーレーンの米軍基地を無人機で攻撃",
+          "summary": [
+            "イランがバーレーンにある米軍基地を無人機（ドローン）で攻撃した。",
+            "バーレーンへの攻撃は3日間で2回目となった。",
+            "米国とイランはホルムズ海峡をめぐってにらみ合いを続けている。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-15T13:42:58.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イランが、ペルシャ湾の島国バーレーンにある米軍基地を無人機で攻撃した。この3日間で2回目の攻撃になる。",
+            "why": "米国とイランは、原油の通り道であるホルムズ海峡をめぐって対立している。中東の原油の多くはこの海峡を通って運ばれ、日本も輸入原油の大部分を中東に頼っている。攻撃が続くと海峡の通航が危うくなるとの不安が広がり、原油の値段が上がりやすくなる。",
+            "points": [
+              {
+                "label": "ガソリン・電気代",
+                "text": "原油の値段が上がれば、ガソリンや電気・ガスの料金が上がるおそれがある。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "円相場",
+                "text": "原油高で輸入の支払いが増えると、円が売られやすくなる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "海運会社",
+                "text": "タンカーの航行の安全が脅かされ、保険料や運航ルートに影響が出る可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "米国の反撃の有無と、ホルムズ海峡の通航の状況"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ホルムズ海峡",
+              "meaning": "ペルシャ湾の出入り口にある海峡。中東の原油を運ぶタンカーの多くがここを通る。"
+            },
+            {
+              "word": "無人機",
+              "meaning": "人が乗らずに遠隔操作や自動で飛ぶ航空機。ドローンとも呼ばれ、攻撃にも使われる。"
+            }
+          ]
+        },
+        {
+          "title": "ゼレンスキー氏、米国とマスク氏にスターリンクの制限解除を要求",
+          "summary": [
+            "ウクライナのゼレンスキー大統領が、米国とマスク氏にスターリンクの制限を解くよう求めた。",
+            "通信が遅くされているため、ロシアの攻撃を止めにくくなっていると訴えた。",
+            "「歴史の正しい側に立つべきだ」と呼びかけた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:32:39.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナの大統領が、マスク氏の衛星通信スターリンクの速度制限を解くよう、米国とマスク氏に求めた。",
+            "why": "ウクライナ軍は戦場での通信にスターリンクを頼っており、通信が遅いと無人機の操作や敵の攻撃への対応が難しくなる。米国はウクライナ和平の条件をめぐってロシアとも話をしており、通信の制限が交渉の圧力として使われているのではとの見方も出そうだ。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "米国のウクライナ支援の姿勢が変われば、日本の支援のあり方も問われる。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "安全保障",
+                "text": "民間企業の通信に戦争の行方が左右される危うさが、日本の防衛でも課題になりうる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "米国とスペースXが制限を解くかどうか"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スターリンク",
+              "meaning": "マスク氏の宇宙企業スペースXが運営する、人工衛星を使ったインターネット通信サービス。"
+            },
+            {
+              "word": "ゼレンスキー",
+              "meaning": "ウクライナの大統領。ロシアの侵攻が続く中で国を率いている。"
+            }
+          ]
+        },
+        {
+          "title": "米知事選、民主党が計6州を奪還",
+          "summary": [
+            "米国の州知事選挙で、民主党が合わせて6つの州で知事の座を取り戻した。",
+            "Yahoo!ニュースのトピックス（国際）が取り上げた。",
+            "政権与党の共和党にとって厳しい結果となった。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6602637?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-15T01:02:20.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261113-bd39b63/all/images/ogp_default.png",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の州知事選挙で、野党の民主党が合わせて6つの州で知事の座を取り戻した。",
+            "why": "米国では州の知事が、州の税金や企業誘致、環境政策などで大きな権限を持つ。政権に対する有権者の評価が表れやすく、今回の結果は与党の共和党への不満の表れとも受け止められる。今後の国政選挙に向けて、政権の政策運営に影響する可能性がある。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "州ごとの企業誘致や補助金の方針が変わり、米国に工場を持つ日本企業に影響しうる。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "政権の求心力が弱まれば、関税など対日政策の進め方が変わる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "選挙結果を受けた政権の政策の変化"
+          },
+          "score": {
+            "total": 58,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "州知事",
+              "meaning": "米国の各州のトップ。州の予算や法律の執行に大きな権限を持つ。"
+            },
+            {
+              "word": "民主党",
+              "meaning": "米国の二大政党の一つ。現在の政権与党である共和党と対立している。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "最新のWindows 11でもセキュリティソフトは必要？",
+          "summary": [
+            "All Aboutが、最新のWindows 11パソコンにもセキュリティソフトが必要かという疑問を取り上げた。",
+            "パソコンを買い替えた人が迷いやすいテーマだ。",
+            "Yahoo!ニュースに掲載された。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xQjI0LWFfNkphNUZ6UEdxUGFrbnhQcXVzSXVVYnpvN1pCQzRLSHZpak1FUFJ4RWdFUEM5S2huYjZSNEZLS3VWYW8tUGN4YmxKN0pya0xnMlVyUGJ0S1hJS0h1NzZxMklkbFNDbXVNZXNwUGd1UXhFS1dyS1lncW8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T12:15:00.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 30,
+              "money": 5,
+              "certainty": 2,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "セキュリティソフト",
+              "meaning": "ウイルスや不正なプログラムからパソコンを守るためのソフト。有料のものが多い。"
+            },
+            {
+              "word": "Windows 11",
+              "meaning": "マイクロソフトのパソコン用の基本ソフト（OS）の最新版。"
+            }
+          ]
+        },
+        {
+          "title": "検事の取り調べ、AIでチェックへ",
+          "summary": [
+            "検察が、検事による取り調べをAIでチェックする取り組みを進める。",
+            "取り調べが適切に行われているかを確かめる狙いがあるとみられる。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602643?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T01:48:48.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/575a0e293777c22b66ae06135a430ba1c0a2d48c555e076dc5ddd9bf8aa53357.jpg",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "検事",
+              "meaning": "犯罪の疑いがある人を調べ、裁判にかけるかどうかを決める検察庁の職員。"
+            },
+            {
+              "word": "取り調べ",
+              "meaning": "警察や検察が、事件の疑いがある人などから話を聞くこと。"
+            }
+          ]
+        },
+        {
+          "title": "防衛省「Defense AI Vision」、今月中に公表へ",
+          "summary": [
+            "防衛省が、AI活用の方針「Defense AI Vision」を今月中に公表する。",
+            "TBS NEWS DIGが報じ、Yahoo!ニュースに掲載された。",
+            "防衛の分野でのAIの使い方の考え方が示されることになる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrcUFibUZTTHVySWlkVl9iQ3lfT1Nma0JTSzFQdGt0ZEV1ZjN3eWZwcXlfUXQ2M0lEU09lRE95MkMyeExsTnBqV3RFMlFpR2ZXS3hEQ3NuUTVEYjhtYVNaZ1ZOWkJndDc4RDk4MGYxZGVNQTd3X3pISHV2dWRiZzQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T03:29:40.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "防衛省",
+              "meaning": "自衛隊を管理し、日本の守りに関する政策を担当する国の役所。"
+            },
+            {
+              "word": "AI",
+              "meaning": "人工知能。大量のデータから学び、判断や文章づくりなどをするコンピューターの技術。"
+            }
+          ]
+        },
+        {
+          "title": "米議会、エヌビディア問題受けAI半導体の輸出規制強化へ",
+          "summary": [
+            "エヌビディアのスパイ疑惑を受け、米議会がAI半導体の輸出規制を強めようとしている。",
+            "民主党と共和党の両方から、規則を厳しくする法案などに支持の声が上がっている。",
+            "最先端の半導体が中国に流れたのではとの疑いが背景にある。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:15:43.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "輸出規制",
+              "meaning": "国が安全保障などの理由で、特定の製品を外国に売ることを制限すること。"
+            },
+            {
+              "word": "法案",
+              "meaning": "国会や議会で成立させる前の、法律の案のこと。"
+            }
+          ]
+        },
+        {
+          "title": "米ULAのロケット打ち上げ失敗、アマゾンの衛星40基を失う",
+          "summary": [
+            "米ULAのバルカンロケットが打ち上げに失敗し、アマゾンの通信衛星40基が失われた。",
+            "ULAにとって、20年の歴史で初めての失敗と報じられている。",
+            "衛星はアマゾンのネット通信サービス「Amazon Leo」用だった。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+          "region": "海外",
+          "publishedAt": "2026-11-15T21:05:02.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ULA",
+              "meaning": "米ボーイングとロッキード・マーチンが共同で作ったロケット打ち上げ会社。"
+            },
+            {
+              "word": "通信衛星",
+              "meaning": "宇宙から電波を送り、インターネットや電話をつなぐための人工衛星。"
+            }
+          ]
+        },
+        {
+          "title": "アップル初のスマートグラス、開発が進む",
+          "summary": [
+            "アップル初のスマートグラスの姿が見えてきたと米The Vergeが伝えた。",
+            "ブルームバーグのガーマン記者によると、最初のモデルは拡張現実（AR）の表示を持たないという。",
+            "メタの第2世代レイバン眼鏡より少し薄いとの情報もある。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+          "region": "海外",
+          "publishedAt": "2026-11-15T16:59:16.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 37,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 2,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スマートグラス",
+              "meaning": "カメラやスピーカーなどを組み込み、スマホのように使える眼鏡型の機器。"
+            },
+            {
+              "word": "拡張現実",
+              "meaning": "現実の景色に、文字や映像などのデジタル情報を重ねて見せる技術。ARとも呼ぶ。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "勉強は「チャッピー」頼み、思考の丸投げに不安の声",
+          "summary": [
+            "読売新聞の連載「教育とAI」が、勉強で生成AIに頼る生徒・学生の姿を伝えた。",
+            "ChatGPTを「チャッピー」と呼んで宿題などに使い、考えることを丸投げする例がある。",
+            "本人からも「自分の今後が怖い」という声が出ている。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYeElhQWpPQmV2VndVZHpDMG00UHlaSmQyaWZWRzJLeUVzYWtHV2kySllLTFU2SENhT1pvTkc2aWgwaExWWWZ0NzZENlQ0c0VuWENQNnF6Wnk1Zncya2w1eXRGWjAtampQWTB5TEtOdFNNY00?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T20:00:00.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動で作り出すAI。質問に答えたり、文章を書いたりできる。"
+            },
+            {
+              "word": "ChatGPT",
+              "meaning": "米オープンAIが提供する対話型の生成AI。若者の間では「チャッピー」とも呼ばれる。"
+            }
+          ]
+        },
+        {
+          "title": "阿川佐和子さんの「なりすまし」生成AI動画に本人驚く",
+          "summary": [
+            "「なりすまし阿川佐和子です」と語る、本人そっくりの生成AI動画が作られた。",
+            "テレビ番組「TVタックル」で紹介され、本人が驚いた。",
+            "生成AIで本物と見分けにくい動画が作れる現状を示している。"
+          ],
+          "source": "日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KVUxYckU1VTVuTDV3NUtVNWZSS21KNk9pYy0zUG1lV2xZSDZYYmxTZ1JNdTQ2WU5tMFUxcnBwZjBpS3JoUEZxaE9KcldNekFuYW9rYTJVeW9JSEZxLTktRWkzc2V1XzNrenlXWDNRVFVvUksycTZQVi1PQU1FcjjSAX9BVV95cUxOSlVMWHJFNVU1bkw1dzVLVTVmUkttSjZPaWMtM1BtZVdsWUg2WGJsU2dSTXU0NllObTBVMXJwcGYwaUtyaFBGcWhPSnJXTXpBbmFva2EyVXlvSUhGcS05LUVpM3NldV8za3p5V1gzUVRVb1JLMnE2UFYtT0FNRXI4?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T09:41:23.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 3,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "なりすまし",
+              "meaning": "他人のふりをすること。AIで顔や声をまねた偽の動画は詐欺に悪用されることもある。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを自動で作り出すAI。"
+            }
+          ]
+        },
+        {
+          "title": "AIエージェント、Claude Codeの登場でブレーク",
+          "summary": [
+            "日経クロステックが、生成AIに「手足」を付けたエージェントの広がりを伝えた。",
+            "アンソロピックの「Claude Code」の登場でブレークしたとしている。",
+            "AIが自分で作業を進める使い方が広がりつつある。"
+          ],
+          "source": "日経クロステック",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZTJObXFTQXkzYXhZYXN5X1kwZ2liNWVoZWQzTGZ1d0FQTlBGU3p2dFkzc05sN0praW9Vb09NMUI0eHBfdy16bEdRczV3Wll2SUlOVml1bnhuYl9Dbm1VRTdHZFF6OUFlSFQtWDRJN19mYUZ5dV9YbEYyaWlRVXhEdEEyNUhmLTNBbkpFcTNXc2k?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T20:00:00.000Z",
+          "score": {
+            "total": 25,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エージェント",
+              "meaning": "人の指示を受けて、AIが自分で手順を考えながら作業を進める仕組み。"
+            },
+            {
+              "word": "Claude Code",
+              "meaning": "アンソロピックのAI「Claude」を使って、プログラムの作成や修正を進める道具。"
+            }
+          ]
+        },
+        {
+          "title": "フアン氏の退任、アジア各国の政府が反応",
+          "summary": [
+            "エヌビディアのフアンCEOの退任に、アジア各国の政府が反応している。",
+            "半導体の供給の約束を確認する政府がある一方、地元の事業への影響を見守る政府もある。",
+            "進行中の捜査への対応に追われる国もあると米TechCrunchが伝えた。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "region": "海外",
+          "publishedAt": "2026-11-14T16:34:15.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "半導体",
+              "meaning": "スマホやパソコン、AIの計算に欠かせない電子部品。AI向けはエヌビディアが強い。"
+            },
+            {
+              "word": "捜査",
+              "meaning": "警察や検察などが、犯罪の疑いについて事実を調べること。"
+            }
+          ]
+        },
+        {
+          "title": "韓国の税理士試験、首席合格者が生成AIで不正",
+          "summary": [
+            "韓国の税理士試験で、首席で合格した人が生成AIを使った不正を認めた。",
+            "超小型カメラとスマホを使い、ほぼ満点を取っていた。",
+            "合格証書の効力は停止される見通しだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11UFh6VXVrenE2UmNtOHNVam51NTMtT0IzeF9oTnJYQjhIam5mNTBER3FXSi0tZUNvemxSUTlwRFk0VXd1SWFoLWlxUUpGWHdTekhVQ0F2blR2VDZ1UGJtMW1lTXhlMjNsX2V3SWhvbGkyeWtmN1NXcV9Ja01hb2M?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T06:19:54.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "税理士",
+              "meaning": "税金の申告の手続きや相談を、本人に代わって行う国家資格を持つ専門家。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章などを自動で作り出すAI。問題を読み取って答えを出すこともできる。"
+            }
+          ]
+        },
+        {
+          "title": "うまくいかなかったAI事業の一覧、米TechCrunchがまとめ",
+          "summary": [
+            "米TechCrunchが、中止や期待外れに終わったAIの事業やスタートアップを一覧にまとめた。",
+            "アップルの延期が続くSiriのAI化も取り上げている。",
+            "オープンAIの「スーパーアプリ」の混乱した立ち上げも含まれる。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "region": "海外",
+          "publishedAt": "2026-11-14T17:30:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+          "score": {
+            "total": 30,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "スタートアップ",
+              "meaning": "新しい技術や仕組みで急成長を目指す、創業から日の浅い会社。"
+            },
+            {
+              "word": "Siri",
+              "meaning": "アップルのiPhoneなどに入っている音声アシスタント。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "為替相場、16日朝は1ドル＝159円台",
+          "summary": [
+            "共同通信が16日午前6時時点の為替相場を伝えた。",
+            "収集データでは、ドル円は1ドル＝159.6円前後で、前日より少し円高だった。",
+            "1ドル＝160円に近い円安の水準が続いている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xMk1LcnFHdjVESWlSWV9PelNIM0NtV05ZY2JCbnlCVnZLd29YZUhFUjJNeG5Zb3dDbVg1Q005a1daYWhGZUVIUmNMRl9neFduS1B3dElBVzNFdWVPSU5NaGU2SzJBUENabmNmVG8xMGVWdk9OX1NKUVdvcTBYcVk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T21:02:56.000Z",
+          "score": {
+            "total": 65,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "円高",
+              "meaning": "円の価値が上がること。1ドルを買うのに必要な円が少なくなる。"
+            },
+            {
+              "word": "為替相場",
+              "meaning": "円とドルなど、異なる通貨を交換するときの比率。毎日変わる。"
+            }
+          ]
+        },
+        {
+          "title": "AI株の急落は“バブル崩壊”の始まりか",
+          "summary": [
+            "ダイヤモンド・オンラインが、AI関連株の急落がバブル崩壊の始まりかを論じた。",
+            "株価だけでは見えない「資金調達」のリスクに目を向けている。",
+            "AI企業がお金を集め続けられるかが焦点になっている。"
+          ],
+          "source": "ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QZzQzRFJJbzJZbVJHVWJ2U0JOWDgzRERJQk1mSmV3bEhjdi1zQ1dDZE9wdjFfa20xWDJkdllrelBPeFpWZkZxRWxaNnY?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T19:30:00.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "バブル崩壊",
+              "meaning": "実力以上に上がった株などの値段が、一気に下がること。"
+            },
+            {
+              "word": "資金調達",
+              "meaning": "会社が事業に使うお金を、借金や株の発行などで集めること。"
+            }
+          ]
+        },
+        {
+          "title": "IPO後の「ロックアップ」とは",
+          "summary": [
+            "日本経済新聞が、IPO（新規株式公開）後の「ロックアップ」を解説した。",
+            "上場前からの株主が、一定期間株を売れないようにする決まりだ。",
+            "上場直後の株価の急落を防ぐ狙いがある。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16VVpEellBS3dDcjJhU1pyeU5wTDVQQWJUbGxEaklWeHV5Y3AzWmstQlJGXzFwWUpmbk05TllxT3lhSFpreldmXzBTRFZkZm5TMXg4Rl9zblZuNGhCMHZiaU9vMkVOMUZMQ2JLdw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T19:00:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "IPO",
+              "meaning": "新規株式公開。会社が初めて株を証券取引所に上場し、誰でも売買できるようにすること。"
+            },
+            {
+              "word": "ロックアップ",
+              "meaning": "上場前からの株主が、上場後の一定期間は株を売らないと約束する決まり。"
+            }
+          ]
+        },
+        {
+          "title": "米株先物は安く始まる見通し、反発の勢いに陰り",
+          "summary": [
+            "米Investor's Business Dailyが、米国の株価指数先物が下げて始まる見通しを伝えた。",
+            "これまでの反発の流れが試されている。",
+            "投資家にどう動くべきかを解説している。"
+          ],
+          "source": "Investor's Business Daily",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQmoxeERFTVM2VG9DVVBnRERlZG4tcU0tOGFveC1mYlhEZEJydUZNM2ptaExRYU1LYXg3XzlUUHhtZ29JSF9OYlZtd0FSaF9mME9TYzhTWUVJT0lSSGVPSTMxZlhkTWhQMVp4MkRFVUdUZHRTNVd1bTdTckF2Q3VYdUxKY3kyaFpDaTZkQ1BVMHdrTUNQLUhnVVhPZzJIM3h6Tlg2THNnZU5NRDRvV3NFZUlta28wVXloNGhfNUFFTWdKR3Q3Vk05RnBhQXdWQkl3UTlGRC1RRGo2QU9rTmc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:35:00.000Z",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "株価指数先物",
+              "meaning": "将来の株価指数を今決めた値段で売り買いする取引。翌日の相場の予想に使われる。"
+            },
+            {
+              "word": "反発",
+              "meaning": "下がっていた株価が、上がりに転じること。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディアの値動き激化、ナスダックや取引業者に注目",
+          "summary": [
+            "エヌビディア株の値動きが荒くなっていると米Yahoo Financeが伝えた。",
+            "取引が増えることで、取引所を運営するナスダック社の株や取引業者に注目が集まる。",
+            "売買の増加が、取引の場を提供する企業の収益につながる可能性がある。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZUxLYTRSRlRoWkpwekdvdTNqZjZuUkdCSkd0clhtLXNDWjJtZHdQYnhqdnVObzdTWkVHUHIzZnRLV2FKRGZnMXJzOHFrTTRaQjlpWVQ4bTVoWHloeGlMazdBaEp3djN0eF9GTW5HdDZLMDVMNDFOZmxCR0hYNXhkXzFwcDV3NDZPcDhwRFhYOUNBcmk5Mkk3enlacS1SYkN5c0E?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:08:36.000Z",
+          "score": {
+            "total": 68,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 1
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ナスダック",
+              "meaning": "米国の株式市場の一つ。ここではその取引所を運営する会社のことも指す。"
+            },
+            {
+              "word": "取引業者",
+              "meaning": "株の売り買いを仲介する証券会社やアプリなどの事業者。"
+            }
+          ]
+        },
+        {
+          "title": "サンディスク、11月19日に8対1の株式分割",
+          "summary": [
+            "米半導体メモリー大手のサンディスクが、11月19日に8対1の株式分割を行う。",
+            "米Yahoo Financeは、分割前に買うべきかを論じた。",
+            "1株の値段が下がり、個人投資家が買いやすくなる。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmNNVjdtREhCaUNQS3UzRXFBNEQtWDdielVqRFB5NkJfTV9ZWU5OdHNVdXg4UGlIenBvQ092REpTdVVEUzA3OVYxR1ZLN3c1TU9NRUlpOW14dkZ3bFNHZDBubXZFX3FOcnhicDNzNmZzS0ZNWGFaMEMtS3VycV8tRkQ5TmRVYWd4MGZvcWhjbw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:49:02.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "株式分割",
+              "meaning": "1株を複数の株に分けること。1株の値段は下がるが、持っている株の価値の合計は変わらない。"
+            },
+            {
+              "word": "半導体メモリー",
+              "meaning": "データを記録しておくための半導体。スマホやデータセンターで大量に使われる。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は前営業日比323円高の6万1142円。米国はナスダックが0.9%安、ドル円は159円台後半。今週はエヌビディア決算に注目。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "北海道の特殊詐欺被害、約45億円に",
+          "summary": [
+            "北海道内の特殊詐欺の被害額が約45億円にのぼり、2025年より11億円以上多い。",
+            "被害が深刻になっているとして、警察が苫小牧市のドラッグストアで注意を呼びかけた。",
+            "買い物客に直接声をかけ、被害を防ぐ狙いがある。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSM2wyQW9BeGNzT0o5bGdDYVRxWFRKYnFScHlXMkdYbTFVb1AtQmNHZWo5V3Q4WW9BY1I0Y0VSZkdDeUt6R0RTemxxaTJFQmFzUzc1OEZsM19vM2FIS2N0MkxHQ3FJU3FGeGpHSm5pLVM4Y1R3RHN4OU81WWp6cUk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T21:32:19.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "特殊詐欺",
+              "meaning": "電話やメールで家族や役所などになりすまし、お金をだまし取る犯罪。オレオレ詐欺など。"
+            },
+            {
+              "word": "被害額",
+              "meaning": "犯罪によって失われたお金の合計のこと。"
+            }
+          ]
+        },
+        {
+          "title": "愛知・小牧で82歳女性が襲われ重傷、5人が関与ほのめかす",
+          "summary": [
+            "愛知県小牧市で、自宅で寝ていた82歳の女性が3〜4人の男にバールで殴られるなどして重傷を負った。",
+            "警察は強盗殺人未遂事件として捜査本部を設けた。",
+            "盗難車を運転していたブラジル国籍の男や少年ら5人が関与をほのめかしている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvM3M5YmpfM0dxc05ESVBtX3BHQmtDMWZISGM1aE1aakIwUEFBTXg2YmN1R2JzWUt0M3BidFMzcDAtRWZQaS1MMk1uSk1aMXpZR0w5RXZNUTRCaUw2bDNuSU5tOVJlZlRWV2FvUmdLYlQ1NlRjd0pUQVczZGdUYW8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T08:21:34.000Z",
+          "score": {
+            "total": 35,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "強盗殺人未遂",
+              "meaning": "お金などを奪う目的で人を殺そうとしたが、命を奪うには至らなかった罪。"
+            },
+            {
+              "word": "捜査本部",
+              "meaning": "大きな事件のときに、警察がたくさんの人員を集めて作る捜査の拠点。"
+            }
+          ]
+        },
+        {
+          "title": "インフルエンサー「あっすん」ら逮捕、接待飲食店を無許可営業か",
+          "summary": [
+            "フォロワー80万人超のインフルエンサー「あっすん」ら男女3人が名古屋で逮捕された。",
+            "接待を伴う飲食店を、許可を得ずに営業した疑いがある。",
+            "警察は店のマニュアルや現金1600万円を押収した。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03ZVI5MlVWNUVtTTVxWFFONEhfQ3ZtMENEalhLQkFyRDdmMFNMNGpfODdhVUo0dDZJdUVWNFliMzVhdVV4V1BpbTVYNEV1a3Z4WGV3b3QtZw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-15T09:13:21.000Z",
+          "score": {
+            "total": 25,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "インフルエンサー",
+              "meaning": "SNSなどで多くのフォロワーを持ち、人の考えや行動に影響を与える人。"
+            },
+            {
+              "word": "押収",
+              "meaning": "警察などが、事件の証拠となる物を法律にもとづいて取り上げること。"
+            }
+          ]
+        },
+        {
+          "title": "エストニア、12月からロシア国境を閉鎖へ",
+          "summary": [
+            "エストニアが、12月からロシアとの国境を閉鎖する。",
+            "放火未遂事件を受けた措置だと日本経済新聞が報じた。",
+            "ロシアとの緊張がさらに高まる可能性がある。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNMDZTQXVTbnF3UHZha1FTQm44OHlNMmJvSmktdmp1Vkc3clVJb3pNUXJzd2RpVGZGX3BNcXBCd2twbGtJTF9yUnFxUlNrenZySk1SZzZ3RWV6emZiTlE2akhkenBsNG9pd1A1dw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T16:34:12.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エストニア",
+              "meaning": "バルト海に面した北ヨーロッパの小さな国。ロシアと国境を接し、NATOに加盟している。"
+            },
+            {
+              "word": "放火未遂",
+              "meaning": "建物などに火をつけようとしたが、燃え広がるには至らなかった犯罪。"
+            }
+          ]
+        },
+        {
+          "title": "米ダラスのハロウィーン3人殺害、きっかけは冷やかしか",
+          "summary": [
+            "米ダラスの繁華街ディープエラムで、ハロウィーンの夜に3人が殺害された。",
+            "目撃者は、女性への冷やかしの声がきっかけだったと話している。",
+            "米紙フォートワース・スター・テレグラムが報じた。"
+          ],
+          "source": "Google News",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkYkZINF9qT3dxd1QxREdIRms0R2ZLNzc3TFdSRXNvUTYydDVmMnpzWHlxNGk5Uld0WWkwWnluNzRxX0cyZllhdXBkT0xoU2w3V0VjRl9jbEpjVmtiUkVWb2hUcnhmMkc1ZEJ2UmNCLWFXTFRqWTBr0gF3QVVfeXFMTVBzMUw4TS0zUHhBQTRfanhNcTJWVFZULTIwSktHMUdQbHhEazRSQ2pvRThJdkQ5YXhBWHkxSnZlM0pGWUI4TXhYRkVmSXBIT1dhOVhQclloU3cyS0lsT2NDbDdMbG95UlRJZTl4OTcxSlFHbm1jNHM?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T20:55:24.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ハロウィーン",
+              "meaning": "10月31日のお祭り。米国では仮装した人が街に集まり、にぎわう。"
+            },
+            {
+              "word": "目撃者",
+              "meaning": "事件などを実際にその場で見た人。"
+            }
+          ]
+        },
+        {
+          "title": "米マサチューセッツの薬物密売、FBIなどが2人逮捕",
+          "summary": [
+            "米マサチューセッツ州の薬物の流通にかかわったとして、2人が逮捕された。",
+            "地元警察とFBI、ATF、DEAが合同で捜査した。",
+            "数百ポンドの薬物が押収された。"
+          ],
+          "source": "Fall River Reporter",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM3JncFpOWXpBR2dmZXU1VG16ejdobWJ4cG1ONXItSzhJVk5LWkVlZkxtTzE1aFFHNmxXYl9XVTE2MmVLazBnZEhVSF82UUhTU3ZUZXhwRlpxTGNySldLa0VPZ1hMVDh2Y0VnOVNPQmI1cjJ2MHNxZGVtR2JyTW1TVTIyU0NNN05OYUh4d3FMb2QxNmI3NUVJY3JwRHh5VU5rSy1iUkhqMjJzbnoweXVVeDloYkJVZ0dkUWE4Z25ZVHlwd3NReFVCaHJ1Z0pMV0xFa1MxU1VJakVVQnpoSmNUYnVMaFF6STdXN3p1Yg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-15T19:06:48.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FBI",
+              "meaning": "米連邦捜査局。州をまたぐ犯罪などを捜査する米国の警察組織。"
+            },
+            {
+              "word": "DEA",
+              "meaning": "米麻薬取締局。違法な薬物の密売などを取り締まる米国の役所。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
