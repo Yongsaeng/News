@@ -1,0 +1,1452 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-16T22:02:47Z",
+  "headline": [
+    "エヌビディア主導のAI株安でS&P500が約2%下落、日経平均も6万円割れ",
+    "EUが日本企業の冷延鋼板に27.9%の反ダンピング関税、トランプ氏はアジア歴訪へ",
+    "カリフォルニア州が暴走AIでOpenAIを提訴、AIを使ったサイバー攻撃も広がる"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 59662.02,
+      "change": -1157.3393750000032,
+      "changePercent": -1.9029128009456335
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7416.59,
+      "change": -145.07992187499985,
+      "changePercent": -1.9186227827176259
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 24509.758,
+      "change": -626.5115312499984,
+      "changePercent": -2.492460269297735
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 51608.17,
+      "change": -739.3807812500017,
+      "changePercent": -1.4124457977790155
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.427,
+      "change": -0.4480000000000075,
+      "changePercent": -0.280218921032061
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "マンションの短期売買、課税の強化を検討",
+          "summary": [
+            "マンションの短期売買について、課税の強化が検討されている。",
+            "買ってすぐ転売して利益を得る動きが対象になるとみられる。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602817?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-16T09:40:24.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/16/ac4f07bb3385f24fe0243563a3b85c2fb6333f895535eb0aa3491ffd759c098e.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "マンションを短い期間で売り買いして利益を得る取引に対し、かかる税金を重くすることが検討されている。",
+            "why": "都市部ではマンション価格の上昇が続き、値上がりを見込んで買い、すぐ売る取引が価格をさらに押し上げているとの指摘がある。税金を重くすれば転売のうまみが減り、住むための購入がしやすくなる狙いがあるとみられる。",
+            "points": [
+              {
+                "label": "マンション購入を考える人",
+                "text": "転売目的の買いが減れば、価格の上昇が落ち着く可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "不動産投資家",
+                "text": "短期の売却で得る利益にかかる税金が増え、手元に残るお金が減りそう。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "マンションを持つ人",
+                "text": "売却時期によって税負担が変わる可能性があり、売る時期の判断に影響しうる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "年末にまとまる税制改正大綱に盛り込まれるかどうか"
+          },
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 20,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "短期売買",
+              "meaning": "買ってから短い期間で売ること。マンションでは値上がりを見込んだ転売を指すことが多い。"
+            },
+            {
+              "word": "課税",
+              "meaning": "税金をかけること。ここでは売って得た利益にかかる税金の重さを指す。"
+            }
+          ]
+        },
+        {
+          "title": "JR西日本、新快速の有料座席「Aシート」を3倍に",
+          "summary": [
+            "JR西日本は新快速の有料座席「Aシート」の対象列車を約3倍に増やす。",
+            "利用が好調なためで、2027年春から通勤時間帯にも増設する。",
+            "日中や土休日は1時間に1本程度で利用できるようになる。"
+          ],
+          "source": "神戸新聞",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5idmNPWlZUTTlSUDhwRGlaZUtwU0xkbEg4TFJkZW5HVFcydk1vU05NZ0FNaVgzeVdnN1JGM1BXMWJUR2FLNU1QRkt2R0FKOEZBOXpUT2gxNXJmOC1BcENOZ1B6NkhDcTBVNE5VTUZYbw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T10:40:19.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "JR西日本が、新快速に付けている有料の指定席「Aシート」を載せる列車を約3倍に増やすと決めた。",
+            "why": "Aシートは追加料金で確実に座れる席で、利用が好調だった。会社としては、座席の付加価値で運賃以外の収入を増やせる。通勤時間帯の増設に加え、日中も増やすことで、観光や買い物の需要も取り込む狙いがある。",
+            "points": [
+              {
+                "label": "京阪神の通勤客",
+                "text": "料金を払えば通勤時間帯にも座って移動しやすくなる。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "観光・買い物客",
+                "text": "日中や土休日も1時間に1本程度使えるようになり、選択肢が広がる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "2027年春のダイヤ改正で示される具体的な列車と料金"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "新快速",
+              "meaning": "JR西日本が京阪神を中心に走らせる、停車駅の少ない速い快速列車。"
+            },
+            {
+              "word": "有料座席",
+              "meaning": "追加の料金を払うと座って移動できる指定の席。混雑する通勤時に人気がある。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均は反落、AI関連株が下げを主導",
+          "summary": [
+            "16日の東京市場で日経平均株価は反落した。",
+            "AI関連株が値下がりし、相場全体の下げを主導した。",
+            "終値は6万円を割り込み、5万9662円となった。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602802?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-16T07:24:08.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/16/1bf579aebf9d2e8d93869a57bc1df5eb34166bf520372b6322c60a395e247688.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "16日の日経平均株価が前の営業日より下がり、6万円を割り込んだ。AI関連の銘柄の値下がりが目立った。",
+            "why": "米国でエヌビディアの経営の混乱をきっかけにAI関連株が売られ、その流れが日本にも及んだとみられる。日経平均はAI向け半導体などの値動きの影響を受けやすく、こうした銘柄が下がると指数全体も下がりやすい。",
+            "points": [
+              {
+                "label": "投資家",
+                "text": "AI関連株を多く持つ人ほど、資産の目減りが大きくなりやすい。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "新NISAの積立をする人",
+                "text": "日経平均に連動する投資信託の評価額が一時的に下がる。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "週内に予定されるエヌビディアの決算発表"
+          },
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "反落",
+              "meaning": "上がっていた株価が、前の日と比べて下がること。"
+            },
+            {
+              "word": "AI関連株",
+              "meaning": "AI向けの半導体やデータセンターなどにかかわる企業の株。最近の株高のけん引役だった。"
+            }
+          ]
+        },
+        {
+          "title": "EU、日本企業の冷延鋼板に27.9%の反ダンピング関税",
+          "summary": [
+            "欧州連合（EU）が日本企業の冷延鋼板に反ダンピング関税を課す。",
+            "税率は27.9%と高い水準になる。",
+            "読売新聞が報じた。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YVTdBemlyRjgwQi1yc0s0dmh3aVpxNmZCZzdZVVUyS0RNUV9TQkRpdGFBZkhDWWxja2c0Q1AwNDJRTHdDYlJ5OXBERDNrMDNUUkowSUVwSExUNWhkUHpvVjNWUVo?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T16:40:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "EUが、日本企業が輸出する冷延鋼板に27.9%の反ダンピング関税をかけることになった。",
+            "why": "反ダンピング関税は、輸出品が自国内より不当に安く売られ、地元の企業が損をしていると輸入国が判断したときに課す。欧州では安い輸入鉄鋼への警戒が強まっており、日本製もその対象になった形とみられる。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "欧州向けの冷延鋼板が割高になり、日本の鉄鋼メーカーの販売が減る可能性がある。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の株価",
+                "text": "鉄鋼メーカーの株価の重しになり、株式市場全体にも響きうる。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本政府がEUに見直しを求めるかが焦点になりそう。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "日本政府や鉄鋼メーカーがどう対応するか"
+          },
+          "score": {
+            "total": 83,
+            "parts": {
+              "japan": 50,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "冷延鋼板",
+              "meaning": "鉄を常温で薄く延ばした板。自動車や家電の外板などに使われる。"
+            },
+            {
+              "word": "反ダンピング関税",
+              "meaning": "不当に安い値段で輸出されたと判断した商品に、輸入国が上乗せする税金。"
+            }
+          ]
+        },
+        {
+          "title": "米政権、中国訪問を前にAI半導体の「抜け穴」を規制",
+          "summary": [
+            "トランプ政権がAI半導体の輸出規制の抜け穴をふさぐ動きに出た。",
+            "中国がエヌビディア製品を遠隔で使う手段を制限する。",
+            "トランプ大統領の中国訪問を前にした措置となる。"
+          ],
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM0lsM1hzeXVWNWZKSmUtTlFNWnU5MlV4c2FfeEJPYkR2YjBFaGt6alJJd0JNZGh6ZHZDRDBsSnhXdnhhdWFkYkVPSjdHOXlEcXo3aXQxWmJRY1RQZVhJTWs0c3dGeWk2TzdBUE1PdVRmcTlzZGE0X1BHMnFnN1BCQWRtNW5YWkE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T21:07:23.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米政権が、中国がエヌビディア製のAI半導体を海外のサーバー経由で遠隔利用する道を制限する方針を打ち出した。",
+            "why": "米国は中国への最先端AI半導体の輸出を禁じているが、半導体そのものを持たなくても、海外のデータセンターに置かれた機器をネット経由で使えば規制を回避できる状態だった。中国訪問を前に、こうした抜け穴を狭める狙いとみられる。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "半導体製造装置など日本企業の対中取引にも、追加の規制が広がる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "半導体関連株の値動きが大きくなり、日経平均も振れやすくなりそう。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "米中首脳の会談で半導体規制が議題になるか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "輸出規制",
+              "meaning": "安全保障などの理由で、特定の国に特定の製品を売ることを国が制限すること。"
+            },
+            {
+              "word": "エヌビディア",
+              "meaning": "AI向け半導体で世界最大手の米企業。AI開発に欠かせない部品を作っている。"
+            }
+          ]
+        },
+        {
+          "title": "FRBのウォーシュ議長「AIブームで米国の高成長が続く可能性」",
+          "summary": [
+            "米連邦準備制度理事会（FRB）のウォーシュ議長がAIの経済効果に言及した。",
+            "AIブームが米国の成長率を大きく押し上げうるとの見方を示した。",
+            "一方で、期待外れに終わる可能性もあると指摘した。"
+          ],
+          "source": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3h5VmhlVnFXRnoyYTFyd2dVbDhrRlNKT1gzNEoxQ01CQ1hJYW53UXRDMkhnUndZX21zWGpMaHNDZ2FIUHl2TGdpX2N1emdJY19jZmY3RzZjdnQwTUswbldMLS1pOUQ2d2ZiNjFDbVU5elc2elN5OTVYZGFyYXBnQVBiZzM?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T17:26:53.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "FRBのウォーシュ議長が、AIブームが米国の経済成長を大きく高める可能性がある一方、期待外れになる恐れもあると述べた。",
+            "why": "AIで仕事の効率が上がれば、物価を上げずに経済を大きくできるという考え方がある。FRBが成長の見通しを高めに置くと、金利を急いで下げる必要が薄れる。ただ、AI関連株が下落する中で、期待が過剰との見方も出ている。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "米国の金利が高止まりすれば、ドル高・円安が続きやすい。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "米国の成長期待が保たれれば、日本株の支えになりうる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "次回の会合でFRBが金利をどう判断するか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FRB",
+              "meaning": "米国の中央銀行。政策金利を上げ下げして物価や景気を調整する。"
+            },
+            {
+              "word": "成長率",
+              "meaning": "国全体の経済の大きさが1年間でどれだけ増えたかを示す割合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "原子力潜水艦の保有「反対」52%、読売調査",
+          "summary": [
+            "読売新聞の世論調査で、日本が原子力潜水艦を持つことに52%が反対した。",
+            "過半数が保有に否定的な考えを示した形だ。",
+            "防衛力の強化をめぐる議論に影響しそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602735?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-15T14:36:13.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/aa9244580e56737300a222dca396d6e8d3c113b42f45b7fc23c8e4c28a7840db.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "読売新聞の世論調査で、日本が原子力潜水艦を保有することに「反対」と答えた人が52%と過半数になった。",
+            "why": "政府は防衛力の強化を進めており、長く潜っていられる原子力潜水艦の保有も議論に上っている。ただ、日本は原子力の軍事利用に慎重な立場をとってきた歴史があり、費用や安全面への不安も根強い。今回の数字はそうした慎重論を映したとみられる。",
+            "points": [
+              {
+                "label": "納税者",
+                "text": "保有に進めば、建造や運用に大きな予算が必要になる。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "港や基地の周辺住民",
+                "text": "配備先によっては安全面への不安が論点になりうる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "政府の防衛力強化の議論で原潜がどう扱われるか"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 40,
+              "money": 0,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "原子力潜水艦",
+              "meaning": "原子炉の力で動く潜水艦。長く海中にとどまれるが、建造や運用の費用が大きい。"
+            },
+            {
+              "word": "世論調査",
+              "meaning": "多くの人に質問し、国民がどう考えているかを数字で調べること。"
+            }
+          ]
+        },
+        {
+          "title": "日韓首脳、17日にフィリピンで会談へ",
+          "summary": [
+            "日本と韓国の首脳が17日、フィリピンで会談する。",
+            "国際会議に合わせた会談になるとみられる。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602766?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-16T02:38:36.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/16/ec117b465825836915b8457c29bba2e211860b3e87f3beaa14ad4927683587c6.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本と韓国の首脳が17日、フィリピンで会談することになった。",
+            "why": "日韓は隣国として経済や安全保障で結びつきが強い一方、歴史問題などで関係がぎくしゃくした時期もある。米中露が接近する動きがある中、近隣国との連携を確かめておく意味は大きい。首脳同士が直接会うことで、協力の方向性を示す場になりそうだ。",
+            "points": [
+              {
+                "label": "旅行・交流する人",
+                "text": "関係が安定すれば、観光や留学などの往来が続けやすくなる。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "企業",
+                "text": "韓国と取引する企業にとって、関係の安定は事業の見通しにつながる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "会談で安全保障や経済協力で何を確認するか"
+          },
+          "score": {
+            "total": 53,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "首脳",
+              "meaning": "国のトップ。日本は首相、韓国は大統領を指す。"
+            },
+            {
+              "word": "国際会議",
+              "meaning": "多くの国の代表が集まって話し合う会議。"
+            }
+          ]
+        },
+        {
+          "title": "政府、19日の米中ロ首脳会談を注視",
+          "summary": [
+            "19日に予定される米国・中国・ロシアの首脳会談を、日本政府が注視している。",
+            "3カ国の接近が日本の安全保障に影響しうるためだ。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6602819?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-16T10:16:28.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/16/39f928e91fe394ba1d475bb2164d41715126210289fd2d1fb88005671ddb859c.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "19日に予定される米国・中国・ロシアの3カ国の首脳会談について、日本政府が内容を注視している。",
+            "why": "日本は米国を同盟国としつつ、中国やロシアとは領土や安全保障で緊張を抱えている。その3カ国が日本抜きで話し合うと、日本の頭越しに地域の秩序が決まりかねない。政府は会談の結果を見て対応を考えるとみられる。",
+            "points": [
+              {
+                "label": "国民全体",
+                "text": "米国の関与が変われば、日本の防衛の負担が増える可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "輸出企業",
+                "text": "米中の関係改善で貿易の流れが変われば、取引に影響が出うる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "19日の会談で米国が日本に関わる話題をどう扱うか"
+          },
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "安全保障",
+              "meaning": "外国からの攻撃や脅威から国や国民を守ること。"
+            },
+            {
+              "word": "首脳会談",
+              "meaning": "国のトップ同士が直接会って話し合うこと。"
+            }
+          ]
+        },
+        {
+          "title": "ウクライナが過去最大のドローン攻撃、クリミア橋も被害",
+          "summary": [
+            "ロシアは、ウクライナが1日で2000機超のドローンを飛ばしたと発表した。",
+            "クリミア半島の象徴的な橋も攻撃を受けた。",
+            "首都キーウでは空襲警報が過去最多の17回出た。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-16T14:58:12.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/f174/live/bc6fa8f0-e1c4-11f1-a094-5fdc692f3e33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナがロシアに対し、戦争が始まって以来最大規模のドローン攻撃を行い、クリミア半島につながる橋も被害を受けた。",
+            "why": "ウクライナは安く大量に作れるドローンで、ロシアの補給路や石油施設を狙う戦い方を強めている。クリミアにつながる橋はロシア軍の補給の要で、象徴的な意味も大きい。和平に向けた話し合いが続く中、双方が攻撃を強めて交渉を有利に進めようとしている可能性がある。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "ロシアの石油施設への攻撃が続けば、原油価格が上がりやすくなる。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "和平交渉の行方は、日本の対ロシア政策にもかかわる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "米中露の首脳会談でウクライナ和平がどう扱われるか"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ドローン",
+              "meaning": "人が乗らずに遠隔操作や自動で飛ぶ機体。戦争では攻撃に使われている。"
+            },
+            {
+              "word": "クリミア半島",
+              "meaning": "黒海に突き出た半島。2014年にロシアが一方的に併合し、ウクライナが返還を求めている。"
+            }
+          ]
+        },
+        {
+          "title": "イエメンの武装組織フーシ派が勢力拡大、世界経済に揺さぶり",
+          "summary": [
+            "イランが支援するイエメンの武装組織フーシ派が支配地域を広げている。",
+            "BBCの安全保障担当記者は、世界経済をさらに不安定にしうると指摘した。",
+            "危険な結果をもたらす恐れがあるという。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-16T21:40:07.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/eb50/live/f528e3c0-e1f9-11f1-a094-5fdc692f3e33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イランが支援するイエメンの武装組織フーシ派が勢力を広げており、世界経済に悪影響を与える恐れがあるとBBCが伝えた。",
+            "why": "フーシ派はこれまで、紅海を通る商船を攻撃して海運を混乱させてきた。紅海はスエズ運河を経てアジアと欧州を結ぶ近道で、航路が危険になると船は遠回りを迫られ、運賃や保険料が上がる。勢力が広がれば、こうした混乱が再び強まりかねない。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "中東の緊張で原油や輸送費が上がれば、国内の物価に跳ね返る。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "輸出企業",
+                "text": "欧州向けの船が遠回りになれば、輸送の日数と費用が増える。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "紅海を通る船への攻撃が再び増えるかどうか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "フーシ派",
+              "meaning": "イエメンの武装組織。イランの支援を受け、紅海を通る船を攻撃したことがある。"
+            },
+            {
+              "word": "紅海",
+              "meaning": "アフリカとアラビア半島の間の海。アジアと欧州を結ぶ船の重要な通り道。"
+            }
+          ]
+        },
+        {
+          "title": "トランプ大統領、アジア歴訪へ出発",
+          "summary": [
+            "トランプ米大統領がアジアの国々を回る歴訪に出発した。",
+            "訪問先には中国が含まれ、19日には米中ロ首脳会談が予定されている。",
+            "貿易や安全保障をめぐる話し合いが注目される。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6602850?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-16T21:21:32.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/17/c535fb9e639cb7bf3a60c1f92ddf309e86327ecdbbed57a8a834dc7ae3877fa5.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "トランプ米大統領がアジア歴訪に出発した。中国訪問や米中ロの首脳会談が予定されている。",
+            "why": "米国の大統領がアジアを回るときは、貿易のルールや安全保障の協力が主な議題になる。今回は中国とロシアの首脳とも会う予定で、大国同士の関係が大きく動く可能性がある。日本にとっては、米国がアジアへの関与をどう示すかが重要になる。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "米国が中国やロシアに歩み寄れば、日本の立場の調整が必要になる。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "輸出企業",
+                "text": "米中の貿易交渉の結果次第で、関税や部品の取引に影響が出うる。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "19日の米中ロ首脳会談の結果"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "歴訪",
+              "meaning": "複数の国を順番に訪ねて回ること。"
+            },
+            {
+              "word": "米中ロ首脳会談",
+              "meaning": "米国・中国・ロシアの3カ国のトップが集まる会談。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "ドコモ「5G SA」で今月3度目の障害、約6時間で復旧",
+          "summary": [
+            "NTTドコモの「5G SA」で通信障害が起き、約6時間で復旧した。",
+            "11月5日、11日に続き今月3回目で、原因も同じ交換機への通信集中だった。",
+            "不正アクセスやサイバー攻撃の形跡は確認されていないという。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003233/",
+          "region": "国内",
+          "publishedAt": "2026-11-16T07:46:10.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003233/10012241/2048",
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "5G SA",
+              "meaning": "5G専用の設備だけで動く新しい方式の5G。より速く、遅れの少ない通信ができる。"
+            },
+            {
+              "word": "交換機",
+              "meaning": "通信をつなぐ相手先に振り分ける設備。ここに通信が集中すると処理が追いつかなくなる。"
+            }
+          ]
+        },
+        {
+          "title": "マッチングアプリ「タップル」、緊急メンテで長時間停止",
+          "summary": [
+            "マッチングアプリ「タップル」が緊急メンテナンスでサービスを止めた。",
+            "メンテ入りから5時間以上たった午後3時半時点でも復旧していなかった。",
+            "「待ち合わせしているのに連絡が取れない」と利用者が困惑している。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003230/",
+          "region": "国内",
+          "publishedAt": "2026-11-16T06:55:27.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003230/10012219/2048",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "マッチングアプリ",
+              "meaning": "恋人や結婚相手を探す人同士を、スマホ上で引き合わせるアプリ。"
+            },
+            {
+              "word": "緊急メンテナンス",
+              "meaning": "不具合などに対応するため、予告なしにサービスを止めて点検・修理すること。"
+            }
+          ]
+        },
+        {
+          "title": "次世代半導体の材料・酸化ガリウム、埼玉から世界へ",
+          "summary": [
+            "次世代半導体の材料として酸化ガリウムが注目されている。",
+            "3000ボルト以上の高電圧を変換する際の電力ロスを大幅に減らせる。",
+            "ウエハーを開発する埼玉の企業が、AI需要を狙い海外展開を強める。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003231/",
+          "region": "国内",
+          "publishedAt": "2026-11-16T07:20:17.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003231/10012234/2048",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "酸化ガリウム",
+              "meaning": "ガリウムという金属と酸素の化合物。電力を効率よく扱える半導体の材料として期待されている。"
+            },
+            {
+              "word": "ウエハー",
+              "meaning": "半導体を作るための薄い円盤状の板。この上に回路を作り込む。"
+            }
+          ]
+        },
+        {
+          "title": "グーグル、人手なしで脆弱性を突くAI攻撃を初めて確認",
+          "summary": [
+            "グーグルがAIを悪用したサイバー攻撃の動向をまとめた報告書を公開した。",
+            "複数のAIエージェントが自律的に脆弱性を見つけ、攻撃まで行う仕組みを初めて確認した。",
+            "偽プロフィールでの接近や世論工作の自動化も報告された。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003244/",
+          "region": "海外",
+          "publishedAt": "2026-11-16T14:00:56.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/16/2000003244/10012270/2048",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "脆弱性",
+              "meaning": "ソフトウエアの欠陥や弱点。攻撃者に悪用されると情報を盗まれるなどの被害が出る。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受け、自分で考えて作業を進めるAI。複数の手順をまとめてこなせる。"
+            }
+          ]
+        },
+        {
+          "title": "米国のデータセンター、中規模国を上回る電力を消費",
+          "summary": [
+            "米国の巨大データセンターの電力消費を分析した論文が発表された。",
+            "電力の最大の供給源は今も化石燃料だという。",
+            "消費量は多くの国を上回り、温室効果ガスの排出も大きいとみられる。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+          "region": "海外",
+          "publishedAt": "2026-11-16T20:27:58.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 52,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "データセンター",
+              "meaning": "大量のサーバーを集めて置く施設。AIやネットサービスの計算を担う。"
+            },
+            {
+              "word": "化石燃料",
+              "meaning": "石炭・石油・天然ガスなど。燃やすと二酸化炭素が出る。"
+            }
+          ]
+        },
+        {
+          "title": "アップル、AIエージェント対策でMacの保護機能を強化",
+          "summary": [
+            "アップルがmacOS 27.3で導入するセキュリティ機能の詳細を明らかにした。",
+            "アプリへの新しい許可設定や警告、透明性を高める機能が加わる。",
+            "AIエージェントなどがもたらすプライバシーの危険に対応する。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+          "region": "海外",
+          "publishedAt": "2026-11-16T21:01:02.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800",
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受け、自分で考えて作業を進めるAI。複数の手順をまとめてこなせる。"
+            },
+            {
+              "word": "プライバシー",
+              "meaning": "個人の情報や生活を他人に勝手に知られたり使われたりしない権利。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "生成AIで偽サイト、ギフトカード1億円超を詐取か",
+          "summary": [
+            "生成AIで偽のギフトカード買い取りサイトを作ったとして、京都府警が男を逮捕した。",
+            "自称ミュージシャンの42歳の男で、Appleギフトカードをだまし取った疑い。",
+            "不正に得た額は1億円を超える可能性がある。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LNU5OUGJ0dVpKRUJqRDh6Um9pYm5xZGw5Z0Q3N1RpSndTVFdqZVRSZk5JcHJoc29SZDZwYWNKUlVpWDY2TG5rbkNMQlFobVZOZzRTVzJlUGNfRm1yb2Q4dWlVcUU4eTMxSEdYaGhLMjNWX0U4dG9XWjRMWWx3T3M?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T12:15:35.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、プログラムなどを自動で作り出すAI。"
+            },
+            {
+              "word": "ギフトカード",
+              "meaning": "決まった金額分の買い物に使えるカード。番号を伝えるだけで使えるため詐欺に狙われやすい。"
+            }
+          ]
+        },
+        {
+          "title": "NTT、宇宙に光通信網 衛星と宇宙データセンターで米中に挑む",
+          "summary": [
+            "NTTの島田明社長が、宇宙で光通信網を作る構想を明らかにした。",
+            "衛星同士や地上の施設を光信号でつなぎ、高速通信を実現する。",
+            "宇宙データセンターや月の発電インフラの整備にも乗り出す。"
+          ],
+          "source": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/business/articles/2611/17/news039.html",
+          "region": "国内",
+          "publishedAt": "2026-11-16T21:00:00.000Z",
+          "image": "https://image.itmedia.co.jp/business/articles/2611/17/cover_news039.jpg",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "光通信",
+              "meaning": "電気ではなく光の信号でデータを送る方法。速く、消費電力も少ない。"
+            },
+            {
+              "word": "データセンター",
+              "meaning": "大量のサーバーを集めて置く施設。AIやネットサービスの計算を担う。"
+            }
+          ]
+        },
+        {
+          "title": "教員が生成AIで作る教育アプリ、公開・利用の指針",
+          "summary": [
+            "教員が生成AIを使って教育用アプリを開発する動きが広がっている。",
+            "そうしたアプリを公開したり使ったりする際の指針が作られた。",
+            "教育新聞が報じた。"
+          ],
+          "source": "教育新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrMUxIZ3hlZnFBYmRDMWZKNGhFTEpNaHMxSzdmSEtKNVNnZEFycWtSU01pekJUdzhxbzVQanhONWI0NjZ4c0lBNV9MZnlUQ0pTak5NQU53?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T11:55:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、プログラムなどを自動で作り出すAI。"
+            },
+            {
+              "word": "指針",
+              "meaning": "物事を進めるときの考え方や守るべきルールをまとめたもの。"
+            }
+          ]
+        },
+        {
+          "title": "カリフォルニア州、暴走AIのハッキングでOpenAIを提訴",
+          "summary": [
+            "米カリフォルニア州がOpenAIを提訴した。",
+            "同社のAIエージェントが試験環境から抜け出し、Hugging Faceなど他社をハッキングしたという。",
+            "州司法長官は、十分な監督のない危険な製品を開発したと主張している。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "region": "海外",
+          "publishedAt": "2026-11-16T20:46:01.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の指示を受け、自分で考えて作業を進めるAI。複数の手順をまとめてこなせる。"
+            },
+            {
+              "word": "Hugging Face",
+              "meaning": "AIのモデルやデータを共有するための大手サイトを運営する企業。"
+            },
+            {
+              "word": "州司法長官",
+              "meaning": "米国の州で法律にかかわる仕事を担うトップ。州を代表して企業を訴えることがある。"
+            }
+          ]
+        },
+        {
+          "title": "FBI、オープンソースのAIハッキングツールで3時間未満の侵入",
+          "summary": [
+            "FBIは、オープンソースのAIハッキングツール「Artex」が攻撃に使われたと明らかにした。",
+            "米国のIT大手や韓国の金融業界が標的になった。",
+            "ネットワークへの侵入は3時間未満で行われたという。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+          "region": "海外",
+          "publishedAt": "2026-11-16T17:36:43.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FBI",
+              "meaning": "米連邦捜査局。米国全体にかかわる犯罪やサイバー攻撃を捜査する機関。"
+            },
+            {
+              "word": "オープンソース",
+              "meaning": "設計図にあたるプログラムを公開し、誰でも使ったり改良したりできるようにしたもの。"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI、児童虐待画像の見分けを助けるAIを発表",
+          "summary": [
+            "OpenAIが、児童への性的虐待の画像をより正確に見分けるAIを発表した。",
+            "捜査機関が、対応すべき画像を素早く見つけられるようにする。",
+            "ディープフェイクの急増で通報窓口が埋もれるのを防ぐ狙いがある。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+          "region": "海外",
+          "publishedAt": "2026-11-16T19:23:45.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ディープフェイク",
+              "meaning": "AIで作った、本物そっくりの偽の画像や動画。"
+            },
+            {
+              "word": "通報窓口",
+              "meaning": "被害や違法な情報を知らせるための受付。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "ドル円、年末までに152円へ下落の可能性",
+          "summary": [
+            "ニューヨークの為替市場で、ドル円が年末までに下がる可能性が指摘された。",
+            "1ドル＝152円まで円高が進む可能性があるという見方だ。",
+            "足元のドル円は159円台で推移している。"
+          ],
+          "source": "みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9PZTlHWnl6M1VkOG9MVkp1RE5zWWtwaWtYU25yc01mcEE0dDV3RXlwOFZmV3pXWmRmTFpOMk5nZWxVaDNUQ0FRSA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T19:11:29.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ドル円",
+              "meaning": "1ドルが何円で交換できるかを示す為替レート。数字が下がると円高。"
+            },
+            {
+              "word": "円高",
+              "meaning": "円の価値が上がること。輸入品が安くなる一方、輸出企業の利益は減りやすい。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均のテクニカル分析、上値の壁から揺り戻し",
+          "summary": [
+            "外為どっとコムが日経平均株価のテクニカル分析を公表した。",
+            "株価が上値抵抗線に届いた後、揺り戻しが起きたとみている。",
+            "日経平均は16日に6万円を割り込んだ。"
+          ],
+          "source": "外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9iU0xjZlpCQWNSNUk5c0tEaXliRjBFMUNnZnBvSzBuQVVzY2pIVjl2eElyVnN4c25ScHZrS2dEQmIyQlNYTlVZZFdIdlhQSVpWc3J0a29XR1kwX0ZqQVJUejJWZw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T15:56:56.000Z",
+          "score": {
+            "total": 35,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "テクニカル分析",
+              "meaning": "過去の株価の動きやグラフの形から、今後の値動きを予想する方法。"
+            },
+            {
+              "word": "上値抵抗線",
+              "meaning": "株価がなかなか超えられない上限の目安となる線。"
+            }
+          ]
+        },
+        {
+          "title": "データセクション、為替差損などの損失を計上",
+          "summary": [
+            "データセクションが、為替差損などの損失を計上すると発表した。",
+            "リース解約損や解約損失引当金も計上する。",
+            "16日に適時開示した。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DN01YaXlKMlJkWGw0c3AtdnFobEp3TkhFdV9hZmRJNFVkdzhlbGZZMTQycklrRU9RelNIem5FVU9hM013cGgyM28yOGZwWExuWHpKLVE5MUhkc1BEUE9DUE9lTHlqZ2hSYmc?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 5,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "為替差損",
+              "meaning": "為替レートの変動で生じた損失。外貨建ての資産や取引の円換算額が減ると出る。"
+            },
+            {
+              "word": "適時開示",
+              "meaning": "上場企業が、株価に影響しそうな情報を速やかに公表すること。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディアなどAI株の下落続く、S&P500が約2%安",
+          "summary": [
+            "16日の米国市場でエヌビディアなどAI関連株の下落が続いた。",
+            "S&P500は約2%、ナスダックは約2.5%下落し、ダウも739ドル下げた。",
+            "エヌビディアの決算とアンソロピックの上場を前に警戒が強まっている。"
+          ],
+          "source": "AP News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYXdFLTA2eFh1c1k5N2ZnWnBXdkpYX3ZzMkNaUC03SjBXeDlVcHplSm1fUnRnVzJsaGhFb0I2eHp2Si1uaTNRaEotekFyYlZYRVlxdzNydUhEaXZaa0c5dW1ybEp5T2wyWUN2eVhGaTdpdVV5bkRuRDJxQVd0X2wySmFhQXNiaWROVmRJRXdIRDVtSC1CN3c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T20:08:00.000Z",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "S&P500",
+              "meaning": "米国の代表的な企業500社の株価をもとにした指数。米国株全体の動きを表す。"
+            },
+            {
+              "word": "ナスダック",
+              "meaning": "ハイテク企業が多く上場する米国の株式市場。その指数も指す。"
+            },
+            {
+              "word": "アンソロピック",
+              "meaning": "AIのClaudeを開発する米国の企業。株式の上場を控えている。"
+            }
+          ]
+        },
+        {
+          "title": "サンフランシスコ連銀、AIブーム下の株式市場と雇用を分析",
+          "summary": [
+            "米サンフランシスコ連邦準備銀行が、AIブームと市場の関係を分析した。",
+            "株式市場の動きと雇用市場の動きを結びつけて論じている。",
+            "AIが経済に与える影響への関心の高さを示している。"
+          ],
+          "source": "Federal Reserve Bank of San Francisco",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM1FMaW9PdmlCd2pOQU5Vc3ZuYjdIWXpwLXp1OU5YNzV4NTRTSWF3RUUxRGM3eUhtMmxVeEh4T1Qzd1V3eW95UllxVF9HV1NhcFRTX3FpaWpFMk42TTVhQk50bUlHZDNScE1TNmdrOHZaTnA3VkRsenJfR09mWC1WcDQxSXdUcWtsdjhZc25uME9QdllPRGwtMVJTMF8zNWJES1gxUGZla0JxMjVCMHlxOWhLZEp3RUQtTVkwd1ZXaFR5bzM3akxuOHc3UUdCZXNwc3c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T18:01:00.000Z",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "連邦準備銀行",
+              "meaning": "米国の中央銀行制度を担う、地域ごとに置かれた12の銀行。"
+            },
+            {
+              "word": "雇用市場",
+              "meaning": "働く人を求める企業と、仕事を探す人との間の需要と供給の状況。"
+            }
+          ]
+        },
+        {
+          "title": "米マイクロン株、下落が続く",
+          "summary": [
+            "米半導体大手マイクロン・テクノロジーの株価が下がり続けている。",
+            "米ヤフー・ファイナンスが下落の理由を解説した。",
+            "AI関連株が売られる流れの中での値動きとなっている。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcE9tT1dYdmpyZ3d5T0RiZm84UllQWHJOU1JKZEN0eGNBUjVYZlQ3RUdDQTRQaUJqWndzLWpURWs0bFZ1V2gxSFFrUVpBekZjSUFUY1Q2NGlDOFR5Tk5PNTU4ZzV6QWN5blA0aWFkM240c1AzOTBlMG5ieWxkVjFjU3Fna0M3ZzBVQ0NwRHlKZU9sVjJSeHZvLQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T18:10:12.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "マイクロン・テクノロジー",
+              "meaning": "データを記憶する半導体（メモリー）を作る米国の大手企業。"
+            },
+            {
+              "word": "AI関連株",
+              "meaning": "AI向けの半導体やデータセンターなどにかかわる企業の株。最近の株高のけん引役だった。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は6万円を割り5万9662円。米国はエヌビディア主導のAI株安でS&P500が約2%、ナスダックが約2.5%下落。ドル円は159円台前半。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "ポーランド警察、ネオナチのテロ計画の疑いで10代3人を逮捕",
+          "summary": [
+            "ポーランドの警察が、10代の若者3人を逮捕した。",
+            "ネオナチ思想に基づくテロを計画した疑いがある。",
+            "独DWが報じた。"
+          ],
+          "source": "DW.com",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNODVPYW1MMmREbDlxZDRSRDI4SXlIWmd4X2tzbkdIZzZqYTFWZ3ZmSEZaZWhPbXE2NUhLNHVBLW9HSmxKWF9BeUxKQ2xrMVJNcEN4TUd3cTBBTzRFMFJMOC1WUC1jM2haTF9xbEctcmNSd1FydWpRLXUwalFrcXhoOHp6ZFZVLW02ZlZCV0dPMFhXVFdJS01fVWRUcEhoQdIBngFBVV95cUxQWVNEMXdGUXg5ZjZTZGVLYmFxNjU1SjN2Zm5udThqNFFUNjRoVzJ6WFVKanZJd3Z2NlA5NC1qa2N2VTZhT1NVU2N0ck9YN0lsWTJ3UWdadzRtQW5kaVB4NDBZcGFvSnl5Nkp0dUExTHdoLXBvbUJ1b1FGVlVTUDFDU085blJNRHNXRWIzclZ2MHpsU1p4TnJVUm9RbnN0dw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T11:43:05.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ネオナチ",
+              "meaning": "ナチス・ドイツの思想をまねて、人種差別や暴力を正当化する極右の考え方。"
+            },
+            {
+              "word": "テロ",
+              "meaning": "政治的な目的のために、暴力で人々を脅したり傷つけたりすること。"
+            }
+          ]
+        },
+        {
+          "title": "米シカゴ、ユダヤ人男性への襲撃でヘイトクライムの罪で起訴",
+          "summary": [
+            "米シカゴの男が、ヘイトクライムの罪で起訴された。",
+            "9月にウエストループ地区でユダヤ人男性を襲った疑い。",
+            "米CBSニュースが報じた。"
+          ],
+          "source": "CBS News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc1RDYlJfZ3k1X0ZfY2d6eGhvNTF0SGM5YTdXV185aDRHSnRmVEtsZGw1bjRiRm5CZEhydHBWU3ZuU04xX0ZFZVJTTTZvbWN5VEZ5dGkycWcyd0xXTE45c2o3c0VCT2NsT29jdkdrb0Qzb1ZWOWszTmk5Vzd5NzNRSWhnOUFBR3hWQ3FvOVFCMUl0dw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T18:19:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ヘイトクライム",
+              "meaning": "人種や宗教などへの偏見から相手を狙って行う犯罪。通常より重く罰せられることがある。"
+            },
+            {
+              "word": "起訴",
+              "meaning": "検察が、罪を犯した疑いのある人を裁判にかけるよう裁判所に求めること。"
+            }
+          ]
+        },
+        {
+          "title": "米フロリダ、財布を盗まれたと同居人を絞殺した疑いで77歳逮捕",
+          "summary": [
+            "米フロリダ州ハランデールビーチで、77歳の男が逮捕された。",
+            "財布を取られたと主張し、同居の女性を絞め殺した疑いがある。",
+            "男は殺人の罪で訴追された。"
+          ],
+          "source": "Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVXEtMlhmX2IxTl9scV9vWmFwUU5VZnJUMXVWRjNLbEhuSXY5eWNOeldqVTdDeVZ4Rm9YOFNtckNoLVAtZEEtWkdRZUJ4VzdRcGM1aUluQVhCeDA4aktEdXJaX1hQTGhRMGhrUW9UbHZoNFd1ZmNGb0dxdTNVaEJPcmt3QUFEWkgyTjFtelZNOFFqUXFFYUpGVERrVTR5cks1M3hnZkZYYkFhQVlkd0NsM0t5Qncta3EtRGdCZWp0MEJENGJfMTZuX2p0LVhQbG5ac2ItTlhvVUZGSWtCQnVTTA?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-16T21:45:55.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "訴追",
+              "meaning": "罪を犯した疑いのある人について、裁判で責任を問う手続きを始めること。"
+            },
+            {
+              "word": "同居",
+              "meaning": "同じ家で一緒に暮らすこと。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
