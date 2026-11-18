@@ -1,0 +1,1567 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-18T22:03:18.000Z",
+  "headline": [
+    "FRBの議事要旨でほぼ全員が追加利上げを支持、米株は下落しドルは19カ月ぶり高値",
+    "ガソリン補助は29円60銭に縮小、EVなどへの新税は2028年5月導入で調整",
+    "首相がプーチン大統領と30分対話、米中ロ首脳は初の3者会談へ"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 59024.28,
+      "change": -637.7395312500012,
+      "changePercent": -1.0689204560297587
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7323.63,
+      "change": -16.89978515624989,
+      "changePercent": -0.2302256873941717
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 24429.885,
+      "change": 101.5041406249984,
+      "changePercent": 0.4172252202549827
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 50198.17,
+      "change": -561.2518750000017,
+      "changePercent": -1.1057097466203198
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.373,
+      "change": -0.14999499511719705,
+      "changePercent": -0.09402719345996997
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "ガソリン全国平均170円、補助は29円60銭に縮小へ",
+          "summary": [
+            "レギュラーガソリンの全国平均価格が1リットル170円になった。",
+            "米国とイランの大規模な戦闘への懸念が後退し、原油価格が下がった。",
+            "これを受け、補助金の額はあすから1リットル29円60銭に縮小される。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CMG5FNk1wbTROWWpibzdUMFhPN20yQ1p4LVJUZnBmOEhqU05XcTZnU3h1bGN5OURHYlJ4SzhKcXE4UkY1dVNQTG9TSEpzeDhDcE9PVVZ4LW9CWmJZSXpkWDlRR0VoYnJDb3ZVQnNiQURfbGJuZ0c1RTJnU3prVkk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T09:00:29.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "ガソリンの全国平均が1リットル170円となり、国が出している値下げ用の補助金は、あすから1リットル29円60銭に減る。",
+            "why": "原油は中東で多く採れるため、米国とイランの戦闘が広がると供給が止まる不安から値上がりする。その懸念が和らいで原油価格が下がり、補助を減らしても店頭価格を保てると判断されたとみられる。ガソリン・電気・ガスの補助には約17兆円が使われ、「激変緩和」をいつやめるかという出口が課題になっている。",
+            "points": [
+              {
+                "label": "車通勤・地方の人",
+                "text": "補助が減っても、原油安が続けば店頭価格は大きく変わらない可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "農家",
+                "text": "暖房用の灯油は去年より高く、いちご農家などは料金の値上げを迫られている。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "納税者",
+                "text": "補助には巨額の税金が使われており、縮小が進めば財政の負担は軽くなる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "中東情勢と原油価格の動き、補助をいつ打ち切るか"
+          },
+          "score": {
+            "total": 100,
+            "parts": {
+              "people": 40,
+              "money": 30,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "補助金",
+              "meaning": "国がお金を出して、ガソリンなどの値段を下げるしくみ。原資は税金。"
+            },
+            {
+              "word": "原油価格",
+              "meaning": "ガソリンや灯油のもとになる原油の取引値段。中東の情勢で大きく動く。"
+            },
+            {
+              "word": "激変緩和",
+              "meaning": "値段が急に上がりすぎないよう、国が一時的に支えて変化をゆるやかにすること。"
+            }
+          ]
+        },
+        {
+          "title": "「KARTE」情報漏えい、三菱UFJ銀は650万件",
+          "summary": [
+            "顧客分析ツール「KARTE」への不正アクセスで、多くの企業の情報が漏れた。",
+            "三菱UFJ銀行は委託先経由で顧客情報650万件、DHCは1911万件が漏えい。",
+            "JINSやJリーグ、mineo（最大142万件）などにも影響が広がっている。"
+          ],
+          "source": "Impress Watch",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03OU9ONUlrYk5GeEl2Y2FVRngxSmFvTmFndlRreUwyZGhVWGlSeXEzeElsc3lUYmJKUzFFS216TFhTcmR3WFRnTzhYeWI2emNXMkJtUG05RXUxMEFuR091QnJrU1Y?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T10:00:11.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "多くの企業が使う顧客分析サービス「KARTE」が不正アクセスを受け、三菱UFJ銀行やDHCなど複数の企業の顧客情報が漏れた。",
+            "why": "企業はサイトの使われ方を分析するため、外部のサービスに顧客データを預けることが多い。自社の守りが固くても、預け先の委託先が破られれば、使っている企業すべての情報が一度に漏れる。一つのサービスに多くの企業が頼っていたため、被害が数千万件規模に広がったとみられる。",
+            "points": [
+              {
+                "label": "銀行やネット通販の利用者",
+                "text": "なりすましメールや詐欺電話の材料にされる恐れがあり、不審な連絡への注意が必要。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "サービスを使う企業",
+                "text": "委託先の安全管理まで点検する必要が増え、対策の費用や手間が膨らみそう。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "被害企業の追加と、漏れた情報の悪用が確認されるか"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "KARTE",
+              "meaning": "企業がサイトを訪れた客の行動を分析するために使う外部のサービス。多くの企業が導入している。"
+            },
+            {
+              "word": "委託先",
+              "meaning": "企業が仕事の一部を任せている外部の会社。そこが攻撃されると元の企業の情報も漏れる。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。情報を盗む目的で行われることが多い。"
+            }
+          ]
+        },
+        {
+          "title": "ボージョレ・ヌーボー解禁、熱波で濃い味わいに",
+          "summary": [
+            "フランス産の新酒ボージョレ・ヌーボーが解禁された。",
+            "記録的な熱波でブドウの収穫が1か月前倒しになり、例年より濃厚な味という。",
+            "メルシャンの社長は、新酒の販売が1割増えたと明らかにした。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfSkhhMUpTb2FSUGQwd2QtVk93SXpJN3N1VUVWbjhBX01vSnZyZWpDYUF0Z1hwLWwzbHhra0w4WldTUmVMbUlSVGdDVkNsc0QzSklLUV9qbjRLTUN4NlhrVnhWX1o?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T15:38:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "その年のブドウで造るフランスの新酒ボージョレ・ヌーボーの販売が始まった。今年は記録的な熱波の影響で、例年より濃い味わいだという。",
+            "why": "ボージョレ・ヌーボーは解禁日が決まっており、日本は時差の関係で早く飲める国として人気がある。今年はフランスの熱波でブドウが早く熟し、収穫が1か月前倒しになった。メルシャンは新酒の販売が1割増えたとしており、年末に向けた酒類の売れ行きを占う行事でもある。",
+            "points": [
+              {
+                "label": "ワイン好きの人",
+                "text": "今年は濃い味わいが特徴で、例年と違う味を楽しめる。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "酒類の販売店",
+                "text": "新酒の販売増が続けば、年末商戦に向けて売り上げを押し上げそう。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "年末に向けたワインなど酒類の売れ行き"
+          },
+          "score": {
+            "total": 35,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ボージョレ・ヌーボー",
+              "meaning": "フランスのボージョレ地区でその年にとれたブドウで造る新酒。11月の第3木曜日に解禁される。"
+            },
+            {
+              "word": "熱波",
+              "meaning": "異常に暑い日が何日も続くこと。農作物の育ち方や収穫の時期に影響する。"
+            }
+          ]
+        },
+        {
+          "title": "FRB議事要旨、ほぼ全員が追加の利上げを支持",
+          "summary": [
+            "10月のFOMCの議事要旨で、大半が数カ月内の利上げが適切と考えていたと分かった。",
+            "インフレへの懸念が強まり、一部は0.5％の大幅な利上げを主張した。",
+            "ウォラーFRB理事も利上げの積極化に言及し、ドルが買われた。"
+          ],
+          "source": "ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SWEZjemRCWGFDR2NiQ1liamtZdGFTODVRcThPT3BZaUJ5VFNfTElCYVoxNi1hVVpNUWJZLTZPb3VkSzE2T29xd1YtOW11aUpES0E?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T14:51:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の中央銀行にあたるFRBの10月会合の記録が公表され、ほぼ全員が今後さらに金利を上げるのが適切と考えていたことが分かった。",
+            "why": "FRBは物価の上昇を抑えるため、金利を上げて借金をしにくくし、景気の過熱を冷ます。記録ではインフレへの懸念が強まり、一部は通常の2倍の0.5％の利上げを主張した。米国の金利が上がると、利回りの高いドルが買われやすくなり、円安ドル高の圧力がかかる。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "日米の金利差が広がる見方から、円安ドル高が進みやすくなる。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "ガソリン・食品価格",
+                "text": "円安が進むと輸入品の値段が上がり、家計の負担が増える可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "米国の利上げで世界の株が売られると、日本株にも下げ圧力がかかりやすい。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "12月のFOMCで利上げ幅がどうなるか"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FOMC",
+              "meaning": "米国の金利を決めるFRBの会合。決定は世界のお金の流れや円相場を左右する。"
+            },
+            {
+              "word": "議事要旨",
+              "meaning": "会合でどんな意見が出たかをまとめた記録。数週間後に公表される。"
+            },
+            {
+              "word": "インフレ",
+              "meaning": "物の値段が全体として上がり続けること。お金の価値が下がることを意味する。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピックIPO、公開価格83ドルと報道",
+          "summary": [
+            "米AI企業アンソロピックのIPO（新規株式公開）で、公開価格が83ドルに決まったと米国で報じられた。",
+            "テック株が下がる中でも応募が多く、価格は想定より上振れた。",
+            "株価に連動する先物は、時価総額1.7兆ドルを示唆している。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FVHd5WGhjSVo2dVlob2dodVA2S19jX1FUTkV1dFpQdGdvNWZtVnBXMDR5ejhKSFpqSnlWNTZiSFN3dURTQXpPWXhYcG8tMVQ1ZTRyVGxPWFdodkN5dTYtMlhtRXREZnVvNktNdjhzNkxFdlJyQ2Y4Z2F6cGZQYVk?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T19:28:22.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "AI開発の米アンソロピックが株式を初めて売り出す上場の価格を83ドルに決めたと報じられた。史上最大級の上場になる見通し。",
+            "why": "AI開発には巨額の計算設備が必要で、企業は上場で多くの資金を集めようとする。最近はAI関連株が下落していたが、応募は多く価格は上振れた。投資家のAIへの期待がまだ強いことを示す一方、期待が高すぎるとの見方もあり、上場後の値動きが市場全体の雰囲気を左右しそうだ。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "上場が成功すれば、日本のAI・半導体関連株にも買いが広がる可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の投資家",
+                "text": "米国株の投資信託などを通じ、AI株の値動きが資産に影響しやすくなる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "上場初日の株価と、AI関連株全体の値動き"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "IPO",
+              "meaning": "新規株式公開。会社が初めて株を売り出し、誰でも売買できるようにすること。"
+            },
+            {
+              "word": "公開価格",
+              "meaning": "上場のときに投資家へ株を売り出す値段。人気が高いと高めに決まる。"
+            },
+            {
+              "word": "時価総額",
+              "meaning": "株価に発行済みの株数をかけた金額。会社の値打ちを市場がどう見ているかを示す。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア、フアン氏のCEO復帰を否定",
+          "summary": [
+            "エヌビディアは、辞任したフアン氏のCEO復帰はないと投資家に伝えた。",
+            "決算は好調だったが、経営の混乱という問題は隠せないとの見方も出ている。",
+            "著名投資家アックマン氏は、取締役会の判断を「性急だった」と批判した。"
+          ],
+          "source": "Forbes",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSUxjeXQ3ZkpFa0ROaG1lWTl4QTBEUWk5aVktc3ZYeGdZakVqUm1IczNFNWFjN090NWNNZkUzNmJ5Z2dYX0JBZDNRLWJad3NzbWtQeUR3VEVUQm1DYWduMmRvLWhwZmN6cjlOazlzMUlOaC1YWUQ4dWJkaDlwczNRY3laSDIxbVBBUDlKMi03b2psZWlpcF8ycDZ3MTZfd2t5MGNpSVJPeG9nU0FncEZVQXFFUUdrczlsNEI0NEVYZ2NORllWaFVjS3hQS0lfend2NjVnRFVLcUZlX09WUF9wMVJ3?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T17:49:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "AI向け半導体で世界最大手のエヌビディアが、辞任した創業者フアン氏がCEOに戻ることはないと投資家に伝えた。",
+            "why": "フアン氏は不祥事をきっかけに辞任し、復帰を求める声もあった。会社はトップ交代を確定させて混乱を収めたい考えとみられる。ただ同社はAIブームの中心で、決算は好調でも、カリスマ経営者がいなくなった後も成長を続けられるかを投資家は見極めようとしている。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "エヌビディア株の値動きは、日本の半導体関連株の売買にも波及しやすい。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "半導体関連企業",
+                "text": "製造装置や材料を納める日本企業の受注見通しが注目される。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "後任CEOの選び方と、エヌビディア株の値動き"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "CEO",
+              "meaning": "最高経営責任者。会社の経営で一番大きな権限と責任を持つ人。"
+            },
+            {
+              "word": "取締役会",
+              "meaning": "会社の大事な方針を決め、経営者を選んだり監督したりする役員の集まり。"
+            },
+            {
+              "word": "決算",
+              "meaning": "会社が一定期間にどれだけ売り上げ、もうけたかをまとめて発表すること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "EVなどに新税、2028年5月の導入で調整",
+          "summary": [
+            "EV（電気自動車）などを対象にした新たな税を設ける方向で調整している。",
+            "導入の時期は2028年5月を目指している。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603065?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-18T09:40:12.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261118-a4bbb15/all/images/ogp_default.png",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "電気で走るEVなどの車に、新しい税金をかける方向で調整が進んでいる。2028年5月の導入を目指している。",
+            "why": "これまで道路の整備などは、ガソリンにかかるガソリン税が大きな財源だった。ガソリンを使わないEVはこの税をほとんど払わないため、車の利用者の間で負担の差が生じているとの指摘がある。EVは電池で車体が重く道路を傷めやすいとの議論もあり、税の公平性が論点になっているとみられる。",
+            "points": [
+              {
+                "label": "EVを持つ人・買う人",
+                "text": "新税がかかれば維持費が増え、購入の判断に影響する可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "自動車メーカー",
+                "text": "EVの売れ行きが鈍れば、国内の販売戦略を見直す必要が出そう。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "税額や対象の車種がどう決まるか"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "EV",
+              "meaning": "電気自動車。ガソリンを使わず、電池にためた電気でモーターを回して走る車。"
+            },
+            {
+              "word": "ガソリン税",
+              "meaning": "ガソリンの値段に含まれる税金。道路の整備などに使われてきた。"
+            }
+          ]
+        },
+        {
+          "title": "首相、プーチン大統領と30分対話",
+          "summary": [
+            "首相がロシアのプーチン大統領と約30分にわたり対話した。",
+            "日ロの首脳が接触する方向で調整していると伝えられていた。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603096?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-18T21:13:33.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/2bbed17637d2aef4976a21ac9a27eb254c55e12278003cf8b7600947d258138e.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本の首相が、ロシアのプーチン大統領と約30分間話した。日ロの首脳が直接言葉を交わす場が実現した。",
+            "why": "ウクライナ侵攻以降、日本は欧米とともにロシアに制裁を科し、首脳どうしが話す機会はほとんどなかった。米国・中国・ロシアの首脳が会う動きがある中、日本も意思疎通の窓口を保つ狙いがあるとみられる。欧米と足並みをそろえつつ、どこまで対話するかが難しいところだ。",
+            "points": [
+              {
+                "label": "漁業関係者",
+                "text": "北方領土周辺の漁業の取り決めなど、日ロ交渉が動くきっかけになる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "エネルギー関連企業",
+                "text": "サハリンのガス事業など、ロシアと関わる事業の先行きに影響しうる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "対話の中身の発表と、欧米各国の反応"
+          },
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "プーチン大統領",
+              "meaning": "ロシアの大統領。ウクライナ侵攻を続け、欧米や日本から制裁を受けている。"
+            },
+            {
+              "word": "制裁",
+              "meaning": "国際的なルールを破った国に、貿易や資金の取引を制限して圧力をかけること。"
+            }
+          ]
+        },
+        {
+          "title": "日中首脳が握手、会談は見送りへ",
+          "summary": [
+            "日本と中国の首脳が顔を合わせ、握手を交わした。",
+            "ただ、正式な首脳会談は見送られる見通しとなった。",
+            "Yahoo!ニュースのトピックスが取り上げた。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6603084?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-18T13:07:07.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/18/c1506b58e5bdc8c34d00cfe0863d7047b2f60edd5713fa08cdada20e3da124a6.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本と中国の首脳が国際会議の場で握手を交わしたが、時間を取って話し合う正式な会談は行われない見通しになった。",
+            "why": "日中は貿易で深く結びつく一方、安全保障などで関係がぎくしゃくしている。握手だけで会談を見送るのは、関係改善に向けた条件が整っていないことを示すとみられる。米中ロの首脳が会う動きもあり、日本が中国とどう向き合うかが問われる。",
+            "points": [
+              {
+                "label": "中国と取引する企業",
+                "text": "関係改善が遅れると、輸出入や現地での事業に不透明感が残る。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "観光業",
+                "text": "両国の行き来が増えるかどうかは、首脳間の関係にも左右されやすい。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "日中首脳会談が改めて実現するか"
+          },
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "首脳会談",
+              "meaning": "国のトップどうしが正式に会って話し合うこと。両国の関係を動かす大事な場になる。"
+            },
+            {
+              "word": "日中",
+              "meaning": "日本と中国のこと。貿易で深くつながる一方、領土や安全保障で対立も抱える。"
+            }
+          ]
+        },
+        {
+          "title": "トランプ氏、プーチン氏・習氏と握手 初の3者会談へ",
+          "summary": [
+            "トランプ米大統領が、中国でプーチン大統領、習近平国家主席と握手した。",
+            "3人の首脳がそろって会うのは初めてで、木曜日に会談が予定されている。",
+            "世界が注目する歴史的な首脳会議となる。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-18T16:10:44.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a9fb/live/b2707bf0-e349-11f1-99aa-0f40b013ad11.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国・ロシア・中国のトップが中国で顔を合わせて握手した。3人そろっての会談は初めてで、木曜日に行われる予定。",
+            "why": "米中は貿易や先端技術で、米ロはウクライナをめぐって対立してきた。3大国のトップが一堂に会するのは異例で、戦争や関税などで歩み寄りがあるかが焦点になりそう。日本は米国の同盟国として、自国の頭越しに大国間で物事が決まることを警戒しているとみられる。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "大国間の合意次第で、日本の対中・対ロ政策の見直しを迫られる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "対立が和らげば世界の株が買われ、日本株にも追い風になりうる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "安全保障",
+                "text": "東アジアの軍事バランスについての話し合いは、日本の防衛にも関わる。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "木曜日の3者会談で何が合意されるか"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "習近平国家主席",
+              "meaning": "中国のトップ。共産党の最高指導者も兼ね、強い権限を持つ。"
+            },
+            {
+              "word": "首脳会議",
+              "meaning": "複数の国のトップが集まって話し合う会議。世界の大きな方針が決まることもある。"
+            }
+          ]
+        },
+        {
+          "title": "米軍がイランの島を攻撃、イランはクウェートなどに反撃",
+          "summary": [
+            "米軍が火曜日、湾岸にあるイランのケシュム島を空爆した。",
+            "その後イランが攻撃し、クウェートは2カ月ぶりのイランの攻撃を撃退したと発表した。",
+            "バーレーンも、イランから攻撃を受けたと明らかにした。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-18T13:04:48.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/492e/live/f37939a0-e346-11f1-99aa-0f40b013ad11.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米軍がイランの島を空爆したあと、イランが近くのクウェートやバーレーンを攻撃した。クウェートは攻撃を撃退したとしている。",
+            "why": "米国とイランは対立を深め、イランはこれまでも米軍基地のある湾岸の国を攻撃してきた。湾岸は世界有数の原油の産地で、タンカーが通る海の道でもある。戦闘が広がると原油の供給が止まる不安から値上がりしやすく、遠く離れた日本のガソリン代にも響く。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "原油が値上がりすれば、ガソリンや輸送費を通じて物価が上がる可能性がある。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "エネルギー輸入",
+                "text": "日本は原油の多くを中東から輸入しており、調達に不安が出る恐れがある。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "戦闘が広がるかどうかと、原油価格の反応"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "空爆",
+              "meaning": "飛行機などから爆弾やミサイルを落として攻撃すること。"
+            },
+            {
+              "word": "湾岸",
+              "meaning": "ペルシャ湾の周り。サウジアラビアやクウェートなど産油国が集まる。"
+            }
+          ]
+        },
+        {
+          "title": "イスラエル軍、ガザで境界線を越えて地上作戦",
+          "summary": [
+            "イスラエル軍が、ガザの「イエローライン」を越えて異例の地上作戦を始めた。",
+            "軍は「テロ用トンネル」を壊すためだと説明している。",
+            "ハマスは「明白な停戦違反だ」と非難した。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-18T20:14:57.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "イスラエル軍が、停戦後に線引きされた境界線を越えてガザ地区に部隊を入れた。ハマスは停戦違反だと強く反発している。",
+            "why": "ガザでは停戦が結ばれ、イスラエル軍は「イエローライン」と呼ばれる線の内側にとどまっていた。軍はトンネル破壊のためと説明するが、線を越えた作戦は異例で、停戦が崩れるきっかけになりかねない。中東が不安定になると原油の値動きにも影響が出やすい。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "中東の緊張が高まると原油が値上がりし、国内の物価に波及する可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "停戦の維持に向け、日本も関係国への働きかけや人道支援を求められそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "停戦が維持されるかと、各国の仲介の動き"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ハマス",
+              "meaning": "パレスチナのガザ地区を拠点とするイスラム組織。イスラエルと戦闘を続けてきた。"
+            },
+            {
+              "word": "停戦",
+              "meaning": "戦っている者どうしが、戦闘を一時的または長くやめると取り決めること。"
+            },
+            {
+              "word": "地上作戦",
+              "meaning": "兵士や戦車が実際に地上へ入って行う軍事行動。空からの攻撃より規模が大きい。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "楽天証券の漏えい、本番の顧客データをテスト環境に保存",
+          "summary": [
+            "楽天証券が、本番の顧客データを隠さずにテスト環境へ保存していたと分かった。",
+            "同社は「本番データでの確認が必要だった」と説明している。",
+            "漏えいの可能性は最大約1572万口座分に広がった。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003302/",
+          "region": "国内",
+          "publishedAt": "2026-11-18T11:16:22.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/18/2000003302/10012449/2048",
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "テスト環境",
+              "meaning": "新しい機能を試すための別のシステム。本来は本物の顧客情報を使わないのが原則。"
+            },
+            {
+              "word": "本番データ",
+              "meaning": "実際の顧客の名前や口座などの本物の情報。"
+            }
+          ]
+        },
+        {
+          "title": "NewsPicksの漏えい、Metabaseの脆弱性が原因",
+          "summary": [
+            "NewsPicksの情報漏えいは、分析ツールMetabaseの脆弱性を突かれたのが原因だった。",
+            "公表から6日後の8月12日に修正版へ更新したが、攻撃者はその前に侵入していた。",
+            "JPCERT/CCが公表した不審なIPアドレスから攻撃が発覚した。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003300/",
+          "region": "国内",
+          "publishedAt": "2026-11-18T07:59:01.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/18/2000003300/10012446/2048",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "脆弱性",
+              "meaning": "ソフトの設計や作りの欠陥。攻撃者に悪用されると侵入や情報の盗み出しを許してしまう。"
+            },
+            {
+              "word": "JPCERT/CC",
+              "meaning": "サイバー攻撃の被害や対策の情報を集め、企業などに注意を呼びかける日本の組織。"
+            },
+            {
+              "word": "IPアドレス",
+              "meaning": "インターネット上で機器を見分けるための番号。住所のような役割をする。"
+            }
+          ]
+        },
+        {
+          "title": "KDDI、ネットにつながらない携帯「INFOBAR ZERO」を発売へ",
+          "summary": [
+            "KDDIが、インターネットにつながらない携帯電話「INFOBAR ZERO」を12月25日に発売する。",
+            "通話やSMSなどの機能に絞った端末で、LINE中心の日本で誰が使うのかが注目される。",
+            "会社は、最初から大きな市場を狙う製品ではないと説明した。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003288/",
+          "region": "国内",
+          "publishedAt": "2026-11-18T07:01:59.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/18/2000003288/10012399/2048",
+          "score": {
+            "total": 28,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "INFOBAR",
+              "meaning": "KDDIのauブランドで売られてきた、デザイン性の高い携帯電話のシリーズ。"
+            },
+            {
+              "word": "SMS",
+              "meaning": "電話番号あてに短い文字のメッセージを送れるしくみ。ネットにつながらなくても使える。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディアの「RTX Spark」搭載ミニPCが発売",
+          "summary": [
+            "エヌビディアのチップ「RTX Spark N1X」を積んだデスクトップPCが発売された。",
+            "まずはASUS、デル、MSIから出て、エイサーやHPなども後に続く。",
+            "マイクロソフトの開発者向け機も今月出荷が始まる予定。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1036880/nvidia-rtx-spark-ai-mini-pc-desktops",
+          "region": "海外",
+          "publishedAt": "2026-11-18T18:34:55.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/asus-proart-gr1x-nvidia-rtx-spark-white-background.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "RTX Spark N1X",
+              "meaning": "エヌビディアがパソコン向けに作ったチップ。今年はノートPCに先に搭載された。"
+            },
+            {
+              "word": "デスクトップ",
+              "meaning": "机に置いて使う据え置き型のパソコン。"
+            }
+          ]
+        },
+        {
+          "title": "インスタグラム、投稿後のストーリーズを編集可能に",
+          "summary": [
+            "インスタグラムで、投稿後のストーリーズを編集できるようになった。",
+            "文字や音楽、スタンプ、手書きを、投稿から15分以内なら直せる。",
+            "編集しても閲覧数やいいね、返信は消えない。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
+          "region": "海外",
+          "publishedAt": "2026-11-18T19:29:10.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/insta-story-edit.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ストーリーズ",
+              "meaning": "インスタグラムで写真や動画を24時間だけ公開する機能。"
+            }
+          ]
+        },
+        {
+          "title": "トランプ氏、フィリピンにAI拠点を構想",
+          "summary": [
+            "トランプ米大統領が11月17日、フィリピンのマニラに到着した。",
+            "米メディアは、フィリピンでのAI拠点づくりを米国の新たな「土地取り」と報じた。",
+            "アジア歴訪の中で、AI分野での影響力拡大を狙う動きとされる。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "region": "海外",
+          "publishedAt": "2026-11-18T19:40:36.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305507602.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 2,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AI拠点",
+              "meaning": "AIを動かす大型のデータセンターなどを集めた場所。"
+            },
+            {
+              "word": "アジア歴訪",
+              "meaning": "大統領などが複数のアジアの国を続けて訪れること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "生成AIで作った選挙ポスターに有権者が困惑",
+          "summary": [
+            "生成AIで作った選挙ポスターが物議を醸し、有権者に戸惑いが広がっている。",
+            "専門家は「法の穴をかいくぐっている状態」と指摘する。",
+            "AIが進歩する中で、時代にあった選挙のかたちが問われている。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83WmRuNzRqazNBWjhFR0s4U1I1RVNnaUZIX0E0dm9uV19IOTUyMUV6UGdzMHk5Q1JsWVNyV3Z6TFJzU1EyeTZlZFBpVzZIVXdYaHgzaG1Vaw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T21:00:00.000Z",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動で作り出すAI。本物そっくりの絵や写真も作れる。"
+            },
+            {
+              "word": "法の穴",
+              "meaning": "法律が想定していないため、問題があっても取り締まれない部分のこと。"
+            }
+          ]
+        },
+        {
+          "title": "孫正義氏、アンソロピックへの出資見送りは「僕の失敗」",
+          "summary": [
+            "ソフトバンクグループの孫正義氏が、アンソロピックへの出資見送りを「僕の失敗」と語った。",
+            "アモデイCEOと直接会ってその凄さを認めつつ、投資には踏み切らなかった。",
+            "当時はOpenAIへの集中投資を進めており、その判断の舞台裏を明かした。"
+          ],
+          "source": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/business/articles/2611/18/news086.html",
+          "region": "国内",
+          "publishedAt": "2026-11-18T13:03:00.000Z",
+          "image": "https://image.itmedia.co.jp/business/articles/2611/18/cover_news086.jpg",
+          "score": {
+            "total": 28,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ソフトバンクグループ",
+              "meaning": "孫正義氏が率いる投資会社。世界のIT企業やAI企業に大きく出資している。"
+            },
+            {
+              "word": "OpenAI",
+              "meaning": "ChatGPTを開発した米国のAI企業。ソフトバンクグループが巨額を投資している。"
+            }
+          ]
+        },
+        {
+          "title": "徳島県警、生成AIで似顔絵を作る訓練を披露",
+          "summary": [
+            "徳島県警が鑑識の実務研究発表会を開いた。",
+            "生成AIを使って似顔絵を作る訓練が紹介された。",
+            "ほかにも新しい技法や資機材が披露された。"
+          ],
+          "source": "徳島新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wa0dONE9XUGN1QkNtaFFuME5uZXFjVzdFUjF1UFBoSTBCYUlQeXNfMW1MeEQ5WU0yelM2N0IzU1k0YVVXZHdSamVvX2s2RVZfU2lvcTBn?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T09:00:00.000Z",
+          "score": {
+            "total": 28,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "鑑識",
+              "meaning": "事件の現場で指紋や足跡などの証拠を集め、調べる警察の仕事。"
+            },
+            {
+              "word": "似顔絵",
+              "meaning": "目撃した人の話をもとに、容疑者などの顔を描いた絵。捜査の手がかりに使う。"
+            }
+          ]
+        },
+        {
+          "title": "米銀行、AIエージェントの利用は「自己責任」に",
+          "summary": [
+            "AIエージェントを使う客は被害を受けても自己責任だとする銀行が増えている。",
+            "ハッキングされた場合でも、銀行は補償しない姿勢だ。",
+            "シティも個人向けの家計管理AIエージェントに歯止めをかけた。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "region": "海外",
+          "publishedAt": "2026-11-18T17:32:10.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人に代わって手続きや操作を自動でこなすAI。口座の操作を任せることもできる。"
+            },
+            {
+              "word": "ハッキング",
+              "meaning": "他人のコンピューターやアカウントに不正に入り込むこと。"
+            }
+          ]
+        },
+        {
+          "title": "グーグル検索のAIモードに「シークレット」機能",
+          "summary": [
+            "グーグル検索の「AIモード」に、履歴を残さずに会話できる機能が加わった。",
+            "新しい一時的な会話は、検索履歴に追加されない。",
+            "今後のおすすめ表示にも影響しないしくみだ。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+          "region": "海外",
+          "publishedAt": "2026-11-18T18:04:05.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2019/10/google-search-app-ios.jpg?resize=1200,644",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIモード",
+              "meaning": "グーグル検索で、AIと会話しながら調べものができる機能。"
+            },
+            {
+              "word": "検索履歴",
+              "meaning": "過去に検索した言葉の記録。おすすめの表示などに使われる。"
+            }
+          ]
+        },
+        {
+          "title": "アルトマン氏、AIが人間を支配する未来に警鐘",
+          "summary": [
+            "OpenAIのアルトマン氏とブロックマン氏が、AIが物事を決める未来に反対を示した。",
+            "シリコンバレーで広がる「AIによる支配」をめぐる議論に反論した形だ。",
+            "一方で、高度なAIを人間の管理下に置く難しさも認めた。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+          "region": "海外",
+          "publishedAt": "2026-11-18T16:59:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305723022.jpg?w=594",
+          "score": {
+            "total": 32,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 2,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "シリコンバレー",
+              "meaning": "米カリフォルニア州にある、IT企業が多く集まる地域。"
+            },
+            {
+              "word": "アルトマン氏",
+              "meaning": "ChatGPTを開発したOpenAIのトップ。AI業界で最も影響力のある人物の一人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "ドル円は159円台前半、FOMC議事要旨で利上げ観測強まる",
+          "summary": [
+            "NY為替市場でドル円は1ドル＝159円台前半で推移した。",
+            "FOMCの議事要旨は、12月の利上げをさらに確信させる内容だった。",
+            "米国の金利が上がる見方から、ドルが買われやすくなっている。"
+          ],
+          "source": "みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqanhmaHBJSThpYVQxYkMyemU4UmxFdHhVSGp5dWszeUwtV0tjRzd0RDhYVHEzeElyRnUzZlBFaW0tSXU3UkNOSA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T21:30:51.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ドル円",
+              "meaning": "1ドルが何円で交換できるかを示す値段。数字が大きいほど円安。"
+            },
+            {
+              "word": "FOMC",
+              "meaning": "米国の金利を決めるFRBの会合。決定は世界のお金の流れや円相場を左右する。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均は底堅く、アドバンテストやソフトバンクGが押し上げ",
+          "summary": [
+            "18日の東京株式市場で、日経平均は午後も底堅く推移した。",
+            "アドバンテストやソフトバンクグループが指数を押し上げた。",
+            "日経平均は163円高の5万9024円で取引を終え、反発した。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kR1JFRVRqSkVLOE13Mk41VVNJLW5oTmx0cFlsdXVlRThmcjFEVHFrZEVGOEdSdDJPSUlNSXI4VW81eXMzYkJna2RrU3Y0Z1VvTWY5aXlONHdJY0FrMlBKUWhwU29iVkpScnlEQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T05:11:14.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均",
+              "meaning": "東京証券取引所の代表的な225社の株価から計算する指数。日本の株式市場の体温計。"
+            },
+            {
+              "word": "反発",
+              "meaning": "前の日に下がった株価が、上がりに転じること。"
+            }
+          ]
+        },
+        {
+          "title": "任天堂株が続伸、SBI証券の目標株価引き上げで",
+          "summary": [
+            "18日の株式市場で、任天堂の株価が続伸した。",
+            "SBI証券が目標株価を引き上げたことが材料になった。",
+            "評価が回復しつつある。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Eb2FiXzJxZkc3SUVjaXdfLU41NkR3bzg1b0hBRkdsOTNUdFIzTjZHc0pJalZ0ZTF5cnRBYjlqOTdKQThLVUhyTkF5Nlo3RHZvY0NUVGR4R2c3VlpKMGFKcTI2RWh6OFI1a2c2ZQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T07:47:02.000Z",
+          "score": {
+            "total": 28,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "目標株価",
+              "meaning": "証券会社のアナリストが、その会社の株がいくらになるのが妥当かを示した値段。"
+            },
+            {
+              "word": "続伸",
+              "meaning": "株価が前の日に続いて上がること。"
+            }
+          ]
+        },
+        {
+          "title": "米株が下落、エヌビディア決算後の上昇が続かず",
+          "summary": [
+            "米国の株式市場で株価が下がった。",
+            "エヌビディアの決算発表後の上昇が勢いを失った。",
+            "ダウ平均は約560ドル安の5万198ドルとなった。"
+          ],
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T20:00:02.000Z",
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ダウ平均",
+              "meaning": "米国の代表的な30社の株価から計算する指数。米国株の動きを示す代表的な数字。"
+            },
+            {
+              "word": "決算",
+              "meaning": "会社が一定期間にどれだけ売り上げ、もうけたかをまとめて発表すること。"
+            }
+          ]
+        },
+        {
+          "title": "ダウ下落、ドルは19カ月ぶりの高値に",
+          "summary": [
+            "エヌビディアが決算後に下げ、ダウ平均が下落した。",
+            "外国為替市場では、ドルが19カ月ぶりの高値をつけた。",
+            "米国の利上げ観測がドルを押し上げている。"
+          ],
+          "source": "Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLU5JTklISkY4VFJ3NjdFb0NDdDlyZzY4Z2UtT1Q1OGdRMk95dWNXQ2FwRi13cVJvSTBwNXdwbjc3cDdlN0p6RC15V1BDNDVRMlA1dUFKUnRGSlZ0N3k1MjRXaDBmSUk4dW1HeUtmRTNnVGc1eHB4UU1kemM4eGRxZ0ViTXI4OENfdmo3Z1pUbXBwbE1paWI1OTA5YW8zRTcwQWc2Mzd5N09RdGd0SDVFWk9BRV81N0JzelRwQ0t0Mk94MS02c2FoTWwzYW1iZzA?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T18:36:49.000Z",
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "外国為替市場",
+              "meaning": "円やドルなど各国のお金を交換する市場。ここで円相場が決まる。"
+            },
+            {
+              "word": "利上げ",
+              "meaning": "中央銀行が政策金利を引き上げること。物価の上昇を抑える目的で行う。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア株、決算後の上昇分を帳消しに",
+          "summary": [
+            "エヌビディアの株価が、決算発表後の上昇分を打ち消した。",
+            "フアン氏が去った後の経営に、投資家が向き合う局面となっている。",
+            "AI関連株全体の行方を占う動きとして注目される。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T17:35:47.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エヌビディア",
+              "meaning": "AI向けの半導体で世界最大手の米企業。株価は市場全体を動かすほどの影響力がある。"
+            },
+            {
+              "word": "フアン氏",
+              "meaning": "エヌビディアの創業者で前CEO。不祥事を受けて先週辞任した。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は5万9024円と前日から約160円高。米国はダウが約560ドル安、S&P500も小幅安だがナスダックは上昇。ドル円は159円台前半。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "兵庫・伊丹で3歳娘を虐待死させた疑い、父親を逮捕",
+          "summary": [
+            "兵庫県伊丹市で当時3歳の娘に暴行を加えて死なせたとして、29歳の父親が逮捕された。",
+            "娘は虐待の疑いで一時保護されていたが、事件の直前は自宅に戻っていた。",
+            "児童相談所は事件2日前に面談していたが「異変を感じなかった」としている。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1NLU5oXzhzZTE4dF8xblB3Q2xicHhJRzdGNDFsV2puUGtrUE5pcE5YVFJJWFV3TkR3S2FMVV9QbkZkSk9weEtNX09GUVVKQURtM1c0aDFOdw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T09:25:00.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "一時保護",
+              "meaning": "虐待の恐れがある子どもを、児童相談所が親から離して一時的に預かること。"
+            },
+            {
+              "word": "児童相談所",
+              "meaning": "子どもの虐待や養育の相談に応じ、必要なら保護する都道府県などの機関。"
+            }
+          ]
+        },
+        {
+          "title": "福岡県警、48時間以内の送検ルール守れず容疑者を釈放",
+          "summary": [
+            "福岡県警が、逮捕した容疑者を48時間以内に検察へ送る（送検する）ルールを守れなかった。",
+            "このため、容疑者を釈放した。",
+            "警察の手続きのあり方が問われている。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EWGZBZnNnRFF2dkNveU9jcDl2WjZQeDk4dmhzelJFSVlMbTFZZVZ1Y0xSQ3ItcjZWYzd2ODA0TlRTTllJSnVXRzJseHpzdzZTU2ZtZG53em5iRFBNTFl5NjVKbEE4Y0k?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T12:00:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "送検",
+              "meaning": "警察が事件の書類や容疑者を検察に送ること。逮捕から48時間以内という決まりがある。"
+            },
+            {
+              "word": "釈放",
+              "meaning": "捕まえていた人を自由にすること。"
+            }
+          ]
+        },
+        {
+          "title": "「スパイダーマン」を逮捕、2500万円相当の貴金属を盗んだ疑い",
+          "summary": [
+            "洋服売り場に隠れて閉店を待ち、貴金属店で2500万円相当を盗んだ疑いで男が逮捕された。",
+            "男は「家賃が払えなかった」という趣旨の話をしている。",
+            "警察は、複数の窃盗事件に関わったとみて調べている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aZFZCUFhNXy1VSUYzTEw5N0J0TVN2X2tXWGdVV0FYR2FnRG8yN1R6Sk1mNS1VRW9FREFFV3A2U1Z5TlJ2aTNLQXZQNS1IYUxzN1V2c3VJTnhLV29vdmlYTjV4dUVzU2tMbG9YTmNYVXk5Y1MwWUJrR2JDczZGMDQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-18T10:45:35.000Z",
+          "score": {
+            "total": 18,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "貴金属",
+              "meaning": "金やプラチナなど、値打ちの高い金属。宝飾品に使われる。"
+            },
+            {
+              "word": "窃盗",
+              "meaning": "他人の物をこっそり盗むこと。"
+            }
+          ]
+        },
+        {
+          "title": "米メンフィス警察、一斉捜査で61人逮捕",
+          "summary": [
+            "米テネシー州メンフィスの警察が、一斉捜査で61人を逮捕した。",
+            "銃36丁と、2万1000グラムを超える薬物を押収した。",
+            "作戦名は「オペレーション・コモン・グラウンド」。"
+          ],
+          "source": "FOX13 Memphis",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYXhlMkUyaXNOSHRBV01La1dBWEhjejNlUDloQ1VYNjdnNEszcTRTUlBxSkxCSEFPVWFueEd3QVVqQkYydC0zb0Y4Y2RTWmZINGROWXZHcEw3a1BUbTl0am4tYm5LX0VLclFGTVp3UXZyZkxFemRmY3FjMXYwR0xBNUgtTWNTQWREZnRrTDRmU2x6azVGX0RYUGp1SkpJRV9BVzF1b1dVTDRKMXdxV1FnOUJUUVpBbEJvY2kxaldmdkFxdXZNb1JVVlpDZk9WcHJEV0ZQLWFWMDhwZDJSQVRjU19jc2o2V0xwRFF5WUVEaw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T19:36:00.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "押収",
+              "meaning": "捜査機関が、事件の証拠となる物を強制的に取り上げること。"
+            },
+            {
+              "word": "一斉捜査",
+              "meaning": "警察が多くの場所や人を同時に調べ、まとめて取り締まること。"
+            }
+          ]
+        },
+        {
+          "title": "米カリフォルニア州の切断遺体事件、妻と娘を逮捕",
+          "summary": [
+            "2022年に頭部が切断された状態で見つかった男性の死亡事件で、妻と娘が逮捕された。",
+            "男性はカリフォルニア州シトラスハイツに住んでいた。",
+            "頭部が見つかってから身元が分かるまで4年かかった。"
+          ],
+          "source": "Sacramento Bee",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xa1FDYS1NdGc1WkpNNS04a1NKa1YxRDl4WHpzYjlJRWwtS2lEcUVta0lBUWlaVmxSaU5oNEo4ZlZGeFp0RlZxSUZGUnpHbWpiMlIzUUZCc3RrR0h0Mk1laDZXNklaanUxWFE0SXV30gFuQVVfeXFMUEVma3dob0RQX1k0U29oMHRRaXlKSlJNRWhhM3ZTVHhWb3lydmkxcloydnMwUU82Tk9lNUttTTYtWmpnZERXS01zSlFGcDRELUV6aXlFRXVoR3hjTWp1cTF2QUQwUDRhdjJfYU9Lc0E?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T21:38:04.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "身元",
+              "meaning": "その人が誰なのかということ。名前や住所などで特定される。"
+            }
+          ]
+        },
+        {
+          "title": "カナダ・トロント周辺、レッカー業界の犯罪組織で21人逮捕",
+          "summary": [
+            "カナダのトロント周辺で、レッカー業界の犯罪組織をめぐる捜査が行われた。",
+            "警察は21人を逮捕し、計112件の罪で訴追した。",
+            "業界ぐるみの組織的な犯罪とみられている。"
+          ],
+          "source": "CBC",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObl9WdndPaVBRRzZ3WDgzYlZ6NnVnZlk0N0RmbEE5czVxN0ptSjQtRDVubDYyNFFLdi1hX3JBLTVzSlB1NXJWR2pFSUp6LWNKT2N4VTZJSGRDODJaUjhGaVlkNUNqeVNfN1ZadExoZm1kdFEwUjRrNHc5dUZqRllPNERJY0dvLTQw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-18T21:21:41.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "レッカー",
+              "meaning": "故障や事故で動けなくなった車をけん引して運ぶ仕事。"
+            },
+            {
+              "word": "訴追",
+              "meaning": "罪を犯した疑いのある人を裁判にかけるための手続き。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
