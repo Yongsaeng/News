@@ -1,0 +1,1632 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-19T22:05:14Z",
+  "headline": [
+    "アンソロピックが過去最大の上場で約810億ドル調達、NYダウは1101ドル安で5万ドル割れ",
+    "JTがロシア事業で1兆3770億円の損失、楽天証券には金融庁が報告徴求命令",
+    "米中ロ首脳が初の3者会談で「平和宣言」、高市首相はトランプ氏と電話会談"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 59444.21,
+      "change": 583.7803124999991,
+      "changePercent": 0.9918043677210442
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7175.83,
+      "change": -147.79988281250007,
+      "changePercent": -2.0181233237818996
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 23879.2,
+      "change": -550.6808593749993,
+      "changePercent": -2.254128305188499
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 49097.06,
+      "change": -1101.1118750000023,
+      "changePercent": -2.193529831608041
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.669,
+      "change": 0.16500219726563614,
+      "changePercent": 0.10344706059951027
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "楽天証券に金融庁が報告徴求命令、集団訴訟の動きも",
+          "summary": [
+            "金融庁が、楽天証券に対して報告徴求命令を出した。",
+            "同社の情報流出をめぐっては、利用者による集団訴訟を検討する動きが出ている。",
+            "参加希望は1日で約6000人に達し、発起人の弁護士は「看過できない」と懸念を示した。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603203?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-19T12:06:41.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/1c66886440ce89e2a69f20bb43f14af9a879d633c2179942ba7eb93b1211df80.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "顧客情報の流出問題を受け、金融庁が楽天証券に詳しい報告を出すよう命じた。被害を訴える利用者が集まって裁判を起こそうとする動きも始まっている。",
+            "why": "証券会社は顧客の資産や個人情報を預かるため、金融庁が監督している。報告徴求命令は事実関係や原因、再発防止策の提出を求める手続きで、内容次第では業務改善命令などの処分につながることがある。利用者の側では、一人では費用のかかる裁判を集団訴訟の形で起こし、会社の責任を問おうとしている。",
+            "points": [
+              {
+                "label": "楽天証券の口座を持つ人",
+                "text": "流出した情報を悪用した不審なメールや電話が届くおそれがあり、注意が必要になりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "ネット証券の利用者",
+                "text": "金融庁の対応次第で、業界全体に顧客データの管理の見直しが求められる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "投資家",
+                "text": "処分や対応の遅れがあれば、証券会社選びで安全性を重視する動きが強まりそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "楽天証券が出す報告の内容と、金融庁が処分に踏み込むかどうか"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "報告徴求命令",
+              "meaning": "金融庁などが法律に基づき、会社に事実関係や原因、再発防止策を報告するよう命じること。"
+            },
+            {
+              "word": "集団訴訟",
+              "meaning": "同じ被害を受けた多くの人がまとまって起こす裁判。一人では難しい訴えを起こしやすくなる。"
+            },
+            {
+              "word": "金融庁",
+              "meaning": "銀行や証券会社、保険会社などを監督し、利用者を守るためのルールを運用する国の役所。"
+            }
+          ]
+        },
+        {
+          "title": "損保大手3社の中間決算、2社が減益",
+          "summary": [
+            "損害保険の大手3グループの中間決算が出そろい、2社が減益となった。",
+            "自然災害の増加や米国の金利上昇などが影響した。",
+            "一方、東京海上は上期の最終利益が8％の増益で着地した。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4YUgyTG5YWmRtT1EteDRfSzduSUtrMXl0M3N2TDE2THNFWFRmMmFMN255YVd2RUctLXBjbWN5dE1BMkk3NlhfRk85RUZqdTVsZFV1QWFITlVVeG9lNnh0R0VRZnV4aUdueW5FbUpIY0NrVUtvU0VkeUF6WWxhYzQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T14:13:40.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "大手損保3グループの今年度前半の決算で、3社のうち2社の利益が前年より減った。東京海上は増益を確保した。",
+            "why": "損保は火災保険や自動車保険の保険料を集め、事故や災害が起きたときに保険金を払う。台風や大雨などの自然災害が増えると支払いが膨らみ、利益が減りやすい。また集めたお金を債券などで運用しており、米国の金利が上がると手持ちの債券の値下がりなど、運用面にも影響が出ることがある。",
+            "points": [
+              {
+                "label": "火災保険の契約者",
+                "text": "災害による支払いが増え続ければ、保険料の引き上げにつながる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "自動車保険の契約者",
+                "text": "収益が苦しくなると、補償内容や保険料の見直しが進むかもしれない。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "損保株を持つ投資家",
+                "text": "会社ごとに明暗が分かれ、株価の反応も分かれそう。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "年度後半の災害の被害と、各社が通期の見通しをどう変えるか"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "中間決算",
+              "meaning": "会社が1年の会計期間のうち、前半の半年分の成績をまとめて発表するもの。"
+            },
+            {
+              "word": "減益",
+              "meaning": "会社の利益が前の年の同じ時期より減ること。反対は増益。"
+            },
+            {
+              "word": "運用",
+              "meaning": "集めたお金を債券や株などで増やすこと。保険会社は保険料の一部を運用している。"
+            }
+          ]
+        },
+        {
+          "title": "JT、ロシア事業で1兆3770億円の損失 配当68円減",
+          "summary": [
+            "JTがロシアの子会社を連結から外し、1兆3770億円の損失を計上する。",
+            "2026年12月期の最終損益は一転して赤字となり、配当も68円減らす。",
+            "筒井社長は投資家説明会で「加熱式たばこへの投資は継続」と述べた。"
+          ],
+          "source": "時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5SVFDWVdjNEdMcXY2RXFQeF9QNldyZjA5XzhlZ2ZqTnFqRExET2gyVUxuQUdDRTFoWUlPUjZEVkNibzQ5N0Q3UEhXSXExMkMzdmViZ09vbXptT3R5V0FsQWhlYw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T12:55:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "JTはロシアの子会社を自社グループの決算から外し、約1.4兆円の損失を出す。今年の決算は大きな赤字になり、株主への配当も減らす。",
+            "why": "ロシアの大統領令によって、JTはロシア事業の支配を失ったと報じられている。経営を動かせなくなった子会社は、グループの決算にまとめる「連結」から外す必要があり、これまでの投資額などを損失として一度に計上することになる。懸念されていた損失が、具体的な金額として示された形だ。",
+            "points": [
+              {
+                "label": "JTの株主",
+                "text": "配当が1株あたり68円減り、受け取る金額がはっきり減る。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "ロシアに進出する企業",
+                "text": "現地政府の判断で事業を失うリスクが改めて意識され、撤退や見直しを考える会社が出そう。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "たばこを吸う人",
+                "text": "社長は加熱式たばこへの投資を続ける方針で、商品展開への影響は限られそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "大統領令の対象がJT以外の日本企業にも広がるかどうか"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "連結",
+              "meaning": "親会社と子会社をひとつのグループとして、まとめて決算を作るしくみ。"
+            },
+            {
+              "word": "大統領令",
+              "meaning": "大統領が議会を通さずに出す命令。ロシアでは外国企業の資産の扱いにも使われている。"
+            },
+            {
+              "word": "加熱式たばこ",
+              "meaning": "葉たばこを燃やさずに熱して吸うタイプのたばこ。JTが力を入れている分野。"
+            },
+            {
+              "word": "配当",
+              "meaning": "会社が利益の一部を株主に分けて支払うお金。1株あたりの金額で示される。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピック上場、過去最大の810億ドルを調達",
+          "summary": [
+            "対話AI「Claude」を開発する米アンソロピックが上場し、約810億ドルを調達した。",
+            "公開価格は83ドルで、初値はそれを34％上回る111ドル50セントだった。",
+            "初日の取引を終えた時点で、企業価値は1兆2700億ドルと評価された。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-19T15:58:58.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "AI開発のアンソロピックが米国の株式市場に上場し、株を売り出して過去最大規模のお金を集めた。",
+            "why": "最先端のAI開発には、計算に使う大量の半導体やデータセンターに巨額の費用がかかる。上場すれば一般の投資家から広く資金を集められる。AI開発会社の上場は初めてとされ、AIへの期待がどこまで続くかを測る試金石として、ほかのAI企業の上場にも影響しそうだ。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "上場当日の米国ではダウが大きく下げ、AI関連株の値動きが日本株にも波及しやすい。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の個人投資家",
+                "text": "楽天証券などを通じて日本からも申し込みがあり、株価の変動が個人の損益に直結する。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本企業のAI活用",
+                "text": "集めた資金で開発が進めば、日本企業が使うAIサービスの性能や価格に影響しそう。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "上場後の株価が、公開価格の83ドルを上回って推移するか"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "上場",
+              "meaning": "会社の株を証券取引所で誰でも売り買いできるようにすること。広く資金を集められる。"
+            },
+            {
+              "word": "公開価格",
+              "meaning": "上場する前に、申し込んだ投資家へ株を売り出すときの値段。"
+            },
+            {
+              "word": "初値",
+              "meaning": "上場した株に、取引所で最初についた値段。人気が高いと公開価格を上回る。"
+            }
+          ]
+        },
+        {
+          "title": "NYダウ1101ドル安、5カ月ぶりに5万ドル割れ",
+          "summary": [
+            "19日のニューヨーク株式市場で、ダウ平均株価が1101ドル下落した。",
+            "4日続けての値下がりで、約5カ月ぶりに5万ドルを割り込んだ。",
+            "アンソロピックの上場に伴う換金売りが出たと報じられている。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xa3lldWtVQm9KYVJDNEFsODhOY3ZZZVpMMnJsRlBNNEtTdXJaYUU2Um54NThWZGZ2S1ZwSlJKcVZwVXh4cHR3T1dYeXRVOXRXbHQtNlVGTi1qdjhOdW5J?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T19:18:40.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の代表的な株価指数であるダウ平均が1日で1000ドル以上下がり、節目の5万ドルを下回った。",
+            "why": "投資家は新しく上場する株を買う資金を用意するため、ほかの株を売ることがある。過去最大規模となったアンソロピックの上場に資金が向かい、ほかの株が売られたとの見方が出ている。AI関連企業の収益性への警戒も広がっていると報じられている。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "米国株の大幅安は日本株に波及しやすく、シカゴの日経平均先物は5万8050円まで下げた。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "投資信託",
+                "text": "米国株に連動する投資信託を持つ人は、評価額が下がる可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "円相場",
+                "text": "株安で投資家が慎重になると、比較的安全とされる円が買われる場面もある。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "米国株の下げが止まるか、AI関連株の値動き"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ダウ平均株価",
+              "meaning": "米国を代表する30社の株価から計算する指数。米国の景気や株式市場の目安になる。"
+            },
+            {
+              "word": "換金売り",
+              "meaning": "別の株を買うお金や手元の資金を用意するために、持っている株を売ること。"
+            },
+            {
+              "word": "日経平均先物",
+              "meaning": "将来の日経平均の値段を取引するもの。夜間も動くため、翌日の日本株の目安になる。"
+            }
+          ]
+        },
+        {
+          "title": "VisaやJPモルガンの顧客データ、ハッカーに流出",
+          "summary": [
+            "カード大手のVisaとMastercard、米銀大手JPモルガンの顧客データがハッカーに流出した。",
+            "3社は、外部の委託先がサイバー攻撃を受けたと報告している。",
+            "相次ぐハッキング被害の最新の例として、米国の主要メディアが報じている。"
+          ],
+          "source": "WSJ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTy1UWkp5QmtjYW0wNmgzMm04Y295STZlSUdvQ3FwYzhoV01XY3R4S04xLUFPbnFpU0c1SU9iekhxNXlMZE4tS1FRSnRkeDBmSlVRcGZwc2FEOU80US1hZzZ5M2UyalFjZEE0Zmd6cjc3U1MxTzJfdFFtaXJEa1M3UnZJU1V3aVh6YXF0c3BVVkxDMmZtb1lPaHBNM0NIY2g0OUpOQW9tcW0?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T20:12:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "世界的なカード会社と米国最大級の銀行で、顧客の情報が外部に漏れた。原因は各社が仕事を任せていた委託先への攻撃だった。",
+            "why": "大企業は自社の守りを固めていても、仕事を任せる外部の会社の守りが弱いと、そこから情報が漏れることがある。これをサプライチェーン攻撃と呼ぶ。日本でも委託先経由の情報漏えいが続いており、同じ構図の被害が世界で広がっている。",
+            "points": [
+              {
+                "label": "カードの利用者",
+                "text": "どの国の顧客が対象かは不明だが、利用明細に見覚えのない請求がないか確かめると安心。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の金融機関",
+                "text": "委託先のセキュリティ管理を見直す動きが強まる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "流出した情報の範囲と、日本の利用者が含まれるかどうか"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "サイバー攻撃",
+              "meaning": "インターネットを通じてシステムに入り込み、情報を盗んだり壊したりする攻撃。"
+            },
+            {
+              "word": "委託先",
+              "meaning": "会社が仕事の一部を任せている外部の会社。守りが弱いと情報漏れの入り口になる。"
+            },
+            {
+              "word": "サプライチェーン攻撃",
+              "meaning": "狙った会社を直接ではなく、取引先や委託先を経由して攻撃する手口。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "高市首相、トランプ大統領と電話会談",
+          "summary": [
+            "高市首相が、米国のトランプ大統領と電話で会談した。",
+            "トランプ氏は直前に、中国の習近平国家主席、ロシアのプーチン大統領と会っている。",
+            "3首脳は初めての3者会談のあと「平和宣言」を発表していた。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603216?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-19T14:00:34.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/84dd65c0ae901d5a2c4960360163e77fe2f95b3a4384c8832f640ca6bafa1a6f.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "高市首相がトランプ大統領と電話で話した。米中ロの首脳が初めてそろって会談した直後のタイミングとなった。",
+            "why": "トランプ氏は習近平国家主席、プーチン大統領と初めて3者で会い、「平和宣言」を出した。日本にとって米国は同盟国で、大国同士の話し合いで日本の安全保障や貿易にかかわる事柄が決まらないよう、首脳同士で直接すり合わせておく必要がある。具体的な中身は今後の発表を待つ必要がある。",
+            "points": [
+              {
+                "label": "輸出企業で働く人",
+                "text": "関税など通商の話が出ていれば、自動車などの業績や雇用に影響する可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "国民全体",
+                "text": "米中ロの合意が、日本の防衛や周辺の情勢にどう関わるかが焦点になりそう。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "政府が明らかにする会談の中身と、平和宣言への日本の対応"
+          },
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "平和宣言",
+              "meaning": "米中ロの3首脳が会談後に出した、平和に向けた考えを示す文書。中身と実行が注目される。"
+            },
+            {
+              "word": "同盟国",
+              "meaning": "互いに守り合う約束を結んだ国。日本にとって米国は日米安保条約による同盟国。"
+            },
+            {
+              "word": "安全保障",
+              "meaning": "外国からの攻撃や脅しから、国や国民の安全を守ること。"
+            }
+          ]
+        },
+        {
+          "title": "高市首相、外遊の成果に「手応え」",
+          "summary": [
+            "高市首相が、今回の外国訪問（外遊）の成果について「手応え」を語った。",
+            "首相はこの間、ロシアのプーチン大統領と30分対話している。",
+            "一方、中国が首相を「冷遇」したとの見方には、中国側が反論している。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603175?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-19T07:55:20.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/ad33284e677628fab86c6be039cab5c6dbcb44195fd549aa305e4c67c41d269f.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "外国訪問を終えた高市首相が、各国の首脳とのやりとりに一定の成果があったとの認識を示した。",
+            "why": "首相の外遊は、首脳同士が顔を合わせて関係を築く貴重な機会だ。今回はプーチン大統領との対話が実現した一方、中国の対応が「冷遇」と受け止められる場面もあり、成果をどう説明するかが注目されていた。首相としては外交の実績を示し、政権運営の追い風にしたい考えとみられる。",
+            "points": [
+              {
+                "label": "中国と取引する企業",
+                "text": "日中関係の行方は、輸出入や現地での事業に影響する。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "国民全体",
+                "text": "近隣国との関係が安定すれば、安全保障上の緊張が和らぐ可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "日中・日ロの首脳間でどんな協議が続くか"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "外遊",
+              "meaning": "首相などが外国を訪れて、首脳会談や国際会議に出ること。"
+            },
+            {
+              "word": "冷遇",
+              "meaning": "相手を冷たく扱うこと。外交では会談の有無やあいさつの仕方などで判断されやすい。"
+            }
+          ]
+        },
+        {
+          "title": "陸自の戦車事故、原因を特定して公表",
+          "summary": [
+            "陸上自衛隊で起きた戦車の事故について、陸自が原因を特定した。",
+            "陸自はその原因を公表した。",
+            "詳しい原因や再発防止策は、元記事で確認できる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603159?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-19T05:58:27.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/38ae13a78b82c1e2095b1da6afb5b30c0fe894e9da3587434d216660449f0ff2.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "陸上自衛隊が、戦車にかかわる事故の原因を突き止め、公表した。",
+            "why": "自衛隊の装備による事故は、隊員の命や周辺住民の安全にかかわる。そのため原因を調べて公表し、再発防止策を示すことが求められる。原因がはっきりすれば、同じ型の装備を使う部隊での点検や、訓練方法の見直しにつながる。",
+            "points": [
+              {
+                "label": "自衛隊員",
+                "text": "訓練や装備の扱い方が見直され、安全対策が強化される可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "演習場の周辺住民",
+                "text": "安全対策の説明が十分かどうかが、地元の受け止めを左右しそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "陸自が示す再発防止策と、訓練をいつ再開するか"
+          },
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "陸上自衛隊",
+              "meaning": "日本の自衛隊のうち、主に陸で国を守る組織。戦車などの装備を持つ。"
+            },
+            {
+              "word": "再発防止策",
+              "meaning": "同じ事故やミスが二度と起きないようにするための対策。"
+            }
+          ]
+        },
+        {
+          "title": "高市首相を「冷遇」との見方に中国が反論",
+          "summary": [
+            "中国が高市首相を「冷遇」したのではないかとの見方が出ている。",
+            "これに対し、中国側が反論した。",
+            "高市首相自身は、今回の外遊の成果に「手応え」を語っている。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6603208?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-19T13:03:28.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/516dbe1e04a44c088cf144e08420894b92a64c5e27bbca404e36a775b59a9a95.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "外遊中の高市首相に中国が冷たい対応をしたのではないかとの指摘に、中国側が反論した。",
+            "why": "首脳同士の会談の有無や時間、あいさつの仕方は、国同士の関係を映すものとして注目される。日中関係は台湾や安全保障をめぐって緊張する場面があり、扱いの差が「冷遇」と受け止められると関係悪化のサインと見られかねない。中国側には、そうした見方を打ち消したい思惑があるとみられる。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "日中首脳の本格的な会談がいつ実現するかが焦点になりそう。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "中国と取引する企業",
+                "text": "関係が冷え込めば、輸出入や現地での事業に影響が出るおそれがある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "訪日観光",
+                "text": "両国関係の空気は、中国からの観光客の動きにも影響しやすい。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "日中首脳会談の調整が進むかどうか"
+          },
+          "score": {
+            "total": 83,
+            "parts": {
+              "japan": 50,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "冷遇",
+              "meaning": "相手を冷たく扱うこと。外交では会談の有無やあいさつの仕方などで判断されやすい。"
+            },
+            {
+              "word": "首脳",
+              "meaning": "国のトップのこと。日本なら首相、中国なら国家主席。"
+            }
+          ]
+        },
+        {
+          "title": "米中ロ首脳が初の3者会談、「平和宣言」を発表",
+          "summary": [
+            "トランプ米大統領、ロシアのプーチン大統領、中国の習近平国家主席が会談した。",
+            "3人はこれまで1対1では会っていたが、3者そろっての協議は初めて。",
+            "会談のあと、3首脳は「平和宣言」を発表した。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-19T17:38:22.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/56c4/live/c36d8970-e448-11f1-a094-5fdc692f3e33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国・ロシア・中国の3首脳が初めて同じ席で話し合い、「平和宣言」を出した。",
+            "why": "3カ国はいずれも国連安全保障理事会の常任理事国で、核兵器を持つ大国だ。ウクライナでの戦争や台湾をめぐる緊張など、世界の対立の多くにかかわっている。首脳がそろって対話の姿勢を示し、緊張を和らげる狙いがあるとみられる。ただ宣言の具体的な中身や実効性は、今後の行動を見る必要がある。",
+            "points": [
+              {
+                "label": "安全保障",
+                "text": "大国間の緊張が和らげば日本周辺の安定につながる一方、日本の頭越しに物事が決まる懸念もある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "同盟国の米国が中ロと接近するなか、日本の立ち位置の調整が必要になりそう。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "エネルギー価格",
+                "text": "ウクライナでの戦争が終わりに向かえば、原油や天然ガスの価格が落ち着く可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "宣言がウクライナの和平交渉など具体的な動きにつながるか"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "習近平",
+              "meaning": "中国の国家主席。中国共産党のトップとして国を率いている。"
+            },
+            {
+              "word": "平和宣言",
+              "meaning": "米中ロの3首脳が会談後に出した、平和に向けた考えを示す文書。中身と実行が注目される。"
+            },
+            {
+              "word": "常任理事国",
+              "meaning": "国連安全保障理事会で常に席を持ち、拒否権を持つ5カ国。米中ロ英仏。"
+            }
+          ]
+        },
+        {
+          "title": "APECが閉幕、AI活用の推進で一致",
+          "summary": [
+            "アジア太平洋経済協力（APEC）の首脳会議が閉幕した。",
+            "参加した国と地域は、AIの活用を進めることで一致した。",
+            "「人間中心」のイノベーション（技術革新）を重視する姿勢も強調した。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6603210?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-19T13:23:12.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/edf7224cae4f2ac6c73c6acc7bd3775434b0cfa67b76a6b2e3ceb84f219a5f96.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "アジア太平洋の国と地域が集まる会議が終わり、AIを積極的に使っていく方針でまとまった。",
+            "why": "AIは経済成長の柱として各国が競って活用を進めているが、雇用や安全への不安もある。APECは日本、米国、中国などが参加する経済協力の枠組みで、方向性をそろえることで貿易や投資をしやすくする狙いがある。「人間中心」という言葉には、AIを人の役に立つ形で使うという考えが込められている。",
+            "points": [
+              {
+                "label": "日本企業",
+                "text": "域内でAIの使い方の方向性がそろえば、海外でサービスを展開しやすくなる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の働き手",
+                "text": "AI活用の推進は、仕事の効率化と同時に、業務の中身の変化も意味する。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "合意をAIの具体的なルールづくりにどう生かすか"
+          },
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "APEC",
+              "meaning": "アジア太平洋経済協力。日本、米国、中国など21の国と地域が経済協力を話し合う枠組み。"
+            },
+            {
+              "word": "イノベーション",
+              "meaning": "新しい技術や考え方で、社会や経済に大きな変化を生み出すこと。"
+            },
+            {
+              "word": "人間中心",
+              "meaning": "技術を人の幸せや権利を守るために使うべきだ、という考え方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "nginxに緊急の脆弱性、官房長官が対応を呼び掛け",
+          "summary": [
+            "Webサーバーのソフト「nginx」に、緊急の脆弱性が見つかった。",
+            "木原稔官房長官は、利用する事業者に「必要な措置を取ってほしい」と呼び掛けた。",
+            "名前の読み方も話題になり、「ンギンクス」と読む人もいるが別の読み方だという。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003334/",
+          "region": "国内",
+          "publishedAt": "2026-11-19T06:30:00.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/19/2000003334/10012564/2048",
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "nginx",
+              "meaning": "Webサイトを表示するためのサーバー用ソフト。多くのサイトの裏側で動いている。"
+            },
+            {
+              "word": "脆弱性",
+              "meaning": "ソフトの弱点や欠陥。悪用されると不正侵入や情報漏れにつながるおそれがある。"
+            },
+            {
+              "word": "官房長官",
+              "meaning": "首相を支える内閣の要の大臣。政府の考えを伝える記者会見も担当する。"
+            }
+          ]
+        },
+        {
+          "title": "六花亭に不正アクセス、カード情報約8000件流出か",
+          "summary": [
+            "北海道・帯広の菓子メーカー「六花亭」のサイトが不正アクセスを受けた。",
+            "「ウェブスキミング」により、カード情報を含む約8000件が流出した恐れがある。",
+            "カード番号の全桁やセキュリティコードも含まれるという。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603168?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-19T07:20:54.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/19/92776bf2ed7520b3ff13f6077f0dcc8118198ab1e91d6eb859e02d3a4a9c20bf.jpg",
+          "score": {
+            "total": 50,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムやサイトに入り込むこと。法律で禁止されている。"
+            },
+            {
+              "word": "ウェブスキミング",
+              "meaning": "通販サイトに不正なプログラムを仕込み、入力されたカード情報を盗み取る手口。"
+            },
+            {
+              "word": "セキュリティコード",
+              "meaning": "カード裏面などにある3〜4桁の番号。ネット決済で本人確認に使われる。"
+            }
+          ]
+        },
+        {
+          "title": "楽天証券、アンソロピックIPOで「抽選対象外」と誤表示",
+          "summary": [
+            "楽天証券で19日、米アンソロピック株のIPOの抽選結果の発表が遅れた。",
+            "申込者の画面には、一時「抽選対象外」と表示された。",
+            "同社は「想定より申し込みが多かった」と説明し、後から当選したとの報告が相次いだ。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/19/2000003347/",
+          "region": "国内",
+          "publishedAt": "2026-11-19T09:40:42.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/19/2000003347/10012610/2048",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "IPO",
+              "meaning": "新規株式公開。会社が初めて株を売り出し、証券取引所に上場すること。"
+            },
+            {
+              "word": "抽選",
+              "meaning": "申し込みが多いとき、株を買える人をくじで決めること。"
+            }
+          ]
+        },
+        {
+          "title": "グーグル、トップページにAIチャットを表示",
+          "summary": [
+            "グーグルが、検索サイトのトップページにAI検索を組み込む更新を進めている。",
+            "製品担当副社長のロビー・スタイン氏が、Xで使い方を紹介した。",
+            "折りたたみ式のサイドバーを開くと、AIとのチャットを見たり続けたりできる。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+          "region": "海外",
+          "publishedAt": "2026-11-19T20:05:06.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "サイドバー",
+              "meaning": "画面の横に出し入れできる細長い表示欄。"
+            },
+            {
+              "word": "X",
+              "meaning": "旧ツイッター。短い文章や画像を投稿できるSNS。"
+            }
+          ]
+        },
+        {
+          "title": "相次ぐシステム障害、専門家「偶然ではない可能性」",
+          "summary": [
+            "航空予約や銀行、仕事用のサービスなどで、システム障害が相次いでいる。",
+            "サイバーセキュリティの専門家は、単なる偶然ではなく、より深い原因がある可能性を指摘する。",
+            "記事は2000年問題になぞらえ、AIエージェントとの関係を論じている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+          "region": "海外",
+          "publishedAt": "2026-11-19T21:42:31.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800",
+          "score": {
+            "total": 55,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "サイバーセキュリティ",
+              "meaning": "コンピューターやネットを攻撃や事故から守るための対策や技術。"
+            },
+            {
+              "word": "2000年問題",
+              "meaning": "西暦2000年になるとコンピューターが日付を誤り、障害が起きると心配された問題。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに、AIが自分で手順を考えて操作や作業を進めるしくみ。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディアのフアン氏辞任、騒動の経緯",
+          "summary": [
+            "米エヌビディアのジェンスン・フアン氏が、不倫をきっかけに同社を辞任した。",
+            "米国と中国が最先端のAI基盤の開発を競うなか、安全保障への影響も指摘されている。",
+            "米メディアが、一連の騒動の経緯を時系列でまとめた。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "region": "海外",
+          "publishedAt": "2026-11-19T20:18:49.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "エヌビディア",
+              "meaning": "AIの計算に欠かせない半導体（GPU）で世界トップの米企業。"
+            },
+            {
+              "word": "AI基盤",
+              "meaning": "AIを動かすための半導体やデータセンターなど、土台となる設備。"
+            },
+            {
+              "word": "安全保障",
+              "meaning": "外国からの攻撃や脅しから、国や国民の安全を守ること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "ヨコオ、生成AI関連がけん引し大幅増収増益",
+          "summary": [
+            "ヨコオの2026年4〜9月期の決算は、大幅な増収増益となった。",
+            "生成AI関連などの需要が業績をけん引した。",
+            "AIの広がりが、日本の部品メーカーの業績も押し上げている形だ。"
+          ],
+          "source": "電波新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxPUnlhMW0zQk1IWkZiNjR2V0t2QWJyMVRTU1Y2eUlmdDBsaFFEdnRkYjl6VDJoWEVDWUhXZXJYb0RjX1JQSGgwMEVZMURlYVNIcnRaRjVNU0hUdTYwc1B1dzM0dUhJaTRqX2ZhaC1NbzdkV05OZWNxVldCcFFTZ2FNZUpibHQ0WnZBOC0tdW9FelVJUnNUZm4yc3ZQN3hadEdDRF9sOVVNSjI4T01Yb19NOVNlSHU0WkVZa2NZbDRRVDBURFh5czI4OVNKY2NMMWVWUk1nSzFFNXVxa2MwVDFzMDJ1ZzdtWmlZNldIR0U3X3dHNjN5SXgtMHdKYzFIbnliNVNuTDhHZEJMNFVBLWV1ZGRCN2h2UXhGcHBSYnc4RTh4WDlIWmx5MFBDaThscURDMDBNcGYtSWQydzRzRjd3VzV6b1ZNM3E2TmIzX3I3N3RUVDFIXzlJazVaczhOOGZPalVQcFRPd1AtbkljRl82QW1oSGpkYkFmUDdhem9ZdUN1V0xKMWNPcEstRk9Yemw2bGNUYTYxeEE5R0lJSHpWZWhaMDlfcnN3bTY5R0ZzVVVRRmdLQ2NlS20xT3EzWWw4bXc3Vm83YlFqUjUzcWxtTFFwRlV6ZU5rSG12amlUVGFiSlVjS2M2WVYwMENCZFBGclMxaWtGMkxKaW5zOTliakJFejBSNy1IY1o1NFVIcVI3cm9TbWxqVElWQjJwcENBYk5kVWQ3Vy14MEdYZHQzSksxYWhtRlpl?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T21:16:47.000Z",
+          "score": {
+            "total": 43,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "増収増益",
+              "meaning": "売上高と利益が、どちらも前の年の同じ時期より増えること。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動で作り出すAI。ChatGPTやClaudeなどが代表例。"
+            }
+          ]
+        },
+        {
+          "title": "呉市の中学校、生成AIでテスト採点を自動化",
+          "summary": [
+            "広島県呉市の中学校で、生成AIを使ってテストの採点を自動化する取り組みが進む。",
+            "教員の仕事の負担を減らすことが目的。",
+            "浮いた時間を、生徒と向き合う時間に充てる狙いがある。"
+          ],
+          "source": "中国新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2ZkRqMHhLT3k0emY0Vk1YVnhtcTdIMWFnM3pjWnNKQkVEZVkzeFg5bk9JU0dxdW5qNllScXdjcjUtYmZWMzhfSHZMRFJTRWNQckVqM0ZCcldSUQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T13:48:00.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動で作り出すAI。ChatGPTやClaudeなどが代表例。"
+            },
+            {
+              "word": "自動化",
+              "meaning": "人が手作業でしていた仕事を、機械やソフトが代わりにこなすようにすること。"
+            }
+          ]
+        },
+        {
+          "title": "岡山市の公募、生成AI作品の禁止が相次ぐ",
+          "summary": [
+            "岡山市の公募事業で、生成AIで作った作品の応募を禁止する例が相次いでいる。",
+            "どこまでをAI作品とみなすかの線引きには、難しさもある。",
+            "創作の場でのAIの扱いが、自治体でも課題になっている。"
+          ],
+          "source": "山陽新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzSlBVUkxTWVNvYVRWbEUwZ3UwLUExX1JjUno0eGVwZGJwbjB6QlJwZE1RZEdOcG12WWZ3cDRBNjA1S0xnRWhmY0xIMGhUbl9yLUE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T11:32:37.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "公募",
+              "meaning": "広く一般から作品や参加者を募集すること。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動で作り出すAI。ChatGPTやClaudeなどが代表例。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピック上場、CEOは「開発ペースを守る」と強調",
+          "summary": [
+            "米アンソロピック株がナスダックで取引を始め、初値は111ドル50セントだった。",
+            "公開価格の83ドルを3割以上上回り、新たに集めた資金は800億ドルを超える。",
+            "ダリオ・アモデイCEOは取引開始の式典で、圧力に左右されずAI開発のペースを保つ方針を改めて示した。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+          "region": "海外",
+          "publishedAt": "2026-11-19T16:59:23.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ナスダック",
+              "meaning": "米国の株式市場のひとつ。IT企業やハイテク企業が多く上場している。"
+            },
+            {
+              "word": "公開価格",
+              "meaning": "上場する前に、申し込んだ投資家へ株を売り出すときの値段。"
+            },
+            {
+              "word": "CEO",
+              "meaning": "最高経営責任者。会社の経営に最終的な責任を持つトップ。"
+            }
+          ]
+        },
+        {
+          "title": "グーグルのGemini、Macを代わりに操作",
+          "summary": [
+            "グーグルのAI「Gemini」のMac向けアプリに、パソコンを操作する機能が加わった。",
+            "AIエージェントが、ファイルの整理やフォームへの入力などをこなす。",
+            "パソコン内のファイルやアプリ、Webをまたいで、複数の手順の作業を進められる。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "region": "海外",
+          "publishedAt": "2026-11-19T18:09:11.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Gemini",
+              "meaning": "グーグルが開発した対話型のAI。"
+            },
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに、AIが自分で手順を考えて操作や作業を進めるしくみ。"
+            }
+          ]
+        },
+        {
+          "title": "メタのAI「Muse」、他人の情報を表示か",
+          "summary": [
+            "米メタのAIエージェント「Muse」が、会話を取り違えている可能性があると報じられた。",
+            "社員によると、頼んでいない育児の相談や注文、他人の銀行残高が表示された例があった。",
+            "個人情報が他人に見られていた恐れがある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "region": "海外",
+          "publishedAt": "2026-11-19T17:38:40.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+          "score": {
+            "total": 58,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに、AIが自分で手順を考えて操作や作業を進めるしくみ。"
+            },
+            {
+              "word": "個人情報",
+              "meaning": "名前や住所、口座の残高など、特定の人に結びつく情報。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "シカゴ日経先物は5万8050円、東京終値を大きく下回る",
+          "summary": [
+            "日本時間20日午前5時台、NYダウは1040ドル安で推移した。",
+            "シカゴ市場の日経平均先物は5万8050円をつけた。",
+            "19日の東京市場の日経平均の終値5万9444円を大きく下回る水準だ。"
+          ],
+          "source": "みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HX3R3bGtEZmdFc21GU3l2SG0yNEdkTHF6elFHS1o2UnZubWRoN294Y09Ha1dJR295YjMzdzRUVS1XM3ZWM3dnNw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T20:35:50.000Z",
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均先物",
+              "meaning": "将来の日経平均の値段を取引するもの。夜間も動くため、翌日の日本株の目安になる。"
+            },
+            {
+              "word": "シカゴ",
+              "meaning": "米国の都市。ここの取引所でも日経平均先物が売り買いされている。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均は419円高の5万9444円、2日続伸",
+          "summary": [
+            "19日の日経平均株価は、前日より419円高い5万9444円で取引を終えた。",
+            "値上がりは2日続けて。",
+            "アンソロピックの上場を控えて、様子見の動きもあった。"
+          ],
+          "source": "BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HMGpLdE9ub1lxbzFWUWM0NVhTYWtySVk4SmRXeVFETjlHbExoUzJXWi1RMFNqMS1XUkN6dlhORWstbkhCX01QRncyNVNGd2g0NWZGbmtRU1Fwbm5NN3V5MVRlOEFrRFFvRVRnVmFPOVA3Tm9N?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T18:15:00.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均株価",
+              "meaning": "日本を代表する225社の株価から計算する指数。日本の株式市場の目安。"
+            },
+            {
+              "word": "様子見",
+              "meaning": "大きな出来事の結果が分かるまで、投資家が売り買いを控えること。"
+            }
+          ]
+        },
+        {
+          "title": "ドル高が一服、ドル円は159円台で推移",
+          "summary": [
+            "ニューヨーク外国為替市場では、ドル高の動きが一服した。",
+            "ドル円は1ドル＝159円台での推移が続いた。",
+            "米国の10月の景気先行指数は、予想に反してマイナスとなった。"
+          ],
+          "source": "みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9mNERpdTVTczZSb3NyUEtGTHU3elZtbDlUWm5HOXloWjFjbi1VQ0t6cld0MnJhNkw2UjJNcmwyd0VrTy0yeGlTdA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T21:35:51.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ドル高",
+              "meaning": "ほかの通貨に比べてドルの価値が上がること。ドル円では円安と同じ動き。"
+            },
+            {
+              "word": "景気先行指数",
+              "meaning": "景気の先行きを示すいくつかの統計をまとめた指標。数カ月先の景気の目安。"
+            }
+          ]
+        },
+        {
+          "title": "米株が大幅安、アンソロピック上場もAI熱は戻らず",
+          "summary": [
+            "19日の米国株式市場は大きく下げ、ダウ平均は1101ドル安となった。",
+            "S&P500は6日続けての下落が意識され、ナスダックも2.2％下げた。",
+            "アンソロピックの上場は、AI関連株への熱気を呼び戻せなかった。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T21:01:02.000Z",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "S&P500",
+              "meaning": "米国の主要500社の株価から計算する指数。米国株全体の動きの目安。"
+            },
+            {
+              "word": "ナスダック",
+              "meaning": "米国の株式市場のひとつ。IT企業やハイテク企業が多く上場している。"
+            }
+          ]
+        },
+        {
+          "title": "韓国KOSPI急落、証券各社が目標株価を引き下げ",
+          "summary": [
+            "韓国の代表的な株価指数KOSPIが急落した。",
+            "これを受け、証券各社が個別企業の目標株価を相次いで引き下げている。",
+            "一方で「売り」と判断した例は、わずか0.04％にとどまる。"
+          ],
+          "source": "BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBveFFRaDlIVkNmQ2dFeUM4YmwwWTRmSUxEWHR6SkpLLVJVSGdYZnlQenlFQm9NTDQtYXR1U3BJeldBY1VmWU1xMGZSamRldHJzZ3BORVhvTGUzUkdqSGJHUTBlWFJqbkVNOVctM2o0aVFSTmxR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T21:35:00.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "KOSPI",
+              "meaning": "韓国総合株価指数。韓国の株式市場全体の動きを示す。"
+            },
+            {
+              "word": "目標株価",
+              "meaning": "証券会社のアナリストが、その会社の株が将来つけそうだと考える値段。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピック上場、不安定な株式市場のリスクに",
+          "summary": [
+            "米マーケットウォッチは、アンソロピックの上場が株式市場の大きなリスクになると指摘した。",
+            "市場はすでに不安定な状態にあるとしている。",
+            "実際、上場当日の米国株は大きく値下がりした。"
+          ],
+          "source": "MarketWatch",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGp3U3BEQmpkMEZoZko3Vm9BcFpjLUlQN3VTdTJVYU15VXJMV21BX1c2WnZxSWt3MjhHZE5XZkZFc1JOZm5sSFJsbW9abEtYQkh4eGlZdURNMzBTRWlGZXMxaGpfN1k5UG0wYkFGdUlmSldYZWhfM19rQnM0WXpocUVQc3FhQUEzN0dfZjNNQVdwelluZE9HQ0dtQzREdTc0OHhZNEp2UnhmRThLUGpR?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T16:49:00.000Z",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "マーケットウォッチ",
+              "meaning": "米国の金融・経済ニュースサイト。"
+            },
+            {
+              "word": "上場",
+              "meaning": "会社の株を証券取引所で誰でも売り買いできるようにすること。広く資金を集められる。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は419円高の5万9444円で2日続伸。米国はダウが1101ドル安、ナスダックも2％超下落。ドル円は159円台。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "ネパールで日本人35人拘束、特殊詐欺に関与か",
+          "summary": [
+            "ネパールで、日本人35人が拘束された。",
+            "特殊詐欺に関わった疑いが持たれている。",
+            "拘束された場所は、標高1700メートルにあるリゾートホテルだった。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Gc3Vhbm90ajNYMEd2aDB5ZVVnRndnSXlkMURoR1lydk5wRDBaNFFCOUZSQlgxUEdCOW9ZR1Z1dW9XVGJIRXN6ako0TlVmeklyOGxkWjEtc01qNGx6cG9BakZQMXFRN1BZQjJPc3NEOWtLbEZIa1I3eTVvNXFXa1U?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T19:06:32.000Z",
+          "score": {
+            "total": 68,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "特殊詐欺",
+              "meaning": "電話などで相手をだまし、お金をだまし取る犯罪。オレオレ詐欺などが代表例。"
+            },
+            {
+              "word": "拘束",
+              "meaning": "身柄を押さえて、自由に動けないようにすること。"
+            }
+          ]
+        },
+        {
+          "title": "広島で最悪の2億円相当の特殊詐欺、呉の70代男性",
+          "summary": [
+            "広島県で過去最悪となる、2億円相当の特殊詐欺の被害が出た。",
+            "被害にあったのは呉市の70代男性。",
+            "男性は「早く嫌疑を晴らしたかった」と、だまされた手口を語った。"
+          ],
+          "source": "中国新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XRFdaZVpRTkJBVEpHVEJIemlabVBidGoxdm5pLXBZZWJzUnhRSmFiTTczdXpOUG5pZXRudVJBc1RtZ1VaM3JRQXZDbDF0aTdJZ1hKUXdTYTRMQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T13:33:00.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "特殊詐欺",
+              "meaning": "電話などで相手をだまし、お金をだまし取る犯罪。オレオレ詐欺などが代表例。"
+            },
+            {
+              "word": "嫌疑",
+              "meaning": "罪を犯したのではないかという疑い。警察を名乗る詐欺でよく使われる言葉。"
+            }
+          ]
+        },
+        {
+          "title": "岐阜の陸自発砲事件、20日に初公判",
+          "summary": [
+            "岐阜県の陸上自衛隊で起きた発砲事件の初公判が、20日に開かれる。",
+            "被告は事件当時18歳だった。",
+            "被告に責任能力があったかどうかが争点となる。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIRmxGeS1XQUJUcTBndTJvME02cl9ubTYtV2FoYzNKT2pZOFc2djRhMkN3OGZpWUh3U2JOYWM1ZmNGR3c2WUM0dDZHZzZpN2dxSDdXVUpzeGUyN2RubHhRX0tFbGI0OTg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-19T20:00:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "初公判",
+              "meaning": "刑事裁判で最初に開かれる法廷。起訴内容を認めるかどうかなどが示される。"
+            },
+            {
+              "word": "責任能力",
+              "meaning": "自分の行いの善悪を判断し、行動を抑えられる力。ないと罰せられない場合がある。"
+            }
+          ]
+        },
+        {
+          "title": "米ヒルズボロ郡、一斉捜査で117人逮捕",
+          "summary": [
+            "米ヒルズボロ郡の保安官事務所が、一斉捜査で117人を逮捕した。",
+            "麻薬の取り締まりと凶悪犯罪の摘発を目的とした作戦だった。",
+            "作戦名は「セーフ・ハーベスト（安全な収穫）」。"
+          ],
+          "source": "WFLA",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0JGNzJxWTFxZHZOV0M5RWtHTXk0UFEyR21yZlFoMHFNUnV1Q1BqS2FCMldWelp1T0JXWDRobWVwdXZvQ3lvMU14RGZIcHRuYi1ac0tSeFFQOEx5MjV0eHY1QU93ZkV5aG9MWFpJUUVONmNpMm93ZFIwdE4xaUdTdUhzbzhtV0Z6dzBuVXMxV3lfdkszQjFsNFFlNE5nQW1tTl9N?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T21:08:00.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "保安官事務所",
+              "meaning": "米国の郡ごとに置かれる警察組織。選挙で選ばれた保安官がトップ。"
+            },
+            {
+              "word": "一斉捜査",
+              "meaning": "多くの捜査員で、決めた期間に集中して容疑者の摘発を進めること。"
+            }
+          ]
+        },
+        {
+          "title": "米南カリフォルニアで列車の積み荷窃盗団を摘発",
+          "summary": [
+            "米南カリフォルニアで、貨物列車から積み荷を盗んでいた窃盗グループが摘発された。",
+            "被害額は2200万ドル以上で、ナイキの靴や工具が中心だった。",
+            "米司法省によると、10人以上が逮捕された。"
+          ],
+          "source": "ABC7 Los Angeles",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQk5IR2R3SkZRZFlsM2JMWV9tU0lrNVBRVkJueHJHQjBZbHdpNXF1cHVpTnQ3LXZkYWJ3TWVfc2NISEstUmNfQy0tbzVmd09xR29Hckd6TTNMRngtb3FCMDQ5MGRGR0UwMUNaYVctam80VjJJc1QyWlZrb1gxMnktX0xPdTZSMTg1a0xXUUVBNEZEbnR2VXB6MU9Odjg0WFdyYmplalRSVHhTRmZqQms0M084dGdZNXpvVmNKTnZMeS1uQmhFdnZhTU1xSdIB0AFBVV95cUxOMHE5MjJxQk9tenoyaXFObWFTS0hoSXd2R2ZhWXZBUjI5TEFRVzRBNFhXNnBrY3VuRlhzd0ZxT2NPUEN0UkdncEZjTzFkRDU3NWhqNGU1ekY0U25JejJPOFRfMVBoZUU5MGc2Ny1PYWlTQmhBUVZhWGt6a1RaTERIQlZaWk05dTJPbWgtODhTd2dxN2t5WTdJWjBKUXJzZ2dvNTBQNDF3cExRd1pNSUhNRU8wMGJNeWUzWEZhQlpEbVB0aEFzRklTQ201N3puLVlt?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T21:24:57.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "司法省",
+              "meaning": "米国で犯罪の捜査や裁判での訴えを担う役所。FBIも司法省に属する。"
+            },
+            {
+              "word": "窃盗グループ",
+              "meaning": "組織的に盗みを繰り返す集団。"
+            }
+          ]
+        },
+        {
+          "title": "米ロサンゼルス郡の児童保護職員、子ども5人への性的暴行で起訴",
+          "summary": [
+            "米ロサンゼルス郡の児童保護サービスの職員が起訴された。",
+            "勤務中に子ども5人に性的暴行をした罪に問われている。",
+            "子どもを守るべき立場の職員による事件として報じられた。"
+          ],
+          "source": "Los Angeles Times",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY0dOQnJfN0ZEYlFMbU9HZkotSnFRV2tTc3dxb0pmUDNBc3QybmFvQVJSbXJzRHRtRzVOa0RpekJYSDdjMHNzSHZmV2FvVEl5VkZpM0hDdnZjWnZTX0VNR3ZLcFJQa2g5NHlEcVRfendJY3JFeTR5UVV4bTY3RENWZEc2SjNEa3VsLWotYUdBUEhTbGw4MVV0bk9FdDYwN2JoT1gwZGc3WmliTkZPYWgyUGJEdnRhVldmR2lFTUJiWG5CdEI1MU5yV2EtX2Vpa2pNUGZJR2hVTQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-19T19:44:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "児童保護サービス",
+              "meaning": "虐待などから子どもを守るための行政の部署。日本の児童相談所にあたる。"
+            },
+            {
+              "word": "起訴",
+              "meaning": "検察が、容疑者を裁判にかけるよう裁判所に求めること。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
