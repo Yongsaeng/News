@@ -1,0 +1,1476 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-25T22:02:48.000Z",
+  "headline": [
+    "米国が日本など14カ国・地域に新関税を提案、日本は最大15％。物価再加速で12月利上げ観測も強まる",
+    "消費減税後の「支援金」は年収487万円が上限に。介護保険料は一部高齢者の負担増を検討",
+    "日経平均は約1633円安と大幅反落。米国はナスダックが一時4％近く下げ、エヌビディアは6％安"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 57011.62,
+      "change": 574.9715625000026,
+      "changePercent": 1.0187911196334543
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7182.78,
+      "change": -18.309843750000255,
+      "changePercent": -0.25426489805417174
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 23585.803,
+      "change": -147.73606250000012,
+      "changePercent": -0.6224780135442564
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 50182.95,
+      "change": 164.2507812499971,
+      "changePercent": 0.32837875397692484
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.184,
+      "change": 0.1749973144531225,
+      "changePercent": 0.11005497267295852
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "「支援金」の対象、上限は平均年収並みの487万円に",
+          "summary": [
+            "消費減税に合わせた「支援金」で、受け取れる人の年収の上限を平均年収並みにする方向になった。",
+            "2025年の平均年収は487万円で、政府は野党の主張を取り入れて対象を広げる。",
+            "夫婦と子2人の世帯で最大27万円の案で、扶養家族は年収56万円で対象外になる場合もある。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfZW9rbjZqSlhXLUhzZ05JQy1BTC0xX3pvY0VMcnBmUEZoaVZhX2hzcGFhZTJ5TUlQMEtKRE5KNUdBbEFUS1AtZFMyRDBvb2lLV3hnVVgycG1KU3ZqZU94eWlWQ3F1TFNWTjQydE5LN3ZlbkRYLUE1MEdaT2UtcFE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T20:47:52.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "消費税を下げたあとに配る「支援金」で、対象になる人の年収の上限を平均年収並み（2025年は487万円）にする方向が固まった。前日に伝わった給付案から、対象の線引きが具体的になった。",
+            "why": "給付を受けられる人を絞りすぎると、少し収入が多いだけで対象外になる人の不満が強まる。野党は対象を広げるよう求めており、政府がそれを取り入れた形だ。一方で、所得連動の給付は税や社会保険料の負担も考えて設計するため、扶養家族の年収など細かな条件が付くとみられる。",
+            "points": [
+              {
+                "label": "年収487万円前後の人",
+                "text": "上限のすぐ上か下かで受け取れるかが分かれ、同じような収入でも差が出る可能性がある。",
+                "level": "大",
+                "when": "数年後"
+              },
+              {
+                "label": "子育て世帯",
+                "text": "子どもが多い世帯ほど受取額が増える案で、対象になれば家計の支えになりそう。",
+                "level": "大",
+                "when": "数年後"
+              },
+              {
+                "label": "パートで働く家族",
+                "text": "扶養家族の年収が56万円を超えると対象外になる場合があり、働き方を見直す人が出るかもしれない。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "所得の数え方や扶養家族の条件がどこまで細かく決まるか"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "所得連動",
+              "meaning": "収入（所得）の多い少ないに合わせて、もらえる額や対象を変える仕組み。"
+            },
+            {
+              "word": "扶養家族",
+              "meaning": "家族の収入で生活している配偶者や子どもなど。税や社会保険の計算で区別される。"
+            },
+            {
+              "word": "野党",
+              "meaning": "政権を担っていない政党。国会で政府の案に意見や対案を出す。"
+            }
+          ]
+        },
+        {
+          "title": "パイロット不足の「2030年問題」、ANAは養成会社を設立",
+          "summary": [
+            "航空業界で、パイロットが足りなくなる「2030年問題」への懸念が強まっている。",
+            "バブル期に大量採用したパイロットが一斉に退職する時期を見据えた動きだ。",
+            "ANAホールディングスはパイロットを自前で育てる養成会社を設立した。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603979?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-25T13:01:50.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/25/49ad8e5904a55c50982fb503697497d2f5d259be25ebdbe5a14fecb62dd0b4db.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "航空会社でパイロットが足りなくなる「2030年問題」に備え、ANAホールディングスがパイロットを自前で育てる養成会社をつくった。",
+            "why": "バブル期に多く採用されたパイロットが、2030年ごろに相次いで退職する時期を迎えるとされる。パイロットは一人前になるまで数年かかり、すぐには補えない。将来は航空需要が増える見込みで、人が足りないと便を減らさざるを得なくなる。そのため早めに自社で育てる体制をつくる狙いとみられる。",
+            "points": [
+              {
+                "label": "飛行機をよく使う人",
+                "text": "人手が足りないと路線縮小や減便につながり、予約が取りにくくなる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "地方に住む人",
+                "text": "利用者の少ない地方路線から便が減ると、移動の選択肢が狭まるおそれがある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "パイロットを目指す人",
+                "text": "航空会社が自前で育てる道が広がり、目指しやすくなる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "他の航空会社が育成や採用をどこまで増やすか"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ANAホールディングス",
+              "meaning": "全日空（ANA）などを傘下に持つ航空会社グループの親会社。"
+            },
+            {
+              "word": "バブル期",
+              "meaning": "1980年代後半〜90年代初め、景気が過熱した時期。企業が大量に人を採用した。"
+            },
+            {
+              "word": "路線縮小",
+              "meaning": "飛行機が飛ぶ区間（路線）や便の数を減らすこと。"
+            }
+          ]
+        },
+        {
+          "title": "スズキ初の小型EV「イグニス」、2027年夏に欧州で発売",
+          "summary": [
+            "スズキが、同社初のコンパクトEV『イグニス』を世界で初めて公開した。",
+            "軽自動車の「eスカイ」をもとにした欧州向けの小型EVで、日本から輸出する。",
+            "欧州での販売は2027年夏に始める予定だ。"
+          ],
+          "source": "レスポンス（Response.jp）",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01enBXZmQ2Ty1FM2xwRzZzdEpBMXJzNXN6VkZHMGxLRzdBSTg2ZWhxNFBhQkhrdHJqbjdiX2Zmc0x1NTVxYTVvUkRILWFNSVQ1anpkLTVhMjI1dnNwM3dYZVI2LWtWTE8tTUNHUw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T14:37:30.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "スズキが同社として初めての小型EV「イグニス」を公開した。日本でつくって欧州へ輸出し、2027年夏から欧州で売る。",
+            "why": "欧州では二酸化炭素を出さない車への切り替えを促す規制が強く、各社がEVを増やしている。スズキは小さい車づくりが得意で、軽自動車「eスカイ」の技術を生かして欧州向けの小型EVを用意したとみられる。日本からの輸出になるため、欧州の通商ルールや為替の影響も受けやすい。",
+            "points": [
+              {
+                "label": "スズキの取引先",
+                "text": "日本で生産して輸出するため、部品をつくる国内の取引先の仕事が増える可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "自動車関連の働き手",
+                "text": "国内工場でEVをつくる経験が積まれ、EV時代の雇用を守る一歩になりそう。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "欧州での価格と、日本でも同じEVを売るか"
+          },
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "EV",
+              "meaning": "電気自動車のこと。ガソリンではなく電池にためた電気でモーターを回して走る。"
+            },
+            {
+              "word": "軽自動車",
+              "meaning": "日本独自の小さな車の規格。税金が安く、国内で広く使われている。"
+            }
+          ]
+        },
+        {
+          "title": "米が14カ国・地域に新関税を提案、日本は最大15％",
+          "summary": [
+            "米国が、中国やEUなど主要な貿易相手を含む14の国と地域に新たな関税を提案した。",
+            "過剰生産を理由にしたもので、既存の税率を含めて日本は最大15％、中国は20％となる。",
+            "違憲判決が出る前の水準に戻る形で、貿易摩擦が再び強まるとの見方が出ている。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-25T16:21:34.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/91fc/live/6d9c5c50-e908-11f1-99b6-a35a62fa4264.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "トランプ政権が、日本や中国、EUなど14の国と地域に新しい関税をかける案を示した。日本からの輸入品には、もともとの税率と合わせて最大15％がかかる。",
+            "why": "米国は、他国が作りすぎた品を安く売り込んでいるとして、過剰生産を理由に関税を持ち出した。報道では、以前の関税が違憲判決で見直される前の水準に戻る形だという。関税で輸入品を割高にし、国内産業を守る狙いとみられるが、相手国との対立を招きやすい。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "自動車や機械など米国向けの輸出品が割高になり、売れ行きや利益が落ちるおそれがある。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "関税の報道は株価の重しになりやすく、輸出関連株を中心に値動きが荒くなりそう。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本政府は税率の引き下げや適用除外を求めて、米国との交渉を迫られる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "提案が正式に決まる時期と、日本政府の交渉の行方"
+          },
+          "score": {
+            "total": 90,
+            "parts": {
+              "japan": 50,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "関税",
+              "meaning": "外国から輸入する品物にかける税金。かけられた国の商品は相手国で売りにくくなる。"
+            },
+            {
+              "word": "過剰生産",
+              "meaning": "需要を上回るほど大量に作ること。余った品が安く輸出され、相手国の産業を圧迫しうる。"
+            },
+            {
+              "word": "違憲判決",
+              "meaning": "法律や政策が憲法に反すると裁判所が判断すること。"
+            }
+          ]
+        },
+        {
+          "title": "米物価の伸びが再加速、12月の利上げ観測が強まる",
+          "summary": [
+            "米国の10月のPCE物価指数は、3カ月続けて伸びが拡大した。",
+            "インフレの再加速を受けて、FRBが12月のFOMCで利上げするとの見方が強まっている。",
+            "市場では地区連銀の景気報告「ベージュブック」や7年債の入札にも注目が集まる。"
+          ],
+          "source": "ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tV09hdWJkWUdfZDEwUGZqMzZCWTloUXo4N184bng3a0JuUkhIOHhTdVlPR1diWkJiRkhjTnRRY0dBNEViQmdrbHVFWTdMX1M5M3c?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T15:06:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国で、暮らしにかかる物価の伸びを示すPCE物価指数が3カ月続けて大きくなった。これを受けて、FRBが12月の会議で利上げするとの見方が強まっている。",
+            "why": "物価の伸びが高いままだと、FRBは金利を上げてお金を借りにくくし、景気の過熱を冷まそうとする。米国の金利が上がると、金利の低い円を売ってドルを買う動きが出やすい。円安は輸入品の値段を押し上げるため、日本の物価にも波及しやすい仕組みだ。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "米国の利上げ観測でドルが買われやすく、円安が進む可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "ガソリン・食品価格",
+                "text": "円安が続くと輸入するエネルギーや食料が割高になり、値上げにつながりやすい。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "米国の金利上昇はハイテク株などの売りを招きやすく、日本株にも波及しうる。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "12月のFOMCで利上げが決まるかどうか"
+          },
+          "score": {
+            "total": 72,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "PCE物価指数",
+              "meaning": "米国の個人が使うお金をもとにした物価の指標。FRBが特に重視している。"
+            },
+            {
+              "word": "FRB",
+              "meaning": "米国の中央銀行にあたる組織。金利を上げ下げして物価や景気を調整する。"
+            },
+            {
+              "word": "FOMC",
+              "meaning": "FRBが金利をどうするかを決める会議。年8回開かれる。"
+            },
+            {
+              "word": "利上げ",
+              "meaning": "中央銀行が政策金利を引き上げること。物価の上がりすぎを抑える効果がある。"
+            }
+          ]
+        },
+        {
+          "title": "米7〜9月期GDP、4.3％増に上方修正",
+          "summary": [
+            "米国の7〜9月期のGDP改定値は、年率4.3％増に上方修正された。",
+            "個人消費とAIブームが押し上げ、約3年ぶりの高い成長となった。",
+            "一方で成長は一部の分野に偏り、消費者の景況感との差の一因になっているとの指摘もある。"
+          ],
+          "source": "ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xclpYNlFya245aHpRVnNZa2hxZUFZV1ZBVzdWWTNmdWRiUGJFQms3TW9GVXVkRGRITEZid1NXcEVjbC0tWHM4YjF0a3hUQnVFTXc?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T13:33:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の7〜9月の経済成長率が見直され、年率4.3％増に引き上げられた。個人消費やAI関連の投資が押し上げ、約3年ぶりの高い伸びになった。",
+            "why": "AIブームでデータセンターなどへの投資が膨らみ、消費も底堅かったため、成長率が高めに出た。ただ、伸びたのはAIなど一部の分野が中心で、多くの人が景気の良さを実感しにくいとの指摘もある。景気が強いと物価も下がりにくく、利上げ観測を後押ししやすい。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "米国の景気が強ければ、日本から米国への輸出が支えられる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "円相場",
+                "text": "強い景気は米国の金利を押し上げやすく、円安方向に働く可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "10〜12月期も高い成長が続くか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "GDP",
+              "meaning": "国内総生産。国内で一定期間に生み出されたモノやサービスの価値の合計で、景気の大きさを表す。"
+            },
+            {
+              "word": "改定値",
+              "meaning": "最初の発表（速報値）のあと、新しいデータを反映して見直した数字。"
+            },
+            {
+              "word": "景況感",
+              "meaning": "人々や企業が感じる景気の良し悪しの感覚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "介護保険料、一部の高齢者で負担増を検討",
+          "summary": [
+            "政府は、介護保険料について一部の高齢者の負担を増やす方向で検討している。",
+            "介護保険は、高齢者の介護サービスを保険料と税金で支える仕組みだ。",
+            "どの高齢者が対象になり、どれだけ増えるかは今後の議論で決まる見通しだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603939?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-25T08:04:47.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2019/6/26/1561537863_1561537849_aflo_92044812.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "介護保険料について、一部の高齢者の負担を重くする方向で政府が検討していることが分かった。",
+            "why": "高齢者が増えて介護サービスを使う人が増え、介護にかかるお金は年々膨らんでいる。介護保険は保険料と税金で半分ずつ支える仕組みで、働く世代の負担も重くなっている。そのため、収入や資産に余裕のある高齢者に多めに払ってもらう案が議論されてきたとみられる。",
+            "points": [
+              {
+                "label": "年金生活者",
+                "text": "対象になれば毎月の保険料が増え、年金から差し引かれる額が大きくなる可能性がある。",
+                "level": "大",
+                "when": "数年後"
+              },
+              {
+                "label": "働く世代",
+                "text": "高齢者の負担が増える分、現役世代の保険料の伸びが抑えられる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "親の介護をする人",
+                "text": "親の負担が増えると、仕送りなど家族の負担に響く場合がありそうだ。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "負担増の対象となる収入の線引きがいつ決まるか"
+          },
+          "score": {
+            "total": 78,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "介護保険",
+              "meaning": "40歳以上が保険料を払い、介護が必要になったときにサービスを1〜3割の負担で使える制度。"
+            },
+            {
+              "word": "保険料",
+              "meaning": "保険に入っている人が払うお金。介護保険では収入などに応じて額が決まる。"
+            }
+          ]
+        },
+        {
+          "title": "防衛力整備計画など「3文書」の改定の指針が判明",
+          "summary": [
+            "安全保障の基本方針をまとめた「3文書」の改定に向け、防衛力整備計画の指針が明らかになった。",
+            "防衛力整備計画は、自衛隊の装備や予算の大枠を数年単位で決める計画だ。",
+            "指針の詳しい中身や改定の日程は、今後の政府の議論で固まる見通しだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603985?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-25T14:12:01.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2021/1/12/1610462708_1610462695_aflo_109260004.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本の安全保障の基本方針である「3文書」のうち、防衛力整備計画を見直すための指針の内容が報道で明らかになった。",
+            "why": "3文書は、国としての安全保障の考え方と、自衛隊の装備や予算の計画をまとめたものだ。周辺国の軍事力の増強や、ドローンなど新しい技術の広がりで、計画を見直す必要が出ているとみられる。防衛費は国の予算の中でも大きく、増えれば財源の議論も避けられない。",
+            "points": [
+              {
+                "label": "納税者全般",
+                "text": "防衛費が膨らめば、その財源をどう賄うかで将来の税負担に影響する可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "自衛隊員",
+                "text": "装備や組織の見直しで、働き方や配置が変わる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "防衛関連企業",
+                "text": "装備の調達が増えれば、受注が増える企業が出てきそうだ。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "政府が3文書の改定案をいつ示すか"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "3文書",
+              "meaning": "国家安全保障戦略・国家防衛戦略・防衛力整備計画の3つ。日本の安全保障の基本方針を定める。"
+            },
+            {
+              "word": "防衛力整備計画",
+              "meaning": "自衛隊がどんな装備をそろえ、どれだけお金を使うかを数年単位で決めた計画。"
+            },
+            {
+              "word": "自衛隊",
+              "meaning": "日本を守るための組織。陸・海・空の3つがある。"
+            }
+          ]
+        },
+        {
+          "title": "行方が分からない技能実習生、今も6600人",
+          "summary": [
+            "失踪した外国人の技能実習生のうち、今も約6600人の行方が分かっていない。",
+            "技能実習は、外国人が日本で働きながら技能を身につける制度だ。",
+            "失踪の多さは、制度の見直しが進められてきた理由の一つとされる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6603898?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-25T02:47:00.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261125-0f1c0fc/all/images/ogp_default.png",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "職場から姿を消した外国人の技能実習生のうち、約6600人の行方が今も分かっていないことが明らかになった。",
+            "why": "技能実習生は原則として職場を自由に変えられず、低い賃金や長時間労働、仲介業者への借金などから逃げ出す人がいると指摘されてきた。こうした問題を受けて、国は制度を改めて転職をしやすくする新しい仕組みへの移行を進めているとみられる。",
+            "points": [
+              {
+                "label": "人手不足の企業",
+                "text": "外国人が働き続けられる環境を整えないと、人材を確保しにくくなる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "外国人労働者",
+                "text": "制度の見直しで、職場を変えやすくなるなど働く環境が改善する可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "新しい制度への移行で失踪が減るかどうか"
+          },
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "技能実習生",
+              "meaning": "技能実習制度で来日し、工場や農業などで働きながら技能を学ぶ外国人。"
+            },
+            {
+              "word": "失踪",
+              "meaning": "行方が分からなくなること。実習先から姿を消す実習生が問題になっている。"
+            }
+          ]
+        },
+        {
+          "title": "ウクライナ、ロシアの空軍基地を攻撃し軍用機5機に被害",
+          "summary": [
+            "ウクライナは、ロシアのサバスレイカ空軍基地を攻撃し、軍用機5機に損害を与えたと発表した。",
+            "この基地には、極超音速ミサイルや滑空爆弾の発射に使われる機体が配備されている。",
+            "ロシアによるウクライナへの攻撃能力をそぐ狙いがあるとみられる。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-25T14:46:41.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/263d/live/670b2250-e8df-11f1-a3b9-79c60ec9ab33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナが、ロシアの空軍基地を攻撃して軍用機5機に損害を与えたと発表した。基地はウクライナへの攻撃に使う機体の拠点だった。",
+            "why": "ロシアは軍用機から極超音速ミサイルや滑空爆弾を撃ち込み、ウクライナの都市やエネルギー施設を攻撃してきた。ウクライナは、その発射元となる基地をたたいて攻撃を減らそうとしているとみられる。戦闘が長引くほど、世界のエネルギーや穀物の市場にも影響が続きやすい。",
+            "points": [
+              {
+                "label": "エネルギー価格",
+                "text": "戦闘の激化で原油や天然ガスの値動きが荒くなれば、電気・ガス代に響く可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "安全保障",
+                "text": "ロシアの軍事行動は日本周辺の安全保障環境にも関わり、防衛政策の議論に影響しうる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "ロシアが報復攻撃を強めるかどうか"
+          },
+          "score": {
+            "total": 58,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "極超音速ミサイル",
+              "meaning": "音の速さの5倍以上で飛ぶミサイル。速くて軌道が読みにくく、迎え撃つのが難しい。"
+            },
+            {
+              "word": "滑空爆弾",
+              "meaning": "翼を付けて飛行機から投下し、グライダーのように滑空して遠くの目標を狙う爆弾。"
+            }
+          ]
+        },
+        {
+          "title": "北朝鮮、制裁をめぐる対立でスイスの外交官を追放",
+          "summary": [
+            "北朝鮮が、制裁をめぐる対立を理由にスイスの外交官を国外に追放した。",
+            "スイスは、両国の関係を北朝鮮の在ベルン大使館を通じて維持するとしている。",
+            "スイス側は、北京にある自国の大使館を通じて対応を続ける。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-25T21:51:17.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b4ee/live/fcd47260-e8fc-11f1-99b6-a35a62fa4264.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "北朝鮮が、制裁をめぐる対立からスイスの外交官を国外に追い出した。スイスは別の大使館を通じて関係を保つ。",
+            "why": "北朝鮮は核やミサイルの開発を理由に国連などから制裁を受けている。スイスは中立国として北朝鮮と比較的近い関係を保ち、対話の窓口になることもあった。そのスイスとも関係がこじれたことで、北朝鮮の孤立が一段と深まる可能性がある。",
+            "points": [
+              {
+                "label": "安全保障",
+                "text": "北朝鮮と対話できる国が減ると、核・ミサイル問題の緊張が続きやすくなる。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "拉致問題などで北朝鮮との接触に使える経路が狭まる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "北朝鮮が他の国の外交官にも同様の対応をとるか"
+          },
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "制裁",
+              "meaning": "国際的なルールを破った国に対し、貿易を止めるなどして圧力をかけること。"
+            },
+            {
+              "word": "外交官",
+              "meaning": "国を代表して外国に駐在し、相手国との交渉や連絡を担う人。"
+            }
+          ]
+        },
+        {
+          "title": "EU、英国に「メイド・イン・ヨーロッパ」制度への参加案",
+          "summary": [
+            "EUは、域内でつくられた製品を優遇する「メイド・イン・ヨーロッパ」制度への新たな参加案を英国に示した。",
+            "草案では、英国は中国製の車への関税を引き上げずに制度に加われる可能性がある。",
+            "EUを離脱した英国と、経済面で再び近づく動きの一つとなる。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-25T16:45:09.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/22a9/live/f650dee0-e8d1-11f1-99b6-a35a62fa4264.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "EUが、域内でつくった製品を優遇する制度に英国も加われるようにする新しい案を示した。英国は中国製の車への関税を上げなくても参加できる可能性がある。",
+            "why": "EUは自分たちの産業を守るため、域内で生産された製品を優遇する仕組みを進めている。英国はEUを離脱したが、貿易の結びつきは強く、制度から外れると不利になる。EUは英国を取り込みつつ、中国製品への対応では柔軟さを見せた形だ。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "欧州の優遇の枠に入れない日本製品は、欧州で相対的に売りにくくなる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本も欧州と、制度の対象に加えてもらう交渉を迫られる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "英国が提案を受け入れるかどうか"
+          },
+          "score": {
+            "total": 43,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "EU",
+              "meaning": "欧州連合。ヨーロッパの国々がつくる共同体で、共通の市場や貿易ルールを持つ。"
+            },
+            {
+              "word": "草案",
+              "meaning": "正式に決まる前の、たたき台となる案。"
+            },
+            {
+              "word": "関税",
+              "meaning": "外国から輸入する品物にかける税金。かけられた国の商品は相手国で売りにくくなる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "タイムズカーの免許画像漏えい、見舞金は3000円分",
+          "summary": [
+            "タイムズカーで運転免許証などの本人確認書類の画像データへの不正アクセスがあった問題で、見舞金の内容が決まった。",
+            "対象は約146万件で、現金かカーシェアのeチケット3000円分を選べる。",
+            "12月1日から対象者に案内を始める。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003443/",
+          "region": "国内",
+          "publishedAt": "2026-11-25T05:51:07.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/25/2000003443/10012920/2048",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "見舞金",
+              "meaning": "迷惑や損害をかけた相手に、おわびの気持ちとして渡すお金。"
+            },
+            {
+              "word": "本人確認書類",
+              "meaning": "運転免許証やマイナンバーカードなど、本人であることを証明する書類。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。法律で禁止されている。"
+            }
+          ]
+        },
+        {
+          "title": "アンソロピックに無断販売された日本の書籍、絶版も",
+          "summary": [
+            "米AI企業アンソロピックに無断で販売された日本の書籍に、絶版の本が複数含まれていたことが分かった。",
+            "AIの学習用に大量にスキャンされた可能性がある。",
+            "著作者の許可なく本がAIの学習に使われることへの懸念が広がりそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81VzV0cUNPanpjX0wzVVdkSG5lRnJJV0NtTEVUSVB5aGl1TzZTanRlcGZZQlFjVlNjdy1qbk45alBUdFdPZzN6UVZvUWlpQmJKOGktbzEtSTlJMkVCS2NRVEhDdVVPSjlCeTZxNDRUcDZHd3otTEVJQ1VNcng3Mzg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T10:59:52.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "アンソロピック",
+              "meaning": "米国のAI企業。対話型AI「Claude」を開発している。"
+            },
+            {
+              "word": "絶版",
+              "meaning": "出版社が本の印刷・販売をやめ、新しく買えなくなった状態。"
+            },
+            {
+              "word": "スキャン",
+              "meaning": "紙の本などを読み取り機で画像やデータにすること。"
+            }
+          ]
+        },
+        {
+          "title": "「ブロッキング」法制化の議論始まる、識者は効果に疑問",
+          "summary": [
+            "総務省は、漏えいした個人情報の二次被害を抑える策を話し合う作業部会の初会合を開いた。",
+            "通信事業者がサイトへのアクセスを強制的に遮断する「ブロッキング」の法制化を議論する。",
+            "識者からは、海外経由の接続なら見放題になるとして、議論を尽くすよう求める声が出ている。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003458/",
+          "region": "国内",
+          "publishedAt": "2026-11-25T09:16:02.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/25/2000003458/10012952/2048",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ブロッキング",
+              "meaning": "通信会社が特定のサイトに利用者がつながらないよう、強制的に遮断すること。"
+            },
+            {
+              "word": "総務省",
+              "meaning": "通信や放送、地方自治などを担当する国の役所。"
+            },
+            {
+              "word": "二次被害",
+              "meaning": "最初の被害のあとに続いて起こる被害。流出した情報を悪用した詐欺など。"
+            }
+          ]
+        },
+        {
+          "title": "1Passwordに不正侵入、顧客名とメールが流出",
+          "summary": [
+            "パスワード管理サービスの1Passwordは、ハッカーに社内システムへ侵入されたと発表した。",
+            "社員の業務用アカウントが使われ、顧客の名前とメールアドレスが盗まれた。",
+            "パスワードは流出していないが、偽のメールで情報を盗むフィッシングに注意が必要だ。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T18:49:52.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2018/11/3-1password.png?w=1200",
+          "score": {
+            "total": 60,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "パスワード管理",
+              "meaning": "たくさんのパスワードをまとめて安全に保存し、自動で入力してくれる仕組み。"
+            },
+            {
+              "word": "フィッシング",
+              "meaning": "本物そっくりのメールやサイトでだまし、パスワードなどを盗み取る手口。"
+            }
+          ]
+        },
+        {
+          "title": "米FCC、SpaceXの宇宙データセンター衛星100万基を承認",
+          "summary": [
+            "米連邦通信委員会（FCC）は、SpaceXがAI半導体を積んだ衛星を最大100万基打ち上げる計画を承認した。",
+            "宇宙にAIのデータセンターをつくる「Starmind」構想の一部だ。",
+            "FCCは科学研究への悪影響などの懸念を、自らの権限外として退けた。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "region": "海外",
+          "publishedAt": "2026-11-25T17:44:51.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 47,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 2,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FCC",
+              "meaning": "米連邦通信委員会。電波や通信のルールを決め、衛星の利用も許可する米国の役所。"
+            },
+            {
+              "word": "データセンター",
+              "meaning": "大量のコンピューターを集めて動かす施設。AIの計算やネットのサービスを支える。"
+            },
+            {
+              "word": "SpaceX",
+              "meaning": "イーロン・マスク氏が率いる米国の宇宙企業。ロケットや通信衛星を手がける。"
+            }
+          ]
+        },
+        {
+          "title": "WhatsApp、メッセージの予約送信に対応",
+          "summary": [
+            "メッセージアプリのWhatsAppで、送信日時を予約できる機能が使えるようになる。",
+            "個人とのやりとりとグループの両方で使え、メタは最も要望の多い機能の一つだとしている。",
+            "利用者は約30億人で、他の多くのアプリはすでにこの機能を備えていた。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+          "region": "海外",
+          "publishedAt": "2026-11-25T20:31:48.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whatsapp-scheduled-messages-launch.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 46,
+            "parts": {
+              "japan": 20,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "WhatsApp",
+              "meaning": "メタ（旧フェイスブック）が運営する、世界で広く使われているメッセージアプリ。"
+            },
+            {
+              "word": "メタ",
+              "meaning": "フェイスブックやインスタグラム、WhatsAppを運営する米国のIT企業。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "買い物前の情報収集、3人に1人が「まず生成AI」",
+          "summary": [
+            "買い物の前の情報収集で、約3人に1人が「まず生成AIを使う」と答えた。",
+            "広告・マーケティング業界のメディアが調査結果として伝えた。",
+            "検索サイトではなくAIに相談してから商品を選ぶ人が増えていることがうかがえる。"
+          ],
+          "source": "AdverTimes.（アドタイ） by 宣伝会議",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RZFkxWmdCRV9BSDRMSEJOWDJmV2F1eGFNMk8yVnhLSWd5a3ptVl9NZXdRT3VFODZaWGFfUi1aUUNjLVRVVkhKeEZCbWFCQmNNMWItZmE0NUxIWTdhbWx3?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T08:12:15.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動でつくるAI。質問に答えたり、要点をまとめたりできる。"
+            },
+            {
+              "word": "情報収集",
+              "meaning": "物事を決める前に、必要な情報を調べて集めること。"
+            }
+          ]
+        },
+        {
+          "title": "東京都の有識者会議、生成AI前提の学びと校務を議論",
+          "summary": [
+            "東京都の有識者会議で、生成AIを使うことを前提にした学習や校務のあり方が議論された。",
+            "授業での使い方に加え、先生の事務作業の進め方も話し合いの対象になっている。",
+            "学校でのAI活用のルールづくりにつながる可能性がある。"
+          ],
+          "source": "教育新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nWkpuOVVDeVlyUlpXSnhVLXBDQ0p5TUJqeGUwQ2N2MTQ2WUIxN19WNUgxX0F0ZlJPNi1VdmMxY2szNzA5cDVJd2FNTmo3ZmY1VXJrdUF3?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T11:55:00.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "校務",
+              "meaning": "成績処理や書類づくりなど、授業以外に先生が行う学校の事務の仕事。"
+            },
+            {
+              "word": "有識者会議",
+              "meaning": "専門家などを集めて意見を聞き、行政の方針づくりに役立てる会議。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動でつくるAI。質問に答えたり、要点をまとめたりできる。"
+            }
+          ]
+        },
+        {
+          "title": "中部電力、生成AIと自律型ロボットで工事を自動化",
+          "summary": [
+            "中部電力が生成AIの活用を加速させている。",
+            "自律型ロボットを使って、工事の作業を自動化する取り組みを進める。",
+            "人手不足が続く現場で、作業の負担を減らす狙いがあるとみられる。"
+          ],
+          "source": "中日BIZナビ",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zYTRPT1EyTDlVZmt3MV85NzA3NjVkSkZ2MmxRSmJkN1pqalE3Q3B6N1NFWUJLMExTeHhCU3hnUlBlV05ieFFNQjh5Z2NCMk4ta2E1R3JQdklyOXJ6RmVR?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T10:14:11.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "自律型ロボット",
+              "meaning": "人が細かく操作しなくても、自分で周りを判断して動けるロボット。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像などを自動でつくるAI。質問に答えたり、要点をまとめたりできる。"
+            }
+          ]
+        },
+        {
+          "title": "ChatGPT、ChatとWorkを統合し利用上限を一本化",
+          "summary": [
+            "OpenAIは、ChatGPTの「Chat」と「Work」の機能を統合すると発表した。",
+            "それに伴い、ChatGPT全体で共通の利用量メーターを導入する。",
+            "たくさん使う人は、これまでより早く利用上限に達する可能性がある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T20:03:27.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "OpenAI",
+              "meaning": "ChatGPTを開発した米国のAI企業。"
+            },
+            {
+              "word": "利用上限",
+              "meaning": "一定期間に使える回数や量の上限。超えると一時的に使えなくなることがある。"
+            }
+          ]
+        },
+        {
+          "title": "Canva、生成AI機能を一括でオフにできるように",
+          "summary": [
+            "デザインツールのCanvaが、生成AIの機能をまとめてオフにできる設定を加えた。",
+            "AIでつくられた素材を表示するかどうかも、個別に調整できるようになる。",
+            "AIを使いたくない利用者にも配慮した形だ。"
+          ],
+          "source": "財経新聞",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Tc1N1MTl5MnZzR3pQTm9jc2JHS3diMW9TZU4tWGt1ZDBiOGNQamszV2RDSnBkQ0F6QXFLOXVmZ2w3TGdwMEVrVHp4Z292ZzEzem82TTVyVHRSRmw5R3Nzb00xNNIBaEFVX3lxTFBrUVJrWWR0YVV0NE4taldCUVpwWDMzVkNZbXNHb1pKR0lGSkFCdlhtZVN5Sm5GZ3M4cHB3bG1laUdmNGFKZURfaWl3YWhwTkRXdG1GQWFfaWVta0t6RlZ3VnY4alh0NEpZ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T14:02:20.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Canva",
+              "meaning": "オーストラリア発のオンラインデザインツール。チラシや資料を手軽に作れる。"
+            },
+            {
+              "word": "素材",
+              "meaning": "デザインに使う写真やイラスト、図形などの部品。"
+            }
+          ]
+        },
+        {
+          "title": "米ニューヨーク州、AIおもちゃを5年間禁止",
+          "summary": [
+            "ニューヨーク州は、AIのチャットボットを組み込んだおもちゃを5年間禁止した。",
+            "調査団体の研究で、不適切な内容に触れるなど安全上の問題が見つかったためだ。",
+            "子どもの心の発達に悪い影響を与えるおそれも指摘されている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T18:11:46.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "チャットボット",
+              "meaning": "文字や声で人と会話するように受け答えするプログラム。"
+            },
+            {
+              "word": "ニューヨーク州",
+              "meaning": "米国東部の州。大都市ニューヨーク市を含む。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "日経平均は5万7011円、前日から約1633円安",
+          "summary": [
+            "日経平均株価は5万7011円で取引を終えた。",
+            "前日の5万8644円から約1633円下がり、下落率は約2.8％だった。",
+            "前日の大幅反発から一転し、再び大きく値下がりした。"
+          ],
+          "source": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T20:14:34.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均株価",
+              "meaning": "日本を代表する225社の株価から計算する指数。日本の株式市場全体の動きを表す。"
+            },
+            {
+              "word": "反発",
+              "meaning": "下がっていた株価などが上がりに転じること。"
+            }
+          ]
+        },
+        {
+          "title": "米株は急落を取り戻し高安まちまち、エヌビディアは6％安",
+          "summary": [
+            "25日の米国株は、AIへの懸念から売りが広がり、ナスダックは一時4％近く下落した。",
+            "その後は下げ幅を縮め、ダウは上昇、ナスダックとS&P500は小幅安で取引を終えた。",
+            "エヌビディアは6％下落し、AI、関税、インフレへの不安が株価の重しになっている。"
+          ],
+          "source": "Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdVNvSWRJR0pwZklwRnJkWkV5Zm02Ni1jck83YWhlUzFFZjBPX2RSeElWSjlUczNNRnJoZHVSZDhlbDlmRGNXY1lwc2VoUkJUejM2RXBvMS1vMTVoSnZHQTQ3YWhOUDlWOVZEbkZndHRiQzZOWFl2b0E5N3VUc2thcE96OXlvTTRyc3N6RWU5cnY2eVN2QXN3UDcyMzTSAaIBQVVfeXFMUE4xVGszYjZpVlhOUzU0V2F5N2NOUVUxMEY1aVlEMTlzMVlQOU10UmtBeVNfQm5xMmJ6LWx4dDRXaUtYR2ppV3R5a2NrTVVQV0JsTG9DQ2VJd0wxNS1NbUNfUVN2MW9iZE1jU2p4ekxWZUFjM2hCdVBkWU5jWm12V1VpeXJubFlJTkRnX09WWV9nWXJ3Qml2bV9kb3VFM3NfMWt3?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T19:10:41.000Z",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ナスダック",
+              "meaning": "米国のハイテク企業が多く上場する株式市場。その総合指数も指す。"
+            },
+            {
+              "word": "エヌビディア",
+              "meaning": "AI向けの半導体で世界最大手の米国企業。"
+            },
+            {
+              "word": "インフレ",
+              "meaning": "物の値段が全体的に上がり続けること。"
+            }
+          ]
+        },
+        {
+          "title": "米株安は「さらに深まる」との見方も",
+          "summary": [
+            "米国の金融メディアで、株式市場の下落はさらに深まるとの見方が相次いだ。",
+            "バロンズは、反発にだまされるべきではないと警告した。",
+            "マーケットウォッチも、売りは良くなる前に悪化する可能性が高いと伝えた。"
+          ],
+          "source": "Barron's",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ReWZPZEprSThyRGplOUZOb1FxVHBzQ0JaMGJaeXlDNFBQaGVZZU0yMW1xTWZmSFJENzlobUlRYlQzMnZZWFhkLVFJX294Q3lxdk05dWt3dHB2M0pncVMxUlJwclNGZkUwNU5kNEEtODUxZw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T21:49:00.000Z",
+          "score": {
+            "total": 72,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "バロンズ",
+              "meaning": "米国の投資情報誌。株式市場の分析記事で知られる。"
+            },
+            {
+              "word": "反発",
+              "meaning": "下がっていた株価などが上がりに転じること。"
+            }
+          ]
+        },
+        {
+          "title": "2兆ドル規模の半導体株の上昇が崩れ始める",
+          "summary": [
+            "米ヤフーファイナンスは、時価総額で2兆ドル規模に及んだ半導体株の上昇が崩れつつあると伝えた。",
+            "AI関連の半導体株が売られ、相場全体の不安材料になっている。",
+            "記事では、過去の例から今後の値動きを探っている。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdTItRThMZmVpLXZjUHotbGRmUFBMT3MwQnJBWjBKX2NOeHBRQlBwbnY0VFh3Z05vekN5RzhHdHlkQjcyaXNtdGZUU1hZSXM5b0c3NjBaY0lhTFlhWk1oS0xCYnZ0NmZscWo3ZEE0VFFZalJVZ0xwMFFHUlFjejVteWVVQ0ZmUndQWXhJa0FqOFRDdld2dndpR0RHSHp3bnFXNTdHUkN0UHpQTl8zRHVJWmg0bG1JSkVtUmxJM1RiMnRpUlNGRm8yU3Q4RkZldVRuSTc0bTNn?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T21:28:53.000Z",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "半導体",
+              "meaning": "電子機器の頭脳となる部品。AIの計算に欠かせない。"
+            },
+            {
+              "word": "時価総額",
+              "meaning": "株価に発行済みの株数をかけたもの。会社の市場での値打ちを表す。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は25日、前日比約1633円安の5万7011円と大幅反落。米国はナスダック0.6％安、S&P500は0.3％安、ダウは0.3％高。ドル円は159円台。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "福岡の駐輪場で70歳男性刺殺、49歳男を別の暴行容疑で逮捕",
+          "summary": [
+            "福岡市西区の駅の駐輪場で、70歳の男性が刺されて死亡した。",
+            "警察は、直前に地下鉄・西新駅で駅員に暴行した疑いで49歳の男を逮捕した。",
+            "男が刺殺事件に関わったとみて調べており、現場近くでは刃物が見つかっている。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YVExSSFY1bVMyTnNndFFzNTc4a1pfbWxpWm8wSC1nWG1qeXFGRGRCWUxSYkZaUXM1aTg1XzZhZ19NN3ljXzNkT0FUcy1oeGZONVhkWUlBTkZkMkFK?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-25T20:00:00.000Z",
+          "score": {
+            "total": 25,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "刺殺",
+              "meaning": "刃物で刺して殺すこと。"
+            },
+            {
+              "word": "暴行",
+              "meaning": "人を殴る、けるなど、相手の体に乱暴な力を加えること。"
+            }
+          ]
+        },
+        {
+          "title": "1969年の殺人事件、92歳の女を逮捕",
+          "summary": [
+            "米ユニバーサルシティで1969年に起きた未解決の殺人事件で、92歳の女が逮捕された。",
+            "当局が明らかにした。",
+            "半世紀以上前の事件で容疑者の逮捕に至った。"
+          ],
+          "source": "kens5.com",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcy1YeExzT182OU1hY0JRaE5ublpYMkhwVG5YeU5CX3pyQzV3S0FzQmV5X0lPMUxJNF9ZNWlTcXBWM1ItU1k5b3oyYVU2VXgtNGJSNDdQOUJDY29JNkhMS1NhX1g0T0tBTUZxQ0FQSjBOWkVuUDJ1X0h0SW9wS3NrdWdiOXBFbmVqbFcySUlZeDM5QmZTODNpdnRleE44a1J4bVNiWVN3Y3lQSlNhRE1XZV9odnBtYkdUUGVCQmdzTVJad3RUYkFYbTR2QVdGOVpMcjRUcHFNbWc4NV85Mndib3lPOUZFRThXNkNqVmN0ZlBuUm0tektxX0FxV2dwMjg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T19:38:02.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "未解決",
+              "meaning": "犯人が分からないまま、事件の捜査が終わっていない状態。"
+            }
+          ]
+        },
+        {
+          "title": "米ニューオーリンズ市警の幹部、FBIに逮捕",
+          "summary": [
+            "米ニューオーリンズ市警（NOPD）の幹部警察官が、FBIに逮捕された。",
+            "この警察官は、市警内部の調査も受けることになる。",
+            "取り締まる側の警察幹部が逮捕される異例の事態となった。"
+          ],
+          "source": "WWLTV.com",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMlBXMzluQXhSSHpsVFY1ekdzaFdyR3pJWWd3UHFEUC1QNVJMMzk2bmJhQ05yb3VEVFhpT3Bib0o0WldUVl9WOUprOGNSSm80LURzb1JISW93Q0NXMEtnTk5pS2tVN2VTSmJlRjZoWk5SSnoyMEdZaTlwRElMN0xQcXlqQXBkZldOYnZkZTJoLVlrMlU3eHNaWmdqMkFCNHBkNUFBODFnQWhiQUlFSUNFLWRCcEtNR2VXV3dsQUFGYndqYkU?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T17:13:57.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FBI",
+              "meaning": "米連邦捜査局。州をまたぐ事件や公務員の汚職などを捜査する米国の捜査機関。"
+            }
+          ]
+        },
+        {
+          "title": "誘拐被害者が店員にメモ、米グウィネット郡で2人逮捕",
+          "summary": [
+            "米グウィネット郡で、誘拐された被害者が店の従業員にメモを渡して助けを求めた。",
+            "警察によると、これをきっかけに2人が逮捕された。",
+            "とっさの機転が事件の解決につながった。"
+          ],
+          "source": "11Alive.com",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQOUZwdVY0d0ZqNGNQSG1UMWJ5YlJBTDEwUkRRNTNHbEozOU5Gb1BsLUVERElBRDRJZG1zc04zX2FUT21MMVhRVG1Dc0h4amtod1lBVTdIY0kweHZucmZlNEEwYWJ2TFNyeERCMFg5cENBVTJna2hGcV93dzc2R0RjeG5ZQlB4LTRPQXFzVHExWm5Sd2o4bURpTzhJOGZUMmxra0gtTmFTdW5pbXFsbTVwdWNUYkRla1E3V2Y1WlNUYjc0Mk1hblNXOENla2s4YXI2N1pISDFMMGJ1S2hVVE91U05hWi1WTE5wN2VwY3N1Nnc2QQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-25T20:23:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "誘拐",
+              "meaning": "だましたり力ずくで連れ去ったりして、人を自分の支配下に置くこと。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
