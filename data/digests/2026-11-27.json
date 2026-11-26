@@ -1,0 +1,1559 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-26T22:03:40Z",
+  "headline": [
+    "政府が税優遇3件の廃止を正式決定。ガソリン補助は補正予算で継続へ",
+    "次期ECB総裁にデコス氏。エヌビディアは東南アジア4カ国への出荷を停止",
+    "日経平均は約488円高の5万7499円と反発。米国市場は感謝祭で休場"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 57499.16,
+      "change": -1145.4689062499965,
+      "changePercent": -1.9532375387371907
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7182.78,
+      "change": -18.309843750000255,
+      "changePercent": -0.25426489805417174
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 23585.803,
+      "change": -147.73606250000012,
+      "changePercent": -0.6224780135442564
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 50182.95,
+      "change": 164.2507812499971,
+      "changePercent": 0.32837875397692484
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.273,
+      "change": 0.011006591796871135,
+      "changePercent": 0.0069109971320403035
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "政府、税の優遇措置3件の廃止を正式決定",
+          "summary": [
+            "政府は、特定の企業や個人の税を軽くする「租税特別措置」のうち3件の廃止を正式に決めた。",
+            "見直しで捻出できるのは年10万円程度との報道もあり、上積みが焦点になっている。",
+            "中小企業向けの賃上げ税制も、要件を厳しくして縮小する方向で調整されている。"
+          ],
+          "source": "47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXcVk4VHFYY3dHdnhia2tRQUxrZEhWUmxLYjhjcjdaRTcwRHZSc2NFNkNfNFRDaXlScXA0X0lxd3BKVTJ3Mmt5cVdnTQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T11:01:54.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "政府が、税を特別に軽くする仕組み（租税特別措置）のうち3件をやめると正式に決めた。あわせて中小企業向けの賃上げ税制も縮小する方向で調整が進んでいる。",
+            "why": "租税特別措置は政策のために一部の税を軽くする制度だが、効果が見えにくいまま続くものが多いと指摘されてきた。今回は無駄を洗い出す「日本版DOGE」の目玉とされ、財務省・維新と経産省・自民の間で綱引きが続く。ただ3件の廃止で浮くお金は年10万円程度とされ、見直しをどこまで広げられるかが問われている。",
+            "points": [
+              {
+                "label": "中小企業",
+                "text": "賃上げ税制の要件が厳しくなれば、給料を上げても税の軽減を受けにくくなる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "中小企業で働く人",
+                "text": "税の後押しが弱まることで、賃上げのペースに影響が出るかが注目される。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "納税者全体",
+                "text": "優遇の見直しが進めば、浮いた財源を別の政策に回す余地が生まれる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "年末に向けた税制の議論で、見直しがどこまで広がるか"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "租税特別措置",
+              "meaning": "政策の目的のために、特定の企業や個人の税金を特別に軽くしたり免除したりする仕組み。略して「租特」。"
+            },
+            {
+              "word": "賃上げ税制",
+              "meaning": "従業員の給料を上げた企業に、法人税などを軽くする制度。賃上げを後押しする狙いがある。"
+            },
+            {
+              "word": "日本版DOGE",
+              "meaning": "政府の無駄な支出や制度を洗い出して削る取り組みの通称。米国の政府効率化省（DOGE）にちなむ。"
+            }
+          ]
+        },
+        {
+          "title": "治療目的の不適切な来日、在留資格の取り消しも柱に対策",
+          "summary": [
+            "訪日外国人による国民健康保険の不正利用を防ぐため、厚生労働省が対策案を示した。",
+            "高額な保険診療を目的に偽って入国するケースを規制し、在留資格の取り消しを柱とする。",
+            "案は医療保険部会に示され、対策を強める方針が固まりつつある。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XWi1RdEUxVDRWb1dVTTBPTVVrNm9OQUdMdm9jRHl5UVh1Zm1ueExqcl9jNjNvd3NWQmVfd1pqbW1BQ2NBUV9SSFd4UzUxSHlhbkpIWkRXaTVLZDRRbzRXS21PUUxTQQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T10:25:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "日本に来た外国人が、本当の目的は治療なのに別の理由で入国し、国民健康保険を使って高額な治療を受けるケースへの対策案を、厚生労働省がまとめた。",
+            "why": "国民健康保険は、日本に一定期間住む外国人も加入でき、医療費の多くを保険でまかなえる。その仕組みを、入国の目的を偽って使う例が問題視されてきた。保険料は加入者みんなで負担しているため、不正利用は制度の公平さを損なう。在留資格の取り消しという強い手段で歯止めをかける狙いがあるとみられる。",
+            "points": [
+              {
+                "label": "国保の加入者",
+                "text": "不正利用が減れば保険のお金の無駄が抑えられ、制度への信頼を保ちやすくなる。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本で暮らす外国人",
+                "text": "入国の目的の確認が厳しくなり、手続きや審査の負担が増える可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "医療機関",
+                "text": "外国人の患者を受け入れる際、保険の資格の確認がより重要になりそう。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "医療保険部会での議論と、制度が改正される時期"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "国民健康保険",
+              "meaning": "自営業の人や退職した人などが入る公的な医療保険。日本に一定期間住む外国人も加入できる。"
+            },
+            {
+              "word": "在留資格",
+              "meaning": "外国人が日本に滞在するための資格。留学や仕事など、滞在の目的ごとに種類が決まっている。"
+            },
+            {
+              "word": "医療保険部会",
+              "meaning": "厚生労働省の審議会の一つ。健康保険の制度をどう見直すかを専門家らが話し合う場。"
+            }
+          ]
+        },
+        {
+          "title": "JT、英たばこ大手インペリアルの買収提案を検討",
+          "summary": [
+            "日本たばこ産業（JT）が、英たばこ大手インペリアル・ブランズへの買収提案を検討していると報じられた。",
+            "「マールボロ」で知られる米アルトリアと共同で、買収を検討しているという。",
+            "インペリアルを分割する計画も取り沙汰されている。"
+          ],
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9qSXQ0RGhkYlJ4UndWcEVrQ2lUd3Z1YXpxSXphMFBfN1hiMWZ1cklGLUVlWmU2ZzRkNVJqN3o0bkVnU2pqN0ZTUFA5NlplWTFUVmYzS2FtV3pKeWlsRGlELTJaYzdlNjl3QlJ4MTBuYU9KWnRScXhj?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T12:11:56.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "JTが米アルトリアと組んで、英国のたばこ大手インペリアル・ブランズを買収する提案を検討していると、関係者の話として報じられた。",
+            "why": "日本では喫煙する人が減り、たばこの国内市場は縮んでいる。そのためJTは海外の事業を広げることで成長を続けてきた。2社で買収して事業を分け合う形をとれば、1社あたりの負担を抑えながら規模を広げられる。ただ現時点では関係者の話にとどまり、正式な提案に至るかは分かっていない。",
+            "points": [
+              {
+                "label": "株主・投資家",
+                "text": "巨額の買収になれば、資金の負担や将来の利益への見方から株価が大きく動く可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "JTの社員",
+                "text": "海外事業の比重がさらに高まり、組織や働き方に影響が出るかもしれない。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "JTとアルトリアが正式な買収提案に踏み切るかどうか"
+          },
+          "score": {
+            "total": 52,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日本たばこ産業",
+              "meaning": "たばこを製造・販売する日本の大手企業。略称はJT。海外でも多くのたばこを売っている。"
+            },
+            {
+              "word": "買収提案",
+              "meaning": "ある会社が別の会社を買い取りたいと、その会社や株主に正式に申し出ること。"
+            },
+            {
+              "word": "アルトリア",
+              "meaning": "「マールボロ」などのたばこを米国で販売する大手たばこ会社。"
+            }
+          ]
+        },
+        {
+          "title": "次期ECB総裁にスペイン出身のデコス氏、EU首脳が合意",
+          "summary": [
+            "欧州中央銀行（ECB）の次の総裁に、スペイン出身のデコス氏が就くことでEU首脳が合意した。",
+            "スペイン出身者がECBのトップに就くのは初めてとなる。",
+            "中央銀行一筋の実務家で、「ハト派寄りの中道」と評されている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NVlA5WWdBOTdkOFdicmJhOGtoQUxfSGk2aFplUmRSdVEzNFpySkNTbnFtS05xTlNaQzJtb1VGVkZpb3dIMWgxb1RrdnhTeW9v?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T14:54:27.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ユーロを使う国々の金融政策を担う欧州中央銀行（ECB）の次のトップに、スペイン出身のデコス氏が就くことで、EU首脳が合意した。",
+            "why": "ECB総裁は、ユーロ圏の金利を決める会議を率いる立場で、世界の金融市場に大きな影響力を持つ。デコス氏は中央銀行の仕事を長く続けてきた実務家で、景気への配慮を重んじる「ハト派」寄りとみられている。欧州の株価が上がった理由として、ECBの路線が大きく変わらないとの安心感も挙げられている。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "ECBの金利の方針はユーロの値動きを左右し、ユーロと円の相場を通じて日本にも及ぶ。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "輸出企業",
+                "text": "欧州向けに輸出する日本企業は、ユーロ高・ユーロ安で利益が変わる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "就任後のECBが、金利をどう動かすか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "欧州中央銀行",
+              "meaning": "ユーロを使う国々の金融政策を担う中央銀行。金利を上げ下げして物価や景気を調整する。"
+            },
+            {
+              "word": "ハト派",
+              "meaning": "景気を重視し、金利を低めに保つことに前向きな考え方。反対に物価の抑制を重視するのはタカ派。"
+            },
+            {
+              "word": "ユーロ圏",
+              "meaning": "共通通貨ユーロを使っている欧州の国々のまとまり。"
+            }
+          ]
+        },
+        {
+          "title": "トランプ氏、GDPの大幅上方修正を「偽り」と主張",
+          "summary": [
+            "トランプ米大統領が、中間選挙の前に公表された経済統計は「偽り」だったと主張した。",
+            "7〜9月期のGDPの伸びが4.3％へ大きく上方修正されたことを受け、調査を求めている。",
+            "ただし、主張を裏付ける証拠は示していない。"
+          ],
+          "source": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVdXdlZuQVpCZWc1LV9iWkZaSm9RWlVsZFFBNVIwdmV6UksxZmlQTEpXUVlVXy14TUNGWURxdmZHZVR2V1BfZG1GRXVjT3hDek0zazlad0VXWGtBc0dDRE5LS2pkeFlpaThKaG5qU0ZkZ2dkaldsMmN1SWRDZnJLSTdyYWdjWHJrZXFuWg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T19:41:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の7〜9月期の経済成長率が、最初の発表より大きく上方修正された。これを受けてトランプ大統領は、選挙前に出た数字は偽りだったとして調査を求めた。",
+            "why": "最初の数字が低く、あとから大きく引き上げられたため、トランプ氏は「記録的な誤り」だとし、中間選挙の前に不利な数字が出されたと訴えているとみられる。統計があとで直されるのは珍しくないが、大統領が政府の統計を公然と疑うのは異例で、統計への信頼が揺らぐおそれがある。",
+            "points": [
+              {
+                "label": "日本の株価",
+                "text": "米国の統計への信頼が揺らぐと、景気の先行きが読みにくくなり、株価が不安定になりやすい。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "円相場",
+                "text": "米国の景気が強いとの見方は利上げの観測につながり、ドル高・円安の材料になりうる。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "米国の統計機関の対応と、次の経済指標の発表"
+          },
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "GDP",
+              "meaning": "国内総生産。国内で一定期間に生み出されたモノやサービスの価値の合計で、景気の大きさを示す。"
+            },
+            {
+              "word": "上方修正",
+              "meaning": "最初に発表した数字を、あとから上向きに直すこと。"
+            },
+            {
+              "word": "中間選挙",
+              "meaning": "米国で大統領の任期の中間に行われる、議会などの選挙。政権への評価が表れやすい。"
+            }
+          ]
+        },
+        {
+          "title": "航空会社ノース・アトランティック、全便の運航を停止",
+          "summary": [
+            "航空会社のノース・アトランティックが、すべての便の運航を停止した。",
+            "経営が破綻するおそれがあり、急いで資金の手当てを探している。",
+            "支援が得られなければ、破産を申請する見通しだという。"
+          ],
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-26T14:28:22.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "航空会社ノース・アトランティックが全便の運航を止めた。緊急の資金を探しているが、得られなければ破産を申請するという。",
+            "why": "航空会社は燃料や機体にかかる費用が大きく、資金繰りが苦しくなると一気に運航を続けられなくなる。記事には詳しい理由は書かれていないが、費用の重さが経営を圧迫した可能性がある。運航停止は乗客の予定を狂わせ、旅行業界にも影響が広がりやすい。",
+            "points": [
+              {
+                "label": "海外旅行をする人",
+                "text": "同社の便を予約していた場合は、払い戻しや別の便への振り替えが必要になる。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "航空・旅行業界",
+                "text": "航空会社の経営悪化が相次げば、運賃の上昇につながる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "資金の支援が見つかるか、破産の申請に至るか"
+          },
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "破産",
+              "meaning": "借金などを返せなくなった会社が、裁判所の手続きで財産を整理すること。多くの場合、会社はなくなる。"
+            },
+            {
+              "word": "資金繰り",
+              "meaning": "事業を続けるために必要なお金をやりくりすること。行き詰まると支払いができなくなる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "政府、補正予算でガソリン補助を継続へ",
+          "summary": [
+            "政府は、補正予算を使ってガソリン価格を抑える補助を続ける方針だ。",
+            "ガソリン代の負担を和らげる措置が、今後も続く見通しとなった。",
+            "補助の規模や期間など、詳しい内容が今後の焦点となる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604071?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-26T07:16:32.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/26/8cd7b70ae2ebce847550263e9ccc4d03cf57bc1f6c5e777007f351ea2bf68efb.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "政府は、ガソリン価格を抑えるための補助金を、補正予算を使って続ける方針を固めた。",
+            "why": "ガソリン補助は、石油元売り会社にお金を出して店頭の価格が上がりすぎないようにする仕組み。原油高や円安でガソリン代が上がると、車を使う家庭や物流の費用が増え、物価全体を押し上げる。補助をやめると価格が急に上がるおそれがあるため、継続を選んだとみられる。一方で、多額の税金を使い続けることには批判もある。",
+            "points": [
+              {
+                "label": "車を使う家庭",
+                "text": "ガソリン代の急な値上がりが抑えられ、車が欠かせない地方では家計の助けになる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "運送業・物流",
+                "text": "燃料費の上昇が抑えられ、運賃や商品の値上げが和らぐ可能性がある。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "納税者",
+                "text": "補助には多額の国のお金がかかり、財政の負担が増えることになる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "補正予算案の規模と、補助をいつまで続けるか"
+          },
+          "score": {
+            "total": 83,
+            "parts": {
+              "people": 40,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "補正予算",
+              "meaning": "年度の途中で、当初の予算に足りない分や新しい政策のお金を追加するために組む予算。"
+            },
+            {
+              "word": "ガソリン補助",
+              "meaning": "ガソリンの小売価格が上がりすぎないよう、国が石油元売り会社にお金を出す仕組み。"
+            },
+            {
+              "word": "石油元売り",
+              "meaning": "原油を輸入・精製して、ガソリンなどの石油製品をガソリンスタンドに卸す会社。"
+            }
+          ]
+        },
+        {
+          "title": "不登校の小中学生、過去最多の35.9万人",
+          "summary": [
+            "学校に通えない不登校の小中学生が、35.9万人となり過去最多となった。",
+            "国の調査で明らかになった。",
+            "子どもが学校の外でも学べる場をどう確保するかが、課題となりそうだ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604086?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-26T08:37:45.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/26/57c9bd3d34d49ac0dab52be33ae6173b65a9ebc0f64468be64c81f457c358ff8.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "病気や経済的な理由以外で学校に通えない「不登校」の小中学生が35.9万人となり、これまでで最も多くなった。",
+            "why": "不登校は年30日以上欠席した状態を指し、近年は増え続けている。背景には人間関係の悩みや学校生活への不安のほか、無理に通わなくてもよいという考え方が広がったこともあるとされる。数が増えるほど学校の中だけで子どもを支えるのは難しくなり、フリースクールなど学校以外の学びの場をどう整えるかが問われる。",
+            "points": [
+              {
+                "label": "子育て世帯",
+                "text": "子どもが学校に行けなくなったときの相談先や、学校外で学ぶ選択肢がより大切になる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "学校・教員",
+                "text": "一人ひとりに合わせた支援が求められ、現場の負担が増える可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "自治体",
+                "text": "学校外の学びの場や相談の体制を整えることが求められそう。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "国や自治体が打ち出す、学校外の学びへの支援策"
+          },
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "不登校",
+              "meaning": "病気や経済的な理由以外で、年に30日以上学校を休んでいる状態のこと。"
+            },
+            {
+              "word": "フリースクール",
+              "meaning": "学校に通えない子どもが通う、学校以外の学びや居場所の施設。民間が運営することが多い。"
+            }
+          ]
+        },
+        {
+          "title": "笹川環境相側に、国と契約する企業から寄付",
+          "summary": [
+            "笹川環境相の側に、国と契約を結んでいる企業から寄付があったことが分かった。",
+            "国と契約する企業の寄付は、法律で制限される場合がある。",
+            "寄付の経緯や、法律上の問題がないかが焦点となる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604111?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-26T11:53:29.000Z",
+          "image": "https://s.yimg.jp/images/news-web/versions/20261126-edbff13/all/images/ogp_default.png",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "笹川環境相の側に、国と契約している企業から寄付が渡っていたことが明らかになった。",
+            "why": "公職選挙法は、国と契約を結ぶ企業が国政選挙に関して寄付することを禁じている。契約で得たお金で政治家を支えると、政策や契約がゆがむおそれがあるためだ。今回の寄付がこの規制に当たるかはまだ分からず、説明が求められそうだ。閣僚の政治とお金の問題は、国会の審議にも影響しやすい。",
+            "points": [
+              {
+                "label": "有権者",
+                "text": "閣僚の説明しだいで、政権への信頼や支持率が左右される可能性がある。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "国と取引する企業",
+                "text": "政治への寄付のルールを改めて確かめる動きが広がるかもしれない。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "笹川環境相の説明と、野党による追及の行方"
+          },
+          "score": {
+            "total": 18,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "公職選挙法",
+              "meaning": "選挙の方法やルールを定めた法律。お金の受け渡しなど、選挙に関わる不正を防ぐ決まりがある。"
+            },
+            {
+              "word": "閣僚",
+              "meaning": "内閣を構成する大臣のこと。首相が任命する。"
+            }
+          ]
+        },
+        {
+          "title": "北朝鮮がロシアへの軍事支援を停止か、ウクライナが発表",
+          "summary": [
+            "ウクライナは、北朝鮮がロシアへの軍事支援を止めた可能性があると発表した。",
+            "北朝鮮はこれまで、ロシアに兵士や武器を送っているとされてきた。",
+            "支援の停止が事実かどうかは、まだはっきりしていない。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6604122?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-26T14:22:48.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/26/54e1f4b59cc26ed8b2e17e258acd0ce4802ac491120073a9e9cf247ae296f710.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナ側が、北朝鮮によるロシアへの軍事支援が止まった可能性があると明らかにした。",
+            "why": "ロシアのウクライナ侵攻が長引く中、北朝鮮はロシアに兵士や砲弾を送り、見返りに技術や資金を得ているとみられてきた。支援が本当に止まったのなら、両国の関係や戦況に変化が起きている可能性がある。ただ発表はウクライナ側によるもので、北朝鮮やロシアの説明はなく、真偽の見極めが必要だ。",
+            "points": [
+              {
+                "label": "安全保障",
+                "text": "北朝鮮とロシアの協力が弱まれば、北朝鮮が得る軍事技術が減り、日本周辺の脅威にも影響しうる。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日米韓が両国の動きをどう分析するかが、北朝鮮への政策に関わってくる。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "ロシアと北朝鮮の反応や、各国の情報機関の分析"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "軍事支援",
+              "meaning": "兵士や武器、弾薬などを送って、他の国の戦争や防衛を手助けすること。"
+            },
+            {
+              "word": "ウクライナ侵攻",
+              "meaning": "2022年にロシアがウクライナに攻め込んで始まった戦争。現在も続いている。"
+            }
+          ]
+        },
+        {
+          "title": "クウェートで攻撃、イタリア人2人死亡　イランは関与を否定",
+          "summary": [
+            "中東のクウェートで攻撃があり、イタリア人2人が死亡した。",
+            "2人はドイツの防衛企業ラインメタルの技術者だったと、イタリア外務省が明らかにした。",
+            "イランは、攻撃への関与を否定している。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-26T21:17:53.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "中東のクウェートで攻撃があり、ドイツの防衛企業で働くイタリア人技術者2人が亡くなった。イランは自国の関与を否定した。",
+            "why": "クウェートはペルシャ湾に面した産油国で、湾を挟んでイランと向き合う位置にある。イランが関与を否定したと伝えられており、攻撃の背後にイランがいるとの疑いが出ているとみられる。湾岸地域で緊張が高まると、原油の生産や輸送への不安から原油価格が上がりやすい。",
+            "points": [
+              {
+                "label": "ガソリン・電気代",
+                "text": "中東の緊張は原油価格の上昇につながり、ガソリン代や電気代に響く可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "地政学の不安が強まると、投資家が損を避けようとして株が売られやすい。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "攻撃した者の特定と、湾岸地域の緊張の広がり"
+          },
+          "score": {
+            "total": 63,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ラインメタル",
+              "meaning": "戦車や砲弾などを作るドイツの大手防衛企業。"
+            },
+            {
+              "word": "産油国",
+              "meaning": "原油を多く生産し、輸出している国。中東の湾岸地域に多い。"
+            },
+            {
+              "word": "地政学",
+              "meaning": "国や地域の位置関係が、政治や経済にどう影響するかという考え方。紛争の不安を指すことも多い。"
+            }
+          ]
+        },
+        {
+          "title": "中国、米国の新たな関税案に反発",
+          "summary": [
+            "米国が示した新たな関税案に対し、中国が反発した。",
+            "米国の案をめぐっては、日本の木原氏も「遺憾」と表明している。",
+            "米中の貿易をめぐる対立が、再び強まるおそれがある。"
+          ],
+          "source": "Yahoo!ニュース 国際",
+          "url": "https://news.yahoo.co.jp/pickup/6604107?source=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-26T11:37:31.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/26/4041a47bc613f851c81f325119c83fe6028bca7e4796a97523eaaf2009de9ea2.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国が日本や中国などに新しい関税をかける案を示したことに、中国が反発した。日本でも木原氏が「遺憾」と述べた。",
+            "why": "米国が新たな関税案を示し、各国がその受け止めを表明している。中国は米国にとって最大級の貿易相手で、これまでも関税をかけ合う応酬が繰り返されてきた。中国が報復措置に動けば米中の対立が深まり、世界の貿易や景気に悪い影響が広がる可能性がある。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "米中の対立が深まると、中国に工場を持つ日本企業や部品の輸出が影響を受けうる。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "貿易摩擦への不安から、株価が不安定になりやすい。",
+                "level": "小",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "中国が関税の上乗せなどの対抗策に踏み切るか"
+          },
+          "score": {
+            "total": 45,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "関税",
+              "meaning": "外国から輸入する品物にかける税金。かけられた国の商品は相手国で売りにくくなる。"
+            },
+            {
+              "word": "報復措置",
+              "meaning": "相手の国の行動に対抗して、同じような不利益を相手に与えること。関税の上乗せなどがある。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "ドコモ「新ahamo」、3段階の料金制で165円値上げ",
+          "summary": [
+            "ドコモが、料金プラン「ahamo」を3段階の料金制に見直す。",
+            "料金は165円の値上げとなる。",
+            "既存の契約者には、使える通信量を40GBまでに抑えるリミッターを導入する。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MNm5VOFg0ZUxacHhnNXJyR0RyaE02d2J2SDN5aW5YWXg0bG8wMUlkbXVNT0J3eklsR1lpdW1LaXNSMWQxaFdOeVU2cUtXMlVGUWN4TF9jRGN4UUNlTXZkWUdnb3RhcnktdUNmUjhnYWZPdU9XSUxhUXhIdnlVUWM?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T07:31:57.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ahamo",
+              "meaning": "ドコモがネット申し込み専用で提供している、比較的安い料金プラン。"
+            },
+            {
+              "word": "リミッター",
+              "meaning": "使える量に上限を設け、それを超えないようにする仕組み。"
+            }
+          ]
+        },
+        {
+          "title": "KDDI、米Xとデータ利用で包括契約",
+          "summary": [
+            "KDDIが、SNSのXとデータの利用について包括契約を結んだ。",
+            "通信品質の向上や、法人向けサービスに活用する。",
+            "データは個人を特定できない形で使い、顧客の情報とXのアカウントを個人単位でひもづけることはないという。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003480/",
+          "region": "国内",
+          "publishedAt": "2026-11-26T05:11:44.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003480/10013035/2048",
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "包括契約",
+              "meaning": "個別の取引ごとではなく、幅広い範囲をまとめて取り決める契約。"
+            },
+            {
+              "word": "通信品質",
+              "meaning": "電話やネットのつながりやすさ、速さ、安定性など、通信サービスの良しあし。"
+            }
+          ]
+        },
+        {
+          "title": "PS5が1億台突破も、物理ディスク廃止に批判",
+          "summary": [
+            "ソニーのゲーム機「PS5」の販売台数が1億台を突破した。",
+            "一方で、ゲームの物理ディスクをなくす方向に対して批判が出ている。",
+            "ソニーは、好調な販売と利用者の反発の両方に向き合うことになる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zQnZRNGJSYlA1Q3BYZ0MzblBBSjhDTW9BTGMwMDFlYlVYZEZUM25yZ0p5Unh0dnM0TUFON2NacWpGRmNVZjE1cDF1WEhyc0ozVXJiTGFuNnRSMVdNVHFWVzk5Rnp1RTk0VzctNGxOR2N2dkczWHZyTDBIUGg2aTQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T08:00:00.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "people": 15,
+              "money": 5,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "物理ディスク",
+              "meaning": "ゲームなどを記録した円盤状のメディア。ネットからダウンロードする方式と対になる。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア、東南アジア4カ国へのサーバー出荷を停止",
+          "summary": [
+            "エヌビディアが、マレーシア、シンガポール、タイ、インドネシアへのサーバー出荷を止めるよう取引先に求めた。",
+            "米国が、AI半導体を中国に渡さないための締め付けを強めていることが背景にある。",
+            "日本経済新聞も、英FTの報道として同じ内容を伝えている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "region": "海外",
+          "publishedAt": "2026-11-26T20:03:54.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
+          "score": {
+            "total": 80,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AI半導体",
+              "meaning": "AIの計算を高速に行うための半導体チップ。エヌビディアが世界で大きなシェアを持つ。"
+            },
+            {
+              "word": "サーバー",
+              "meaning": "ネットのサービスやAIの計算を動かすための、高性能なコンピューター。"
+            }
+          ]
+        },
+        {
+          "title": "ソフトの脆弱性の発見数が1年で2倍超、AIで一変",
+          "summary": [
+            "2026年に見つかったソフトウェアの脆弱性は10万件を超え、すでに2025年の2倍以上になった。",
+            "米マイクロソフトのWindows向け更新でも、11月は1000件以上の脆弱性が修正された。",
+            "AIの進化で脆弱性の発見と悪用が急増し、修正する側の対応が課題になっている。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003446/",
+          "region": "海外",
+          "publishedAt": "2026-11-26T05:04:44.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003446/10012927/2048",
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "脆弱性",
+              "meaning": "ソフトウェアの設計や作りの弱点。攻撃者に悪用されると、情報が盗まれるなどの被害につながる。"
+            },
+            {
+              "word": "Windows",
+              "meaning": "マイクロソフトが作っているパソコン用の基本ソフト（OS）。世界で広く使われている。"
+            }
+          ]
+        },
+        {
+          "title": "Androidアプリ開発者、住所の公開が必要に",
+          "summary": [
+            "グーグルは来年から、多くのAndroidアプリ開発者に電話番号と住所の公開を求める。",
+            "EUのデジタルサービス法の規制に対応するための変更だという。",
+            "個人で開発している人からは、プライバシーを心配する声が上がっている。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+          "region": "海外",
+          "publishedAt": "2026-11-26T17:06:24.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 58,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "デジタルサービス法",
+              "meaning": "ネット上の違法な情報や取引から利用者を守るため、EUが定めた法律。大手IT企業に責任を課す。"
+            },
+            {
+              "word": "プライバシー",
+              "meaning": "他人に知られたくない個人の情報や生活。また、それを守る権利。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "性的いじめ8158件、国が初めて集計　生成AIの悪用も背景",
+          "summary": [
+            "文部科学省が初めて調べた結果、学校での「性的いじめ」は8158件にのぼった。",
+            "全国の学校で、AIを悪用したディープフェイクが背景にあるケースもある。",
+            "生成AIの広がりで、子どもが被害にあう危険への危機感が強まっている。"
+          ],
+          "source": "琉球新報デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yTEpMc2ZwM09jQ1Axbkc1NmJWWWxlNWFLcE9odHhiYmhualRocFBmUkM4bHdXTFNaMXdONHhpWXYwaDBjTzB6VFpRUkl3b09CaWRXekJTVWhVNEtoTHRYdw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ディープフェイク",
+              "meaning": "AIを使って、実在する人の顔や声をまねた偽の画像や動画を作ること。また、その偽物。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを自動で作り出すAI。"
+            }
+          ]
+        },
+        {
+          "title": "生成AI利用の世代差、1年で24ポイントから10ポイントに縮小",
+          "summary": [
+            "生成AIを使っている人の割合の世代間の差が、1年で24ポイントから10ポイントに縮まった。",
+            "40代・50代の利用が急に伸びたことが要因だ。",
+            "若い世代だけでなく、幅広い年代に生成AIが広がりつつある。"
+          ],
+          "source": "GameBusiness.jp",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pSnVpVWhPa19yT1UtN0JEX3E4b2Iwd013cXRaYTRaR21ZbnItSFpLRWE0d2Z5Q2tfZFFTY09PSDZoc1FwOExDeVFQNFZuamVqNjBidW5YbmxRM1NFMzU3MVlPb3V4WkY1?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T11:45:03.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ポイント",
+              "meaning": "割合（％）どうしの差を表す単位。30％と40％の差は10ポイントという。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを自動で作り出すAI。"
+            }
+          ]
+        },
+        {
+          "title": "滋賀・長浜の小学校、授業で生成AIを活用",
+          "summary": [
+            "滋賀県長浜市の小学校で、授業に生成AIを取り入れている。",
+            "NHKが、学校の現場での生成AIの使い方として伝えた。",
+            "子どもがAIとどう付き合うかを学ぶ場にもなりそうだ。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMdFpDaVIzMU5XMV9ZdW5DRFp5Tl9XVERFb252eVJOdVdoaDZ2dmxnMXFCdFpScGZrSHhlZ3RRQUlQUjUxbV9hWm9sdDBrSWN6TE5GY3ZWMm1Ca2Q3QkFj?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T10:47:47.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、動画などを自動で作り出すAI。"
+            }
+          ]
+        },
+        {
+          "title": "Character.AIの利用者の会話売却案、42州の司法長官が反対",
+          "summary": [
+            "経営破綻の手続き中のCharacter.AIが、利用者の会話データを売りに出す案に、米国42州の司法長官が反対している。",
+            "売却案には、2100万を超える米国のアカウントの個人データが含まれる。",
+            "そのうち210万件は未成年が登録したものだと、司法長官らは指摘している。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T17:35:58.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 5,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "司法長官",
+              "meaning": "米国の州で、法律に関わる仕事をまとめる最高責任者。企業の違法行為を訴えることもある。"
+            },
+            {
+              "word": "未成年",
+              "meaning": "まだ大人と認められる年齢に達していない人。"
+            }
+          ]
+        },
+        {
+          "title": "S&P、エヌビディアの格下げを検討",
+          "summary": [
+            "格付け会社S&Pが、エヌビディアの信用格付けの引き下げを検討している。",
+            "企業統治や、特定の経営者に頼る「キーマンリスク」を問題視している。",
+            "引き下げられれば、上から4番目のAAマイナスになる可能性がある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T22:44:32.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "格付け会社",
+              "meaning": "会社や国がお金をきちんと返せるかを評価し、記号で示す会社。S&Pやムーディーズが有名。"
+            },
+            {
+              "word": "企業統治",
+              "meaning": "会社が正しく経営されるように、経営陣を監視・管理する仕組み。ガバナンスともいう。"
+            },
+            {
+              "word": "キーマンリスク",
+              "meaning": "会社が特定の人物に頼りすぎていて、その人がいなくなると経営が揺らぐ危険。"
+            }
+          ]
+        },
+        {
+          "title": "アマゾンとメタ、AIエージェント「Muse」の締め出し解除を協議",
+          "summary": [
+            "アマゾンとメタが、AIエージェント「Muse」をめぐって協議していると報じられた。",
+            "アマゾンは、Museが自社の通販サイトで買い物をすることを2カ月間締め出してきた。",
+            "合意すれば、この締め出しが解除される可能性がある。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "region": "海外",
+          "publishedAt": "2026-11-25T14:10:18.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+          "score": {
+            "total": 32,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "AIエージェント",
+              "meaning": "人の代わりに、調べ物や買い物などの作業を自分で考えて進めるAI。"
+            },
+            {
+              "word": "通販サイト",
+              "meaning": "インターネット上で商品を売り買いできるサイト。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "日経平均が反発、AI関連株に買い　一時1200円高",
+          "summary": [
+            "日経平均株価は反発し、5万7499円で取引を終えた。",
+            "AI関連株に買いが先行し、上げ幅は一時1200円に達した。",
+            "その後は上げ幅を縮め、前日からの上昇は約488円となった。"
+          ],
+          "source": "日経CNBC online",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XZ3M1Y2ZzY2M0aUNrV1RJT3FSRlBqWTZpbjFkNHcySi00QV9WTmRWbF9uY1lBc0FBaF9ZVnMyU2kxYzFDaTVXcVFybnlySnc4bzZDQg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T07:07:00.000Z",
+          "score": {
+            "total": 63,
+            "parts": {
+              "people": 30,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均株価",
+              "meaning": "日本を代表する225社の株価をもとに計算する指数。日本の株式市場全体の動きを表す。"
+            },
+            {
+              "word": "反発",
+              "meaning": "下がっていた株価などが、上がりに転じること。"
+            }
+          ]
+        },
+        {
+          "title": "JT株が「ロシアショック」で急落、個人は逆張りの買い",
+          "summary": [
+            "JTの株価が、ロシアをめぐる問題を受けて急落した。",
+            "「ロシアショック」とも呼ばれる下げの一方、個人投資家は買いに動いた。",
+            "値下がりした場面であえて買う「逆張り」の動きが目立っている。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaGVVUEFsd1Npc0xjakE3dU9XYzM2U1h2QnU0NGJVUkNobVZQLWpYb1lGaFpYenU5MktCTmNfZDlwSWZVbmFjdngxR2kxRXRkbUxqb090OHVDekV0SDZ3czd6Q2tQWlBNTEZoaktqZktwMHg0MzBoaFc3YlFLUEtRVU5WQnJ5NWtXc3MyVUZkclFaRVFySEJOR21qSmVaeG8?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "逆張り",
+              "meaning": "相場の流れとは反対に、値下がりしたときに買い、値上がりしたときに売る投資のやり方。"
+            },
+            {
+              "word": "個人投資家",
+              "meaning": "会社などの組織ではなく、個人として自分のお金で株などに投資する人。"
+            }
+          ]
+        },
+        {
+          "title": "日本株、「一本足打法」から「全員野球」へ　年末高に期待",
+          "summary": [
+            "日本株の相場は、一部の銘柄に頼る「一本足打法」から抜け出しつつあるという。",
+            "幅広い銘柄が上がる「全員野球」の形に移り、年末に向けた株高への期待が出ている。",
+            "特定の銘柄だけに頼らない上昇が続くかが焦点になる。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZlYxNmFvdHVlSFZsWUluSFZmOU1mWVAxdkpMQ0tGMVFBRzNvU09fRDRaYU91Mk9ycndlNVA0WkFjSUluRmtDTGY0SXhsRmxVTmVMTkxZU1NaUTZ5Ui1RUG5Qc0FtZ2lFMjByZ1MzQ24wTjBCMmVqRHhja0Y2N2xzZDUzZ2h1eXptdENwanBRTFVpdjVhcXplT19SOWR4UjJDaWE0?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "銘柄",
+              "meaning": "株式市場で売り買いされる、個々の会社の株のこと。"
+            }
+          ]
+        },
+        {
+          "title": "AI関連株が持ち直し、世界の株価とナスダック先物が上昇",
+          "summary": [
+            "AI関連株の取引が持ち直し、世界の株価とナスダックの先物が上昇した。",
+            "投資家は米国の関税やAIへの不安を気にせず、割安になった株を探して買っている。",
+            "ハイテク株の反発が、世界の株式市場を押し上げている。"
+          ],
+          "source": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T18:07:43.000Z",
+          "score": {
+            "total": 85,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "先物",
+              "meaning": "将来の決まった日に、今決めた価格で売り買いする約束の取引。市場の先行きを映すとされる。"
+            },
+            {
+              "word": "ナスダック",
+              "meaning": "米国の株式市場の一つ。ハイテク企業が多く上場していて、その株価指数も指す。"
+            }
+          ]
+        },
+        {
+          "title": "米FRB、株価の混乱でも利上げへ　タカ派姿勢",
+          "summary": [
+            "米国の中央銀行にあたるFRBが、株式市場の混乱が続く中でも利上げに動く構えだと報じられた。",
+            "物価の抑制を重視する「タカ派」の姿勢を見せている。",
+            "株価の下落よりも、物価対策を優先する形となる。"
+          ],
+          "source": "Financial Times",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNREd0RUx1TTJiVHRreUdrdTRYNk5HdVNmMFp4SURfa3c2S1NmalFseWJ5VnZqWkxJZ1gzR1FtZkNjZnJWRzRrU05hNUJCYVhOdGk2RzJRU1NiTVRnYXd4bThxWlhZSmpsMzlGMXZGc0lPaFo3R0FydU5fYkc0Y1c1U0pzSUY?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T14:58:45.000Z",
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "FRB",
+              "meaning": "米連邦準備制度理事会。米国の中央銀行にあたり、金利を決めて景気や物価を調整する。"
+            },
+            {
+              "word": "タカ派",
+              "meaning": "物価の上昇を抑えることを重視し、金利の引き上げに前向きな考え方。"
+            },
+            {
+              "word": "利上げ",
+              "meaning": "中央銀行が金利を引き上げること。お金を借りにくくして、物価の上昇を抑える。"
+            }
+          ]
+        },
+        {
+          "title": "欧州株が上昇、関税への不安が和らぐ",
+          "summary": [
+            "欧州の株式市場は、値上がりして取引を終えた。",
+            "米国の関税への不安が和らいだことが追い風になった。",
+            "欧州中央銀行（ECB）の路線が大きく変わらないとの見方も、買いを後押しした。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDAyOS03ZTA0ZzRTRmR6d2diZDJ5X0V0ejhjSlg1MzhMaTlCNU1LNTBCYVlJS2VhVV9USmNxYnNGYk9CaTdYckN1NVBZLWNKQm9BYXB5SEpNYVMyN3hzbFRjaExPY3piakNDakM1Qm1NSDJ1MFJLZzF3NGN5TFVCYThrYmNzZFhyVzN1bVBhaXh6a2t4cUxNQzBGUnpWVVFxb1l2cFR5WE1UZ0tvUEpDcw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T17:43:00.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "欧州中央銀行",
+              "meaning": "ユーロを使う国々の金融政策を担う中央銀行。略してECB。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は26日、前日比約488円高の5万7499円と反発。米国市場は感謝祭で休場し、株価指数先物は上昇した。ドル円は159円台。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "徳島・阿波市長が詐欺の疑いで逮捕、辞職願を提出",
+          "summary": [
+            "徳島県阿波市の市長が、詐欺の疑いで逮捕された。",
+            "市長は辞職願を提出した。",
+            "「本当に申し訳ありませんでした」と謝罪している。"
+          ],
+          "source": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83NUJTcmxGb2NHcmRmM0pFajIyMjFYajR2a1pTMlJFQVM1UUFhanNyN2tTX3BBMlQyRTU3aTdZdDB3cVI4a0tlVkR6MDlzMTk2TEdFb1NtbDg2c0N0ZXdwZGhoalg5V2dyN00wUXpYc1c1UQ?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T21:09:43.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "辞職願",
+              "meaning": "職を辞めたいという意思を、書面で正式に申し出ること。"
+            },
+            {
+              "word": "詐欺",
+              "meaning": "うそをついて人をだまし、お金や物を手に入れる犯罪。"
+            }
+          ]
+        },
+        {
+          "title": "大飯原発の敷地に軽自動車で侵入した疑い、女を逮捕",
+          "summary": [
+            "福井県にある大飯原子力発電所の敷地内に、軽自動車で侵入した疑いで女が逮捕された。",
+            "福井県警が逮捕した。",
+            "原発の警備のあり方が改めて問われそうだ。"
+          ],
+          "source": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIcUY0OGdjaFdYNjlTR1dPRGJvaTdaM0VKQXk0WHk1Q2I0SHdCOEtnOHNzSktKbWd2SkFmdnI2WnZiYjAtbEs5OExxZ0dUdEEtMXpDb3hmNFltLUpxTjFjTllpRlNWUUk?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T16:38:11.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "原子力発電所",
+              "meaning": "核燃料が出す熱で電気をつくる発電所。事故やテロを防ぐため、厳しい警備が求められる。"
+            },
+            {
+              "word": "県警",
+              "meaning": "都道府県ごとに置かれている警察の組織。"
+            }
+          ]
+        },
+        {
+          "title": "福井の山中で遺体、殺人の疑いで再逮捕",
+          "summary": [
+            "福井県の山中で遺体が見つかった事件で、殺人の疑いで容疑者が再逮捕された。",
+            "容疑者は、これまでに別の容疑で逮捕されていた。",
+            "事件の詳しい経緯は、今後の捜査で調べられる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oQ2ZTdWV5MlBuVm51XzVNS2Jwc2ZqZUVqekIzMTY3THdST1lOSy1mU0IxN3hoSXNTLWRrWFdnQ3Fvc3gydHl6SGpqZWlOdkhi?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-26T13:19:10.000Z",
+          "score": {
+            "total": 23,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "再逮捕",
+              "meaning": "すでに逮捕されている人を、別の疑いで改めて逮捕すること。"
+            }
+          ]
+        },
+        {
+          "title": "100万ドルの宝くじ当選者、数日後にICEが拘束",
+          "summary": [
+            "米国で100万ドルの宝くじに当選した人が、数日後に移民・関税執行局（ICE）に拘束された。",
+            "当選直後には、大きな小切手を手に笑顔を見せる姿が見られていた。",
+            "当選から拘束まで、わずか数日の出来事だった。"
+          ],
+          "source": "People.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVF9FWXdwMzJUR2VLM3JEaEdIdU4zeE10X0ZnRDhFT2ctTTR2TXdQVmJRbkFqeVd3MFlSWXZzVHBtUEhxTElQNWZkX2JsWlNicFNrT0FNR3ZFak1UMFpGYWR6Vl8xb3N2MEs5S0pVcjdxSjVFbFZxY05XTDh4S2NaektNVXByRDNGbVpHa3I2eXlKa1VBa0JGal9wNEo4OTZ5bGxN?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T18:56:25.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "移民・関税執行局",
+              "meaning": "不法に滞在する外国人の取り締まりなどを行う米国の政府機関。略称はICE。"
+            }
+          ]
+        },
+        {
+          "title": "米ストックトンで6歳女児が撃たれ死亡、20歳男を逮捕",
+          "summary": [
+            "米カリフォルニア州ストックトンで、6歳の女の子が撃たれて死亡した。",
+            "地元の警察は、20歳の男を逮捕した。",
+            "幼い子どもが巻き込まれた銃撃事件となった。"
+          ],
+          "source": "Stocktonia News",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd2FmZjYwM2RHODRuWUhhekc0WW02Qzh4ejNxV29HVWNnaWNuekkzdjl4eHJOMXJ2M3BUT3hCc01WYTB5eC1MZmpHSDZVbzFDanVMZ3pXc2F5WlpwTnJyaHpXUVd6Um1jc3ZRSWc0T2czdUo2YURPemswa0tvR0h6UjdRMXpDXzIwS1ZSaUx2YzZ0cXRscG5zYXRETlZzaDRCUUNxZnlWWTIzazB6WllPMGxRSGVDV0VIaGpDYXRpM0p0c0FsX01abm1QbHBYSTAt?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T17:55:54.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "銃撃事件",
+              "meaning": "銃で人を撃つ事件。米国では銃を持つ人が多く、たびたび起きている。"
+            }
+          ]
+        },
+        {
+          "title": "2020年に妻が行方不明、夫が殺人罪に問われる",
+          "summary": [
+            "米サウスカロライナ州の男が、2020年に妻が行方不明になった事件で殺人罪に問われた。",
+            "男はジョージア州で逮捕されたと、地元の保安官事務所が明らかにした。",
+            "行方不明から約6年がたっての立件となった。"
+          ],
+          "source": "WLTX",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNY3VUMUd6QmFjQXh2cE5ZR1NjVklNWG90dU9iQk03aDQ5UGFDQTU0LU56TXR0bGZKU3VmZTlQTUsyelZkelNkQzFTOEVkOVFZMkVab01FTzlRZHhQamFieFNyNllSWkozR3otRTdtYmtMX1BSWmFoWjFYbXNJZVhiWmV5TUZGRVdtSGVLNDlyODh3Z1F5bjBTVXJLY2Vpb2hiVzFibXhQUTc2bUpBd0RmdWJNTVZlNl9EV3FzUEhEcy1YYm1HNkJialNwc1cyXzJUSTBoZUxsVWI?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-26T20:10:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "保安官事務所",
+              "meaning": "米国の郡などで治安を守る警察組織。トップの保安官は選挙で選ばれることが多い。"
+            },
+            {
+              "word": "立件",
+              "meaning": "事件として捜査を進め、罪に問える状態に整えること。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
