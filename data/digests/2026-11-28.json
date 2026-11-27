@@ -1,0 +1,1594 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-27T22:02:17.000Z",
+  "headline": [
+    "12月の電気代は大手10社で値下がり。住宅資金贈与の非課税枠は子育て世帯で拡充へ",
+    "自民が「高齢者」定義の引き上げ案や第3子出産で1千万円の案。文科相問責案は否決",
+    "日経平均は約1212円高の5万8711円。ダウは約600ドル高で2022年以来の好調な週"
+  ],
+  "markets": [
+    {
+      "symbol": "^N225",
+      "name": "日経平均",
+      "price": 58711.11,
+      "change": 1699.4889062500006,
+      "changePercent": 2.9809517316747725
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "price": 7297.49,
+      "change": 114.71021484374978,
+      "changePercent": 1.5970170083845114
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ",
+      "price": 24129.5,
+      "change": 543.69921875,
+      "changePercent": 2.3051971980625923
+    },
+    {
+      "symbol": "^DJI",
+      "name": "NYダウ",
+      "price": 50774.94,
+      "change": 591.9907812500023,
+      "changePercent": 1.1796651860166383
+    },
+    {
+      "symbol": "JPY=X",
+      "name": "ドル円",
+      "price": 159.574,
+      "change": 0.3590036621093873,
+      "changePercent": 0.22548357275812098
+    }
+  ],
+  "categories": [
+    {
+      "id": "economy",
+      "name": "経済",
+      "items": [
+        {
+          "title": "12月の電気代、大手10社すべて値下がり",
+          "summary": [
+            "12月使用分の電気代は、大手電力10社のすべてで値下がりする。",
+            "燃料費は高いものの、政府の補助金が再び始まることが下げの理由だ。",
+            "一方でガス代は小幅に上がる見通しで、卵の価格高騰も続いている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JVHlZbmsySGlYY0xjaWZwaURoWE1qUnR0TXZJUktFcHhRUmVfUm9TdEszOFhvUk4yeDRLOWh1WWx0YXBCaXhLcEhWNmdQZFZWZFpSSGtiVW56TDQ3aWVJbWhoTk1maGlYbzJuMVNsNkFxRl83TGxZTDhhQkZWV28?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T07:49:34.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "12月に使う分の電気代が、大手電力10社すべてで前の月より安くなる。政府が電気・ガス代の補助金を再び始めるためで、ガス代は少し上がる。",
+            "why": "電気代は、発電に使う燃料の値段に合わせて毎月自動的に変わる仕組みになっている。燃料費が高い状態は続いているが、暖房で電気を多く使う冬に向けて政府が補助金を再開したため、その分だけ料金が下がる。補助は一時的な対策なので、終わる時期によっては再び上がる可能性がある。",
+            "points": [
+              {
+                "label": "全世帯",
+                "text": "暖房で電気を多く使う季節に、毎月の電気代の負担が少し軽くなる。",
+                "level": "中",
+                "when": "すぐ"
+              },
+              {
+                "label": "ガスを使う家庭",
+                "text": "ガス代は小幅に上がるため、ガス暖房やガスコンロ中心の家庭は軽減を感じにくい。",
+                "level": "小",
+                "when": "すぐ"
+              },
+              {
+                "label": "年金生活者",
+                "text": "収入が増えにくい人にとって、光熱費の値下がりは家計の助けになる。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "補助金がいつまで続き、終了後に電気代がどう動くか"
+          },
+          "score": {
+            "total": 95,
+            "parts": {
+              "people": 40,
+              "money": 30,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "補助金",
+              "meaning": "国などが、特定の目的のために支払うお金。ここでは電気・ガス代を下げるために電力会社などへ支払われる。"
+            },
+            {
+              "word": "燃料費",
+              "meaning": "発電に使う液化天然ガス（LNG）や石炭などの費用。上がると電気代も上がりやすい。"
+            }
+          ]
+        },
+        {
+          "title": "住宅資金の贈与、子育て世帯は非課税枠を最大1500万円に",
+          "summary": [
+            "住宅購入のために親などから受けた資金の贈与税非課税枠を、政府・与党が拡充する。",
+            "子育て世帯は上限が最大1500万円となり、措置の延長も決まる方向だ。",
+            "一方、住まずに1年以内にマンションを売る場合は税率52％への引き上げが軸となる。"
+          ],
+          "source": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxQUVXZEVuZFpEc0F6UVE4cFUtVUxVLVAxZTQzenY4YWtOWWJyV2dCWEI1YzNIU2QxTWxsbzFha0dCYVBCOGFzcDVLYXViODhEMVUtOFhfQ3JWVnlLaFZOdWE3MjA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T13:00:00.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "親や祖父母から家を買うお金をもらっても、一定額まで税金がかからない仕組みを延長し、子育て世帯は最大1500万円まで広げる。投機目的の短期売買には税を重くする方向だ。",
+            "why": "親から子へお金を渡すと通常は贈与税がかかるが、住宅購入に使う場合は特別に税をかけない仕組みがある。家を買う若い世代を後押しし、住宅市場を支えるのが狙いだ。今回は少子化対策として子育て世帯を手厚くした。一方で都市部ではマンション価格の高騰が続き、住むためではなく値上がりを狙った転売が問題になっているため、短期の売却には税を重くして歯止めをかける考えだ。",
+            "points": [
+              {
+                "label": "子育て世帯",
+                "text": "親などから住宅資金の援助を受ける場合、税金を気にせず受け取れる額が増える。",
+                "level": "大",
+                "when": "数カ月後"
+              },
+              {
+                "label": "家を買いたい人",
+                "text": "投機的な転売が減れば、マンション価格の上がり方が落ち着く可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "マンション投資家",
+                "text": "住まずに1年以内に売ると、利益にかかる税が大きく増えそうだ。",
+                "level": "中",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "年末にまとまる与党の税制改正大綱に、どの内容が盛り込まれるか"
+          },
+          "score": {
+            "total": 85,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "贈与税",
+              "meaning": "生きている人から財産をもらったときにかかる税金。一定の額までは税金がかからない枠がある。"
+            },
+            {
+              "word": "非課税枠",
+              "meaning": "この金額までは税金がかからない、という上限のこと。"
+            },
+            {
+              "word": "与党",
+              "meaning": "国会で多数を占め、政権を担う政党。税の仕組みは政府と与党で話し合って決める。"
+            }
+          ]
+        },
+        {
+          "title": "北海道新幹線の延伸、事業費が1兆900億円余り増える見通し",
+          "summary": [
+            "北海道新幹線の札幌延伸で、事業費が1兆900億円余り増える見通しとなった。",
+            "国の有識者会議の報告書では、事業費は全体で3.4兆円とされる。",
+            "作業員不足で工事が遅れていることが背景にあり、1000億円の縮減も可能とされた。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5NWI2Q1FqTjdmeTQ1ZG5QbDRKb1lPdnVWZ2VkYWJERl9idG9OSlAtUTFrUzlyV2dxSjc0eE9wUDh6Z2RtV2ZsRVNwVkVFeTFiX3k0QUVrVFNfQldpWmhv?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T10:53:49.000Z",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "北海道新幹線を札幌まで延ばす工事の費用が、当初より1兆900億円余り増えて全体で3.4兆円になる見通しになった。工夫すれば1000億円は減らせるとされた。",
+            "why": "札幌への延伸はトンネル工事が多く、地盤の問題や作業員が足りないことで工事が遅れている。工事が長引けば人件費や資材費がかさみ、費用はふくらむ。整備新幹線の費用は国と地元の自治体が分けて負担する仕組みのため、増えた分を誰がどう負担するかが問題になる。開業時期の遅れも、観光や地域経済の計画に影響する。",
+            "points": [
+              {
+                "label": "北海道の住民",
+                "text": "自治体の負担が増えれば、ほかの行政サービスや予算に影響が出る可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "建設業界",
+                "text": "人手不足のなかで大規模工事が長く続き、作業員の確保が引き続き課題になる。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "納税者全体",
+                "text": "国の負担分は税金でまかなわれるため、費用の膨張は国の財政にも響く。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "増えた費用を国と自治体でどう分け、開業時期がいつになるか"
+          },
+          "score": {
+            "total": 55,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "札幌延伸",
+              "meaning": "北海道新幹線を、今の終点の新函館北斗駅から札幌駅まで延ばす計画。"
+            },
+            {
+              "word": "有識者会議",
+              "meaning": "専門家などを集めて、国の政策について意見をまとめる会議。"
+            },
+            {
+              "word": "事業費",
+              "meaning": "工事など、計画をやりとげるのにかかる費用の総額。"
+            }
+          ]
+        },
+        {
+          "title": "CPTPP、インドネシアなど3カ国と加入交渉へ",
+          "summary": [
+            "CPTPP（環太平洋パートナーシップ協定）の閣僚会合で、新たな加入交渉が決まった。",
+            "交渉の相手はインドネシア、フィリピン、UAE（アラブ首長国連邦）の3カ国だ。",
+            "自由貿易を広げ、他国からの経済的威圧に対抗する狙いもあるとされる。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPcGRGVUJaVWNLMXdNZDFPZHVIVXkyQW1BRjExQ2syOEt5dlZJTXNkclcwS3B1V0pFLVBrbkx1bkV6NWd4RlJzOEhpeVVxdTZHZ1JETXZ3V3BDcV9wMzZWYTJzMXkydWJsNEotWg?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T08:30:23.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "日本も参加する自由貿易の枠組みCPTPPが、インドネシア、フィリピン、UAEの3カ国と加入の交渉を始めることを決めた。",
+            "why": "CPTPPは、もともと米国も入るはずだったTPPから米国が離脱した後、日本が中心になってまとめた協定だ。米国が関税を引き上げるなど保護主義を強めるなか、参加国を増やして自由な貿易の輪を広げたい思惑がある。人口の多いインドネシアやフィリピン、中東の産油国UAEが加われば、市場の規模が大きくなる。",
+            "points": [
+              {
+                "label": "輸出企業",
+                "text": "交渉がまとまれば、東南アジアや中東向けの関税が下がり、日本の製品を売りやすくなる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "エネルギー",
+                "text": "産油国UAEとの結びつきが強まれば、原油などの安定調達につながる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本が主導する枠組みの拡大は、米中の間での日本の存在感を高めることにつながりうる。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "3カ国との交渉がどのくらいの期間でまとまるか"
+          },
+          "score": {
+            "total": 90,
+            "parts": {
+              "japan": 50,
+              "global": 20,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "CPTPP",
+              "meaning": "日本やカナダ、オーストラリアなどが参加する自由貿易協定。関税をなくし、貿易のルールをそろえる。"
+            },
+            {
+              "word": "経済的威圧",
+              "meaning": "輸入を止めるなど、貿易を武器にして他国に圧力をかけること。"
+            },
+            {
+              "word": "関税",
+              "meaning": "外国から輸入する品物にかける税金。高いと輸入品の値段が上がる。"
+            }
+          ]
+        },
+        {
+          "title": "トランプ氏がGDP統計の調査を要求、利上げ観測も強まる",
+          "summary": [
+            "トランプ米大統領は、7〜9月期GDPの大幅な上方修正を「記録的な誤り」として調査を求めた。",
+            "中間選挙前に「偽り」の数字が出たと主張しているが、証拠は示していない。",
+            "一方、強い経済指標を受けて、FRBが利上げする可能性が高まっている。"
+          ],
+          "source": "The Hill",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMXVzOVkyZGhIRFdqNVhuZFRSekVzWVlpVkJZU0VkSVd4U0g4NmtsckF3Um15S1Z0VV93dVllSVJ1Q19nZzNPdFRMNy00ZG9Dd0p6Mi1oUENCX0VtZ01HZGR0RDVpODJmZEEzaTJOR1BqVzJXTFBZYjdzWWhYeFBqTzkyeUJrQdIBiwFBVV95cUxORTgyb0VjenJfS1Nid21HaXNOdUoycHJzSVpQUDlQemVlRkphMExkc19ZSzZubjAtNTJhVW1iT1piMGhITGVNX3F2OUstQS1qRXF4SlBac1g5aWZMYVZlME1tbVhDM1ZXTHFsR0lIZWpZMnprTThDSmliQVQwZHVwS3FXUUhscW1DY21r?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T15:46:00.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "米国の7〜9月期のGDPが大きく上方修正されたことに対し、トランプ大統領が「誤り」だとして調査を求めた。同時に、景気の強さから利上げの可能性が高まっている。",
+            "why": "景気が強すぎると物価が上がりやすくなるため、中央銀行は金利を上げて景気を冷まそうとする。GDPが良い数字になったことで、FRBが利上げに動くとの見方が強まった。利上げを嫌うトランプ氏は統計そのものを疑う姿勢を見せており、政府の統計への信頼が揺らぐことも心配されている。",
+            "points": [
+              {
+                "label": "円相場",
+                "text": "米国の金利が上がると、金利の高いドルが買われて円安が進みやすい。",
+                "level": "大",
+                "when": "すぐ"
+              },
+              {
+                "label": "ガソリン・食品価格",
+                "text": "円安が進めば輸入品が高くなり、日本の物価を押し上げる可能性がある。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の株価",
+                "text": "米国の利上げは世界の株価の重しになりやすく、日本株も影響を受けうる。",
+                "level": "中",
+                "when": "すぐ"
+              }
+            ],
+            "watch": "12月のFOMC（米国の金融政策を決める会合）で利上げが決まるか"
+          },
+          "score": {
+            "total": 50,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": -30
+          },
+          "terms": [
+            {
+              "word": "GDP",
+              "meaning": "国内総生産。国内で1年間などに生み出されたモノやサービスの価値の合計で、景気の良しあしを示す。"
+            },
+            {
+              "word": "上方修正",
+              "meaning": "一度発表した数字を、あとでより良い（大きい）値に直すこと。"
+            },
+            {
+              "word": "FRB",
+              "meaning": "米連邦準備制度理事会。米国の中央銀行にあたり、政策金利を決める。"
+            }
+          ]
+        },
+        {
+          "title": "英国の年金・給付の窓口にサイバー被害、数百万人が利用不可に",
+          "summary": [
+            "英国の雇用年金省（DWP）が「深刻な」サイバー被害を受けたと閣僚が明らかにした。",
+            "予防措置として一部のシステムを止め、数百万人が給付や年金の手続きをできなくなった。",
+            "元政府IT責任者は、攻撃によるものの可能性が高いとの見方を示している。"
+          ],
+          "source": "BBC",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kQmlaSUVrUGVEVDd6amNPQS05NExlYWRxaTJSdHVISmVTdDY5OVdGRFJUaFlpdHBfRU1kanl5WXhUQmZHNGZPM0stSWtFOWkyaVJVYlMxWENaMHM?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T20:42:44.000Z",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "英国で年金や生活保護などの給付を扱う役所がサイバー被害を受け、システムを止めたため、数百万人がサービスを使えなくなった。",
+            "why": "行政のシステムは多くの人の個人情報や給付の手続きを扱うため、攻撃者に狙われやすい。被害が広がるのを防ぐため、役所は一部のシステムを自ら止める判断をした。社会保障のように暮らしに直結する仕組みが止まると、受け取る人への影響が大きく、各国で行政システムの守り方が課題になっている。",
+            "points": [
+              {
+                "label": "日本の行政",
+                "text": "マイナンバーや年金のシステムでも同じような攻撃への備えが改めて問われる。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "企業のサイバー対策",
+                "text": "大規模な被害が続くなか、日本企業も防御への投資を求められそうだ。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "原因が攻撃と確認されるか、システムがいつ復旧するか"
+          },
+          "score": {
+            "total": 40,
+            "parts": {
+              "japan": 5,
+              "global": 10,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "雇用年金省",
+              "meaning": "英国で年金や失業手当などの給付を担当する役所。略してDWP。"
+            },
+            {
+              "word": "サイバー被害",
+              "meaning": "インターネットを通じた不正な侵入や攻撃によって、システムやデータに被害が出ること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "政治",
+      "items": [
+        {
+          "title": "第3子以降の出産で1千万円、自民が案",
+          "summary": [
+            "自民党が、第3子以降を出産した場合に1千万円とする案をまとめた。",
+            "少子化への対策として、多くの子どもを持つ家庭を支える内容とみられる。",
+            "実現するかどうかや、財源をどうするかが今後の焦点になる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604188?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-27T05:59:41.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/27/364ea2fd82c8a77498a7d04dd98e2453dcb919af0d6cc2be249db0bb278d5b6f.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "自民党が、3人目以降の子どもを産んだ家庭に1千万円とする案をまとめた。",
+            "why": "日本では生まれる子どもの数が減り続け、少子化は国の大きな課題になっている。子どもが多いほど教育費などの負担が重くなるため、3人目以降に手厚い支援をすれば、もう1人を考える家庭を後押しできるとの考え方がある。ただ金額が大きく、毎年多くの財源が必要になるため、実現には負担のあり方の議論が欠かせない。",
+            "points": [
+              {
+                "label": "子育て世帯",
+                "text": "実現すれば、3人目以降を考える家庭の経済的な不安が大きく軽くなる可能性がある。",
+                "level": "大",
+                "when": "数年後"
+              },
+              {
+                "label": "納税者全体",
+                "text": "大きな財源が必要になり、増税や他の予算の見直しにつながる可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "政府がこの案を政策として採り入れるか、財源をどう示すか"
+          },
+          "score": {
+            "total": 75,
+            "parts": {
+              "people": 30,
+              "money": 30,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "少子化",
+              "meaning": "生まれる子どもの数が減り、人口に占める子どもの割合が下がっていくこと。"
+            },
+            {
+              "word": "財源",
+              "meaning": "政策に使うお金をどこから用意するか、ということ。税金や国債などがある。"
+            }
+          ]
+        },
+        {
+          "title": "「高齢者」の定義を引き上げる案、自民がまとめる",
+          "summary": [
+            "自民党が、「高齢者」の定義を引き上げる案をまとめた。",
+            "何歳から高齢者とするかは、年金や医療などの制度の前提にかかわる。",
+            "今後、政府内でどう扱われるかが焦点になる。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604235?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-27T12:08:53.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/27/e80d3ad52ecfada9733c45a47e68c2dfce457241c3ef063fc7bf51a1c4be6bcd.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "自民党が、何歳からを「高齢者」と呼ぶかの基準を今より引き上げる案をまとめた。",
+            "why": "日本では一般に65歳以上を高齢者と呼ぶことが多いが、平均寿命が延び、元気に働く60代も増えている。高齢者が増えるほど年金や医療などの社会保障の費用は大きくなり、支える働き手は減っていく。定義の見直しは、働ける人を増やし、制度の支え手と受け手のバランスを考え直す議論につながる可能性がある。",
+            "points": [
+              {
+                "label": "60代の人",
+                "text": "定義が変われば、働き続けることを前提にした制度づくりが進む可能性がある。",
+                "level": "中",
+                "when": "数年後"
+              },
+              {
+                "label": "年金生活者",
+                "text": "すぐに年金が変わるわけではないが、受け取り始める年齢の議論に波及するかが注目される。",
+                "level": "小",
+                "when": "数年後"
+              },
+              {
+                "label": "現役世代",
+                "text": "社会保障を支える人が増えれば、保険料などの負担の伸びが抑えられる可能性がある。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "政府がこの案を正式な検討に入れるかどうか"
+          },
+          "score": {
+            "total": 70,
+            "parts": {
+              "people": 40,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "高齢者",
+              "meaning": "一般には65歳以上の人を指すことが多い。年金や介護などの制度の対象を決める目安にもなっている。"
+            },
+            {
+              "word": "社会保障",
+              "meaning": "年金・医療・介護など、病気や老後の暮らしを国全体で支える仕組み。"
+            }
+          ]
+        },
+        {
+          "title": "文科相の問責決議案、紙一重で否決",
+          "summary": [
+            "関文部科学相に対する問責決議案が、紙一重の差で否決された。",
+            "関氏は否決を受け、「重く受け止める」と述べた。",
+            "関氏をめぐっては、2018年の食事会で300万円を収入に計上していたことも報じられている。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604218?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-27T09:13:14.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/27/67d172cf842a2d654f8a998d6a23109ea065fef224edede169c985565c7b6696.jpg",
+          "insight": {
+            "angle": "影響を受ける人",
+            "what": "関文部科学相の責任を問う問責決議案が、わずかな差で否決された。関氏は「重く受け止める」と述べている。",
+            "why": "問責決議は、大臣のふるまいに問題があると考える議員が、責任を問うために出す。可決されても辞める義務はないが、政権への打撃は大きい。今回は否決されたものの差がわずかだったことは、政権の足元が安定しきっていないことを示している。関氏には、過去の食事会の収入をめぐる報道も出ており、説明が求められている。",
+            "points": [
+              {
+                "label": "教育関係者",
+                "text": "文科相の立場が揺らげば、教育政策の議論が進みにくくなる可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "有権者",
+                "text": "政治とお金をめぐる問題で、政権への評価が左右される可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "関氏が食事会の収入についてどう説明するか"
+          },
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "問責決議案",
+              "meaning": "大臣などの責任を問う決議の案。参議院で出されることが多く、可決されても法的な強制力はない。"
+            },
+            {
+              "word": "否決",
+              "meaning": "会議で、出された案を認めないと決めること。"
+            }
+          ]
+        },
+        {
+          "title": "ゼレンスキー氏、トランプ氏とプーチン氏の「奇妙な」友好関係を批判",
+          "summary": [
+            "ウクライナのゼレンスキー大統領が、BBCのインタビューで米国への不満を示した。",
+            "トランプ氏とプーチン氏の友好関係を「奇妙だ」と批判した。",
+            "米国は和平交渉でロシアに十分な圧力をかけていないと述べた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-27T18:00:40.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "ウクライナのゼレンスキー大統領が、米国はロシアへの圧力が足りないと不満を示し、トランプ氏とプーチン氏の親しさを「奇妙だ」と批判した。",
+            "why": "ロシアの侵攻が続くなか、米国は和平交渉の仲立ちをしているが、ウクライナはロシア寄りの条件を押しつけられることを警戒している。支援国である米国の大統領をウクライナの指導者が公に批判するのは異例で、交渉が思うように進んでいない様子がうかがえる。戦争が長引けば、エネルギーや穀物の価格を通じて世界経済への影響も続く。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "戦争が長引けば、エネルギーや穀物の価格が高止まりしやすい。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "日本はウクライナを支援しており、和平の形によって日本の対ロシア政策も問われる。",
+                "level": "中",
+                "when": "数カ月後"
+              },
+              {
+                "label": "安全保障",
+                "text": "力で国境を変える動きが認められるかは、東アジアの安全保障にもかかわる。",
+                "level": "中",
+                "when": "数年後"
+              }
+            ],
+            "watch": "米国の仲介する和平交渉で、ロシアへの圧力が強まるか"
+          },
+          "score": {
+            "total": 65,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ゼレンスキー大統領",
+              "meaning": "ウクライナの大統領。ロシアの侵攻に対して、国の防衛と和平交渉を率いている。"
+            },
+            {
+              "word": "和平交渉",
+              "meaning": "戦争をやめるための条件を話し合うこと。"
+            },
+            {
+              "word": "プーチン",
+              "meaning": "ロシアの大統領。ウクライナへの軍事侵攻を指示した。"
+            }
+          ]
+        },
+        {
+          "title": "スペイン選挙、サンチェス首相と対立候補が最後の訴え",
+          "summary": [
+            "スペインのサンチェス首相と対立候補が、投票を前に支持者を集めて最後の訴えをした。",
+            "サンチェス氏は世論調査の劣勢をはね返したい考えだ。",
+            "対立候補は、首相が真実を語っていないとして「裏切り」だと批判している。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-27T21:40:01.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/1bb1/live/dd63ff10-ea99-11f1-a094-5fdc692f3e33.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "スペインで選挙の投票を前に、サンチェス首相と対立候補が最後の演説で支持を訴えた。首相は世論調査で劣勢とされる。",
+            "why": "スペインはEU（欧州連合）の主要国の一つで、政権が代われば経済政策やEU内での立場が変わる可能性がある。世論調査で劣勢の首相が逆転できるかが注目されている。欧州では各国で政権交代が相次いでおり、その流れの一つとして見られている。",
+            "points": [
+              {
+                "label": "日本の外交",
+                "text": "スペインの政権が変われば、EUとの貿易や外交の議論に影響する可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "輸出企業",
+                "text": "欧州の政治が不安定になると、ユーロ相場を通じて輸出企業の採算に響くことがある。",
+                "level": "小",
+                "when": "数カ月後"
+              }
+            ],
+            "watch": "投票の結果、政権が交代するかどうか"
+          },
+          "score": {
+            "total": 43,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "世論調査",
+              "meaning": "多くの人に意見を聞いて、社会全体の考えを推し量る調査。選挙の予想にも使われる。"
+            },
+            {
+              "word": "サンチェス",
+              "meaning": "スペインの首相。中道左派の社会労働党を率いている。"
+            }
+          ]
+        },
+        {
+          "title": "マクロン氏の「ドーピング肉」発言に、ブラジルが反発",
+          "summary": [
+            "フランスのマクロン大統領が、ブラジル産の肉を「ドーピングされている」と表現した。",
+            "フランスの農業団体の代表に向けた発言で、ブラジル側は反発している。",
+            "EUは数カ月前に、ブラジル産の牛肉と鶏肉を禁止していた。"
+          ],
+          "source": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+          "region": "海外",
+          "publishedAt": "2026-11-27T15:54:15.000Z",
+          "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/23bb/live/01c67d00-ea73-11f1-a828-d384c0290f6b.jpg",
+          "insight": {
+            "angle": "日本への影響",
+            "what": "フランスのマクロン大統領がブラジル産の肉を「ドーピング（薬漬け）」と表現し、ブラジルが反発した。EUはすでにブラジル産の牛肉と鶏肉を禁止している。",
+            "why": "フランスは農業国で、安い南米産の肉が入ってくることに農家が強く反対している。マクロン氏の発言は国内の農家に配慮したものとみられる。EUと南米の貿易関係はこの問題でぎくしゃくしており、食料の貿易をめぐる対立が広がっている。",
+            "points": [
+              {
+                "label": "ガソリン・食品価格",
+                "text": "ブラジル産の肉の行き先が変われば、世界の食肉の値段に影響が出る可能性がある。",
+                "level": "小",
+                "when": "数カ月後"
+              },
+              {
+                "label": "日本の外交",
+                "text": "食の安全をめぐる貿易の対立は、日本の農産物の貿易交渉にも参考になる。",
+                "level": "小",
+                "when": "数年後"
+              }
+            ],
+            "watch": "EUとブラジルの間で、食肉の輸入をめぐる話し合いが進むか"
+          },
+          "score": {
+            "total": 43,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 5,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "マクロン大統領",
+              "meaning": "フランスの大統領。EUの中でも発言力が大きい指導者の一人。"
+            },
+            {
+              "word": "EU",
+              "meaning": "欧州連合。ヨーロッパの多くの国が加わる組織で、貿易のルールを共同で決めている。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "テクノロジー",
+      "items": [
+        {
+          "title": "KARTEの情報漏えい、契約終了後のデータも流出",
+          "summary": [
+            "顧客データ分析サービス「KARTE」を通じた情報漏えいが止まらない。",
+            "契約終了後に削除されるべきデータが、管理の不備で保管されたままだった例がある。",
+            "日経新聞社も委託先への不正アクセスで、約540万件の個人情報が漏えいした。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
+          "region": "国内",
+          "publishedAt": "2026-11-27T05:55:00.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003517/10013144/2048",
+          "score": {
+            "total": 60,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "KARTE",
+              "meaning": "プレイドという会社が提供する、ウェブサイトの利用者の行動を分析するサービス。多くの企業が使っている。"
+            },
+            {
+              "word": "不正アクセス",
+              "meaning": "許可なく他人のシステムに入り込むこと。法律で禁止されている。"
+            },
+            {
+              "word": "委託先",
+              "meaning": "企業が仕事の一部を任せている外部の会社。"
+            }
+          ]
+        },
+        {
+          "title": "マイナアプリの古いバージョンに脆弱性",
+          "summary": [
+            "マイナンバーカードのアプリ（マイナアプリ）の古いバージョンに脆弱性が見つかった。",
+            "脆弱性は、悪用されるとシステムに害を与えうる弱点のこと。",
+            "古いバージョンを使っている人は、更新を確認することが大切だ。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.yahoo.co.jp/pickup/6604215?source=rss",
+          "region": "国内",
+          "publishedAt": "2026-11-27T09:12:52.000Z",
+          "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/27/e797ee455c08c43a46defd7cf4b381885b1894c4f58d9ae428710c6523fc8707.jpg",
+          "score": {
+            "total": 48,
+            "parts": {
+              "people": 30,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "脆弱性",
+              "meaning": "ソフトウェアの欠陥や弱点のこと。悪用されると情報を盗まれるなどの被害につながる。"
+            },
+            {
+              "word": "マイナンバーカード",
+              "meaning": "一人ひとりに割り当てられた番号が記された身分証明書。行政の手続きなどに使える。"
+            }
+          ]
+        },
+        {
+          "title": "京セラ、5年で設備投資9000億円 AI向け需要を狙う",
+          "summary": [
+            "京セラは、2031年3月期までの5年間で設備投資に計9000億円を投じると発表した。",
+            "AIの普及で広がるデータセンターや半導体関連の需要を取り込む狙いだ。",
+            "これとは別に、研究開発にも5年間で6500億円を投資する。"
+          ],
+          "source": "ITmedia",
+          "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003521/",
+          "region": "国内",
+          "publishedAt": "2026-11-27T07:19:56.000Z",
+          "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003521/10013159/2048",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "設備投資",
+              "meaning": "工場や機械など、ものを作るための設備にお金をかけること。"
+            },
+            {
+              "word": "データセンター",
+              "meaning": "大量のコンピューターを集めて、データの保存や計算をする施設。AIの普及で需要が増えている。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディアの不祥事、アリス・ホアン氏はスパイなのか",
+          "summary": [
+            "エヌビディアをめぐる不祥事では、アリス・ホアン氏が中国のスパイだという疑いが焦点だ。",
+            "同氏は元Megaspeed幹部で、フアンCEOと婚外の関係にあったとされる。",
+            "同氏につながる中国の拠点でBlackwellチップが見つかったとも報じられたが、疑いは未確認だ。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/",
+          "region": "海外",
+          "publishedAt": "2026-11-26T20:00:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297774940.jpg?resize=1200,832",
+          "score": {
+            "total": 57,
+            "parts": {
+              "japan": 20,
+              "global": 20,
+              "timing": 5,
+              "certainty": 2,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エヌビディア",
+              "meaning": "米国の半導体メーカー。AIの計算に使う高性能なチップで世界トップのシェアを持つ。"
+            },
+            {
+              "word": "Blackwell",
+              "meaning": "エヌビディアの最新世代のAI向けチップの名前。米国は中国への輸出を規制している。"
+            },
+            {
+              "word": "スパイ",
+              "meaning": "他国の秘密の情報をひそかに集める人。"
+            }
+          ]
+        },
+        {
+          "title": "X、20年目にして保護者による管理機能を追加",
+          "summary": [
+            "イーロン・マスク氏のSNS「X」が、10代向けの保護者管理機能を追加した。",
+            "保護者は、子どもがX上で見る内容を管理できるようになる。",
+            "サービス開始から約20年で、ようやく導入された形だ。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+          "region": "海外",
+          "publishedAt": "2026-11-26T19:31:50.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg?resize=1200,675",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "SNS",
+              "meaning": "ソーシャル・ネットワーキング・サービス。インターネット上で人とつながり、投稿をやりとりするサービス。"
+            },
+            {
+              "word": "保護者管理機能",
+              "meaning": "子どもが使うアプリやサービスで、見られる内容や使い方を親が設定・制限できる機能。"
+            }
+          ]
+        },
+        {
+          "title": "「GTA VI」が大ヒット、効率重視へのアンチテーゼに",
+          "summary": [
+            "人の手で丹念に作られたゲーム「グランド・セフト・オートVI」が大ヒットした。",
+            "エンターテインメント史上でも有数の成功した発売になったとされる。",
+            "アンソロピックが株式を上場した同じ日の出来事で、効率重視の風潮と対比されている。"
+          ],
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+          "region": "海外",
+          "publishedAt": "2026-11-26T16:00:00.000Z",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "グランド・セフト・オートVI",
+              "meaning": "米ロックスター・ゲームスの人気アクションゲームシリーズの最新作。略してGTA VI。"
+            },
+            {
+              "word": "上場",
+              "meaning": "会社の株を証券取引所で売り買いできるようにすること。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "items": [
+        {
+          "title": "生成AIへの不安、「犯罪に悪用される」が73％",
+          "summary": [
+            "NHKの世論調査で、生成AIへの不安を聞いたところ「犯罪に悪用される」が73％だった。",
+            "生成AIは便利な一方で、悪用への警戒が広がっていることがうかがえる。",
+            "詐欺や偽画像などへの対策が、今後も課題になりそうだ。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14LXFzV1l1M2IwVVpxVXZOYmhKZ3I1RFd2c2tRbFVSU0RrRlA1aFN0RHhyOWdCcjlTdmJJVXlZZTRYdlhRRWdSbGZjVWpiSlNka3BKMDM0MHdHbjlOanAw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T20:05:17.000Z",
+          "score": {
+            "total": 58,
+            "parts": {
+              "people": 40,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを自動で作り出す人工知能。ChatGPTなどが代表例。"
+            },
+            {
+              "word": "世論調査",
+              "meaning": "多くの人に意見を聞いて、社会全体の考えを推し量る調査。"
+            }
+          ]
+        },
+        {
+          "title": "電通、Geminiを使いこなす人材3000人の育成を開始",
+          "summary": [
+            "電通は約3000人を対象に、「Gemini Enterprise」を使いこなす人材の育成を始めた。",
+            "生成AIを導入しても、現場の業務に生かせなければ成果につながらないためだ。",
+            "現場での生成AI活用を進められる人材を育てる狙いがある。"
+          ],
+          "source": "ITmedia AI+",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html",
+          "region": "国内",
+          "publishedAt": "2026-11-27T00:45:00.000Z",
+          "image": "https://image.itmedia.co.jp/ait/articles/2611/27/cover_news038.jpg",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "Gemini Enterprise",
+              "meaning": "グーグルが企業向けに提供する生成AIのサービス。"
+            },
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを自動で作り出す人工知能。ChatGPTなどが代表例。"
+            }
+          ]
+        },
+        {
+          "title": "AIリスクの内部監査、実施はわずか5.7％",
+          "summary": [
+            "今後重要性が高まるリスクとして「AI・生成AI」を挙げた回答が半数を超えた。",
+            "一方、AIのリスクについて内部監査を「すでに実施」した回答は5.7％にとどまる。",
+            "企業の内部監査が、AIの広がりに追いついていない実態が浮かんだ。"
+          ],
+          "source": "ITmedia AI+",
+          "url": "https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html",
+          "region": "国内",
+          "publishedAt": "2026-11-27T01:50:00.000Z",
+          "image": "https://image.itmedia.co.jp/enterprise/articles/2611/26/cover_news037.jpg",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "内部監査",
+              "meaning": "会社の中の担当者が、仕事のやり方やリスクへの備えが適切かを点検すること。"
+            },
+            {
+              "word": "リスク",
+              "meaning": "損害や問題が起きるおそれのこと。"
+            }
+          ]
+        },
+        {
+          "title": "エヌビディア、自己回帰型の画像生成AIを無償で公開",
+          "summary": [
+            "エヌビディアが、自己回帰型の画像生成AIを無償で公開した。",
+            "画像生成AIは拡散モデルが主流で、その前提を覆す試みとされる。",
+            "誰でも使える形で公開されたことで、開発の広がりが注目される。"
+          ],
+          "source": "BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tTXNwYkFLRlp1WlMybUV1eXNjVHJZc0RrSTVPWlY0NUotdzlQTVpJSThuLU9Iekx1akQ1RkRyUl9jV3FJVy1tU2RSaUFVRlVrb01femZ4bjV6TGlta1lab2Z6aXpieFNuWnM0TmlaREpWM1ZL?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T03:55:00.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "自己回帰型",
+              "meaning": "前に作った部分をもとに、次の部分を順番に予測して作っていく方式。文章を作るAIで広く使われる。"
+            },
+            {
+              "word": "拡散モデル",
+              "meaning": "ノイズだらけの画像から少しずつノイズを取り除いて画像を作る方式。今の画像生成AIの主流。"
+            }
+          ]
+        },
+        {
+          "title": "韓国、ゲーム音楽などへの生成AI使用に反発 楽曲・動画を削除",
+          "summary": [
+            "韓国で、ゲームの音楽や大会動画の解説に生成AIが使われていたことが分かった。",
+            "利用者らが反発したことを受けて、楽曲や動画は削除された。",
+            "創作の場での生成AIの使い方に、厳しい目が向けられている。"
+          ],
+          "source": "AFPBB News",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kdFBpOGg5dG5IYkUwbzY0TkNaaVM0YUVxdUdFOGd2NjJzSHpfcXVWbGJKSTVLeTNpQ010WlFDRmtHc2dNNHVmQkxPal8yRmtLMVlMeFNzclo3eFd0ZHI3bEFRSUd4VEZsODd3TUZfRi1ud9IBVEFVX3lxTE9TV3FFQ3V6ekpvRElwbW92SmlMbUVVMTJoMnpTcFNDLTFyRWdkOFhHUy1mZlkzSk8xa2R2NGpJbWRXaVRQZk9ITkw0c211RzZaWDJiZQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T08:58:14.000Z",
+          "score": {
+            "total": 53,
+            "parts": {
+              "japan": 20,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "生成AI",
+              "meaning": "文章や画像、音声などを自動で作り出す人工知能。ChatGPTなどが代表例。"
+            },
+            {
+              "word": "利用者",
+              "meaning": "サービスや製品を使う人。ここではゲームのプレーヤーや視聴者。"
+            }
+          ]
+        },
+        {
+          "title": "Android、AIで自分好みのウィジェットを作れる機能",
+          "summary": [
+            "Androidで、AIを使って自分好みのウィジェットを作れるようになった。",
+            "記者は、近くのバス停の到着時刻を表示するウィジェットを作りたいと試した。",
+            "プログラミングの知識がなくても、AIとの会話で作る「バイブコーディング」の一例だ。"
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "region": "海外",
+          "publishedAt": "2026-11-27T14:00:00.000Z",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04405_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+          "score": {
+            "total": 48,
+            "parts": {
+              "japan": 20,
+              "global": 10,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ウィジェット",
+              "meaning": "スマホのホーム画面に置いて、天気や予定などの情報をひと目で見られる小さな部品。"
+            },
+            {
+              "word": "バイブコーディング",
+              "meaning": "細かいコードを書かずに、AIに言葉で指示してプログラムを作るやり方。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "name": "株価・マーケット",
+      "items": [
+        {
+          "title": "シカゴの日経平均先物、1625円高の5万8970円",
+          "summary": [
+            "27日のシカゴ市場で、日経平均先物は1625円高の5万8970円となった。",
+            "米国市場での日本株の先物が、大きく値上がりした形だ。",
+            "週明けの東京市場の値動きを占う材料として注目される。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJRWtWaHJpSDRuU2w4Rk45WTBldlZGeEZnZDRpckdkU1JTU05Mc3pNM1F3R25YWVNPOFlIRDNiRV9Qdkp0WlhwR2cxRDhRSWZoSGFHVjZnOHdBWEV6ekdTMmx2clNsekJNRjhOQg?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T20:33:51.000Z",
+          "score": {
+            "total": 43,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "先物",
+              "meaning": "将来の決まった日に、今決めた値段で売り買いする約束をする取引。値動きの予想を映す。"
+            },
+            {
+              "word": "シカゴ",
+              "meaning": "米国の都市。ここの取引所では日経平均の先物も売り買いされている。"
+            }
+          ]
+        },
+        {
+          "title": "日経平均、6万円回復を試す展開に",
+          "summary": [
+            "日経平均株価は、6万円の回復を試す展開になっている。",
+            "相場の反発が続き、節目の6万円が意識されている。",
+            "為替については、円の下値余地は限られるとの見方が出ている。"
+          ],
+          "source": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPVUV0QTB0Q3lxT2FJdUdHM0VsQk9RdjkwV0xaTWxDa2RTaHJFYnJGZ1BIY2YtbjRTa3pHN2ZqVURRRkR1NU5KX0NLOUYtZUIyc3lBVmNPOElyRVpOYXRqcTJGVWV1U0lUc2ZDOA?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T19:00:00.000Z",
+          "score": {
+            "total": 40,
+            "parts": {
+              "people": 15,
+              "money": 15,
+              "certainty": 2,
+              "outlook": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "日経平均株価",
+              "meaning": "日本の代表的な225社の株価をもとに計算した指数。日本の株式市場全体の動きを表す。"
+            },
+            {
+              "word": "下値余地",
+              "meaning": "値段がこれからどこまで下がりうるかの幅。限られるとは、大きくは下がりにくいという意味。"
+            }
+          ]
+        },
+        {
+          "title": "決算発表直後に上昇したTOPIX100銘柄、上位20を紹介",
+          "summary": [
+            "野村證券が、決算発表の直後に株価が上がったTOPIX100の構成銘柄を調べた。",
+            "対象は2026年9〜11月に発表された決算だ。",
+            "株価の騰落率で上位20銘柄をランキングにしている。"
+          ],
+          "source": "野村證券",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01VnJ6a2hMVDBDWDhYaTJGVF8yX1ZxQnU4WjhVWTYwUEprcHJ0YWdJaFdkLUJ0Z0daX0lrZHJOWUtma1ZDbHR1MkpBaV91TnRQOURkMHJyMFVJcFFzZC13?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T19:21:26.000Z",
+          "score": {
+            "total": 18,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 0,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "TOPIX100",
+              "meaning": "東証に上場する企業のうち、時価総額などが大きい100社の株価から計算する指数。"
+            },
+            {
+              "word": "騰落率",
+              "meaning": "一定の期間に、株価が何％上がったか下がったかを示す割合。"
+            }
+          ]
+        },
+        {
+          "title": "米株、6兆ドルの急落から3.5兆ドルの急回復",
+          "summary": [
+            "米国株は、6兆ドル規模が失われた急落から一転、3.5兆ドル規模の急回復となった。",
+            "エヌビディアやマイクロン、SpaceXが値を戻した。",
+            "AI関連株の急落が一服した形だ。"
+          ],
+          "source": "Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQnNIN21ZLWU4dTFmYXh6TnluRXFFY3cxNGJ6ZGZ3QnFTdmdVUF9POFExV01NQVM1Z2tTdW1KekwtOXlXeExfQmtWcVNLcE5TSEQ3Nnd5b0UxZVQ0SEVLeW1fOXFXbGxWVmlUaTE4SzZPQ01kaFAyS093VVlIaXRheHdiYVBnRndvUHRlaXlRYU56dmVGRkN4NkF0eC13R3k1VUk4eV94Q1YzY2R3akR6SXNMajV3RTNVQ2tHOU5QT3R1YU5JTFJ4eVRxSFlnelU1STFtSm5yRVdNUllYZ1F5UTJ4bWF2RzB5akFSNQ?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T18:32:22.000Z",
+          "score": {
+            "total": 78,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "エヌビディア",
+              "meaning": "米国の半導体メーカー。AIの計算に使う高性能なチップで世界トップのシェアを持つ。"
+            },
+            {
+              "word": "マイクロン",
+              "meaning": "米国の半導体メーカー。データを記憶するメモリーを作っている。"
+            }
+          ]
+        },
+        {
+          "title": "中国政府、異例の昼の声明で株式市場の支援を強調",
+          "summary": [
+            "中国の国務院（内閣にあたる）が、昼に異例の声明を出した。",
+            "声明では、株式市場を支える姿勢を強調した。",
+            "政府が市場の下支えに動く姿勢を示した形だ。"
+          ],
+          "source": "Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEVmdVcy11NDhqX0RfRngwU3ZXczl6dXFkZXg3aEpPakM2ZTY4QXNJVlpiVEJ2MUs0bUF0MzVJUXd3dWtvWFJna2U2aVhYbTNmM3o1UmZBaGxZRzVCS0JwS1FMYVlUSmltWE1GTkkwdmhxMG5xYi1sNDBDLURIVExoODFYVVhHZkdaa1VyUnFTLTNw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T20:58:41.000Z",
+          "score": {
+            "total": 73,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 5,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "国務院",
+              "meaning": "中国の最高の行政機関で、日本の内閣にあたる。首相が率いる。"
+            },
+            {
+              "word": "株式市場",
+              "meaning": "会社の株を売り買いする場。株価の動きは経済の先行きの見方を映す。"
+            }
+          ]
+        },
+        {
+          "title": "来週の米株、雇用統計と金利の見通しが試練に",
+          "summary": [
+            "下落傾向の米国株は、来週、雇用統計と金利見通しという試練を迎える。",
+            "雇用の数字は、米国の金融政策を占う重要な材料となる。",
+            "結果しだいで、相場の方向が変わる可能性がある。"
+          ],
+          "source": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQWRTQ0tlUW54X0tjS2R6bWdzblVkUnZ5VnBCa2NjWkd5Q2xIWUh0MUFWVW4weVlRTTBpbDhFWTFsbmYwc2NqOERDdGxTZmpHTzdHRVk2b2o5U0RZYm1WMXZhaEJMRXFrQmxKaUViQXNNdE1XZ3RTT05VbmxqX3BYOXNONGFkMVFTU1VLVVRjTzdfUTloYnhJaVpsWS1YMV9FVGlmeUdYRmk0clkzM3FhQjZuUnRfYXdZRnVHdTE2Smo1V2M?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T13:59:02.000Z",
+          "score": {
+            "total": 70,
+            "parts": {
+              "japan": 35,
+              "global": 20,
+              "timing": 10,
+              "certainty": 2,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "雇用統計",
+              "meaning": "米国の働く人の数や失業率などをまとめた統計。毎月発表され、景気の強さを測る材料になる。"
+            },
+            {
+              "word": "金融政策",
+              "meaning": "中央銀行が金利などを動かして、景気や物価を調整すること。"
+            }
+          ]
+        }
+      ],
+      "comment": "日経平均は27日、前日比約1212円高の5万8711円と続伸。米国株も反発し、ナスダックは約2.3％高。ドル円は159円台。"
+    },
+    {
+      "id": "crime",
+      "name": "犯罪・事件",
+      "items": [
+        {
+          "title": "宮城の山中で2人の遺体、横浜の高1女子生徒か 33歳男を逮捕",
+          "summary": [
+            "宮城県七ヶ宿町の山中で、2人の遺体が見つかった。",
+            "1人は先月末から行方不明となっていた、横浜市の高校1年の女子生徒とみられる。",
+            "警察は33歳の男を未成年者誘拐の疑いで逮捕した。"
+          ],
+          "source": "TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80aHlaQVVVVUlxR2FMUWxUWnVzaEFnQ2pxOEM2VGpEeGN4VE5QZzFKcWVqczJDUEJzV3lrTGVnbF8yMkMwbHV1RVY1Tjk0OUF3aWYzekdQdw?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T14:02:00.000Z",
+          "score": {
+            "total": 45,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "未成年者誘拐",
+              "meaning": "18歳未満の人を、だましたり力づくで連れ去ったりする犯罪。"
+            },
+            {
+              "word": "行方不明",
+              "meaning": "どこにいるのか分からなくなった状態。"
+            }
+          ]
+        },
+        {
+          "title": "千葉・八街の強盗事件、3人組は覆面姿か",
+          "summary": [
+            "千葉県八街市で起きた強盗事件で、3人組は覆面姿だったとみられる。",
+            "3人組は一部、中国語を話していたという。",
+            "警察が3人の行方を捜査している。"
+          ],
+          "source": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNZTBJWDgtNlhXTHJGYnJKb0M5MEJEM1ZlMWZrSHZDeDhueWljUVp3ZVZqeWJvTkxqQlhNbnB6dTFKN09RMUl4ZGVFd0FxdFU0Z0hnZmtLNk1NQ3lWQjc0?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T15:38:00.000Z",
+          "score": {
+            "total": 33,
+            "parts": {
+              "people": 15,
+              "money": 0,
+              "certainty": 5,
+              "outlook": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "強盗",
+              "meaning": "暴力や脅しを使って、他人のお金や物を奪う犯罪。"
+            }
+          ]
+        },
+        {
+          "title": "格闘家「ぱんちゃん璃奈」容疑者、傷害の疑いで逮捕",
+          "summary": [
+            "格闘家の「ぱんちゃん璃奈」容疑者が、傷害の疑いで逮捕された。",
+            "東京・三鷹市で、交際相手とされる知人男性の顔などを殴ったり蹴ったりした疑いがある。",
+            "20代の男性は全治2週間のけがをした。"
+          ],
+          "source": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrQU5RVEM3RDA3QlI0WkJqUUN3V1hfdW43YVZhRTdUeW84Q0dveFdYNGpZbWN3Rk42SkpjYWk2ZlZhN0s1QnRSdk1WejNIMTQ1TWY2a0ZFeDhrdmNpSnNFZ0ZFclhYWWw1d2EwTkw5MVFGQ081REpQYURuZXltREE?oc=5",
+          "region": "国内",
+          "publishedAt": "2026-11-27T08:38:20.000Z",
+          "score": {
+            "total": 30,
+            "parts": {
+              "people": 5,
+              "money": 0,
+              "certainty": 10,
+              "outlook": 5,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "傷害",
+              "meaning": "人に暴力をふるってけがをさせる犯罪。"
+            },
+            {
+              "word": "全治",
+              "meaning": "けがや病気が完全に治るまでにかかる期間。"
+            }
+          ]
+        },
+        {
+          "title": "米ミシガン州の元中学教師、フロリダ旅行中の隠し撮りの疑いで逮捕",
+          "summary": [
+            "米ミシガン州の元中学校教師が逮捕された。",
+            "フロリダ州への旅行中に、隠し撮りをした疑いがある。",
+            "詳しい経緯は、今後の捜査で明らかになるとみられる。"
+          ],
+          "source": "CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkNLN05DVU9nT1EyZ3lObUQwYlA2NHhGMWc2OWhVRVQta1hYR3RyUGhvSnlNb2Vmdnd2U0JjOUw5d01SUDBfbmppUDZQMEVtX25Ja1NFRnBzSW1JdnpvZnBMT19ESkdlNDdKOTZFWFgyczNXSUp5RDBsMTQ5eEFKeEREX3hyYnpwNnFNVjNUT0J1aDdEbE9mbXM4d3lSQ2FUZlR5TWt2bmtjTVk?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T19:51:07.000Z",
+          "score": {
+            "total": 38,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 10
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "隠し撮り",
+              "meaning": "相手に気づかれないように、ひそかに写真や動画を撮ること。"
+            },
+            {
+              "word": "捜査",
+              "meaning": "警察などが、犯罪の事実や犯人を明らかにするために調べること。"
+            }
+          ]
+        },
+        {
+          "title": "スペイン、子どもの遊び場の地下に大麻農場 5人逮捕",
+          "summary": [
+            "スペイン南部グラナダ近郊のラス・ガビアスで、子どもの遊び場の地下に大規模な大麻農場が見つかった。",
+            "今月、5人が逮捕されたと当局が明らかにした。",
+            "地下に隠れた形で、大麻が栽培されていたとみられる。"
+          ],
+          "source": "Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWDRZQVlIbmRoMU5DRXc2MmpxeWhQOHNfSWxycjhpaTl2OUZvcHFVOHVZTzRuX01OSW5iaFEtZFF4STdEWWhxUDVndFlBdC1XMlVKTjRPeXhUcUJpVmdubkNleXpQNjR5OHdzWFJnbmt0VHljU0pLbXZVXzE1bW9ycnlOSUVmbDlCcWVmRmctQjUwOFk5RGU0SzBhaFRRZWhQNTA5WndlQkF5bjQ4bDRmSUFTRVNxRUZDUWIycHZPdURIc1VMcnM3V3NJcVNZWl9QQmEw?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T19:25:53.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "大麻",
+              "meaning": "麻の葉などから作られる薬物。日本では所持や栽培が法律で禁止されている。"
+            },
+            {
+              "word": "当局",
+              "meaning": "その問題を担当する役所や警察などの公的機関。"
+            }
+          ]
+        },
+        {
+          "title": "米テネシー州、ブラックフライデーにテレビ配達員を銃撃 男を逮捕",
+          "summary": [
+            "米テネシー州西部で、ブラックフライデーにテレビの配達員が銃撃された。",
+            "警察によると、銃撃した男が逮捕された。",
+            "年末商戦で配達が増えるなかで起きた事件だ。"
+          ],
+          "source": "Local 3 News",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWUFPbHFValhrd1dxTDRZQkNobGo3b0F3dk5XNjcxS2poeTJqUFlyVEFBcTNhUGcyRXE4WEVibDFEeHRLM0xyT0NrNGNVdWNrYUlIWThzcWpOcWRSR0NYd3V4NC1xTllJTGRzT0diSHBDa3VFcGU2cXdrWXRiWVJ2R1ZCU3VSRHVDM3ZvS1NCSndWSWp2YV9hekU5ZGF2Y2Rvdk9NcXpkMkx5T3ZQQ2p4X0pjTWZSenBlUDNWTGN3ZzZRTUphZlhMV1diUmZYX0tWcEpOSzN0SHRfdHFYTDB2Rk9jbTVtVmgwY1hMODhadkZHeFAzVXItMUFFV0lrUGp6U0pjb25IbElHYk9zeEE?oc=5",
+          "region": "海外",
+          "publishedAt": "2026-11-27T20:40:00.000Z",
+          "score": {
+            "total": 31,
+            "parts": {
+              "japan": 5,
+              "global": 3,
+              "timing": 10,
+              "certainty": 10,
+              "coverage": 3
+            },
+            "penalty": 0
+          },
+          "terms": [
+            {
+              "word": "ブラックフライデー",
+              "meaning": "米国の感謝祭の翌日の金曜日。大規模なセールが行われ、年末商戦が本格的に始まる。"
+            },
+            {
+              "word": "銃撃",
+              "meaning": "銃で人などを撃つこと。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
